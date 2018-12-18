@@ -191,7 +191,7 @@ and more.
 
 **Notes:**
 
-- The sprite that is displayed next to the accuracy when having 100% while having perfect judgements.
+- The sprite that is displayed next to the accuracy when having 100% accuracy (all marvelous).
 - Displayed in the results screen.
 - Displayed in the song select screen leaderboards.
 
