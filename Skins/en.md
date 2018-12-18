@@ -7,6 +7,8 @@ Quaver has multiple default skins to choose from which includes bars and arrows 
 ## How do I create a skin? ##
 Skinning has a very forced organization system and needs to be done correctly in order to work properly. The following list are guides to skin each part of the game.
 
+To get started, it'll be helpful to start with a base skin. You can download both our default bar and arrow skins [here](https://www.dropbox.com/s/kdyapa68c99jp0w/Skins.zip?dl=1).
+
 * [Gameplay Interface]()
 * [4K and 7K]()
 * [Sound Effects (SFX)]()
