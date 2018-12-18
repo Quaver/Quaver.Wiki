@@ -302,7 +302,7 @@ and more.
 
 `/Judgements/judge-marv.png`
 
-![](img/Judgements/judge-marv@1x15.png)
+![](img/Judgements/judge-marv.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
@@ -327,7 +327,7 @@ and more.
 
 `/Judgements/judge-perf.png`
 
-![](img/Judgements/judge-perf@1x12.png)
+![](img/Judgements/judge-perf.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
@@ -352,7 +352,7 @@ and more.
 
 `/Judgements/judge-great.png`
 
-![](img/Judgements/judge-great@1x7.png)
+![](img/Judgements/judge-great.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
@@ -377,7 +377,7 @@ and more.
 
 `/Judgements/judge-good.png`
 
-![](img/Judgements/judge-good@1x8.png)
+![](img/Judgements/judge-good.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
@@ -402,7 +402,7 @@ and more.
 
 `/Judgements/judge-okay.png`
 
-![](img/Judgements/judge-okay@1x9.png)
+![](img/Judgements/judge-okay.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
@@ -427,7 +427,7 @@ and more.
 
 `/Judgements/judge-miss.png`
 
-![](img/Judgements/judge-miss@1x16.png)
+![](img/Judgements/judge-miss.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
