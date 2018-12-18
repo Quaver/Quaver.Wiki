@@ -143,7 +143,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 `/7k/Notes/HoldEnds/note-holdbody-{1-7}.png`
 
-![](img/Notes/4K/HoldBodies/bar-4k-note-holdbody-1.png)
+![](img/Notes/4K/HoldBodies/bar-4k-note-holdbody-2.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
@@ -169,7 +169,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 `/7k/Notes/HoldEnds/note-holdend-{1-7}.png`
 
-![](img/Notes/4K/HoldEnds/bar-4k-note-holdend-1.png)
+![](img/Notes/4K/HoldEnds/bar-4k-note-holdend-2.png)
 
 | Animatable | Alignment | Suggested Size |
 |:-:|:-:|:-:|
