@@ -201,29 +201,6 @@ and more.
 
 ---
 
-### Grade Small XX ###
-
-`/Grades/grade-small-xx.png`
-
-![](img/Grades/grade-small-xx.png)
-
-| Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | - | None |
-
-**Notes:**
-
-- The sprite that is displayed next to the accuracy when having 100% with all marv judgements.
-- Displayed in the results screen.
-- Displayed in the song select screen leaderboards.
-
-**skin.ini Values:**
-
-- None
-
----
-
-
 ## Health Bar ##
 
 ### Health Bar Background ###
