@@ -3,7 +3,6 @@ The following are a list of sound effects that are customizable in Quaver.
 
 **Important Notes:**
 * **ALL sound effects must be located in the /SFX/ directory in the root folder of your skin**
-* **Only 16-bit .wav files are valid for sound effects. Any other types may cause unintended side effects.**
 
 ## Menu ##
 `/SFX/sound-clck.wav`
