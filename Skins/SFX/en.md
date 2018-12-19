@@ -68,7 +68,7 @@ The following are a list of sound effects that are customizable in Quaver.
 
 `/SFX/sound-failure.wav`
 
-* Plays abrutply when failing a map.
+* Plays abruptly when failing a map.
 
 ---
 
