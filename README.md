@@ -3,4 +3,4 @@
 
 # License
 
-Quaver.Wiki is licensed under the [CC-BY-NC 4.0](https://github.com/Quaver/Quaver.Wiki/blob/master/LICENSE.md) license. You may only use this material for non-commercial purposes. Any content by third-parties have their licensed explicitly expressed in their subfolders and our license is overriden by theirs.
+Quaver.Wiki is licensed under the [CC-BY-NC 4.0](https://github.com/Quaver/Quaver.Wiki/blob/master/LICENSE.md) license. You may only use this material for non-commercial purposes. Any content by third-parties have their licenses explicitly expressed in their subfolders and our license is overriden by theirs.
