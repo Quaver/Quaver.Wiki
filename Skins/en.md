@@ -12,3 +12,4 @@ To get started, it'll be helpful to start with a base skin. You can download bot
 * [Gameplay Interface](/Skins/Interface)
 * [4K and 7K](/Skins/Keys)
 * [Sound Effects (SFX)](/Skins/SFX)
+* [Skin.ini](/Skins/Skin.ini)
