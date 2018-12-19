@@ -9,6 +9,6 @@ Skinning has a very forced organization system and needs to be done correctly in
 
 To get started, it'll be helpful to start with a base skin. You can download both our default bar and arrow skins [here](https://www.dropbox.com/s/09xjrt71rakztnw/Quaver%20Skins.zip?dl=1).
 
-* [Gameplay Interface]()
-* [4K and 7K]()
-* [Sound Effects (SFX)]()
+* [Gameplay Interface](/Interface)
+* [4K and 7K](/Keys)
+* [Sound Effects (SFX)](/SFX)
