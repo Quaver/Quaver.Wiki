@@ -46,7 +46,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 - Spritesheet animation name for 4K: `/4k/Lighting/hitlighting@{rows}x{columns}.png`
 - Spritesheet animation name for 7K: `/7k/Lighting/hitlighting@{rows}x{columns}.png`
 - When hitting an object, an animation will play to give feedback to the user.
-- If animation frames are given, it it is played at 180 FPS.
+- If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
 
 **skin.ini Values:**
@@ -75,8 +75,8 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 - Spritesheet animation name for 4K: `/4k/Lighting/holdlighting@{rows}x{columns}.png`
 - Spritesheet animation name for 7K: `/7k/Lighting/holdlighting@{rows}x{columns}.png`
-- When hold a long note, an animation will play to give feedback to the user.
-- If animation frames are given, it it is played at 180 FPS.
+- When holding a long note, an animation will play to give feedback to the user.
+- If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
 
 **skin.ini Values:**
