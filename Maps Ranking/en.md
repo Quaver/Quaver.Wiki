@@ -44,9 +44,9 @@ By uploading files to the server, you agree that your map follows our rules and 
 ### Reviewing Process ###
 When you nominate your maps for rank status, it will be sent to the Ranking Queue. Supervisors will have the choice to either accept or reject your map if it does not meet their standards, or follow our guidelines. 
 
-A supervisor will provide general subjective feedback if they decide to Reject your map. You will not be able to re-submit until a 2-day period has passed. We highly encourage effort to follow feedback provided before re-nominating your maps for ranked.
+A supervisor will provide general subjective feedback if they decide to **Reject** your map. You will not be able to re-submit until a 2-day period has passed. We highly encourage effort to follow feedback provided before re-nominating your maps for ranked.
 
-### If your maps are Approved, your mapset will gain ranked status. ###
+If your maps are **Approved**, your mapset will gain ranked status.
 # Criteria #
 ## Content-Specific Criteria ##
 ### Media ###
@@ -67,19 +67,19 @@ All your maps will be reviewed by the council. Even though one of your map fully
 ### Guidelines ###
 There are specific elements which make maps fun, but of course it depends on context and technique. Utilize these tools to your advantage to make fun and awesome charts!
 
-### Have Intensity appropriately synced with the music ###
+#### Have Intensity appropriately synced with the music ####
 It would not make sense for players to struggle on the most mild part of a song
 Vice versa, it would not be fun if the most intense part of the music piece is easy
 
-### Have a layering structure that makes sense ###
+#### Have a layering structure that makes sense ####
 Add chords to represent a group of sounds
 Does the song build up? Layer up for different instruments
 
-### Don’t make people angry ###
+#### Don’t make people angry ####
 Don’t put weird/awkward bursts that don’t make sense. (especially before a dense stream section.)
 Try to avoid vibro! 
 Try to avoid technical patterns on parts that don’t call for them
 
-### Use repetition/consistency to your advantage ###
+#### Use repetition/consistency to your advantage ####
 If a song is too repetitive, it will get boring
 Make sure your map’s structure and layering is considerably consistent
