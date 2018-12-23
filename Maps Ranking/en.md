@@ -65,15 +65,15 @@ Your maps may not have any of the following:
 ### Quality Assurance ###
 All your maps will be reviewed by the council. Even though all of your maps fully meets the criteria, it may still be rejected by the council if its deemed as low quality or simply not fun. A mapset will be judged as a whole, so even even if a single map does not meet expectations, the whole set will be rejected. There are general guidelines listed below which don’t have to be followed. There are general elements which makes playing a map fun, but of course it depends on context and technique that the mappers used. Utilize these tools provided below to your advantage to make fun and awesome charts!
 #### Have Intensity appropriately synced with the music ####
-It would not make sense for players to struggle on the most mild part of a song
-Vice versa, it would not be fun if the most intense part of the music piece is easy
+- It would not make sense for players to struggle on the most mild part of a song
+- Vice versa, it would not be fun if the most intense part of the music piece is easy
 #### Have a layering structure that makes sense ####
-Add chords to represent a group of sounds
-Does the song build up? Layer up for different instruments
+- Add chords to represent a group of sounds
+- Does the song build up? Layer up for different instruments
 #### Don’t make people angry ####
-Don’t put weird/awkward bursts that don’t make sense. (especially before a dense stream section.)
-Try to avoid vibro! 
-Try to avoid technical patterns on parts that don’t call for them
+- Don’t put weird/awkward bursts that don’t make sense. (especially before a dense stream section.)
+- Try to avoid vibro! 
+- Try to avoid technical patterns on parts that don’t call for them
 #### Use repetition/consistency to your advantage ####
-If a song is too repetitive, it will get boring
-Make sure your map’s structure and layering is considerably consistent
+- If a song is too repetitive, it will get boring
+- Make sure your map’s structure and layering is considerably consistent
