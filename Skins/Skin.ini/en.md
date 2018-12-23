@@ -20,6 +20,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 | Value | Data Type | Notes |
 |:-:|:-:|:-:|
+| StageReceptorPadding | Integer | The amount of space between between the stage background's border and first/last column |
 | BgMaskAlpha | Float (0.0-1.0) | The alpha channel/opacity of the [Stage Bg Mask]() |
 | HitPosOffsetY | Integer | The offset of the hit position relative to its default location at the edge of the receptors |
 | NotePadding | Integer | The amount of space between each column |
