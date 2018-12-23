@@ -63,9 +63,7 @@ Your maps may not have any of the following:
 - More than 75% of the file must have notes to play
 ## Map Quality Guidelines ###
 ### Quality Assurance ###
-All your maps will be reviewed by the council. Even though one of your map fully meets the criteria, it may still be rejected by the council if its deemed as low quality or simply not fun. A mapset will be judged as a whole, so even even if a single map does not meet expectations, the whole set will be rejected. There are general guidelines listed below which don’t have to be followed.
-### Guidelines ###
-There are specific elements which make maps fun, but of course it depends on context and technique. Utilize these tools to your advantage to make fun and awesome charts!
+All your maps will be reviewed by the council. Even though all of your maps fully meets the criteria, it may still be rejected by the council if its deemed as low quality or simply not fun. A mapset will be judged as a whole, so even even if a single map does not meet expectations, the whole set will be rejected. There are general guidelines listed below which don’t have to be followed. There are general elements which makes playing a map fun, but of course it depends on context and technique that the mappers used. Utilize these tools provided below to your advantage to make fun and awesome charts!
 
 #### Have Intensity appropriately synced with the music ####
 It would not make sense for players to struggle on the most mild part of a song
