@@ -47,3 +47,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | JudgementBurstPosY | Integer | The Y position of the judgement burst relative to the middle of the screen |
 | HealthBarType | `Horizontal` or `Vertical` | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
 | HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` | Where the health bar is positioned in relation to the stage |
+| HitErrorPosX | Integer | The X position of the hit error |
+| HitErrorPosY | Integer | The Y position of the hit error |
+| HitErrorHeight | Integer | The height of the hit error |
+| HitErrorChevronSize | Integer | The size of the chevron that displays the player's last hit above the hit error |
