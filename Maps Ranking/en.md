@@ -1,10 +1,17 @@
 #Overview
+
 ##Introduction
+
 ###Preface
+
 We are unsure if the Ranking Queue System will be a temporary or permanent solution to rank maps. The ranking system is expected to change drastically over the course of the Alpha/Beta stage. The goal of the current system is to get as many decent maps ranked as possible while following a quality standard with a bare amount of staff. This will definitely change in the future, however, to provide a more professional and community-involved experience.
+
 ###Purpose
+
 The Ranking Queue exists as a filter before maps become ranked on Quaver. Maps will be checked for (i) technical issues such as, but not limited to; overlapping notes, incorrect timing, metadata, and (ii) map quality such as, but not limited to; structural consistency, playability, and layering issues.
+
 ###Considerations
+
 Although we do not wish the Criteria to be too restricting, we also believe the need for the game to lay down some simple guidelines which can help new charters something to follow by, and for experienced charters to express their creativity. However, some considerations should be made to be made when finding a “middle-ground” between creativity and consistency in standards such as:
 - People’s varying perspectives on what a ‘good map’ is
 - Risking quality for having lower standards
