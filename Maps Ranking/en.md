@@ -1,5 +1,4 @@
-# Overview #
-## Introduction #
+# Introduction #
 ### Preface ###
 We are unsure if the Ranking Queue System will be a temporary or permanent solution to rank maps. The ranking system is expected to change drastically over the course of the Alpha/Beta stage. The goal of the current system is to get as many decent maps ranked as possible while following a quality standard with a bare amount of staff. This will definitely change in the future, however, to provide a more professional and community-involved experience.
 ### Purpose ###
