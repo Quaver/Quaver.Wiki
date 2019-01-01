@@ -35,8 +35,11 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | FlipNoteImagesOnUpscroll | Boolean (True or False) | If true, the notes will be flipped upside down if upscroll is enabled |
 | FlipNoteEndImagesOnUpscroll | Boolean (True or False) | If true, the notes's ends will be flipped upside down if upscroll is enabled |
 | HitLightingY | Integer | The Y position of the hit/holdlighting relative to its default position |
+| HitLightingX | Integer | The X position of the hit/holdlighting relative to the center of the receptor |
 | HitLightingWidth | Integer | The width of the hit/holdlighting |
 | HitLightingHeight | Integer | The height of the hit/holdlighting |
+| HitLightingFps | Integer | The frames per second the hitlighting animation will run at (default 60 FPS) |
+| HoldLightingFps | Integer | The frames per second the holdlighting animation will run at (default 60 FPS) |
 | ScoreDisplayPosX | Integer | The X position of the score display relative to its default position |
 | ScoreDisplayPosY | Integer | The Y position of the score display relative to its default position |
 | AccuracyDisplayPosX | Integer | The X position of the accuracy display relative to its default position |
