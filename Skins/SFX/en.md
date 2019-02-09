@@ -25,12 +25,6 @@ The following are a list of sound effects that are customizable in Quaver.
 
 ---
 
-`/SFX/sound-screenshot.wav`
-
-* Plays when taking a screenshot in the game.
-
----
-
 `/SFX/sound-applause.wav`
 
 * Plays when completing a map with over 80% accuracy in the results screen.
@@ -75,3 +69,10 @@ The following are a list of sound effects that are customizable in Quaver.
 `/SFX/sound-retry.wav`
 
 * Plays when retrying the map.
+
+---
+
+`/SFX/sound-combo-alert-1.wav`
+
+* Plays every 100 combo.
+* You can add multiple alerts by adding another file`/SFX/sound-combo-alert-2,3,4....etc`. They are played in the order of the file names.

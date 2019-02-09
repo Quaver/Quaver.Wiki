@@ -717,3 +717,22 @@ and more.
 **skin.ini Values:**
 
 - None
+
+## Combo Alerts ##
+
+### Combo Alert ###
+
+`/Combo/combo-alert-1.png`
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidRight | 300x300 or smaller |
+
+**Notes:**
+
+- Displayed every 100x combo
+- You can add multiple combo alerts by adding another file `/Combo/combo-alert-1,2,3.....etc` and they will be played in the order of the file name.
+
+**skin.ini Values:**
+
+- None
