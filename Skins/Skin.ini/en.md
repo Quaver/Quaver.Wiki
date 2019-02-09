@@ -54,4 +54,6 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | HitErrorPosY | Integer | The Y position of the hit error |
 | HitErrorHeight | Integer | The height of the hit error |
 | HitErrorChevronSize | Integer | The size of the chevron that displays the player's last hit above the hit error |
-| TimingLineColor | RGB Color (255,255,255) | The color of the timing lines
+| TimingLineColor | RGB Color (255,255,255) | The color of the timing lines |
+| SongTimeProgressInactiveColor | RGB Color (255,255,255) | The color of the song time progress bar (inactive) | 
+| SongTimeProgressActiveColor | RGB Color (255,255,255) | The color of the song time progress bar (active) | 
