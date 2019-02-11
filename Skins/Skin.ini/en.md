@@ -57,3 +57,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | TimingLineColor | RGB Color (255,255,255) | The color of the timing lines |
 | SongTimeProgressInactiveColor | RGB Color (255,255,255) | The color of the song time progress bar (inactive) | 
 | SongTimeProgressActiveColor | RGB Color (255,255,255) | The color of the song time progress bar (active) | 
+| TimingLineColor | RGB Color (255,255,255) | The color of the timing lines | 
+| JudgementCounterAlpha | Float (0.0-1.0) | The alpha/opacity of the judgement counter | 
+| JudgementCounterFontColor | RGB Color (255,255,255) | The color of the judgement counter font | 
+| JudgementCounterSize | Integer | The width and height of the judgement counter | 
