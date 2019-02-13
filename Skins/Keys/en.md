@@ -27,6 +27,42 @@ The following are the list of elements to customize the Keys game mode. This inc
 |:-:|:-:|:-:|
 | ColumnLightingScale | Float | The y size scale of the column lighting.
 
+## Lane Cover  ##
+
+### Top Lane Cover ###
+
+`/4k/LaneCover/cover-top.png`
+
+`/7k/LaneCover/cover-top.png`
+
+![](img/LaneCover/4K/cover-top.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | BotLeft | - |
+
+**Notes:**
+
+- The sprite that is displayed moves up and down depending on corresponding setting's value.
+
+---
+
+### Bottom Lane Cover ###
+
+`/4k/LaneCover/cover-bottom.png`
+
+`/7k/LaneCover/cover-bottom.png`
+
+![](img/LaneCover/4K/cover-bottom.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | TopLeft | - |
+
+**Notes:**
+
+- The sprite that is displayed moves up and down depending on corresponding setting's value.
+
 ## Lighting ##
 
 ### Hit Lighting ### 
