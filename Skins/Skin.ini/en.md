@@ -60,4 +60,6 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | TimingLineColor | RGB Color (255,255,255) | The color of the timing lines | 
 | JudgementCounterAlpha | Float (0.0-1.0) | The alpha/opacity of the judgement counter | 
 | JudgementCounterFontColor | RGB Color (255,255,255) | The color of the judgement counter font | 
-| JudgementCounterSize| Integer| The width and height of the judgement counter | 
+| JudgementCounterSize| Integer | The width and height of the judgement counter | 
+| JudgementCounterSize | Integer | The width and height of the judgement counter | 
+| DrawLongNoteEnd | Boolean (True or False) | True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs | 
