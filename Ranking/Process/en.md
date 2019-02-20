@@ -50,8 +50,6 @@ After uploading your set, it's important to receive feedback on your set before 
 
 Players are eligible to submit their own mapsets for ranked status when they feel it is ready. You can submit a set for ranked status by heading over to its page on the website while logged in and clicking the "Submit For Rank" button. This will send the mapset to a queue where our Ranking Supervisors will review it.
 
-**NOTE: You are only eligible to have 1 mapset pending for rank at a given time.** This is to give all users a fair chance to have their mapsets reviewed. 
-
 ### 4. Ranking Supervisor Reviewal
 
 After submitting your set for rank, it will be placed in a queue for the Ranking Supervisor team to review. 
