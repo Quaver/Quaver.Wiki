@@ -5,5 +5,5 @@ Benvenuto nella wiki di Quaver!Qui potrai trovare delle informazioni riguardanti
 * [Gameplay](/Gameplay/)
 * [Regole](/Rules/)
 * [Skins](/Skins/)
-* [Criterio e Processo della Classificazione delle mappe](/Ranking/)
+* [Criterio e Processo della Classificazione delle Mappe](/Ranking/)
 * [Legal](/Legal/)
