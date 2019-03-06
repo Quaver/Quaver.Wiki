@@ -42,11 +42,15 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | HoldLightingFps | Integer | The frames per second the holdlighting animation will run at (default 60 FPS) |
 | ScoreDisplayPosX | Integer | The X position of the score display relative to its default position |
 | ScoreDisplayPosY | Integer | The Y position of the score display relative to its default position |
+| ScoreDisplayScale | Integer | The size of the score display |
 | AccuracyDisplayPosX | Integer | The X position of the accuracy display relative to its default position |
 | AccuracyDisplayPosY | Integer | The Y position of the accuracy display relative to its default position |
+| AccuracyDisplayScale | Integer | The size of the accuracy display |
 | KpsDisplayPosX | Integer | The X position of the keys per second display relative to its default position |
 | KpsDisplayPosY | Integer | The Y position of the keys per second display relative to its default position |
+| KpsDisplayScale | Integer | The size of the keys per second display |
 | ComboPosY | Integer | The Y position of the combo display relative to its default position |
+| ComboDisplayScale | Integer | The size of the combo display |
 | JudgementBurstPosY | Integer | The Y position of the judgement burst relative to the middle of the screen |
 | HealthBarType | `Horizontal` or `Vertical` | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
 | HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` | Where the health bar is positioned in relation to the stage |

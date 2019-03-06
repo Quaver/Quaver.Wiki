@@ -444,7 +444,8 @@ and more.
 
 | Name | Possible Values | Notes |
 |:-:|:-:|:-:|
-| ComboPosY | Integer | Determines the y value of where to place the combo display.
+| ComboPosY | Integer | Determines the y value of where to place the combo display. | 
+| ComboDisplayScale | Integer | The size of the display |
 
 --- 
 
@@ -466,8 +467,9 @@ and more.
 
 | Name | Possible Values | Notes |
 |:-:|:-:|:-:|
-| ScoreDisplayPosX and AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment.
-| ScoreDisplayPosY and AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment.
+| ScoreDisplayPosX and AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment. |
+| ScoreDisplayPosY and AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment. | 
+| ScoreDisplayScale and AccuracyDisplayScale | Integer | The size of the display |
 
 --- 
 
@@ -489,8 +491,9 @@ and more.
 
 | Name | Possible Values | Notes |
 |:-:|:-:|:-:|
-| AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment.
-| AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment.
+| AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment. |
+| AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment. |
+| AccuracyDisplayScale | Integer | The size of the display | 
 
 ---
 
@@ -514,7 +517,7 @@ and more.
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment.
 | AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment.
-
+| AccuracyDisplayScale | Integer | The size of the display |
 
 ---
 
@@ -534,7 +537,9 @@ and more.
 
 **skin.ini Values:**
 
-* None
+| Name | Possible Values | Notes |
+|:-:|:-:|:-:|
+| SongTimeDisplayScale | Integer | The size of the display |
 
 ---
 
@@ -554,7 +559,9 @@ and more.
 
 **skin.ini Values:**
 
-* None
+| Name | Possible Values | Notes |
+|:-:|:-:|:-:|
+| SongTimeDisplayScale | Integer | The size of the display |
 
 ---
 
@@ -575,7 +582,9 @@ and more.
 
 **skin.ini Values:**
 
-* None
+| Name | Possible Values | Notes |
+|:-:|:-:|:-:|
+| SongTimeDisplayScale | Integer | The size of the display |
 
 ## Pause Screen ##
 
