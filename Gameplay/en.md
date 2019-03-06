@@ -67,7 +67,7 @@ Only your top score will account for the full amount of score rating, and it wil
 
 The weighted sum calculation is similar to Performance Points, used in the rhtyhm game osu!.
 
-`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[1] * 95^2 + ...`
+`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[3] * 95^2 + ...`
 
 #### Score
 
