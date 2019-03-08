@@ -221,6 +221,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 |:-:|:-:|:-:|
 | FlipNoteImagesOnUpscroll | Boolean (True or False) | If the image will be flipped upside down on upscroll. |
 
+
 ## Receptors ##
 
 ### Receptors (Up) ### 
@@ -380,6 +381,74 @@ The following are the list of elements to customize the Keys game mode. This inc
 **Notes:**
 
 - Displayed at the right of the stage. Used purely for aesthetics.
+
+**skin.ini Values:**
+
+- None
+
+---
+
+## Editor ##
+
+### Layer HitObjects
+
+`/4k/Editor/note-hitobject-{1-4}.png`
+
+`/7k/Editor/note-hitobject-{1-7}.png`
+
+![](img/Editor/4K/note-hitobject-1.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | TopLeft | - |
+
+**Notes:**
+
+- The notes displayed when having the "View Layers" option turned on in the editor.
+
+**skin.ini Values:**
+
+- None
+
+---
+
+### Layer Note Holdbodies
+
+`/4k/Editor/note-holdbody-{1-4}.png`
+
+`/7k/Editor/note-holdbody-{1-7}.png`
+
+![](img/Editor/4K/note-holdbody-1.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | TopLeft | - |
+
+**Notes:**
+
+- The hold bodies for the notes displayed when having the "View Layers" option turned on in the editor.
+
+**skin.ini Values:**
+
+- None
+
+---
+
+### Layer Note Holdends
+
+`/4k/Editor/note-holdend-{1-4}.png`
+
+`/7k/Editor/note-holdend-{1-7}.png`
+
+![](img/Editor/4K/note-holdend-1.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | TopLeft | - |
+
+**Notes:**
+
+- The hold ends for the notes displayed when having the "View Layers" option turned on in the editor.
 
 **skin.ini Values:**
 
