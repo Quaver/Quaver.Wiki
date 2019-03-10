@@ -3,13 +3,14 @@ Sometimes the default configuration for skins may not be good enough and you wan
 
 ## General ##
 
-The `[General]` section of the config file contains metadata about the skin - who it's by, what it's called, and the version. It's mainly to let people know what your skin is all about.
+The `[General]` section of the config file contains metadata about the skin—who it's by, what it's called, and the version—as well as non keymode-specific properties. It's mainly to let people know what your skin is all about.
 
 | Value | Data Type | Notes |
 |:-:|:-:|:-:|
 | Name | String | The name of the skin |
 | Author | String | The creator/author of the skin |
 | Version | String | The version number of the skin |
+| CenterCursor | Boolean (True or False) | Whether the cursor image should be centered (for example, if it's a circle) |
 
 ## Keys ##
 
