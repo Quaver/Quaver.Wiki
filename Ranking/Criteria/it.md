@@ -2,7 +2,7 @@
 
 Per poter classificare un mapset bisogna osservare le seguenti regole. Nel caso in cui le regole non siano seguite ti sarà chiesto di modificare il mapset e caricalo nuovamente per la classificazione.
 
-Se stai cercando il processo di classificazione dei mapsets vai su : [Processo di Classificazione dei Mapsets](/Ranking/Process).
+Se stai cercando il processo di classificazione dei mapsets va su : [Processo di Classificazione dei Mapsets](/Ranking/Process).
 
 ## Mandatorio
 
