@@ -1,5 +1,5 @@
 # Skinning dell'Inferfaccia di gioco
-L'interfaccia di gioco include elementi generali presenti in tutte le modalità di gioco. Sono inclusi elementi come numeri, classifiche, giudizi ed altro.
+L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. Sono inclusi elementi come numeri, classifiche, giudizi ed altro.
 
 ## Cursore ##
 
