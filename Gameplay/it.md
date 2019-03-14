@@ -62,7 +62,7 @@ La formula è relativamente semplice:
 
 #### Valutazione Generale
 
-La valutazione generale è la ****media della somma**** di tutte le tue partite nella modalità Keys (4K o 7K). 4K e 7K hanno classifiche separate.
+La valutazione generale è la somma ponderata di tutte le tue partite nella modalità Keys (4K o 7K). 4K e 7K hanno classifiche separate.
 
 Solo il tuo miglior punteggio sarà considerato nella completezza della sua valutazione, ed ogni punteggio inferiore sarà considerato sempre meno.
 
