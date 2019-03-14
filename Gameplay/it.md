@@ -1,6 +1,6 @@
 # Gameplay di Quaver
 
-Questa sezione chiarisce le differenti parti del gameplay all'interno di Quaver . Ti dà un riassunto di come si gioca, il suo sistema di punteggio, giudizio, classificazione, e molto altro
+Questa sezione chiarisce le differenti parti del gameplay all'interno di Quaver. Ti dà un riassunto di come si gioca, il suo sistema di punteggio, giudizio, classificazione, e molto altro
 
 ## Modalità di Gioco: Keys
 
@@ -9,13 +9,13 @@ Questa sezione chiarisce le differenti parti del gameplay all'interno di Quaver 
 </p>
 
 
-Quaver è stato creato per supportare più modalità di gioco, ma come obbiettivo principale ha la modalità di gioco conosciuta come "Keys". Il concetto di questa modalità è già stato usato in altri giochi a componente ritmica come Beatmania, Dance Dance revolution, ed osu!.
+Quaver è stato creato per supportare più modalità di gioco, ma come obbiettivo principale ha la modalità di gioco conosciuta come "Keys". Il concetto di questa modalità è già stato usato in altri giochi a sfondo ritmico come Beatmania, Dance Dance revolution, ed osu!.
 
 Il concetto è semplice - le note sullo schermo scorrono verso il basso (o in su a seconda della tua preferenza) e l'obbiettivo è di premere il tasto corretto al momento giusto.
 
 Quaver ha sia la modalità a 4 Keys (4K) che la modalità a 7 Keys (7K) che però sono trattate come due modalità di gioco con classifiche separate.
 
-Può anche essere modificato visivamente (d'ora in poi chiamato skin/skinning) e giocato con scorrimento verso l'alto - il che rende possibile al gioco di assomigliare visivamente ed essere percepito come la maggior parte dei vari giochi ritmici. È supportata la skin a frecce colorate (DDR), o la skin a barre (Beatmania-styled).
+Può anche essere modificato visivamente (skin/skinning) e giocato con scorrimento verso l'alto - il che rende possibile al gioco di assomigliare visivamente ed essere percepito come la maggior parte dei vari giochi ritmici. È supportata la skin a frecce colorate (DDR), o la skin a barre (Beatmania-styled).
 
 ### I Sistemi di Classificazione
 
