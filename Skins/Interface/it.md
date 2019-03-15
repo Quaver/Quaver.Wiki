@@ -295,7 +295,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumeta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 --- 
@@ -320,7 +320,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumeta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
@@ -347,7 +347,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumeta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -373,7 +373,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumeta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -399,7 +399,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumeta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -425,7 +425,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalità di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumeta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore è moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
