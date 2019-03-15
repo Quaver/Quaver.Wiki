@@ -1,79 +1,94 @@
-# Processo di Classificazione dei Mapsets
+# Criterio di Classificazione dei Mapsets
 
-Questo documento delinea, dal caricamento del mapset alla revisione dello stesso dai Supervisionatori della Classificazione, il processo con cui un mapset è classificato.
+Per poter classificare un mapset bisogna osservare le seguenti regole. Nel caso in cui le regole non siano seguite ti sarà chiesto di modificare il mapset e caricarlo nuovamente per la classificazione.
 
-Se stai cercando per il criterio di classificazione dei mapset va su: [Criterio di Classificazione dei Mapsets](/Ranking/Criteria).
+Se stai cercando il processo di classificazione dei mapsets va su : [Processo di Classificazione dei Mapsets](/Ranking/Process).
 
-## Introduzione
+## Mandatorio
 
-Il nostro obbiettivo con il processo di classificazione è quello di fornire un semplice e lineare approccio all'ottenimento della classificazione dei mapsets. Durante questo processo le tue mappe saranno revisionate secondo il nostro [Criterio di Classificazione dei Mapsets](/Ranking/Criteria). Prima di sottoporre il tuo mapset per la classificazione fa si che segui il nostro criterio, visto che ci sono periodi di attesa per la classificazione se la classificazione del mapset è negata.
+**Devi seguire tutti i requisiti di questa sezione. Non rispettare tutti i requisiti renderà impossibile ricevere lo stato di classificazione del mapset.**
 
-Se la classificazione del tuo mapset è negata ci sarà **un periodo di 7 giorni** prima di poter sottometterlo al processo di classificazione nuovamente.
+### Metadati
 
-## Terminologia dello Stato di Classificazione dei Mapsets
+Le seguenti sono informazioni circa l'artista, titolo e vari tag della canzone.
 
-Una mappa può avere più stati relativi al suo processo di classificazione e sono i seguenti:
+* â€¢ **L'artista e il titolo devono essere assolutamente corretti.**
+* â€¢ **I tag devonono contenere il genere della canzone.**
+* â€¢ **I metadati non devono contenere caratteri non romanizzati.** Se il nome della canzone è in una lingua differente utilizza la giusta traduzione inglese.
 
-### Non Classificato (Unranked)
+### Media
 
-Quando carichi inizialmente un mapset, tutte le tue mappe saranno inserite nello stato Unranked. Mentre sono in questo stato le tue mappe non saranno indonee all'ottenimento di punteggi nella classifica globale, ma potranno essere ancora scaricabili dalla comunità.
+Le seguenti sono informazoni circa i file come le immagini degli sfondi e file audio contenuti nei mapsets.
 
-### In Attesa di Classificazione (Pending)
+* â€¢ **La grandezza totale del mapset (.qp) dev'essere di 15 megabytes (mb) o meno**
+* â€¢ **La risoluzione degli sfondi dev'essere di almeno 1280x720** e di buona qualità.
+* â€¢ **I tuoi mapsets devono contenere un solo file audio.** Inserire più file audio in un mapset rendono il mapset non idoneo alla classificazione.
 
-Quando sottoponi un mapset per la classificazione entrerà in una coda dove i Supervisionatori della Classificazione dei Mapsets potranno revisionare il mapset per essere sicuri che si adegui con il nostro Criterio di Classificazione dei Mapsets. 
+### Mappe 
 
-### Classificazione Negata (Denied)
+I seguenti sono i requisiti per le mappe stesse.
 
-Se hai sottoposto un mapset, e non è idoneo alla classificazione, sarà inserito nello stato Denied. Se il tuo mapset è stato negato riceverai dei commenti dai Supervisionatori della Classificazione dei Mapsets su ciò che è necessario cambiare. Mentre il tuo mapset è in questo stato non lo potrai sottoporre nuovamente allo stato Pending per 7 giorni.
+* â€¢ **L'Autoplay deve poter ottenere la precisione del 100% (Giudizio X) **
+* â€¢ **Le mappe non devono avere note sovrapposte.**
+* â€¢ **Non puoi avere più di 30 secondi consecutivi di pausa**
+* â€¢ **Più del 75% della lunghezza della mappa deve avere note da poter giocare**
+* â€¢ **Devi avere almeno una nota in ogni colonna**
 
-### Non Classificabile (Blacklisted)
+### Diffusione delle Difficoltà
 
-I mapsets non classificabili sono quelli che non saranno mai idonei alla classificazione. I mapsets possono essere non classificabili se il creatore non mostra alcun segno di miglioramento nel mapset dopo che il suo mapset ha ricevuto più esiti negativi o il suo mapset era impossibile da rankare sin dal principio.
+Le seguenti sono informazioni circa la diffusione della diffocoltà che ogni mapset deve rispettare.
 
-### Classificato (Ranked)
+##### Nomi delle Difficoltà & Descrizione
 
-Se il tuo mapset segue il nostro critero sarà inserito nello stato Ranked. In questo stato le tue mappe saranno idonee all'ottenimento di punteggi nella classifica globale. Mentre è in questo stato un mapset non può essere aggiornato o cancellato dal creatore.
+Questi sono i nomi di base che bisogna usare per i mapsets. I nomi delle difficoltà devono seguire i nomi convenzionali.
 
-## Il Processo
+Le seguenti descrizioni definiscono come ogni difficoltà dovrebbe essere. Tieni a mente che non è concreto e per ogni caso c'è spazio per la soggettività. Serve solo per dare una prospettiva generale su come una mappa dev'essere.
 
-Questa sezione delinea il processo di classificazione di un mapset dalla A alla Z iniziando dal caricamento stesso del mapset.
+* â€¢ **Novizio (Beginner)**
+     * â€¢ Per giocatori che giocano per la prima volta ad un gioco ritmico. 
+     * â€¢ Le note dovrebbero tipicamente essere ogni due battiti mentre ogni battito per enfatizzare meglio la musica.
+     * â€¢ I Jumps (due note vicine allo stesso momento) sono adatti a questa difficoltà quando si vuole enfatizzare un importante suono nella canzone.
+     
+* â€¢ **Facile (Easy)** 
+     * â€¢ Si può pensare a questa difficoltà come un "Beginner aggiornato" .
+     * â€¢ I giocatori a questo livello dovrebbero giocare a velocità poco più alte ed eseguire schemi (patterns) più complessi. 
+     * â€¢ Flussi di note (streams) ad ogni battito e scatti (bursts) a 1/2 battito sono generalmente adeguati.
+     * â€¢ I Jumps possono essere utilizzati con più libertà ma con parsimonia visto che giocatori a questo livello potrebbero avere ancora difficoltà.
+     
+* â€¢ **Normale (Normal)**
+     * â€¢ Le mappe a questo livello dovrebbero tipicamente iniziare a ramficarsi in patterns più adeguati alla musica rispetto a easy e beginner. 
+     * â€¢ Ritmi as un 1/2 con piazzamento di note più complesso e jumps sono adeguati a questa difficoltà.
+     
+* **Difficile (Hard)** 
+     * â€¢ In questo livello la tua creatività come mapper dovrebbe poter risplendere, ci sono molte meno restrizioni rispetto le difficoltà precedenti.
+     * â€¢ Le mappe a questa difficoltà possono ramificarsi in leggere streams ad 1/4 con jumps intervallati a seconda dei BPM della canzone.
+     * â€¢ Uso di più note lunghe è adatto per questa difficoltà.
 
-### 1. Caricare Il Mapset
+* â€¢ **Folle (Insane)**
+     * â€¢ I giocatori a questo livello devono essere capaci di fare una grande varietà di patterns a bassa densità inclusi e non limitati a: 
+          * â€¢ Jacks (note ripetute sulla stessa colonna) Leggeri
+          * â€¢ Utilizzo Complesso delle Note Lunghe
+          * â€¢ Jumpstreams Leggeri
+     * â€¢ Patterns più densi sono adatti a questa difficoltà se sono lineari e non difficili da eseguire, esempio i jumtrills.
 
-Il primo passo per ottenere un mapset classificato è quello di caricarlo. Lo si può fare all'interno dell'Editor di gioco andando su `File -> Upload`.
+* â€¢ **Esperto (Expert)** 
+     * Da questo punto in poi non ci sono restrizioni su quanto una mappa dovrebbe essere difficile. Sentiti libero di essere creativo. 
 
-### 2. Ottenere Feedback
+* â€¢ **Personalizzata (Custom)** 
+     * Le difficoltà personalizzate possono essere di qualsiasi difficoltà basta che ci siano delle difficoltà precedenti nel mapset. Possono anche avere dei nomi personalizzati.
 
-Dopo aver caricato il tuo mapset è importante ricevere del feedback su di esso prima di sottometterlo alla classificazione. Qui è dove la comunità entra in gioco. Anche se attualmente non abbiamo un sistema per ottenere del feedback da altri giocatori è importante avere un altro paio di occhi a controllare che il mapset segui il Criterio di Classificazione dei Mapset. Nel futuro cercheremo di rendere questo processo più facile.
+##### Regole
 
-### 3. Sottoporre il Mapset alla Classificazione
+* â€¢ **Devi includere almeno beginner, easy, e normal per poter considerare un set classificazionabile e non devi saltare il mapping di una certa difficoltà.** Esempio: Non puoi avere una difficoltà Expert senza avere una mappa con difficoltà Insane.
+* â€¢ **Tutte le canozoni sotto i 3 minuti devono avere più difficoltà.** Qualunque mappa oltre i 3 minuti è considerata una "maratona" (marathon) e può essere classificata con una singola difficoltà
+* â€¢ **Ogni modalità di gioco è trattata separatamente** Se stai creando un mapset per 4 Keys e 7 Keys devi avere più difficoltà per ogni modalità di gioco. **Se hai due modalità di gioco ogni difficoltà deve iniziare con "4K" "7K"** (Esempio: "7K Insane").
 
-I giocatori possono sottoporre i propri mapset quando vogliono. Puoi sottoporre un mapset alla classificazione nella sua pagina web mentre sei connesso al tuo account e cliccando su "Submit For Rank". Questo manderà il mapset in una coda dove i nostri Supervisionatori della Classificazione dei Mapset lo revisioneranno.
+## Linee Guida
 
-### 4. Revisione dei Supervisionatori della Classificazione dei Mapsets
+Le seguenti sono linee guida da considerare quando si crea un mapset e lo si sottopone alla classificazione. **Queste non sono mandatorie e andrebbero prese come un granello di sabbia.** Le nostre intenzioni sono di permettere ai mappatori di essere creativi con le mappe che creano. Quindi queste linee guida sono un modo di aumentare le possibilità di ottenere la classisificazione del tuo mapset.
 
-Dopo aver sottomesso il tuo mapset alla classificazione sarà inserito in una coda in cui sarà revisionato dal team di Supervisione della Classificazione. 
-
-Per ottenere la classificazione di un mapset,**dovrai ottenere 3 voti dai Supervisionatori della Classificazione dei Mapset** che definiranno se un mapset è idoneo alla classificazione. 
-
-Durante questo voto, **un Supervisionatore ha la possibilità di mettere il veto su un mapset prima ancora che ricevi 3 voti cosi da porlo nello stato Denied** se ci sono dei problemi con il mapset.
-
-Puoi controllare lo stato dei voti del tuo mapset andando nella sua pagina web. Qui sarà mostrato il numero di voti ed i Supervisionatori che hanno votato per la sua classificazione.
-
-Una volta che il tuo mapset riceve 3 voti positivi sarà automaticamente inserito nello stato Ranked.
-
-Ogni mapset è revisionato dai nostri Supervisionatori in ordine in cui sono stati inseriti nella lista della classificazione. I mapset che hanno il maggior numero di voti dei Supervisionatori avranno la priorità. 
-
-Ai Supervisionatori non è permesso votare i propri mapset. Devono seguire lo stesso processo degli altri utenti e aspettare il proprio turno nella lista della classificazione.
-
-### 5a. Classificazione Negata dei Mapsets
-
-Se la classificazione del tuo mapset è negata riceverai un commento da uno o più Supervisionatori della Classificazione dei Mapset con la/e ragione/i. Dopo questo periodo potrai aggiornare la tua mappa con i vari accorgimenti e sottometterla nuovamente nella lista della classificazione. **Tieni a mente che se la classifizaione è negata il tuo mapset potrà essere sottomesso dinuovo dopo 7 giorni.**
-
-### 5b. Mapset non Classificabile
-
-Seri mapsets sarano raramente non classificabili. Se il tuo mapset riceve questo stato vuol dire che è ritenuto essere in uno stato in cui non mostri alcun segno di miglioramento del mapset dopo più negazioni alla classificazione o che non avrebbe mai potuto ricevere la classificazione sin dal principio.
-
-### 5c. Mapset Classificati
-
-In questo stato non hai bisogno di fare altro! Il tuo mapset ora ha la classifica globale.
+* â€¢ **L'intensità della mappa deve generalmente essere in sincrono con la musica.** Se una canzone è relativamente lenta la mappa dovrebbe rifletterlo e viceversa.
+* â€¢ **La tua mappa dovrebbe far uso della stratificazione.** - Utilizzare più strumenti musicali della canzone nella tua mappa rifletterà meglio la canzone.
+* â€¢ **Le pause dovrebbero essere utilizzate solo quando assolutamente necessario** - Generalmente una canzone non avrà un momento di silenzio. Le pause dovrebbero essere utilizzate sporadicamente - soprattutto quelle lunghe.
+* â€¢ **I cambiamenti della Velocità di Scorrimento (Scroll Velocity, SV) dovrebbero riflettere la musica** - Prova ad evitare gli SV se non necessario. Generalmente questo renderà la tua mappa più difficile da leggere e più difficile da godere.
+* â€¢ **I patterns che utilizzi devono essere consistenti e seguire la musica** - Prova ad evitare di usare degli scatti quando non sono appropriati, come prima una sezione stream densa. Inoltre prova ad evitare patterns tecnici o intensi in posti che non lo richiedono.
