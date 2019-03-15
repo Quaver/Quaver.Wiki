@@ -2,7 +2,7 @@
 A seguire ci sarà una lista degli effetti sonori personalizzabili su Quaver.
 
 **Note Importanti:**
-* **TUTTI gli effetti sonori devono trovarisi nella cartella /SFX/ nella radice della cartella della tua skin**
+* **TUTTI gli effetti sonori devono trovarsi nella cartella /SFX/ nella radice della cartella della tua skin**
 
 ## Menù ##
 `/SFX/sound-clck.wav`
@@ -38,25 +38,25 @@ A seguire ci sarà una lista degli effetti sonori personalizzabili su Quaver.
 
 `/SFX/sound-hitclap.wav`
 
-* Nella modalità di gioco Keys, emetterà un suono quando si premerà un tast se il prossimo oggetto ha il suono `Clap`.
+* Nella modalità di gioco Keys, emetterà un suono quando si premerà un tasto se il prossimo oggetto ha il suono `Clap`.
 
 ---
 
 `/SFX/sound-hitwhistle.wav`
 
-* Nella modalità di gioco Keys, emetterà un suono quando si premerà un tast se il prossimo oggetto ha il suono `Whistle`.
+* Nella modalità di gioco Keys, emetterà un suono quando si preme un oggetto con il suono `Whistle`.
 
 ---
 
 `/SFX/sound-hitfinish.wav`
 
-* Nella modalità di gioco Keys, emetterà un suono quando si premerà un tast se il prossimo oggetto ha il suono `Finish`.
+* Nella modalità di gioco Keys, emetterà un suono quando si preme un oggetto con il suono `Finish`.
 
 ---
 
 `/SFX/sound-combobreak.wav`
 
-* Emette un suono quando si rompe la combo qunado si aveva 20 o più di combo.
+* Emette un suono quando si rompe la combo, nel caso in cui si aveva 20 o più di combo.
 
 ---
 
