@@ -1,6 +1,6 @@
 # Criterio di Classificazione dei Mapsets
 
-Per poter classificare un mapset bisogna osservare le seguenti regole. Nel caso in cui le regole non siano seguite ti sarà chiesto di modificare il mapset e caricalo nuovamente per la classificazione.
+Per poter classificare un mapset bisogna osservare le seguenti regole. Nel caso in cui le regole non siano seguite ti sarà chiesto di modificare il mapset e caricarlo nuovamente per la classificazione.
 
 Se stai cercando il processo di classificazione dei mapsets va su : [Processo di Classificazione dei Mapsets](/Ranking/Process).
 
@@ -10,7 +10,7 @@ Se stai cercando il processo di classificazione dei mapsets va su : [Processo di
 
 ### Metadati
 
-Le seguienti sono informazioni circa l'artista, titolo e vari tag della canzone.
+Le seguenti sono informazioni circa l'artista, titolo e vari tag della canzone.
 
 * â€¢ **L'artista e il titolo devono essere assolutamente corretti.**
 * â€¢ **I tag devonono contenere il genere della canzone.**
@@ -42,7 +42,7 @@ Le seguenti sono informazioni circa la diffusione della diffocoltà che ogni maps
 
 Questi sono i nomi di base che bisogna usare per i mapsets. I nomi delle difficoltà devono seguire i nomi convenzionali.
 
-Le seguenti descrizioni deifniscondo come ogni difficoltà dovrebbe essere. Tieni a mente che non è concreto e per ogni caso c'è spazio per la soggettività. Serve solo per dare una prospettiva generale su come una mappa dev'essere.
+Le seguenti descrizioni definiscono come ogni difficoltà dovrebbe essere. Tieni a mente che non è concreto e per ogni caso c'è spazio per la soggettività. Serve solo per dare una prospettiva generale su come una mappa dev'essere.
 
 * â€¢ **Novizio (Beginner)**
      * â€¢ Per giocatori che giocano per la prima volta ad un gioco ritmico. 
@@ -56,7 +56,7 @@ Le seguenti descrizioni deifniscondo come ogni difficoltà dovrebbe essere. Tieni
      * â€¢ I Jumps possono essere utilizzati con più libertà ma con parsimonia visto che giocatori a questo livello potrebbero avere ancora difficoltà.
      
 * â€¢ **Normale (Normal)**
-     * â€¢ Le mappe a questo livello dovrebbero tipicamente iniziare a ramficiarsi in patterns più adeguati alla musica rispetto a easy e beginner. 
+     * â€¢ Le mappe a questo livello dovrebbero tipicamente iniziare a ramficarsi in patterns più adeguati alla musica rispetto a easy e beginner. 
      * â€¢ Ritmi as un 1/2 con piazzamento di note più complesso e jumps sono adeguati a questa difficoltà.
      
 * **Difficile (Hard)** 
@@ -87,8 +87,8 @@ Le seguenti descrizioni deifniscondo come ogni difficoltà dovrebbe essere. Tieni
 
 Le seguenti sono linee guida da considerare quando si crea un mapset e lo si sottopone alla classificazione. **Queste non sono mandatorie e andrebbero prese come un granello di sabbia.** Le nostre intenzioni sono di permettere ai mappatori di essere creativi con le mappe che creano. Quindi queste linee guida sono un modo di aumentare le possibilità di ottenere la classisificazione del tuo mapset.
 
-* â€¢ **L'intensità della mappa deve generalmente essere in sincrono con la musica.** Se una canzone è relativamente lenta la mappa dovrebbe rifletterlo e vice versa.
+* â€¢ **L'intensità della mappa deve generalmente essere in sincrono con la musica.** Se una canzone è relativamente lenta la mappa dovrebbe rifletterlo e viceversa.
 * â€¢ **La tua mappa dovrebbe far uso della stratificazione.** - Utilizzare più strumenti musicali della canzone nella tua mappa rifletterà meglio la canzone.
 * â€¢ **Le pause dovrebbero essere utilizzate solo quando assolutamente necessario** - Generalmente una canzone non avrà un momento di silenzio. Le pause dovrebbero essere utilizzate sporadicamente - soprattutto quelle lunghe.
 * â€¢ **I cambiamenti della Velocità di Scorrimento (Scroll Velocity, SV) dovrebbero riflettere la musica** - Prova ad evitare gli SV se non necessario. Generalmente questo renderà la tua mappa più difficile da leggere e più difficile da godere.
-* â€¢ **I patterns che utilizzi devono essere consistenti e seguire la musica** - Prova ad evitare di usare degli scatti quando non sono appropiati, come prima una sezione stream densa. Inoltre prova ad evitare patterns tecnici o intensi in posti che non lo richiedono.
+* â€¢ **I patterns che utilizzi devono essere consistenti e seguire la musica** - Prova ad evitare di usare degli scatti quando non sono appropriati, come prima una sezione stream densa. Inoltre prova ad evitare patterns tecnici o intensi in posti che non lo richiedono.
