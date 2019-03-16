@@ -20,7 +20,7 @@ Le seguenti regole vengono applicate quando si utilizza la chat in gioco per com
 1. **Rispetta tutti.** - Non tolleriamo nessun commento scortese, o commenti con l'intento di umiliare altri. Commenti sarcastici non sono i bevenuti. Per favore evita di accanirti su un individuo, o un'intera comunità. Assillare altri utenti non è accettabile in nessun caso.
 2. **Non dire niente di estremo** - Niente NSFW/NSFL, gore, pornografia, o giochi erotici. Nessuno vuole vedere questa roba qui. Violare questa regola potrebbe risultare in un ban o silenziamento a seconda della gravità.
 3. **Mantinei la discussione rilevante a seconda del canale ** - I canali della chat in gioco sono creati con dei temi in mente. Non andare fuori tema.
-4. **Fa del criticismo costruttivo.** - Il Feedback è benvenuto finchè è costruttivo. Questo si applica al gioco e...
+4. **Fa del criticismo costruttivo.** - Il Feedback è benvenuto finchè è costruttivo. Questo si applica al gioco e a tutti gli altri contenuti del gioco.
 5. **Niente pubblicità, politica, religione, grida, spam, raid, o contenuto non voluto** - Le pubblicità includono qualsiasi gioco di terze parti, siti web, o altri server di chat. Rimante civili. Si spiega da solo.
 
 ### Regole per la Presentazione dei Mapset
