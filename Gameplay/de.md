@@ -88,17 +88,15 @@ Dieser Abschnitt erklärt die Judgement Zeitfenster die in Quaver genutzt werden
 |  Okay    | ±127ms |
 |  Miss   | ±164ms |
 
-When releasing a long note, you are awarded with the `Okay` judgement, which is significantly worse than a miss when it comes to accuracy percentage.
-
 Wenn du eine Long Note falsch loslässt, bekommst du das `Okay` Judgement, welches deutlich schlechter ist als ein Miss, auf Genauigkeitsgewichtung bezogen.
 
 #### Combo
 
 Combo ist, wenn du erfolgreich Objekte ohne ein Miss triffst.
 
-* Falls eine Note nicht in seinem Judgement Zeitfenster getroffen word, resultiert es in einem Miss, welches deine Combo zurücksetzt.
-* Falls du ein Objekt zu früh drückst (>164ms), resultiert es in einem Miss, welches deine Combo zurücksetzt.
-* Falls du eine Long Note nicht loslässt, resultiert das in einem Okay, welches nicht deine Combo zurücksetzen.
+* Falls eine Note nicht in seinem Judgement Zeitfenster getroffen wird resultiert es in einem Miss, welches deine Combo zurücksetzt.
+* Falls du ein Objekt zu früh drückst (>164ms) resultiert es in einem Miss, welches deine Combo zurücksetzt.
+* Falls du eine Long Note nicht loslässt resultiert das in einem Okay, welches nicht deine Combo zurücksetzen.
 
 ### Skins
 
