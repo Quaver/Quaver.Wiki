@@ -78,7 +78,7 @@ The following descriptions are what each difficulty should typically look like. 
 
 ##### Difficulty Spread Rules
 
-The amount of difficulties required in order to be a valid spread **are scaled based on the length of the song/map.** 
+The minimum required difficulties in a set and the easiest required difficulty **are scaled based on the length of the song/map.** 
 
 | Length       | Minimum Required Maps         | Easiest Required Difficulty  |
 | ------------- |:-------------:| -----:| 
