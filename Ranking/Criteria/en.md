@@ -23,6 +23,7 @@ The following pertains to media files such as background images and audio files 
 * • **The total file size of the mapset (.qp) must be 15 megabytes (mb) or smaller**
 * • **The resolution of background images must be at least 1280x720** and of exceptionally high quality.
 * • **Your mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
+* • **The max bitrate allowed for audio files are 192kbps**
 
 ### Maps 
 
@@ -31,8 +32,9 @@ The following requirements are for the individual maps themselves.
 * • **Autoplay must be able to achieve a 100% (X-Grade) score**
 * • **Your maps must not have overlapping notes.**
 * • **You cannot have more than 30 seconds of consecutive break time**
-* • **More than 75% of the length of the map must have notes to play**
+* • **More than 75% of the length of the song must have notes to play**
 * • **You must place at least one note in each column**
+* • **Your maps must be at least 45 seconds long.**
 
 ### Difficulty Spread
 
@@ -74,11 +76,23 @@ The following descriptions are what each difficulty should typically look like. 
 * • **Custom** 
      * Custom difficulties can be of any difficulty range provided you have the previous ones in your set. They can have custom difficulty names as well.
 
-##### Rules
+##### Difficulty Spread Rules
 
-* • **You must include at least beginner, easy, and normal for it to be considered a rankable set, and you may not skip the mapping of a certain difficulty.** Example: You cannot have an Expert difficulty without having mapped an Insane.
-* • **Any songs under 3 minutes in length require a difficulty spread.** Any maps over 3 minutes in length are considered a "marathon" and can be ranked with a single difficulty
-* • **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes. **If you have two game modes, you must preface each difficulty with either "4K" or "7K"** (Example: "7K Insane").
+The amount of difficulties required in order to be a valid spread **are scaled based on the length of the song/map.** 
+
+| Length       | Minimum Required Maps         | Easiest Required Difficulty  |
+| ------------- |:-------------:| -----:| 
+| **0:45-1:30**      | 3 | Beginner |
+| **1:30-2:30**      | 4      |   Easy (or lower) |
+| **2:30-3:30** | 3      |    Normal (or lower) |
+| **3:30-4:30** | 2      |    Hard (or lower) |
+| **4:30+** | 1      |    Any |
+
+##### Multi-Game Mode Sets
+
+Furthermore, **each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes. 
+
+**If you have two game modes, you must preface each difficulty with either "4K" or "7K"** (Example: "7K Insane").
 
 ## Guidelines
 
