@@ -83,7 +83,7 @@ The amount of difficulties required in order to be a valid spread **are scaled b
 | Length       | Minimum Required Maps         | Easiest Required Difficulty  |
 | ------------- |:-------------:| -----:| 
 | **0:45-1:30**      | 3 | Beginner |
-| **1:30-2:30**      | 4      |   Easy (or lower) |
+| **1:30-2:30**      | 3      |   Easy (or lower) |
 | **2:30-3:30** | 3      |    Normal (or lower) |
 | **3:30-4:30** | 2      |    Hard (or lower) |
 | **4:30+** | 1      |    Any |
