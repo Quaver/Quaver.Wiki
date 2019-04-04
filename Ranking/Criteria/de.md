@@ -76,12 +76,21 @@ Die folgenden Beschreibungen beschreiben wie jede Schwierigkeit typischerweise a
 * • **Expert** 
      * Von diesem Punkt an gibt es keine Einschränkungen. Sei so kreativ wie du willst.
 * • **Custom** 
-     * Custom Schwierigkeiten können von jeglicher Schwierigkeit sein, vorrausgesetzt du hast die vorherigen Schwierigkeiten ebenfalls. Sie können auch eigene Schwierigkeitsnamen besitzen.
+     * Custom Schwierigkeiten können von jeglicher Schwierigkeit sein, vorrausgesetzt du hast ebenfalls die vorherigen Schwierigkeiten. Sie können auch eigene Schwierigkeitsnamen besitzen.
 
-##### Regeln
+##### Difficulty Spread Rules
 
-* • **Dein Mapset muss mindestens eine Beginner, Easy und Normal Schwierigkeit haben, damit sie als rank-bar gilt, und du darfst keine Schwierigkeiten überspringen.** Beispiel: Du kannst keine Expert Schwierigkeit ohne eine Insane Schwierigkeit haben.
-* • **Alle Songs unter 3 Minuten müssen eine Schwierigkeitsverteilung besitzen.** Alle Songs über 3 Minuten werden als "Marathon" angesehen und können mit einer einzigen Schwierigkeit in den Ranked Status versetzt werden.
+The minimum required difficulties in a set and the easiest required difficulty **are scaled based on the length of the song/map.** 
+
+| Länge       | Mindestanzahl an benötigeten Maps         | Leichteste benötigte Schwierigkeit  |
+| ------------- |:-------------:| -----:| 
+| **0:45-1:30**      | 3 | Beginner |
+| **1:30-2:30**      | 3      |   Easy (oder niedriger) |
+| **2:30-3:30** | 3      |    Normal (oder niedriger) |
+| **3:30-4:30** | 2      |    Hard (oder niedriger) |
+| **4:30+** | 1      |    Any |
+
+##### Multi-Modus
 * • **Jeder Spielmodus wird seperat behandelt.** Wenn du ein Mapset für 4K und 7K erstellst, musst du eine angemesse Schwierigkeitsverteilung für beide Spielmodi haben. **Wenn du beide Spielmodi hast, müssen deine Schwierigkeitenmit entweder "4K" oder "7K" beginnen.** (Beispiel: "7K Insane").
 
 ## Richtlinien
