@@ -20,8 +20,6 @@ Alle Maps die du zum ersten Mal hochlädst, werden zuerst in den Unranked Status
 
 ### Pending
 
-When you submit a mapset for ranking, it will be sent to a queue where our Ranking Supervisors will be able to review the set to make sure it aligns with our Ranking Criteria. 
-
 Wenn du ein Mapset für den Ranked Status einreichst, wird es einer Warteschlange unserer Ranking Supervisors hinzugefügt, von denen sie deine Map auf die Ranking Kriteren überprüfen können.
 
 ### Denied
