@@ -56,13 +56,13 @@ Spielern ist es erlaubt ihre Mapsets einzureichen wenn sie sie für bereit halte
 
 Nachdem du dein Mapset für den Ranked Status eingereicht hast, wird diese einer Warteschlange hinzugefügt, von welcher die Ranking Supervisor die Map überprüfen.
 
-Damit deine Map in den Ranked Status versetzt werden kann, **muss das Mapset 3 Ja-Stimmen der Ranking Supervisors bekommen**, damit sie für den Ranked Status qualifiziert ist.
+Damit deine Map in den Ranked Status versetzt werden kann, **muss das Mapset 2 Ja-Stimmen der Ranking Supervisors bekommen**, damit sie für den Ranked Status qualifiziert ist.
 
 In dieser Abstimmung **hat ein Supervisor die Möglichkeit eine Map abzulehnen und in den Denied Status zu versetzen**, falls das Mapset irgendwelche Probleme aufweisen sollte.
 
 Du kannst den Status der Abstimmung auf der Webseite des Mapsets überprüfen. Dort wirst du die Anzahl der Ja-Stimmen sehen, die dein Mapset erhalten hat.
 
-Wenn dein Mapset 3 Ja-Stimmen erhalten hat, wird es automatisch in den Ranked Status versetzt.
+Wenn dein Mapset 2 Ja-Stimmen erhalten hat, wird es automatisch in den Ranked Status versetzt.
 
 Jedes Mapset wird nach der Reihenfolge geprüft, in der es zur Warteschlange hinzugefügt wurde. Mapsets mit einer höheren Anzahl an Ja-Stimmen haben eine höhere Priorität.
 
