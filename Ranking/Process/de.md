@@ -72,8 +72,6 @@ Wenn dein Mapset abgelehnt wurde, wirst du einen Kommentar von einem oder mehrer
 
 ### 5b. Mapset Blacklisted
 
-Serious mapsets will rarely be blacklisted. If your set does reach this state, it means that it was deemed to be in a state where you aren't showing signs of improving the set after repeated denials or if it was never in an approaching rankable state to begin with. 
-
 Ernste Mapsets werden selten in den Blacklisted Status versetzt. Falls dein Set doch diesen Status erreichen sollte, bedeutet es, dass es in einem Zustand empfunden wurde, an dem das Set keine Anzeichen von Verbesserung des Mapsets nach mehreren Ablehnungen zeigt, oder sich vom vorhinein nicht in einem annäherbar rank-baren Zustand befand.
 
 ### 5c. Mapset Ranked
