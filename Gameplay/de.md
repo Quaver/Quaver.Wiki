@@ -75,8 +75,6 @@ Punkte sind ein anderes Maß deiner Leistung während eines Songs in Quaver. Es 
 
 #### Judgement Zeitfenster
 
-This section explains the judgement windows that are used within Quaver. It details the time in milliseconds needed to press a key for a note in order to receive it. Currently there is one standard judgement timing window in Quaver, however this may change in the future.
-
 Dieser Abschnitt erklärt die Judgement Zeitfenster die in Quaver genutzt werden. Es gibt die Zeit in Millisekunden an, welche benötigt werden um das bestimmte Judgement zu erhalten. Im Moment gibt es ein Standard Judgement Zeitfenster in Quaver, jedoch kann sich dies in der Zukunft ändern.
 
 | Judgement | Zeitfenster                                  |
