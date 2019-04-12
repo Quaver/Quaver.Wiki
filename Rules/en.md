@@ -28,4 +28,4 @@ The following rules apply when using our in-game chat to communicate with others
 The following rules apply when uploading mapset content to our servers.
 
 1. **You must own all the rights or have the right to use ANY content you upload** - This includes but is not limited to: audio and image files, maps, or anything you haven't created yourself. In short - if you're unsure if you're able to use a particular song or graphic, ask the creator. Otherwise do not upload it. 
-2. **Plaigarism/copying/stealing maps is not acceptable** - If a map is not your creation (regardless of where or who it came from), do not upload it. Ask the original creator of the map for permission before doing so.
+2. **Plagiarism/copying/stealing maps is not acceptable** - If a map is not your creation (regardless of where or who it came from), do not upload it. Ask the original creator of the map for permission before doing so.
