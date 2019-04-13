@@ -1,6 +1,5 @@
 # Frequently Asked Questions
 
-
 ## General
 
 ### What state is Quaver currently in?
@@ -22,7 +21,6 @@ That is correct, however, Adri; a member of Quaver offers an alternate download 
 ### Is there an estimate for the public release?
 
 We do not have an estimate for a public release yet.
-
 
 
 ## Gameplay
@@ -50,7 +48,6 @@ Any bug reports should be posted on our [Github](https://github.com/Quaver/Quave
 ### I have a feature request, where can I post it?
 
 Feature requests belong, just like bug reports, on our [Github](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
-
 
 
 ## Troubleshooting
