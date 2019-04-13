@@ -1,4 +1,6 @@
-# General
+# Frequently Asked Questions
+
+## General
 
 ### What state is Quaver currently in?
 
@@ -21,7 +23,7 @@ That is correct, however, Adri; a member of Quaver offers an alternate download 
 We do not have an estimate for a public release yet.
 
 
-# Gameplay
+## Gameplay
 
 ### What key modes does Quaver support?
 
@@ -48,7 +50,7 @@ Any bug reports should be posted on our [Github](https://github.com/Quaver/Quave
 Feature requests belong, just like bug reports, on our [Github](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
 
 
-# Troubleshooting
+## Troubleshooting
 
 ### The game doesn’t launch
 
@@ -60,4 +62,4 @@ If the game doesn’t advance from the welcome screen, there might be a Steam-wi
 
 ### I can’t upload my mapset using the editor
 
-If your mapset fails to upload using the client, you can attempt to upload it manually on the website itself.
+If your mapset fails to upload using the client, you can attempt to upload it manually on the [Upload Mapset](/upload/mapset/) page.
