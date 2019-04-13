@@ -62,4 +62,4 @@ If the game doesn’t advance from the welcome screen, there might be a Steam-wi
 
 ### I can’t upload my mapset using the editor
 
-If your mapset fails to upload using the client, you can attempt to upload it manually on the [Upload Mapset](/upload/mapset/) page.
+If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](/upload/mapset/) page.
