@@ -35,7 +35,7 @@ Yes, Quaver currently supports .osu and .sm files and we are working on supporti
 
 ### I have a lot of maps in an external game, can I import them all at once?
 
-It is possible to import all of your maps at once by linking the games “.db” file inside your “quaver.cfg” file, which can be located inside your Quaver folder.
+It is possible to import all of your maps at once by linking the game’s “.db” file inside your “quaver.cfg” file, which can be located inside your Quaver folder.
 
 ### Can I import my skin from another game?
 
