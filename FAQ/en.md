@@ -2,21 +2,33 @@
 
 ## General
 
-### What state is Quaver currently in?
+### What is Quaver?
 
-Quaver is currently in the closed Alpha state. In order to use online features of Quaver, you need to sign up for the Alpha.
+Quaver is a community-driven rhythm game, aiming to bring VSGRs to the next level. The game is open to players of all skill levels, casual and seasoned.
+
+### How is Quaver different from other games?
+
+The game is fully open-source, allowing anyone to help and improve the game. Furthermore, we are aiming to provide a new VSGR experience by bringing competitive concepts, such as competitive matchmaking.
+
+### How far in development is Quaver?
+
+Quaver is still in early development and is currently in closed alpha. In order to use online features of Quaver, you need to sign up for the alpha.
+
+### What platforms will Quaver be released on?
+
+Quaver will be released on Windows, Mac and Linux.
 
 ### Where can I sign up for the Quaver Alpha?
 
-We announce sign-ups before they open, but until then, you will have to wait. Sign-ups are being held during specific time periods, and are not open at all time.
+Registrations for the closed alpha occur in rounds. Each round of sign-ups are announced before they open.
 
 ### Can I play without being part of the Quaver Alpha?
 
-Yes, you can download an offline version from Quaver’s [Github page](https://github.com/Quaver/Quaver/releases), However, you won’t be able to experience any of the online features.
+Yes, you can download an offline version from Quaver’s [Github page](https://github.com/Quaver/Quaver/releases), However, you won’t be able to experience any of the online features including online rankings, map uploading, and other community-based features such as in-game chat.
 
 ### Does this mean I can’t download maps from the Quaver website?
 
-That is correct, however, Adri (a member of the Quaver team) offers an alternate download [here](https://rhythmgamers.net/pack/) in the form of map packs for anyone to access. Keep in mind he doesn’t update those packs very frequently.
+You cannot download maps from the Quaver website, however you can still download packs via a [mirror](https://rhythmgamers.net/pack/).
 
 ### Is there an estimate for the public release date?
 
@@ -25,13 +37,13 @@ We do not have an estimate for the public release date yet.
 
 ## Gameplay
 
-### What key modes does Quaver support?
+### What game modes does Quaver support?
 
-Quaver currently only supports 4 keys and 7 keys.
+Quaver currently only supports 4 keys (4k) and 7 keys (7k).
 
 ### Can I import maps from other games?
 
-Yes, Quaver currently supports .osu and .sm files and we are working on supporting more file formats.
+Yes, Quaver currently supports .osz and .sm files. To import them, drag the files into the game window.
 
 ### I have a lot of maps in an external game, can I import them all at once?
 
@@ -39,11 +51,11 @@ It is possible to import all of your maps at once by linking the game’s “.db
 
 ### Can I import my skin from another game?
 
-Yes, you can download a converter by Adri [here](https://rhythmgamers.net/QBC/) and a tutorial can be found [here](https://www.youtube.com/watch?v=pWeLbx48NVI).
+The game doesn't support skin conversions out of the box, however you can download a .osk skin converter [here](https://rhythmgamers.net/QBC/) along with a [tutorial](https://www.youtube.com/watch?v=pWeLbx48NVI).
 
 ### I found a bug, where can I report it?
 
-Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). It doesn't matter how minor you think the issue is. Make sure to post anything you find, but please check if the issue has already been reported to avoid duplication.
+Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Make sure to post anything you find, but please check if the issue has already been reported to avoid duplication.
 
 ### I have a feature request, where can I post it?
 
@@ -58,4 +70,4 @@ Make sure Steam is running, as Steam is required in order to run Quaver. This al
 
 ### I can’t upload my mapset using the editor
 
-If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](/upload/mapset/) page.
+If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](https://quavergame.com/upload/mapset/) page.
