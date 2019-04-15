@@ -54,7 +54,7 @@ Feature requests belong, just like bug reports, on our [GitHub issues](https://g
 
 ### The game doesn’t launch
 
-Make sure Steam is running, as Steam is required in order to launch Quaver. This also applies to the offline build!
+Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
 
 ### The game is stuck on the welcome screen
 
