@@ -20,7 +20,7 @@ That is correct, however, Adri (a member of the Quaver team) offers an alternate
 
 ### Is there an estimate for the public release date?
 
-We do not have an estimate for a public release yet.
+We do not have an estimate for the public release date yet.
 
 
 ## Gameplay
