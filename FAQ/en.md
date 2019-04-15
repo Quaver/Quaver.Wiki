@@ -56,10 +56,6 @@ Feature requests belong, just like bug reports, on our [GitHub issues](https://g
 
 Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
 
-### The game is stuck on the welcome screen
-
-If the game doesn’t advance from the welcome screen, there might be a Steam-wide issue. Try again a bit later if this occurs.
-
 ### I can’t upload my mapset using the editor
 
 If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](/upload/mapset/) page.
