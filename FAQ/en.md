@@ -31,7 +31,7 @@ Quaver currently only supports 4 keys and 7 keys.
 
 ### Can I import maps from other games?
 
-Yes, Quaver currently supports .osu and .sm files and we are working on increasing the amount of files supported in the near future.
+Yes, Quaver currently supports .osu and .sm files and we are working on supporting more file formats.
 
 ### I have a lot of maps in an external game, can I import them all at once?
 
