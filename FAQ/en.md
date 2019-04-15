@@ -43,7 +43,7 @@ Yes, you can download a converter by Adri [here](https://rhythmgamers.net/QBC/) 
 
 ### I found a bug, where can I report it?
 
-Any bug reports should be posted on our [Github](https://github.com/Quaver/Quaver/issues). It doesn't matter how minor you think the issue is. Make sure to post anything you find, but make sure to check for already existing threads to avoid duplication.
+Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). It doesn't matter how minor you think the issue is. Make sure to post anything you find, but please check if the issue has already been reported to avoid duplication.
 
 ### I have a feature request, where can I post it?
 
