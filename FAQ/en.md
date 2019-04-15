@@ -18,7 +18,7 @@ Yes, you can download an offline version from Quaver’s [Github page](https://g
 
 That is correct, however, Adri (a member of the Quaver team) offers an alternate download [here](https://rhythmgamers.net/pack/) in the form of map packs for anyone to access. Keep in mind he doesn’t update those packs very frequently.
 
-### Is there an estimate for the public release?
+### Is there an estimate for the public release date?
 
 We do not have an estimate for a public release yet.
 
