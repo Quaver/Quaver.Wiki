@@ -47,7 +47,7 @@ Any bug reports should be posted on our [GitHub issues](https://github.com/Quave
 
 ### I have a feature request, where can I post it?
 
-Feature requests belong, just like bug reports, on our [Github](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
+Feature requests belong, just like bug reports, on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
 
 
 ## Troubleshooting
