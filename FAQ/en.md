@@ -4,11 +4,11 @@
 
 ### What is Quaver?
 
-Quaver is a community-driven rhythm game, aiming to bring VSGRs to the next level. The game is open to players of all skill levels, casual and seasoned.
+Quaver is a community-driven and open source competitive rhythm game. It is inspired by a variety of classic rhythm games and plans to expand on them by being focused on real-time competitive play.
 
 ### How is Quaver different from other games?
 
-The game is fully open-source, allowing anyone to help and improve the game. Furthermore, we are aiming to provide a new VSGR experience by bringing competitive concepts, such as competitive matchmaking.
+The game is fully open-source, which allows anyone to help and improve the game. Furthermore, we are aiming to provide a new VSRG experience by bringing competitive concepts, such as competitive matchmaking.
 
 ### How far in development is Quaver?
 
@@ -34,7 +34,6 @@ You cannot download maps from the Quaver website, however you can still download
 
 We do not have an estimate for the public release date yet.
 
-
 ## Gameplay
 
 ### What game modes does Quaver support?
@@ -59,8 +58,7 @@ Any bug reports should be posted on our [GitHub issues](https://github.com/Quave
 
 ### I have a feature request, where can I post it?
 
-Feature requests belong, just like bug reports, on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
-
+Similar to bug reports, feature requests belong on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
 
 ## Troubleshooting
 
