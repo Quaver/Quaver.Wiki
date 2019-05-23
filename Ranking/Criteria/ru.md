@@ -2,7 +2,7 @@
 
 Чтобы ранкнуть карту, необходимо следовать критериям, привёденным ниже. В случае, если критерии не соблюдаются, вас попросят отредактировать карту и загрузить её снова.
 
-Если вы ищите процесс ранка карты, следуйте:[Quaver Ranking Process](https://github.com/Quaver/Quaver.Wiki/blob/master/Ranking/Process).
+Если вы ищите описание процесса ранкинга карты, смотрите эту страницу: [Quaver Ranking Process](https://github.com/Quaver/Quaver.Wiki/blob/master/Ranking/Process).
 
 ## Обязательно
 
