@@ -423,324 +423,324 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 
-## Numbers ##
+## Zahlen ##
 
-### Combo Display Numbers ###
+### Kombo Zahlen ###
 
 `/Numbers/combo-{0-9}.png`
 
 ![](img/Numbers/combo-9.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidCenter | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Represents the number {0-9} that displays the player's current combo.
+- Repräsentiert die Zahlen {0-9}, welche die derzeitige Kombo des Spielers anzeigen.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| ComboPosY | Integer | Determines the y value of where to place the combo display. | 
-| ComboDisplayScale | Integer | The size of the display |
+| ComboPosY | Integer | Determines the y value of where to place the combo display Gibt die y-Position an, an welcher die Grafik angezeigt wird. | 
+| ComboDisplayScale | Integer | Die Größe der angezeigten Grafik |
 
 --- 
 
-### Score/Accuracy Numbers ###
+### Score/Genauigkeit Zahlen ###
 
 `/Numbers/score-{0-9}.png`
 
 ![](img/Numbers/score-9.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | Depends. TopLeft if score. TopRight if accuracy. | - |
+| Nein | Abhängig. Oben-Links beim Score. Oben-Rechts bei Genauigkeit. | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Represents the number {0-9} that displays the player's current score and accuracy
+- Repräsentiert die Zahlen {0-9}, welche die derzeitige Genauigkeit und den Score des Spielers anzeigen.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| ScoreDisplayPosX and AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment. |
-| ScoreDisplayPosY and AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment. | 
-| ScoreDisplayScale and AccuracyDisplayScale | Integer | The size of the display |
+| ScoreDisplayPosX and AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| ScoreDisplayPosY and AccuracyDisplayPosX | Integer | Bestimmt die y-Position, an welcher die Grafik relativ zur Ausrichtung angezeigt wird. | 
+| ScoreDisplayScale and AccuracyDisplayScale | Integer | Die Größe der Grafik |
 
 --- 
 
-### Score Display Percent ###
+### Score Prozent Zeichen ###
 
 `/Numbers/score-percent.png`
 
 ![](img/Numbers/score-percent.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | TopRight | - |
+| Nein | Oben-Rechts | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Represents the `%` symbol in the user's accuracy.
+- Repräsentiert das `%` Zeichen in der Genauigkeit des Spielers.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment. |
-| AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment. |
-| AccuracyDisplayScale | Integer | The size of the display | 
+| AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| AccuracyDisplayPosX | Integer | Bestimmt die y-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| AccuracyDisplayScale | Integer | Die Größe der Grafik | 
 
 ---
 
-### Score Display Decimal ###
+### Score Dezimalpunkt Zeichen ###
 
 `/Numbers/score-decimal.png`
 
 ![](img/Numbers/score-decimal.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | TopRight | - |
+| Nein | Oben-Rechts | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Represents the `.` symbol in the user's accuracy.
+- Repräsentiert das `.` Zeichen in der Genauigkeit des Spielers.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment.
-| AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment.
-| AccuracyDisplayScale | Integer | The size of the display |
+| AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| AccuracyDisplayPosX | Integer | Bestimmt die y-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| AccuracyDisplayScale | Integer | Die Größe der Grafik | 
 
 ---
 
-### Song Time Display Numbers ###
+### Liedzeit Zahlen ###
 
 `/Numbers/song-time-{0-9}.png`
 
 ![](img/Numbers/song-time-8.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | BottomLeft / BottomRight | - |
+| Nein | Unten-Links / Unten-Rechts | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Numbers that display the current song time and time left.
+- Die Zahlen, die den Fortschritt im Lied und die verbleibende Zeit anzeigen.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| SongTimeDisplayScale | Integer | The size of the display |
+| SongTimeDisplayScale | Integer | Die Größe der Grafik |
 
 ---
 
-### Song Time Display Colon ###
+### Liedzeit Doppelpunkt Zeichen ###
 
 `/Numbers/song-time-colon.png`
 
 ![](img/Numbers/song-time-colon.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | BottomLeft / BottomRight | - |
+| Nein | Unten-Links / Unten-Rechts | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Displays the `:` character in the song time display.
+- Das `:` Zeichen in der Liedzeit.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| SongTimeDisplayScale | Integer | The size of the display |
+| SongTimeDisplayScale | Integer | Die Größe der Grafik |
 
 ---
 
-### Song Time Display Minus ###
+### Liedzeit Minus Zeichen ###
 
 
 `/Numbers/song-time-minus.png`
 
 ![](img/Numbers/song-time-minus.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | BottomLeft / BottomRight | - |
+| Nein | Unten-Links / Unten-Rechts | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Displays the `-` character in the song time display.
+- Das `:` Zeichen in der Liedzeit.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-| Name | Possible Values | Notes |
+| Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| SongTimeDisplayScale | Integer | The size of the display |
+| SongTimeDisplayScale | Integer | Die Größe der Grafik |
 
-## Pause Screen ##
+## Pause Bildschirm ##
 
-### Pause Continue Button ###
+### Pause Fortfahren Knopf ###
 
 `/Pause/pause-continue.png`
 
 ![](img/Pause/pause-continue.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidCenter | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- The button to continue the map in the pause screen.
+- Der Knopf zum Fortsetzen einer Map im Pause Bildschirm.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-* None
+* Keine
 
 --- 
 
-### Pause Retry Button ###
+### Pause Wiederholen Knopf ###
 
 `/Pause/pause-retry.png`
 
 ![](img/Pause/pause-retry.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidCenter | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- The button to retry the map in the pause screen.
+- Der Knopf zum Wiederholen einer Map im Pause Bildschirm.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-* None
+* Keine
 
 ---
 
-### Pause Back Button ###
+### Pause Verlassen Knopf ###
 
 `/Pause/pause-back.png`
 
 ![](img/Pause/pause-back.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidCenter | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- The button to quit the map in the pause screen.
+- Der Knopf zum Verlassen einer Map im Pause Bildschirm.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-* None
+* Keine
 
 ---
 
-### Pause Background ###
+### Pause Hintergrund ###
 
 `/Pause/pause-background.png`
 
 ![](img/Pause/pause-background.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidCenter | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Background image that displayed during the pause screen. If none is specified, it will dim to black.
+- Das Hintergrundbild, welcher im Pause Bildschirm angezeigt wird. Falls kein Bild angegeben ist, wird schwarz angezeigt.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-* None
+* Keine
 
-## Scoreboard ##
+## Anzeigetafel ##
 
-### Scoreboard User ###
+### Anzeigetafel Nutzer ###
 
 `/Scoreboard/scoreboard.png`
 
 ![](img/Scoreboard/scoreboard.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidLeft | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Background image is displayed for the current player on the scoreboard.
+- Hintergrundbild, welches für den derzeitigen Spieler auf der Anzeigetafel angezeigt wird.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-* None
+* Keine
 
 ---
 
-### Scoreboard Other ###
+### Anzeigetafel Andere ###
 
 `/Scoreboard/scoreboard-other.png`
 
 ![](img/Scoreboard/scoreboard-other.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidLeft | - |
+| Nein | Mitte-Zentriert | - |
 
-**Notes:**
+**Anmerkungen:**
 
-- Background image is displayed for the all other players in the scoreboard (not including the player themselves)
+- Hintergrundbild, welches für andere Spieler auf der Anzeigetafel angezeigt wird (schließt nicht den Spieler selbst mit ein).
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-* None
+* Keine
 
-## Skip Display ##
+## Überspringen Grafik ##
 
-### Skip ###
+### Überspringen ###
 
 `/Skip/skip.png`
 
 ![](img/Skip/skip@1x31.png)
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| Yes | MidCenter | 230x56 per frame |
+| Ja | Mitte-Zentriert | 230x56 pro Bild |
 
-**Notes:**
+**Anmerkungen:**
 
-- Animatable spritesheet file name: `/Skip/skip@{rows}x{columns}.png`
-- Displayed when the player is on a break and is eligible to skip to the next object.
+- Sprite Animation Dateiname: `/Skip/skip@{rows}x{columns}.png`
+- Angezeigt, wenn sich der Spieler in einer Pause befindet und es möglich ist, die Zeit zum nächsten Objekt zu überspringen.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-- None
+- Keine
 
-## Combo Alerts ##
+## Kombo Alarm ##
 
-### Combo Alert ###
+### Kombo Alarm ###
 
 `/Combo/combo-alert-1.png`
 
-| Animatable | Alignment | Suggested Size |
+| Animierbar | Ausrichtung | Empfohlene Größe |
 |:-:|:-:|:-:|
-| No | MidRight | 300x300 or smaller |
+| Nein | Mitte-Rechts | 300x300 oder kleiner |
 
-**Notes:**
+**Anmerkungen:**
 
-- Displayed every 100x combo
-- You can add multiple combo alerts by adding another file `/Combo/combo-alert-1,2,3.....etc` and they will be played in the order of the file name.
+- Wird alle 100x Kombo angzeigt
+- Man kann verschiedene Kombo Alarme durch hinzufügen anderer Dateien `/Combo/combo-alert-1,2,3.....etc` haben, welcher in der Reihenfolge des gewählten Dateinamens angezeigt wird.
 
-**skin.ini Values:**
+**skin.ini Werte:**
 
-- None
+- Keine
