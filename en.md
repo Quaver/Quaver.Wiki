@@ -6,4 +6,5 @@ Welcome to the Quaver wiki! Here you can find a bunch of information related to 
 * [Rules](/Rules/)
 * [Skins](/Skins/)
 * [Ranking Criteria & Process](/Ranking/)
+* [Frequently Asked Questions](/FAQ/)
 * [Legal](/Legal/)

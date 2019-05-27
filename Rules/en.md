@@ -20,7 +20,7 @@ The following rules apply when using our in-game chat to communicate with others
 1. **Respect Everybody.** - We do not tolerate any condescending remarks, or comments with the intent to humiliate others. Sarcastic remarks are not welcomed here. Please avoid bashing an individual or a whole community. Harassing other users isn't acceptable whatsoever.
 2. **Keep it PG-13** - No NSFW/NSFL, gore, pornography, or erotic roleplaying. Nobody wants to see this stuff here. Breaking this rule could result in a ban or mute depending on the severity.
 3. **Keep channel discussion relevant** - In-game chat channels are created with topics in mind. Don't gear away from them.
-4. **Keep criticism constructive.** - Feedback is welcome as long as it is constructive. This applies to the game itself and 
+4. **Keep criticism constructive.** - Feedback is welcome as long as it is constructive. Every decision in development, mapping, art, and design has a reason behind it. We would like everybody to respect that. We're not here to demoralize others.
 5. **No advertising, politics, religion, ear rape, spam, raiding, or any unwanted content** - Adverising includes any third-party games, websites, or chat servers. Keep it civil and clean. This is pretty self-explanatory.
 
 ### Mapset Submission Rules
@@ -28,4 +28,4 @@ The following rules apply when using our in-game chat to communicate with others
 The following rules apply when uploading mapset content to our servers.
 
 1. **You must own all the rights or have the right to use ANY content you upload** - This includes but is not limited to: audio and image files, maps, or anything you haven't created yourself. In short - if you're unsure if you're able to use a particular song or graphic, ask the creator. Otherwise do not upload it. 
-2. **Plaigarism/copying/stealing maps is not acceptable** - If a map is not your creation (regardless of where or who it came from), do not upload it. Ask the original creator of the map for permission before doing so.
+2. **Plagiarism/copying/stealing maps is not acceptable** - If a map is not your creation (regardless of where or who it came from), do not upload it. Ask the original creator of the map for permission before doing so.
