@@ -20,7 +20,7 @@ Die folgenden Regeln gelten während der Nutzung des in-game Chats, um mit ander
 1. **Respektiere jeden.** - Wir tolerieren keine herablassenden Bemerkungen oder Kommentare mit der Absicht, andere zu erniedrien. Sarkstische Bemerkungen sind nicht willkommen. Bitte vermeide es, andere Personen oder Gemeinschaften niederzumachen. Andere zu belästigen ist ebenfalls nicht akzeptiert.
 2. **Halte es jugendfreundlich** - Kein NSFW/NSFL, Gore, Pornographie, or erotischen Rollenspiele. Niemand muss das hier sehen. Das Brechen dieser Regel kann je nach Ausmaß in einem Silence oder Bann resultieren.
 3. **Halte die Channel Diskussion passend** - In-game Chat Channel wurden mit einem Thema im Hinterkopf erstellt. Komme nicht zu weit von diesen ab.
-4. **Halte Kritik konstruktiv.** - Rückmeldungen sind willkommen, solange diese konstruktiv sind. Dies gilt sowohl für das Spiel als auch für andere Nutzer.
+4. **Halte Kritik konstruktiv.** - Rückmeldungen sind willkommen, solange diese konstruktiv sind. Jede Entscheidung in der Entwicklung, im Mapping, der Kunst und dem Design hat einen Hintergrund. Wir hätten gerne, dass jeder dies respektiert. Wir sind nicht hier, um andere zu demorialisieren.
 5. **Keine Werbung, Politik, Religion, Spam oder andere ungewünschte Inhalte** - Werbung beinhaltet andere Drittanbieterspiele, Webseiten oder Chat Server. Halte alles anständig und sauber. Das ist ziemlich selbsterklärend.
 
 ### Mapset Einreichungsregeln
