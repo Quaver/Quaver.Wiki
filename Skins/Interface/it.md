@@ -1,5 +1,5 @@
 # Skinning dell'Inferfaccia di gioco
-L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. Sono inclusi elementi come numeri, classifiche, giudizi ed altro.
+L'interfaccia di gioco include elementi presenti in tutte le modalit√† di gioco. Sono inclusi elementi come numeri, classifiche, giudizi ed altro.
 
 ## Cursore ##
 
@@ -15,8 +15,8 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- Come Ë visualizzato il cursore del mouse.
-- Nascosto durande la partita. Attivo durante la navigazione del men˘.
+- Come √® visualizzato il cursore del mouse.
+- Nascosto durande la partita. Attivo durante la navigazione del men√π.
 
 **Valori skin.ini:**
 
@@ -36,7 +36,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha 90-94%.
+- L'immagine che √® visualizzata accanto alla precisione quando si ha 90-94%.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -58,7 +58,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha 80-89%.
+- L'immagine che √® visualizzata accanto alla precisione quando si ha 80-89%.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -80,7 +80,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha 70-79%.
+- L'immagine che √® visualizzata accanto alla precisione quando si ha 70-79%.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -102,7 +102,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha meno di 70%.
+- L'immagine che √® visualizzata accanto alla precisione quando si ha meno di 70%.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -124,7 +124,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando non si passa una mappa.
+- L'immagine che √® visualizzata accanto alla precisione quando non si passa una mappa.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -146,7 +146,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha 95-98%.
+- L'immagine che √® visualizzata accanto alla precisione quando si ha 95-98%.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -168,7 +168,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha 99%.
+- L'immagine che √® visualizzata accanto alla precisione quando si ha 99%.
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -190,7 +190,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- L'immagine che Ë visualizzata accanto alla precisione quando si ha 100% (tutti "Marvelous").
+- L'immagine che √® visualizzata accanto alla precisione quando si ha 100% (tutti "Marvelous").
 - Visualizzato nella schermata dei risultati.
 - Visualizzato nella schermata di selezione delle canzoni nella classifica.
 
@@ -221,8 +221,8 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| HealthBarType | `Horizontal` o `Vertical` | Se l'immagine Ë orrizontale, scrivi "horizontal". Se verticale, scrivi "vertical". |
-| HealthBarKeysAlignment| `RightStage`, `LeftStage`, o `TopLeft` | Determina dove viene piazzata la barra della vita nella modalit‡ di gioco Keys.
+| HealthBarType | `Horizontal` o `Vertical` | Se l'immagine √® orrizontale, scrivi "horizontal". Se verticale, scrivi "vertical". |
+| HealthBarKeysAlignment| `RightStage`, `LeftStage`, o `TopLeft` | Determina dove viene piazzata la barra della vita nella modalit√† di gioco Keys.
 
 ---
 
@@ -239,14 +239,14 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 **Note:**
 
 - Nome del file per la disposizione delle immagini per l'animazione: `/Health/health-foreground@{rows}x{columns}.png`
-- Visualizzato come primo piano. Questa Ë la barra della vita che si muove a seconda della vita corrente.
+- Visualizzato come primo piano. Questa √® la barra della vita che si muove a seconda della vita corrente.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| HealthBarType | `Horizontal` o `Vertical` | Se l'immagine Ë orrizontale, scrivi "horizontal". Se verticale, scrivi "vertical". |
-| HealthBarKeysAlignment| `RightStage`, `LeftStage`, o `TopLeft` | Determina dove viene piazzata la barra della vita nella modalit‡ di gioco Keys.
+| HealthBarType | `Horizontal` o `Vertical` | Se l'immagine √® orrizontale, scrivi "horizontal". Se verticale, scrivi "vertical". |
+| HealthBarKeysAlignment| `RightStage`, `LeftStage`, o `TopLeft` | Determina dove viene piazzata la barra della vita nella modalit√† di gioco Keys.
 
 
 ## Giudizi ##
@@ -271,7 +271,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgeColor{Marv-Miss} | Colori RGB (255,255,255) | Lo sfondo Ë colorato in accordo a questi valori nello skin.ini. 
+| JudgeColor{Marv-Miss} | Colori RGB (255,255,255) | Lo sfondo √® colorato in accordo a questi valori nello skin.ini. 
 
 ---
 
@@ -289,13 +289,13 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 - Nome del file delle immagini per l'animazione:  `/Judgements/judge-marv@{rows}x{columns}.png`
 - Visualizzato dopo aver ottenuto un giudizio per aver colpito un oggetto.
-- Se nessuna immagine per l'animazione Ë specificata, sar‡ eseguita l'animazione standard.
+- Se nessuna immagine per l'animazione √® specificata, sar√† eseguita l'animazione standard.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore Ë moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore √® moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 --- 
@@ -314,13 +314,13 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 - Nome del file delle immagini per l'animazione:  `/Judgements/judge-perf@{rows}x{columns}.png`
 - Visualizzato dopo aver ottenuto un giudizio per aver colpito un oggetto.
-- Se nessuna immagine per l'animazione Ë specificata, sar‡ eseguita l'animazione standard.
+- Se nessuna immagine per l'animazione √® specificata, sar√† eseguita l'animazione standard.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore Ë moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore √® moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
@@ -341,13 +341,13 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 - Nome del file delle immagini per l'animazione:  `/Judgements/judge-great@{rows}x{columns}.png`
 - Visualizzato dopo aver ottenuto un giudizio per aver colpito un oggetto.
-- Se nessuna immagine per l'animazione Ë specificata, sar‡ eseguita l'animazione standard.
+- Se nessuna immagine per l'animazione √® specificata, sar√† eseguita l'animazione standard.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore Ë moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore √® moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -367,13 +367,13 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 - Nome del file delle immagini per l'animazione:  `/Judgements/judge-good@{rows}x{columns}.png}`
 - Visualizzato dopo aver ottenuto un giudizio per aver colpito un oggetto.
-- Se nessuna immagine per l'animazione Ë specificata, sar‡ eseguita l'animazione standard.
+- Se nessuna immagine per l'animazione √® specificata, sar√† eseguita l'animazione standard.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore Ë moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore √® moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -393,13 +393,13 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 - Nome del file delle immagini per l'animazione:  `/Judgements/judge-okay@{rows}x{columns}.png`
 - Visualizzato dopo aver ottenuto un giudizio per aver colpito un oggetto.
-- Se nessuna immagine per l'animazione Ë specificata, sar‡ eseguita l'animazione standard.
+- Se nessuna immagine per l'animazione √® specificata, sar√† eseguita l'animazione standard.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore Ë moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore √® moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -419,13 +419,13 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 - Nome del file delle immagini per l'animazione: `/Judgements/judge-miss@{rows}x{columns}.png`
 - Visualizzato dopo aver ottenuto un giudizio per aver colpito un oggetto.
-- Se nessuna immagine per l'animazione Ë specificata, sar‡ eseguita l'animazione standard.
+- Se nessuna immagine per l'animazione √® specificata, sar√† eseguita l'animazione standard.
 
 **Valori skin.ini:**
 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Numero Decimale | Questo valore Ë moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
+| JudgementHitBurstScale | Numero Decimale | Questo valore √® moltiplicativo ed aumenta/diminuisce la grandezza del giudizio.
 | JudgementBurstPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
@@ -474,7 +474,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
 | ScoreDisplayPosX ed AccuracyDisplayPosX | Numero Intero | Determina la posizione orizzontale di questa immagine.
-| ScoreDisplayPosY and AccuracyDisplayPosX | Numero Intero | Determina la posizione verticale di questa immagine.
+| ScoreDisplayPosY and AccuracyDisplayPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
 --- 
@@ -498,7 +498,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Numero Intero | Determina la posizione orizzontale di questa immagine.
-| AccuracyDisplayPosX | Numero Intero | Determina la posizione verticale di questa immagine.
+| AccuracyDisplayPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
 ---
@@ -522,7 +522,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 | Nome | Valori Possibili | Note |
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Numero Intero | Determina la posizione orizzontale di questa immagine.
-| AccuracyDisplayPosX | Numero Intero | Determina la posizione verticale di questa immagine.
+| AccuracyDisplayPosY | Numero Intero | Determina la posizione verticale di questa immagine.
 
 
 ---
@@ -640,7 +640,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- Il tasto presente nello schermo della pausa per poter tornare nel men˘ di selezione mappa.
+- Il tasto presente nello schermo della pausa per poter tornare nel men√π di selezione mappa.
 
 **Valori skin.ini:**
 
@@ -660,7 +660,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 **Note:**
 
-- Immagine dello sfondo durante la schermata di pausa. Se non specificato sar‡ oscurato.
+- Immagine dello sfondo durante la schermata di pausa. Se non specificato sar√† oscurato.
 
 **Valori skin.ini:**
 
@@ -721,7 +721,7 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 **Note:**
 
 - Nome del file di animazione: `/Skip/skip@{rows}x{columns}.png`
-- Visualizzato quando il giocatore Ë ad una pausa ed Ë possibile saltare al prossimo oggetto.
+- Visualizzato quando il giocatore √® ad una pausa ed √® possibile saltare al prossimo oggetto.
 
 **Valori skin.ini:**
 
@@ -735,12 +735,12 @@ L'interfaccia di gioco include elementi presenti in tutte le modalit‡ di gioco. 
 
 | Animazione | Allineamento | Grandezza Suggerita |
 |:-:|:-:|:-:|
-| No | Centrato a Destra | 300x300 o pi˘ piccola|
+| No | Centrato a Destra | 300x300 o pi√π piccola|
 
 **Note:**
 
 - Visualizzato ogni 100 di combo.
-- Puoi aggiungere pi˘ segnali della combo aggiungedo altri file `/Combo/combo-alert-1,2,3.....etc` e saranno visualizzati per ordine di nome.
+- Puoi aggiungere pi√π segnali della combo aggiungedo altri file `/Combo/combo-alert-1,2,3.....etc` e saranno visualizzati per ordine di nome.
 
 **Valori skin.ini:**
 
