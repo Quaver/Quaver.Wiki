@@ -492,7 +492,7 @@ and more.
 | Name | Possible Values | Notes |
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment. |
-| AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment. |
+| AccuracyDisplayPosY | Integer | Determines the y position of the display relative to the alignment. |
 | AccuracyDisplayScale | Integer | The size of the display | 
 
 ---
@@ -516,7 +516,7 @@ and more.
 | Name | Possible Values | Notes |
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Integer | Determines the x position of the display relative to the alignment.
-| AccuracyDisplayPosX | Integer | Determines the y position of the display relative to the alignment.
+| AccuracyDisplayPosY | Integer | Determines the y position of the display relative to the alignment.
 | AccuracyDisplayScale | Integer | The size of the display |
 
 ---
