@@ -491,7 +491,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
-| AccuracyDisplayPosX | Integer | Bestimmt die y-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| AccuracyDisplayPosY | Integer | Bestimmt die y-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
 | AccuracyDisplayScale | Integer | Die Größe der Grafik | 
 
 ---
@@ -515,7 +515,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
 | AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
-| AccuracyDisplayPosX | Integer | Bestimmt die y-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| AccuracyDisplayPosY | Integer | Bestimmt die y-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
 | AccuracyDisplayScale | Integer | Die Größe der Grafik | 
 
 ---
