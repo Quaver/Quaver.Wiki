@@ -36,7 +36,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese 90-94% beträgt.
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese 90-94% beträgt.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -58,7 +58,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese 80-89% beträgt.
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese 80-89% beträgt.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -80,7 +80,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese 70-79% beträgt.
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese 70-79% beträgt.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -102,7 +102,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese unter 70% liegt.
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese unter 70% liegt.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -124,7 +124,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn die Map nicht geschafft wurde.
+- Der neben der Genauigkeit angezeigte Sprite, wenn die Map nicht geschafft wurde.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -146,7 +146,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese 95-98% beträgt.
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese 95-98% beträgt.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -168,7 +168,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese 99% beträgt.
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese 99% beträgt.
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -190,7 +190,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Der neben der Genauigkeit angzeige Sprite, wenn diese 100% beträgt (Nur Marvelous).
+- Der neben der Genauigkeit angezeigte Sprite, wenn diese 100% beträgt (Nur Marvelous).
 - Angezeigt im Endergebnisbildschirm
 - Angezeigt in der Rangliste im Songauswahlbildschirm.
 
@@ -262,7 +262,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Hintergrund Bild, welches das derzeitige Judgement des Spielers Anzeigt.
+- Hintergrundbild, welches das derzeitige Judgement des Spielers Anzeigt.
 - Automatisch gefärbt, abhängig vom [JudgeColors skin.ini Wert]()
 - Sollte weiß sein!
 
@@ -294,7 +294,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die größe des Judgement zu verändern.
+| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die Größte des Judgement zu verändern.
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 --- 
@@ -319,7 +319,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die größe des Judgement zu verändern.
+| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die Größte des Judgement zu verändern.
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 --- 
@@ -344,7 +344,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die größe des Judgement zu verändern.
+| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die Größte des Judgement zu verändern.
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 --- 
@@ -369,7 +369,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die größe des Judgement zu verändern.
+| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die Größte des Judgement zu verändern.
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 --- 
@@ -394,7 +394,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die größe des Judgement zu verändern.
+| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die Größte des Judgement zu verändern.
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 --- 
@@ -419,7 +419,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die größe des Judgement zu verändern.
+| JudgementHitBurstScale | Float | Dieser Wert wird mulitpliziert, um die Größte des Judgement zu verändern.
 | JudgementBurstPosY | Integer | Bestimmt die Y-Position des Sprites.
 
 
@@ -443,7 +443,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| ComboPosY | Integer | Determines the y value of where to place the combo display Gibt die y-Position an, an welcher die Grafik angezeigt wird. | 
+| ComboPosY | Integer | Gibt die y-Position an, an welcher die Grafik angezeigt wird. | 
 | ComboDisplayScale | Integer | Die Größe der angezeigten Grafik |
 
 --- 
@@ -466,9 +466,9 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 | Name | Mögliche Werte | Anmerkungen |
 |:-:|:-:|:-:|
-| ScoreDisplayPosX and AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
-| ScoreDisplayPosY and AccuracyDisplayPosX | Integer | Bestimmt die y-Position, an welcher die Grafik relativ zur Ausrichtung angezeigt wird. | 
-| ScoreDisplayScale and AccuracyDisplayScale | Integer | Die Größe der Grafik |
+| ScoreDisplayPosX und AccuracyDisplayPosX | Integer | Bestimmt die x-Position, an welcher die Genauigkeit/Score relativ zur Ausrichtung angezeigt wird. |
+| ScoreDisplayPosY und AccuracyDisplayPosY | Integer | Bestimmt die y-Position, an welcher die Grafik relativ zur Ausrichtung angezeigt wird. | 
+| ScoreDisplayScale und AccuracyDisplayScale | Integer | Die Größe der Grafik |
 
 --- 
 
@@ -659,7 +659,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 
 **Anmerkungen:**
 
-- Das Hintergrundbild, welcher im Pause Bildschirm angezeigt wird. Falls kein Bild angegeben ist, wird schwarz angezeigt.
+- Das Hintergrundbild, welches im Pause Bildschirm angezeigt wird. Falls kein Bild angegeben ist, wird schwarz angezeigt.
 
 **skin.ini Werte:**
 
@@ -739,7 +739,7 @@ Das Gameplay Interface beinhaltet allgemeine Skin Elemente welche in allen Spiel
 **Anmerkungen:**
 
 - Wird alle 100x Kombo angzeigt
-- Man kann verschiedene Kombo Alarme durch hinzufügen anderer Dateien `/Combo/combo-alert-1,2,3.....etc` haben, welcher in der Reihenfolge des gewählten Dateinamens angezeigt wird.
+- Man kann verschiedene Kombo Alarme durch hinzufügen anderer Dateien `/Combo/combo-alert-1,2,3.....etc` haben, welche in der Reihenfolge der gewählten Dateinamen angezeigt werden.
 
 **skin.ini Werte:**
 
