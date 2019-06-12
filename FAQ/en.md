@@ -60,11 +60,46 @@ Any bug reports should be posted on our [GitHub issues](https://github.com/Quave
 
 Similar to bug reports, feature requests belong on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
 
+### How do I reduce the hitsound audio latency on Linux?
+
+In the Audio options you can find the “Audio Device Period” and the “Audio Device Buffer Length” settings. The general rule is: as you decrease these values the latency decreases, but the CPU usage and the audio glitch probability increases. Try setting the Period to 2 ms and the Buffer Length to 8 ms and restarting the game. If the audio is glitching, try increasing the Period or the Buffer Length.
+
+A common recommendation for reducing the audio glitching is to open the `/etc/security/limits.conf` file and add a line like this:
+```
+your_username      -   rtprio      99
+```
+Replace `your_username` with your Linux username. Reboot the system in order for this change to have an effect.
+
+If you experience the audio latency increasing over play-time, open `/etc/pulse/default.pa`, find a line that says:
+```
+load-module module-udev-detect
+```
+and change it to:
+```
+load-module module-udev-detect fixed_latency_range=yes
+```
+Then reboot the system. Note that this may cause severe audio glitches in certain applications (for example the Discord voice chat).
+
 ## Troubleshooting
 
 ### The game doesn’t launch
 
 Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
+
+#### Linux
+
+Quaver needs `libgdiplus.so` and `libdl.so` installed to run. If you’re using Debian, Ubuntu, Mint or other Debian-based distribution, try this command:
+```shell
+sudo apt install libc6-dev libgdiplus
+```
+If you’re running Fedora, try this:
+```shell
+sudo dnf install glibc-devel libgdiplus
+```
+If you’re running Arch Linux, try this:
+```shell
+sudo pacman -S glibc libgdiplus
+```
 
 ### I can’t upload my mapset using the editor
 
