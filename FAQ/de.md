@@ -68,7 +68,7 @@ Eine häufige Empfehlung zur Reduktion von Audiofehlern ist es, `/etc/security/l
 ```
 your_username      -   rtprio      99
 ```
-hinzuzufügen. Ersetze `your_username` durch deinen Linux Benutzernamen. Starte das System neu, damit die Änderung in Kraft treten.
+hinzuzufügen. Ersetze `your_username` durch deinen Linux Benutzernamen. Starte das System neu, damit die Änderung in Kraft tritt.
 
 Falls du eine zunehmende Audiolatenz während des Spielens feststellst, öffne `/etc/pulse/default.pa`, finde die Zeile, in der
 ```
