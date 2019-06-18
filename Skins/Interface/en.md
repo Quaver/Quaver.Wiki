@@ -706,6 +706,90 @@ and more.
 
 * None
 
+--- 
+
+### Scoreboard Red Team ###
+
+`/Scoreboard/scoreboard-red-team.png`
+
+![](img/Scoreboard/scoreboard-red-team.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidLeft | - |
+
+**Notes:**
+
+- Background image that shows for the red team's scoreboard (not including the player themself)
+
+**skin.ini Values:**
+
+* None
+
+--- 
+
+
+### Scoreboard Red Team Other ###
+
+`/Scoreboard/scoreboard-red-team-other.png`
+
+![](img/Scoreboard/scoreboard-red-team-other.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidLeft | - |
+
+**Notes:**
+
+- Background image that shows for all ofther players on the red team (not including the player themself)
+
+**skin.ini Values:**
+
+* None
+
+---
+
+### Scoreboard Blue Team ###
+
+`/Scoreboard/scoreboard-blue-team.png`
+
+![](img/Scoreboard/scoreboard-blue-team.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidLeft | - |
+
+**Notes:**
+
+- Background image that shows for the blue team's scoreboard (not including the player themself)
+
+**skin.ini Values:**
+
+* None
+
+--- 
+
+
+### Scoreboard Blue Team Other ###
+
+`/Scoreboard/scoreboard-blue-team-other.png`
+
+![](img/Scoreboard/scoreboard-blue-team-other.png)
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidLeft | - |
+
+**Notes:**
+
+- Background image that shows for all ofther players on the blue team (not including the player themself)
+
+**skin.ini Values:**
+
+* None
+
+---
+
 ## Skip Display ##
 
 ### Skip ###
@@ -745,3 +829,45 @@ and more.
 **skin.ini Values:**
 
 - None
+
+---
+
+## Battle Royale ##
+
+### Eliminated ###
+
+`/Multiplayer/eliminated.png`
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidCenter | None |
+
+**Notes:**
+
+- Displayed whenever you're eliminated from battle royale
+
+**skin.ini Values:**
+
+- BattleRoyaleAlertPosX
+- BattleRoyaleAlertPosY
+- BattleRoyaleAlertScale
+
+---
+
+### Warning ###
+
+`/Multiplayer/warning.png`
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidCenter | None |
+
+**Notes:**
+
+- Displayed whenever you're in last place for battle royale
+
+**skin.ini Values:**
+
+- BattleRoyaleAlertPosX
+- BattleRoyaleAlertPosY
+- BattleRoyaleAlertScale
