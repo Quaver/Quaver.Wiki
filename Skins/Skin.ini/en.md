@@ -52,6 +52,9 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | KpsDisplayScale | Integer | The size of the keys per second display |
 | ComboPosY | Integer | The Y position of the combo display relative to its default position |
 | ComboDisplayScale | Integer | The size of the combo display |
+| RatingDisplayPosX | Integer | The x position of the display that shows the current score rating | 
+| RatingDisplayPosX | Integer | The y position of the display that shows the current score rating |
+| RatingDisplayScale | Integer | The size of the rating display |
 | JudgementBurstPosY | Integer | The Y position of the judgement burst relative to the middle of the screen |
 | HealthBarType | `Horizontal` or `Vertical` | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
 | HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` | Where the health bar is positioned in relation to the stage |
@@ -68,3 +71,8 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | JudgementCounterSize | Integer | The width and height of the judgement counter | 
 | DrawLongNoteEnd | Boolean (True or False) | True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs | 
 | DeadNoteColor | RGB Color (255,255,255) | The tint of the dead notes (for example, long notes released too early) | 
+| BattleRoyaleAlertPosX | Integer | The x position on the screen where the alerts for battle royale will be placed |
+| BattleRoyaleAlertPosY | Integer | The y position on the screen where the alerts for battle royale will be placed |
+| BattleRoyaleAlertScale | Integer | The size of the battle royale alert image
+| BattleRoyaleEliminatedPosX | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
+| BattleRoyaleEliminatedPosY | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
