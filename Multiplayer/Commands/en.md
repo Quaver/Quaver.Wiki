@@ -1,6 +1,6 @@
 # Quaver Multiplayer Command List
 
-Quaver offers over 20 commands that you can use to customize your multiplayer match efficiently:
+Quaver offers over 20 commands that you can use to customize your multiplayer match.
 
 ## Game Setup
 
