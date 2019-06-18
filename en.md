@@ -5,6 +5,7 @@ Welcome to the Quaver wiki! Here you can find a bunch of information related to 
 * [Gameplay](/Gameplay/)
 * [Rules](/Rules/)
 * [Skins](/Skins/)
+* [Multiplayer](/Multiplayer/)
 * [Ranking Criteria & Process](/Ranking/)
 * [Frequently Asked Questions](/FAQ/)
 * [Legal](/Legal/)
