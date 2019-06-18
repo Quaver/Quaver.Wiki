@@ -788,6 +788,8 @@ and more.
 
 * None
 
+---
+
 ## Skip Display ##
 
 ### Skip ###
@@ -827,3 +829,45 @@ and more.
 **skin.ini Values:**
 
 - None
+
+---
+
+## Battle Royale ##
+
+### Eliminated ###
+
+`/Multiplayer/eliminated.png`
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidCenter | None |
+
+**Notes:**
+
+- Displayed whenever you're eliminated from battle royale
+
+**skin.ini Values:**
+
+- BattleRoyaleAlertPosX
+- BattleRoyaleAlertPosY
+- BattleRoyaleAlertScale
+
+---
+
+### Warning ###
+
+`/Multiplayer/warning.png`
+
+| Animatable | Alignment | Suggested Size |
+|:-:|:-:|:-:|
+| No | MidCenter | None |
+
+**Notes:**
+
+- Displayed whenever you're in last place for battle royale
+
+**skin.ini Values:**
+
+- BattleRoyaleAlertPosX
+- BattleRoyaleAlertPosY
+- BattleRoyaleAlertScale
