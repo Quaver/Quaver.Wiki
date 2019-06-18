@@ -2,7 +2,7 @@
 
 Playing online with other people is one of the many neat features Quaver offers. With multiplayer being very customizable and expandable, you have enough out of the box to play casually or to even host your own tournament-oriented games.
 
-If you're looking for multiplayer chat commands, they can be found [here](/Multiplayer/).
+If you're looking for multiplayer chat commands, they can be found [here](/Multiplayer/Commands).
 
 ## Game Modes
 
