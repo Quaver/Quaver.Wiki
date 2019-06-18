@@ -49,4 +49,4 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 ## Bots
 
 * **!mp bots [number]** - Adds bots to the multiplayer game **(Developers Only)**
-* **!mp nukebots** - Removes all bots from the multiplayer game **(Developers Only**
+* **!mp nukebots** - Removes all bots from the multiplayer game **(Developers Only)**
