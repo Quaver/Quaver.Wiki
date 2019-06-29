@@ -1,6 +1,6 @@
 # Quaver Wiki
 
-Bem vindo a Quaver wiki! Aqui você pode encontrar várias informações relacionadas ao jogo
+Bem vindo à Quaver wiki! Aqui você pode encontrar várias informações relacionadas ao jogo
 
 * [Gameplay](/Gameplay/)
 * [Regras](/Rules/)
