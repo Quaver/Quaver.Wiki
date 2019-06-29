@@ -45,6 +45,10 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 * • **!mp referee [user_name]** - Designates a player to be the referee of the game
 * • **!mp clearreferee** - Removes referee status from the current referee.
 
+## Invites
+
+* • **!mp invite [user_name]** - Sends a multiplayer lobby invite to the specified player.
+
 ## Bots
 
 * • **!mp bots [number]** - Adds bots to the multiplayer game **(Developers Only)**
