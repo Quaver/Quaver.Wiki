@@ -4,8 +4,6 @@
 
 ### O que é Quaver?
 
-Quaver is a community-driven and open source competitive rhythm game. It is inspired by a variety of classic rhythm games and plans to expand on them by being focused on real-time competitive play.
-
 Quaver é um jogo de ritmo competitivo open source e guiado pela comunidade. É inspirado por uma variedade de jogos de ritmo clássicos e planeja expandi-los sendo focado em gameplay* competitivo em tempo real.
 
 ### Como Quaver é diferente de outros jogos?
