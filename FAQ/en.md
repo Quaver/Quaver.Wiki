@@ -34,6 +34,10 @@ You cannot download maps from the Quaver website, however you can still download
 
 We do not have an estimate for the public release date yet.
 
+### How to redeem your key once you receieve it?
+
+To redeem your key, follow [these steps](https://support.steampowered.com/kb_article.php?ref=5414-TFBN-1352)
+
 ## Gameplay
 
 ### What game modes does Quaver support?
@@ -104,3 +108,19 @@ sudo pacman -S glibc libgdiplus
 ### I can’t upload my mapset using the editor
 
 If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](https://quavergame.com/upload/mapset/) page.
+
+### I'm getting "Content File Locked" while trying to download Quaver on Steam
+
+This seems to be an issue related to Steam.
+
+A few things that might help fix this problem can be, running Steam as administrator, restarting your computer, and verifying the integrity of Quaver's game files.
+
+If none of these work for you, you might find the answer in one of these forum threads:
+- [Thread One (SteamCommunity)](https://steamcommunity.com/app/346110/discussions/0/333656722964822410/)
+- [Thread Two (Reddit)](https://www.reddit.com/r/Steam/comments/5cnjzf/content_file_locked/)
+
+### The game launched with a resolution bigger than my monitor's, thus making it unplayable
+
+If your game launched with this issue, close Quaver and navigate to the game's steam local files.
+
+Open the `quaver.cfg` file and look for the configuration options `WindowHeight`, `WindowWidth`, and `WindowFullScreen`. Proceed to set your desired window resolution. The next step is optional, it'd be a good idea to set `WindowFullScreen` to False until you start the client back up to avoid further problems.
