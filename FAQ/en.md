@@ -105,6 +105,12 @@ If you’re running Arch Linux, try this:
 sudo pacman -S glibc libgdiplus
 ```
 
+#### Windows 7
+
+To run .NET Core on Windows 7, you need some extra dependencies.
+
+Follow the steps in the purple box on [this](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore2x#net-core-dependencies) website.
+
 ### I can’t upload my mapset using the editor
 
 If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](https://quavergame.com/upload/mapset/) page.
