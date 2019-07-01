@@ -60,11 +60,46 @@ Jede Fehlermeldung sollte bei unserer [GitHub Belangen](https://github.com/Quave
 
 Genau wie bei den Fehlermeldungen, gehören neue Funktionen in unsere [GitHub Belangen](https://github.com/Quaver/Quaver/issues). Wähle einfach "Feature Request", wenn du ein neues Thema erstellst.
 
+### Wie reduziere ich die Audiolatenz der Hitsounds unter Linux?
+
+In den Audio Optionen findest du die “Audio Device Period” und die “Audio Device Buffer Length” Einstellung. Allgemein gilt: wenn du diese Werte verringerst, verringert sich auch die Latenz, allerdings wird die CPU stärker beansprucht und die Wahrscheinlichkeit für Audiofehler erhöht sich. Versuche die Einstellung der Periode auf 2ms und die der Pufferlänge auf 8ms zu setzen und starte das Spiel neu. Falls Audiofehler auftreten, versuche die Periode oder Pufferlänge zu erhöhen.
+
+Eine häufige Empfehlung zur Reduktion von Audiofehlern ist es, `/etc/security/limits.conf` zu öffnen und eine Zeile der Form
+```
+your_username      -   rtprio      99
+```
+hinzuzufügen. Ersetze `your_username` durch deinen Linux Benutzernamen. Starte das System neu, damit die Änderung in Kraft tritt.
+
+Falls du eine zunehmende Audiolatenz während des Spielens feststellst, öffne `/etc/pulse/default.pa`, finde die Zeile, in der
+```
+load-module module-udev-detect
+```
+steht und ändere sie zu:
+```
+load-module module-udev-detect fixed_latency_range=yes
+```
+Starte dann das System neu. Bedenke, dass dies schwerwiegende Audiofehler in manchen Anwendungen hervorrufen kann (zum Beispiel im Discord Sprachchat).
+
 ## Fehlerbehebung
 
 ### Das Spiel startet nicht
 
 Stelle sicher, dass Steam läuft, da Steam benötigt wird, um Quaver zu starten. Dies gilt auch für die offline Version.
+
+#### Linux
+
+Quaver benötigt `libgdiplus.so` und `libdl.so` um zu laufen. Falls du Debian, Ubuntu, Mint oder andere Debian basierte Distributionen verwendest, versuche diesen Befehl:
+```shell
+sudo apt install libc6-dev libgdiplus
+```
+Falls du Fedora benutzt, versuche das:
+```shell
+sudo dnf install glibc-devel libgdiplus
+```
+Falls du Arch Linux benutzt, versuche das:
+```shell
+sudo pacman -S glibc libgdiplus
+```
 
 ### Ich kann meine Map nicht über den Editor hochladen
 
