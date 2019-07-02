@@ -130,3 +130,9 @@ If none of these work for you, you might find the answer in one of these forum t
 If your game launched with this issue, close Quaver and navigate to the game's steam local files.
 
 Open the `quaver.cfg` file and look for the configuration options `WindowHeight`, `WindowWidth`, and `WindowFullScreen`. Proceed to set your desired window resolution. The next step is optional, it'd be a good idea to set `WindowFullScreen` to False until you start the client back up to avoid further problems.
+
+### My antivirus detected Quaver as malicious software
+
+This is due to the fact that the game files are not digitally signed for their authenticity as this requires purchasing and maintaining costs for a Digital Certificate.
+
+To avoid Quaver being picked up by your antivirus, add `Quaver.exe` or the local files directory to your antivirus's whitelist.
