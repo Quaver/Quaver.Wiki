@@ -127,9 +127,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HitObjects ###
 
-`/4k/Notes/HitObjects/note-hitobject-{1-4}.png`
+`/4k/HitObjects/note-hitobject-{1-4}.png`
 
-`/7k/Notes/HitObjects/note-hitobject-{1-7}.png`
+`/7k/HitObjects/note-hitobject-{1-7}.png`
 
 ![](img/Notes/4K/HitObjects/bar-4k-note-hitobject-2.png)
 
@@ -140,7 +140,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 **Notes:**
 
 - The note that falls down the screen for non-hold objects.
-- File names if `ColorObjectsBySnapDistance` is set to true in skin.ini: `/4k/Notes/HitObjects/note-hitobject-{1-4}-{2nd, 3rd, 4th, 6th, 8th, 12th, 16th, 48th}.png`
+- File names if `ColorObjectsBySnapDistance` is set to true in skin.ini: `/4k/HitObjects/note-hitobject-{1-4}-{2nd, 3rd, 4th, 6th, 8th, 12th, 16th, 48th}.png`
 
 **skin.ini Values:**
 
@@ -151,9 +151,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HoldHitObjects ###
 
-`/4k/Notes/HoldHitObjects/note-holdhitobject-{1-4}.png`
+`/4k/HoldHitObjects/note-holdhitobject-{1-4}.png`
 
-`/7k/Notes/HoldHitObjects/note-holdhitobject-{1-7}.png`
+`/7k/HoldHitObjects/note-holdhitobject-{1-7}.png`
 
 ![](img/Notes/4K/HoldHitObjects/bar-4k-note-holdhitobject-2.png)
 
@@ -164,7 +164,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 **Notes:**
 
 - The note that falls down the screen for hold objects.
-- File names if `ColorObjectsBySnapDistance` is set to true in skin.ini: `/4k/Notes/HoldHitObjects/note-hitholdobject-{1-4}-{2nd, 3rd, 4th, 6th, 8th, 12th, 16th, 48th}.png`
+- File names if `ColorObjectsBySnapDistance` is set to true in skin.ini: `/4k/HoldHitObjects/note-hitholdobject-{1-4}-{2nd, 3rd, 4th, 6th, 8th, 12th, 16th, 48th}.png`
 
 **skin.ini Values:**
 
@@ -175,9 +175,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HoldBodies ###
 
-`/4k/Notes/HoldBodies/note-holdbody-{1-4}.png`
+`/4k/HoldBodies/note-holdbody-{1-4}.png`
 
-`/7k/Notes/HoldEnds/note-holdbody-{1-7}.png`
+`/7k/HoldEnds/note-holdbody-{1-7}.png`
 
 ![](img/Notes/4K/HoldBodies/bar-4k-note-holdbody-2.png)
 
@@ -187,8 +187,8 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **Notes:**
 
-- Spritesheet animation file name for 4K: `/4k/Notes/HoldBodies/note-holdbody-{1-4}@{rows}x{columns}.png`
-- Spritesheet animation file name for 7K: `/7k/Notes/HoldEnds/note-holdbody-{1-7}@{rows}x{columns}.png`
+- Spritesheet animation file name for 4K: `/4k/HoldBodies/note-holdbody-{1-4}@{rows}x{columns}.png`
+- Spritesheet animation file name for 7K: `/7k/HoldEnds/note-holdbody-{1-7}@{rows}x{columns}.png`
 - The body of a hold (long) note.
 - If animation spritesheet is specified, frames animate at a speed of 30 FPS.
 
@@ -201,9 +201,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HoldEnds ###
 
-`/4k/Notes/HoldEnds/note-holdend-{1-4}.png`
+`/4k/HoldEnds/note-holdend-{1-4}.png`
 
-`/7k/Notes/HoldEnds/note-holdend-{1-7}.png`
+`/7k/HoldEnds/note-holdend-{1-7}.png`
 
 ![](img/Notes/4K/HoldEnds/bar-4k-note-holdend-2.png)
 
