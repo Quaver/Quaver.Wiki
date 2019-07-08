@@ -23,6 +23,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |:-:|:-:|:-:|
 | StageReceptorPadding | Integer | The amount of space between between the stage background's border and first/last column |
 | BgMaskAlpha | Float (0.0-1.0) | The alpha channel/opacity of the [Stage Bg Mask]() |
+| BgMaskPadding | Integer | The amount of space between the Stage Bg Mask and the edges of the stage |
 | HitPosOffsetY | Integer | The offset of the hit position relative to its default location at the edge of the receptors |
 | NotePadding | Integer | The amount of space between each column |
 | ColumnLightingScale | Float | The height scale of the column lighting to make it bigger or smaller.
@@ -50,6 +51,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | KpsDisplayPosX | Integer | The X position of the keys per second display relative to its default position |
 | KpsDisplayPosY | Integer | The Y position of the keys per second display relative to its default position |
 | KpsDisplayScale | Integer | The size of the keys per second display |
+| ComboPosX | Integer | The Y position of the combo display relative to its default position |
 | ComboPosY | Integer | The Y position of the combo display relative to its default position |
 | ComboDisplayScale | Integer | The size of the combo display |
 | RatingDisplayPosX | Integer | The x position of the display that shows the current score rating | 
@@ -75,3 +77,5 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | BattleRoyaleAlertScale | Integer | The size of the battle royale alert image
 | BattleRoyaleEliminatedPosX | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
 | BattleRoyaleEliminatedPosY | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
+| ColumnLightingOffsetY | Integer | The Y Offset of the Column Lighting relative to the receptors |
+| SongTimeProgressScale | Integer | The size of the song's time progress |
