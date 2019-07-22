@@ -42,7 +42,7 @@ The following pertains to the spread of difficulty each mapset must follow.
 
 ##### Difficulty Names & Description
 
-These are the standard difficulty names that should be used for mapsets. The names of the difficulties must follow proper naming conventions.
+The difficulties must use the standard difficulty names.
 
 The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity for individual cases. It is only to serve a general outlook on how each map should look and feel.
 
