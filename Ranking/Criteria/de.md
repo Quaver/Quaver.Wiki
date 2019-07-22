@@ -1,6 +1,6 @@
 # Quaver Ranking Kriterien
 
-Damit deine Mapset in den Ranked Status versetzt werden kann, muss es die folgenden Kriterien beachten. Falls es sie nicht tut, wirst du möglicherweise gebeten dein Mapset zu verändern und sie dann wieder einzureichen.
+Damit dein Mapset in den Ranked Status versetzt werden kann, muss es die folgenden Kriterien beachten. Falls es sie nicht tut, wirst du möglicherweise gebeten dein Mapset zu verändern und es dann wieder einzureichen.
 
 Falls du den Ranking Ablauf suchst, siehe: [Quaver Ranking Ablauf](/Ranking/Process).
 
@@ -10,11 +10,11 @@ Falls du den Ranking Ablauf suchst, siehe: [Quaver Ranking Ablauf](/Ranking/Proc
 
 ### Metadaten
 
-Folgendes trifft auf Metadaten zu, welche deine Map enthält, wie z.B. Song Titel, Künstler und Tags (Schlagwörter).
+Folgendes trifft auf Metadaten zu, welche deine Map enthält, wie z.B. Song, Titel, Künstler und Tags (Schlagwörter).
 
 * • **Der Künstler und der Titel müssen absolut korrekt sein.**
 * • **Tags müssen das Genre des Songs enthalten.**
-* • **Metadaten dürfen keine nicht-romanisierten Zeichen enthalten.** Falls der Song Titel in einer anderen Sprache ist, nutze eine angemessene englische Übersetzung.
+* • **Metadaten dürfen keine nicht-romanisierten Zeichen enthalten.** Falls der Titel in einer anderen Sprache ist, nutze eine angemessene englische Übersetzung.
 
 ### Medien
 
@@ -40,7 +40,7 @@ Folgendes betrifft die Verteilung der Schwierigkeiten des Mapsets zu.
 
 ##### Schwierigkeitsnamen & Beschreibung
 
-Dies sind die standard Schwierigkeitsnamen welche für Mapsets genutzt werden oder in irgendeiner Form ausgeschrieben vorhanden sein müssen.
+Dies sind die Standard Schwierigkeitsnamen welche für Mapsets genutzt werden müssen oder in irgendeiner Form ausgeschrieben vorhanden sein müssen.
 
 Die folgenden Beschreibungen beschreiben wie jede Schwierigkeit typischerweise aussieht. Diese sind nicht konkret, und es bleit Raum für Subjektivität für einzelne Fälle. Es soll nur ein ungefähres Bild darstellen, wie jede Schwierigkeit aussieht und sich spielt.
 
@@ -76,7 +76,7 @@ Die folgenden Beschreibungen beschreiben wie jede Schwierigkeit typischerweise a
 
 ##### Difficulty Spread Rules
 
-Die Mindestanzahl an benötigten Schwierigkeiten, so wie die einfachste benötigte Schwierigkeit **skalieren anhand auf der Länge des Songs bzw. der Map.**
+Die Mindestanzahl an benötigten Schwierigkeiten, sowie die einfachste benötigte Schwierigkeit **skalieren anhand der Länge des Songs bzw. der Map.**
 
 | Länge       | Mindestanzahl an benötigeten Maps         | Leichteste benötigte Schwierigkeit  |
 | ------------- |:-------------:| -----:| 
@@ -87,7 +87,7 @@ Die Mindestanzahl an benötigten Schwierigkeiten, so wie die einfachste benötig
 | **4:30+** | 1      |    Any |
 
 ##### Multi-Modus
-* • **Jeder Spielmodus wird seperat behandelt.** Wenn du ein Mapset für 4K und 7K erstellst, musst du eine angemesse Schwierigkeitsverteilung für beide Spielmodi haben. **Wenn du beide Spielmodi hast, müssen deine Schwierigkeitenmit entweder "4K" oder "7K" beginnen.** (Beispiel: "7K Insane").
+* • **Jeder Spielmodus wird seperat behandelt.** Wenn du ein Mapset für 4K und 7K erstellst, musst du eine angemesse Schwierigkeitsverteilung für beide Spielmodi haben. **Wenn dein Mapset beide Spielmodi besitzt, müssen deine Schwierigkeitenmit entweder mit "4K" oder "7K" beginnen.** (Beispiel: "7K Insane").
 
 ## Richtlinien
 
