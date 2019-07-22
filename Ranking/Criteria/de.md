@@ -6,8 +6,6 @@ Falls du den Ranking Ablauf suchst, siehe: [Quaver Ranking Ablauf](/Ranking/Proc
 
 ## Vorschriften
 
-**You must follow all the requirements listed in this section. Failing to meet all the requirements will not allow your map to recieve ranked status.**
-
 **Du musst alle Vorraussetzungen in diesem Abschnitt befolgen. Falls du nicht alle Vorraussetzungen befolgst, wird es nicht möglich sein dein Mapset in den Ranked Status zu versetzen.**
 
 ### Metadaten
@@ -42,11 +40,9 @@ Folgendes betrifft die Verteilung der Schwierigkeiten des Mapsets zu.
 
 ##### Schwierigkeitsnamen & Beschreibung
 
-Dies sind die standard Schwierigkeitsnamen welche für Mapsets genutzt werden sollten. Die Namen der Schwierigkeiten müssen den ordnungsgemäßen Richtlinien entsprechen.
+Dies sind die standard Schwierigkeitsnamen welche für Mapsets genutzt werden oder in irgendeiner Form ausgeschrieben vorhanden sein müssen.
 
-The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity for individual cases. It is only to serve a general outlook on how each map should look and feel.
-
-Die folgenden Beschreibungen beschreiben wie jede Schwierigkeit typischerweise aussieht. Diese sind nicht konkret, und es bleit Raum für Subjektivität für einzelne Fälle. Es soll nur ein ungefähres Bild darstellen, wie jede Schwierigkeits aussieht und sich spielt.
+Die folgenden Beschreibungen beschreiben wie jede Schwierigkeit typischerweise aussieht. Diese sind nicht konkret, und es bleit Raum für Subjektivität für einzelne Fälle. Es soll nur ein ungefähres Bild darstellen, wie jede Schwierigkeit aussieht und sich spielt.
 
 * • **Beginner**
      * • Für Spieler die zum ersten Mal Kontakt mit Rhythmusspielen haben. 
@@ -80,7 +76,7 @@ Die folgenden Beschreibungen beschreiben wie jede Schwierigkeit typischerweise a
 
 ##### Difficulty Spread Rules
 
-The minimum required difficulties in a set and the easiest required difficulty **are scaled based on the length of the song/map.** 
+Die Mindestanzahl an benötigten Schwierigkeiten, so wie die einfachste benötigte Schwierigkeit **skalieren anhand auf der Länge des Songs bzw. der Map.**
 
 | Länge       | Mindestanzahl an benötigeten Maps         | Leichteste benötigte Schwierigkeit  |
 | ------------- |:-------------:| -----:| 
