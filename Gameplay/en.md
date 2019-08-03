@@ -45,8 +45,8 @@ You receive one judgement per regular note and two judgements for a long note (p
 | Judgement | Weighting                                            |
 |-------|------------------------------------------------------------|
 |  Marvelous    | 100% |
-|  Perfect    | 96% |
-|  Great    | 50% |
+|  Perfect    | 98.25% |
+|  Great    | 65% |
 |  Good    | 25% |
 |  Okay    | -100% |
 |  Miss   | -50% |
