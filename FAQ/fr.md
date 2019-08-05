@@ -1,4 +1,4 @@
-﻿# Foire Aux Question
+﻿# Foire Aux Questions
 
 ## Géneral
 
