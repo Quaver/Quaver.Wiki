@@ -1,12 +1,12 @@
 # Déroulement de Classification Quaver
 
-Ce document décrit le processus de classification d'un mapset à partir de son envoie jusqu'à sa validation par nos Responsables de Classification.
+Ce document décrit le processus de classification d'un mapset à partir de son envoi jusqu'à sa validation par nos Responsables de Classification.
 
 Si vous cherchez les critères qu'un mapset doit suivre pour pouvoir être classé, jetez un œil aux [Critères de Classification Quaver](/Ranking/Criteria).
 
 ## Préface
 
-Notre objectif avec ce processus de classification est de fournir une approche simplifié pour classer des mapsets. Au cours de ce procédé, vos maps seront examinées pour vérifier les cohérence avec nos [Critères de Classification](/Ranking/Criteria). Avant de soumettre votre set pour la classification, assurez-vous qu'il respecte les critères, car il y a un temps avant de pouvoir soumettre à nouveau votre set s'il a été refusé.
+Notre objectif avec ce processus de classification est de fournir une approche simplifiée pour classer des mapsets. Au cours de ce procédé, vos maps seront examinées pour vérifier la cohérence avec nos [Critères de Classification](/Ranking/Criteria). Avant de soumettre votre set pour la classification, assurez-vous qu'il respecte les critères, car il y a un temps avant de pouvoir soumettre à nouveau votre set s'il a été refusé.
 
 Si votre mapset est refusé pour la classification, **il faudra attendre 7 jours** avant que vous puissiez le soumettre à nouveau.
 
@@ -36,7 +36,7 @@ Si votre mapset est considéré comme répondant à nos critères, il sera plac�
 
 ## Le Processus
 
-Cette section décrit le processus pour qu'un mapset soit classé de A à Z, en commençant par l'envoie du mapset lui-même.
+Cette section décrit décrit de A à Z le processus pour qu'un mapset soit classé, en commençant par l'envoi du mapset lui-même.
 
 ### 1. Envoyer un Mapset
 
@@ -44,7 +44,7 @@ La première étape pour la classification d'un mapset est de l'envoyer. Vous po
 
 ### 2. Obtenir des Réactions
 
-Après avoir envoyé votre set, il est important de d'y recevoir des commentaires et des retours dessus, avant de le soumettre pour la classification. C'est la qu'intervient la communauté. Bien que nous n'ayons actuellement aucun système en place pour obtenir des retours structurées d'autres joueurs, il est important d'avoir plusieurs points de vue sur votre set pour s'assurer qu'il respecte les critères de classification. Nous cherchons à simplifier cette étape à l'avenir.
+Après avoir envoyé votre set, il est important de recevoir des commentaires et des retours dessus, avant de le soumettre pour la classification. C'est là qu'intervient la communauté. Bien que nous n'ayons actuellement aucun système en place pour obtenir des retours structurés d'autres joueurs, il est important d'avoir plusieurs points de vue sur votre set pour s'assurer qu'il respecte les critères de classification. Nous cherchons à simplifier cette étape à l'avenir.
 
 ### 3. Soumettre pour la Classification
 
@@ -62,9 +62,9 @@ Vous pouvez vérifier l'état du vote pour votre set en allant sur la page de vo
 
 Une fois que votre mapset aura reçu 2 votes positifs, il sera automatiquement placé à l'état *Ranked*.
 
-Chaque mapset est examiné par nos Responsables dans l'ordre de leurs soumissions dans la file d'attente pour la classification. Les sets contenants le plus grand nombre de votes de Responsables à un moment donné ont la priorité.
+Chaque mapset est examiné par nos Responsables dans l'ordre de leur soumission dans la file d'attente pour la classification. Les sets contenants le plus grand nombre de votes de Responsables à un moment donné ont la priorité.
 
-Les Responsables n'ont pas non plus le droit de voter pour leur propre mapsets. Ils doivent passer par le même processus que tous les autres utilisateurs et attendre leur tour respectif dans la file d'attente de classification.
+Les Responsables n'ont pas non plus le droit de voter pour leurs propres mapsets. Ils doivent passer par le même processus que tous les autres utilisateurs et attendre leur tour respectif dans la file d'attente de classification.
 
 ### 5a. Mapset Denied *(Refusé)*
 
