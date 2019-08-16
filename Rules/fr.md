@@ -20,8 +20,8 @@ Les règles suivantes s'appliquent quand vous utilisez notre menu de discussion 
 1. **Respectez tout le monde** - Nous ne tolererons aucune remarque condescendante, ou des commentaires ayant pour but d'humilier qui que ce soit. Les sarcasmes ne sont pas les bienvenus ici. Merci d'éviter de dénigrer un individu ou une communauté. Harceler d'autres utilisateurs n'est pas tolérable non plus.
 2. **Ne choquez pas les plus jeunes** - Pas de pornographie, de gore, ou de roleplay érotique. Personne ne veux voir ça ici. Enfreindre cette règle peut valoir un mute ou un ban selon la sévérité.
 3. **Restez cohérents avec les canaux de discussion** - Les canaux de discussion en jeu sont créés avec un certain objectif en tête. N'en divaguez pas trop.
-4. **Faites des critiques constructives** - Les retours sont les bienvenus tant qu'ils sont constructifs. Chaque décisions du développement, mapping, artistique, ou de design ont des raisons en amont. Nous aimerions que chacuns respectent cela. Nous ne sommes pas là pour démoraliser les autres.
-5. **Pas de publicité, de politique, de religion, de cassage d'oreille, de spam, de raid, ou n'importe contenu malvenu** - La publicité inclue des jeux, sites, ou serveurs de discussion tiers. Soyez courtois. Cela va de sois.
+4. **Faites des critiques constructives** - Les retours sont les bienvenus tant qu'ils sont constructifs. Chaque décision artistique, de développement, de design ou de mapping a une raison en amont. Nous aimerions que chacuns respectent cela. Nous ne sommes pas là pour démoraliser les autres.
+5. **Pas de publicité, de politique, de religion, de cassage d'oreille, de spam, de raid, ou n'importe contenu malvenu** - La publicité inclue des jeux, sites, ou serveurs de discussion tiers. Soyez courtois. Cela va de soi.
 
 ### Règles de soumission des mapsets
 
