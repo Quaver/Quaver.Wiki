@@ -1,8 +1,8 @@
-# Critères de Classification Quaver
+# Critères de Ranking Quaver
 
 Pour qu'un mapset soit classé, il doit respecter les critères énumérés ci-dessous. S'il ne suit pas un des points, il se peut qu'on vous demande de modifier votre mapset et de le soumettre à nouveau pour le classer. 
 
-Si vous cherchez le déroulement pour qu'un mapset soit classé, jetez un œil au [Déroulement de Classification Quaver](/Ranking/Process).
+Si vous cherchez le déroulement pour qu'un mapset soit classé, jetez un œil au [Déroulement du Ranking Quaver](/Ranking/Process).
 
 ## Impératifs
 
@@ -99,7 +99,7 @@ De plus, **chaque mode de jeu est traité séparément.** Si vous créez un maps
 
 ## Directives
 
-Ce qui suit sont les directives à prendre en compte lors de la création de votre mapset et de sa classification. **Il ne sont pas indispensables et doivent être pris avec des pincettes.** Notre intention est de permettre aux mappeurs d'être créatifs avec les types de maps qu'ils produisent. En tant que tel, ces directives sont simplement un moyen d'augmenter vos chances d'obtenir votre mapset classé - bien que des exceptions puissent être faites.
+Ce qui suit sont les directives à prendre en compte lors de la création de votre mapset et de son ranking. **Il ne sont pas indispensables et doivent être pris avec des pincettes.** Notre intention est de permettre aux mappeurs d'être créatifs avec les types de maps qu'ils produisent. En tant que tel, ces directives sont simplement un moyen d'augmenter vos chances d'obtenir votre mapset classé - bien que des exceptions puissent être faites.
 
 * **L'intensité de la map doit généralement être liée à la musique** - Si une musique est relativement douce, la map devrait refléter cette douceur, et vice versa.
 * **Vos maps devraient généralement utiliser plusieurs couches *(layering)*** - Mapper avec différents instruments de musique fera en sorte que votre map reflète d'avantage la musique.
