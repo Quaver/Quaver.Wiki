@@ -66,7 +66,8 @@ Comme pour les signalements de bugs, les propositions de fonctionnalité doivent
 
 ### Comment puis-je réduire la latence audio des hitsounds sur Linux?
 
-Dans les options Audio vous pouvez trouver les paramètres  “Audio Device Period” et “Audio Device Buffer Length”. La rêgle de base est: tant que vous baissez ces valeurs la latence baisse, mais l'utilisation du CPU et la probabilité de problèmes de son augmentent. Essayez de paramètrer la "Period" par tranche de 2 ms et la "Buffer Length" à 8 ms et relancez le jeu. S'il y a des problèmes de son, essayez d'aumenter la "Period" ou la "Buffer Length".Pour réduire les problèmes de son nous recommendons d'ouvrir le fichier `/etc/security/limits.conf` et d'y ajouter une ligne comme ceci:
+Dans les options Audio vous pouvez trouver les paramètres  “Audio Device Period” et “Audio Device Buffer Length”. La rêgle de base est: tant que vous baissez ces valeurs la latence baisse, mais l'utilisation du CPU et la probabilité de problèmes de son augmentent. Essayez de paramètrer la "Period" par tranche de 2 ms et la "Buffer Length" à 8 ms et relancez le jeu. S'il y a des problèmes de son, essayez d'aumenter la "Period" ou la "Buffer Length".
+Pour réduire les problèmes de son nous recommendons d'ouvrir le fichier `/etc/security/limits.conf` et d'y ajouter une ligne comme ceci:
 ```
 votre_nom_d'utilisateur      -   rtprio      99
 ```
@@ -77,19 +78,23 @@ load-module module-udev-detect
 et changez la en:
 ```
 load-module module-udev-detect fixed_latency_range=yes
-```Et redemarrer le système. Notez que cela peut entraîner de sevères problèmes de son sur d'autres applications (Par exemple la discussion vocale de Discord).
+```
+Et redemarrer le système. Notez que cela peut entraîner de sevères problèmes de son sur d'autres applications (Par exemple la discussion vocale de Discord).
 
-## Dépannage### Le jeu ne se lance pasRegardez bien si Steam est en train de tourner, car Quaver a besoin de Steam pour se lancer. Cela s'applique aussi à la version hors-ligne!
+## Dépannage### Le jeu ne se lance pas
+Regardez bien si Steam est en train de tourner, car Quaver a besoin de Steam pour se lancer. Cela s'applique aussi à la version hors-ligne!
 
 #### Linux
 
 Quaver à besoin de `libgdiplus.so` et `libdl.so` d'installés pour se lancer. Si vous utilisez Debian, Ubuntu, Mint ou d'autres distributions basée sur Debian, essayez cette commande:
 ```shell
 sudo apt install libc6-dev libgdiplus
-```Si vous utilisez Fedora, essayez cela:
+```
+Si vous utilisez Fedora, essayez cela:
 ```shell
 sudo dnf install glibc-devel libgdiplus
-```Si vous utilisez Arch Linux, essayez cela:
+```
+Si vous utilisez Arch Linux, essayez cela:
 ```shell
 sudo pacman -S glibc libgdiplus
 ```
