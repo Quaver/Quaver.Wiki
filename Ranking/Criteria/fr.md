@@ -14,15 +14,15 @@ Ce qui suit concerne les métadonnées que vos maps contiennent, telles que les 
 
 * **L'artiste et le titre doivent être absolument corrects.**
 * **Les tags doivent contenir le genre de la musique.**
-* **Les métadonnées ne doivent pas contenir caractères non romanisés.** Si le nom de la musique est dans une autre langue, utiliser la traduction Anglaise appropriée.
+* **Les métadonnées ne doivent pas contenir de caractères non romanisés.** Si le nom de la musique est dans une autre langue, utiliser la traduction Anglaise appropriée.
 
 ### Médias
 
 Ce qui suit concerne les fichiers médias comme les images d'arrière plan et les fichiers audio que contient votre mapset.
 
-* **La taille totale du mapset (.qp) doit être de 15 Mégabits (Mb) au maximum.**
+* **La taille totale du mapset (.qp) doit être de 15 Megaoctets (Mo) au maximum.**
 * **La résolution des images d'arrière plan doit être d'au moins 1280x720** et d'une qualité exceptionnelle.
-* **Votre mapset doit contenir seulement un fichier audio.** Les mapsets ave plusieurs fichiers audio ne peuvent pas être éligibles pour être classés.
+* **Votre mapset doit contenir seulement un fichier audio.** Les mapsets avec plusieurs fichiers audio ne peuvent pas être éligibles pour être classés.
 * **Le bitrate maximum autorisé pour les fichiers audio est de 192kbps.**
 
 ### Maps 
@@ -30,8 +30,8 @@ Ce qui suit concerne les fichiers médias comme les images d'arrière plan et le
 Les conditions suivantes s'appliquent aux maps individuelles.
 
 * **L'autoplay doit pouvoir atteindre un score de 100% (Grade X).**
-* **Vos maps ne doit pas comporter de notes se chevauchants.**
-* **Vous ne pouvez pas avoir plus de 30 secondes consécutive de temps de pause.**
+* **Vos maps ne doivent pas comporter de notes se chevauchant.**
+* **Vous ne pouvez pas avoir plus de 30 secondes consécutives de temps de pause.**
 * **Plus de 75% de la longueur de la map doit avoir des notes à jouer.**
 * **Vous devez placer au moins une note par colonne.**
 * **Votre map doit avoir une durée totale d'au moins 45 secondes.**
@@ -49,29 +49,29 @@ Les descriptions qui suivent décrivent à quoi chaque difficulté devrait resse
 * **Beginner** *(Débutant)*
      * Pour les joueurs s'exposant aux jeux de rythme pour la première fois.
      * Les notes doivent être généralement un temps sur deux la plupart du temps, et une fois par temps pour mettre l'accent sur la musique.
-     * Les sauts (jumps) conviennent à cette difficulté lorsqu'il s'agit d'insister sur des sons importants de la musique.
+     * Les jumps conviennent à cette difficulté lorsqu'il s'agit d'insister sur des sons importants de la musique.
      
 * **Easy** *(Facile)*
      * Cette difficulté peut être vue comme une difficulté "Débutant Améliorée".
-     * Les joueurs de ce niveau pourront jouer à des vitesses légèrement plus élevées et exécuter des paternes plus complexes.
+     * Les joueurs de ce niveau pourront jouer à des vitesses légèrement plus élevées et exécuter des patterns plus complexes.
      * Les joueurs jouant cette difficulté sont généralement à l'aise avec les streams à une note par beat et les bursts en 1/2.
-     * Les jumps peuvent être utilisés plus librement, mais avec modération, car les joueurs de ce niveau peuvent encore avoir des difficultés avec eux.
+     * Les jumps peuvent être utilisés plus librement, mais avec modération, car les joueurs de ce niveau peuvent encore avoir des difficultés avec ceux-ci.
      
 * **Normal** *(Normal)*
-     * Les maps de ce niveau devraient généralement commencer à se diversifier dans des paternes qui ne sous-estiment pas la musique autant que les maps faciles et débutantes.
+     * Les maps de ce niveau devraient généralement commencer à se diversifier dans des patterns qui ne sous-estiment pas la musique autant que les maps faciles et débutantes.
      * Les rythmes 1/2 avec des placements de notes et de jumps plus complexes sont adaptés à cette difficulté.
      
 * **Hard** *(Difficile)*
      * A ce niveau, votre créativité en tant que mappeur est capable de se démarquer, car il y a beaucoup moins de restrictions que dans les difficultés précédentes.
      * Les map de ce niveau peuvent se diviser en streams 1/4 légers avec des jumps intercalés en fonction du BPM de la musique.
-     * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
+     * L'utilisation d'un plus grand nombre de longue notes convient à ce niveau de difficulté, étant donné que les joueurs seront typicalement en train d'apprendre à en jouer plus fréquemment.
 
 * **Insane** *(Fou, Insensé)*
-     * Les joueurs de ce niveau seront en mesure de gérer une grande variété de paternes à densités plus faible, y compris, mais sans s'y limiter, aux éléments suivants : 
+     * Les joueurs de ce niveau seront en mesure de gérer une grande variété de patterns à densités plus faible, y compris, mais sans s'y limiter, aux éléments suivants : 
           * Jacks Légers
-          * Usage Complexe de Longues Notes
+          * Usage Complexe de Longue Notes
           * Jumpstreams Légers
-     * Les paternes plus denses conviennent à ce niveau s'ils sont simples et faciles à exécuter - comme les jumptrills.
+     * Les patterns plus denses conviennent à ce niveau s'ils sont simples et faciles à exécuter - comme les jumptrills.
 
 * **Expert** *(Expert)*
      * A partir de maintenant, il n'y a plus de restriction quant à la difficulté. N'hésitez pas à être créatif.
@@ -99,10 +99,10 @@ De plus, **chaque mode de jeu est traité séparément.** Si vous créez un maps
 
 ## Directives
 
-Ce qui suit sont les directives à prendre en compte lors de la création de votre mapset et de sa classification. **Il ne sont pas indispensables et doivent être pris avec des pincettes.** Notre intention est de permettre aux mappeurs d'être créatifs avec les types de maps qu'ils produisent. En temps que telles, ces directives sont simplement un moyen d'augmenter vos chances d'obtenir votre mapset classé - bien que des exceptions puissent être faites.
+Ce qui suit sont les directives à prendre en compte lors de la création de votre mapset et de sa classification. **Il ne sont pas indispensables et doivent être pris avec des pincettes.** Notre intention est de permettre aux mappeurs d'être créatifs avec les types de maps qu'ils produisent. En tant que tel, ces directives sont simplement un moyen d'augmenter vos chances d'obtenir votre mapset classé - bien que des exceptions puissent être faites.
 
-* **L'intensité de la map doit généralement être lié à la musique** - Si une musique est relativement douce, la map devrait refléter cette douceur, et vice versa.
+* **L'intensité de la map doit généralement être liée à la musique** - Si une musique est relativement douce, la map devrait refléter cette douceur, et vice versa.
 * **Vos maps devraient généralement utiliser plusieurs couches *(layering)*** - Mapper avec différents instruments de musique fera en sorte que votre map reflète d'avantage la musique.
 * **Les pauses ne devraient être utilisées qu'en cas d'absolue nécessité** - Une musique ne comportera généralement aucun moment de silence. Les pauses doivent être utilisées avec parcimonie, surtout les plus longues.
 * **Les changements de vitesse de défilement *(Scroll Velocity, ou SV)* doivent refléter la musique** - Essayez d'éviter de changer de SV quand ce n'est pas nécessaire. Cela rendrait généralement votre map plus difficile à lire et plus difficilement appréciable.
-* **Les paternes que vous utilisez doivent être cohérents avec la musique** - Essayez d'éviter d'utiliser des bursts là où ils ne sont pas appropriées, par exemple avant une section dense de streams. De plus essayez d'éviter les patternes techniques ou intenses dans des endroits qui ne les nécessitent pas.
+* **Les patterns que vous utilisez doivent être cohérents avec la musique** - Essayez d'éviter d'utiliser des bursts là où ils ne sont pas appropriés, par exemple avant une section dense de streams. De plus essayez d'éviter les patterns techniques ou intenses dans des endroits qui ne le nécessitent pas.
