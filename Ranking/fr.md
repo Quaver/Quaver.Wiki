@@ -1,6 +1,6 @@
-# Classification
+# Ranking
 
-Dans cette section, vous pouvez trouver tout ce qui est lié à la classification de maps, ainsi que les critères et le déroulement pour qu'une map soit classée.
+Dans cette section, vous pouvez trouver tout ce qui est lié au ranking de maps, ainsi que les critères et le déroulement pour qu'une map soit ranked.
 
-* [Critères de Classification Quaver](/Ranking/Criteria)
-* [Déroulement du Classification Quaver](/Ranking/Process)
+* [Critères de Ranking Quaver](/Ranking/Criteria)
+* [Déroulement du Ranking Quaver](/Ranking/Process)
