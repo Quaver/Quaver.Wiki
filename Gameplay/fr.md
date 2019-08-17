@@ -1,6 +1,6 @@
 # Gameplay de Quaver
 
-Cette section explique les différentes parties du gameplay de Quaver. Elle donne un résumé de la manière dont le jeu est joué, son calcule de score, notation, système de classement, et plus encore !
+Cette section explique les différentes parties du gameplay de Quaver. Elle donne un résumé de la manière dont le jeu est joué, son calcul de score, notation, système de classement, et plus encore !
 
 ## Mode de jeu : Les touches
 
@@ -9,7 +9,7 @@ Cette section explique les différentes parties du gameplay de Quaver. Elle donn
 </p>
 
 
-Quaver est créé pour supporter plusieurs modes de jeu, mais il se concentre principalement sur le mode de jeu "de touches". Le concept de ce mode de jeu a été utilisé dans plusieurs jeux de rythme, comme Beatmania, Dance Dance Revolution, et osu!.
+Quaver est créé pour supporter plusieurs modes de jeu, mais il se concentre principalement sur le mode de jeu Keys. Le concept de ce mode de jeu a été utilisé dans plusieurs jeux de rythme, comme Beatmania, Dance Dance Revolution, et osu!.
 
 Le concept de ce mode de jeu est simple : Les notes descendes depuis le haut de l'écran (ou monte depuis le bas, en fonction de la direction choisie), et l'objectif est d'appuyer sur la bonne touche au bon moment. 
 
@@ -61,7 +61,7 @@ La formule est relativement simple, c'est la difficulté d'une map multiplié pa
 
 #### Classement Global
 
-Votre classement global est un total pondéré de toutes vos parties joué dans le mode de jeu "de touches" (4K ou 7K). Le 4K et 7K sont séparés et ont chacun un classement différent.
+Votre classement global est un total pondéré de toutes vos parties joué dans le mode de jeu Keys (4K ou 7K). Le 4K et 7K sont séparés et ont chacun un classement différent.
 
 Seulement votre meilleur score sur une map compte, et surpasse toutes les autres parties sur cette même map.
 
@@ -73,9 +73,9 @@ Le calcul du total pondéré est similaire aux Points de Performances (PP), util
 
 Le score est une autre mesure de vos performances en jeu dans Quaver. C'est principalement une manière de mesurer à quelle fréquence vous êtes capable de tenir un combo en corrélation avec les appréciations obtenues. Ce système n'est utilisé dans aucun classement global, et est dans le jeu purement sous une forme d'"xp". Chaque map à un score maximum de 1 million de points.
 
-#### Fenêtre de jugement d'erreurs relatives au temps (Judgement Timing)
+#### Fenêtre de jugement d'erreurs relatives au temps *(Judgement Timing)*
 
-Cette section explique la manière dont est utilisée la fenêtre de jugement qu'utilise Quaver. Elle détaille le temps en millisecondes nécessaire pour appuyer sur une touche pour une note dans le but de la taper au bon moment. Actuellement, il y a une fenêtre de jugement d'erreurs relatives au temps dans Quaver. Cependant, cela pourrais changer dans le future.
+Cette section explique la manière dont est utilisée la fenêtre de jugement qu'utilise Quaver. Elle détaille le temps en millisecondes nécessaire pour appuyer sur une touche pour une note dans le but de la taper au bon moment. Actuellement, il y a une seule fenêtre de jugement d'erreurs relatives au temps dans Quaver. Cependant, cela pourrait changer dans le futur.
 
 | Appréciation | Délai  |
 |--------------|--------|
@@ -86,7 +86,7 @@ Cette section explique la manière dont est utilisée la fenêtre de jugement qu
 | Okay         | ±127ms |
 | Miss         | ±164ms |
 
-Si lors du relâchement d'une longue note (Slider), vous obtenez l'appréciation `Okay`, cela est bien pire qu'un raté (miss) pour le calcul de la précision.
+Si lors du relâchement d'une longue note, vous obtenez l'appréciation `Okay`, cela est bien pire qu'un raté (miss) pour le calcul de la précision.
 
 #### Combo
 
@@ -94,8 +94,8 @@ Le combo est obtenu lorsque vous tapez avec succès sur les notes sans erreur.
 
 * Ne pas appuyer sur une note dans le temps qui lui est imparti reviendra à obtenir un raté (miss).
 * Appuyer sur une note trop tôt (164ms) reviendra à obtenir un raté (miss), remettant à 0 votre combo.
-* Ne pas relâcher une note longue (slider) reviendra à obtenir un `Okay`, ce qui ne réinitialise pas pou autant votre combo.
+* Ne pas relâcher une note longue reviendra à obtenir un `Okay`, ce qui ne réinitialise pas pou autant votre combo.
 
-### Texturations (Skins)
+### Skins
 
 Vous pouvez complètement customiser le jeu à vos envies. [Jetez un coup d'œil  à la section Texturation/Touches du wiki](/Skins/Keys).

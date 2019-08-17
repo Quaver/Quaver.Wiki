@@ -6,7 +6,7 @@ Quaver propose plus de 20 commandes que vous pouvez utiliser pour personnaliser 
 
 * • **!mp kick [nom_utilisateur]** - Expulse un joueur de la partie multijoueur
 * • **!mp name [nom]** - Change le nom de la partie multijoueur
-* • **!mp host [nom_utilisateur]** - Transfert le rôle de maître de salle de la partie multijoueur au joueur spécifié 
+* • **!mp host [nom_utilisateur]** - Transfère le rôle de maître de salle de la partie multijoueur au joueur spécifié 
 * • **!mp hostrotation** - Active/Désactive la rotation automatique de maître de salle pour le match
 * • **!mp maxplayers [nombre]** - Change le nombre maximum de joueur dans la salle de la partie multijoueur
 
@@ -31,7 +31,7 @@ Quaver propose plus de 20 commandes que vous pouvez utiliser pour personnaliser 
 * • **!mp lnmax [0-100]** - Modifie le pourcentage maximum de notes longues qu'une map doit avoir pour être sélectionnée
 
 ## Mod Libre & Vitesse Libre
-* • **!mp freemod** - Active/Désactive les mods libres for pour cette partie multijoueur
+* • **!mp freemod** - Active/Désactive les mods libres pour cette partie multijoueur
 * • **!mp freerate** - Autorise/Interdit aux joueurs d'utiliser n'importe quel mod de vitesse de défilement
 
 ## Compteur de Victoires
