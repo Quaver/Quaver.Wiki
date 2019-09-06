@@ -45,8 +45,8 @@ Du erhälst ein Judgement für jede normale Note und zwei Judgements für eine L
 | Judgement | Gewichtung                                            |
 |-------|------------------------------------------------------------|
 |  Marvelous    | 100% |
-|  Perfect    | 96% |
-|  Great    | 50% |
+|  Perfect    | 98.25% |
+|  Great    | 65% |
 |  Good    | 25% |
 |  Okay    | -100% |
 |  Miss   | -50% |
