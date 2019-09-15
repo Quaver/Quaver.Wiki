@@ -68,7 +68,7 @@ Solo il tuo miglior punteggio sarà considerato nella completezza della sua valu
 
 Il calcolo **della media della somma** è simile ai "Performance Points", usati nel gioco ritmico osu!.
 
-`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[1] * 95^2 + ...`
+`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[3] * 95^2 + ...`
 
 #### Punteggio
 
@@ -80,12 +80,12 @@ Questa sezione espone come la tempistica dei giudizi è utilizzata su Quaver. Il
 
 | Giudizio | Finestra                                        |
 |-------|------------------------------------------------------------|
-|  Marvelous    | Â±18ms |
-|  Perfect    | Â±43ms |
-|  Great    | Â±76ms |
-|  Good    | Â±106ms |
-|  Okay    | Â±127ms |
-|  Miss   | Â±164ms |
+|  Marvelous    | ±18ms |
+|  Perfect    | ±43ms |
+|  Great    | ±76ms |
+|  Good    | ±106ms |
+|  Okay    | ±127ms |
+|  Miss   | ±164ms |
 
 Quando non rilasci una nota lunga, otterai come giudizio un Okay, il quale è significatamente peggiore di un Miss per quanto riguarda la percentuale della precisione
 
