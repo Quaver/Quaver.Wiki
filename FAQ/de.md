@@ -1,4 +1,4 @@
-# Häufig gestellte Fragen
+# Häufig gestellte Fragen (FAQ)
 
 ## Allgemein
 
@@ -104,3 +104,26 @@ sudo pacman -S glibc libgdiplus
 ### Ich kann meine Map nicht über den Editor hochladen
 
 Falls es zu Fehlern beim Hochladen über den Client kommt, kannst du die Map manuell auf der [Mapset Hochladen](https://quavergame.com/upload/mapset/) Seite hochladen.
+
+### Mir wird "Content File Locked" angezeigt wenn ich probiere Quaver auf Steam herunterzuladen
+
+Das sieht wie ein Problem mit Steam aus.
+
+Dinge, die dieses Problem beheben könnten sind Steam als Administrator neuzustarten, deinen Computer neuzustarten, und die Integrität deiner Quaver Dateien zu überprüfen.
+
+Falls es trotzdem nicht funktioniert, kannst du die Lösung vielleicht in einer dieser Forum Threads finden:
+- [Thread One (SteamCommunity)](https://steamcommunity.com/app/346110/discussions/0/333656722964822410/)
+- [Thread Two (Reddit)](https://www.reddit.com/r/Steam/comments/5cnjzf/content_file_locked/)
+
+### Das Spiel hat mit einer höheren Auflösung als die von meinem Monitor unterstützten Auflösung gestartet und ich kann dadurch das Spiel nicht navigieren.
+
+If your game launched with this issue, close Quaver and navigate to the game's steam local files.
+Schließe Quaver und öffne das Quaver Verzeichnis.
+
+Öffne die `quaver.cfg` und schau nach den Konfigurationsoptionen `WindowHeight`, `WindowWidth`, und `WindowFullScreen`. Setze danach deine gewünschte Fensterauflösung. Folgendes ist optional, aber es ist eine gute Idee `WindowFullScreen` auf False zu setzen, bis du den Quaver Client wieder gestartet hast um weitere Probleme zu verhindern.
+
+### Mein Antiviren-Programm hat Quaver als schädliche Software erkannt
+
+Das kommt daher, dass die Spieldateien keiner Verifizierung untergangen sind, was den Erwerb eines digitalen Zertifikats benötigt.
+
+Um zu vermeiden, dass Quaver von deinem Antiviren-Programm als schädlich erkannt wird, füge `Quaver.exe` oder das Quaver Verzeichnis zu deiner Antiviren-Programm Whitelist.
