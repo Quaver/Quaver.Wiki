@@ -45,8 +45,8 @@ Du erhälst ein Judgement für jede normale Note und zwei Judgements für eine L
 | Judgement | Gewichtung                                            |
 |-------|------------------------------------------------------------|
 |  Marvelous    | 100% |
-|  Perfect    | 96% |
-|  Great    | 50% |
+|  Perfect    | 98.25% |
+|  Great    | 65% |
 |  Good    | 25% |
 |  Okay    | -100% |
 |  Miss   | -50% |
@@ -67,7 +67,7 @@ Nur deine höchste Spielwertung wird als volle Punktzahl in die Gesamtbewertung 
 
 Die gewichtete Summenberechnung ist ähnlich zu den Performance Points, im osu! Rhythmus Spiel.
 
-`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[1] * 95^2 + ...`
+`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[3] * 95^2 + ...`
 
 #### Punkte
 

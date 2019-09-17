@@ -99,7 +99,7 @@ Furthermore, **each game mode is treated separately.** If you are creating a map
 The following are guidelines to consider when creating your mapset and submitting it for ranked status. **These are not mandatory and should be taken with a grain of salt.** Our intentions with this are to allow mappers to be creative with the types of maps they produce. As such, these guidelines are merely a way to increase your chances of getting your mapset ranked - although exceptions can be made.
 
 * • **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
-* • **Your map should generally make use of layering.** - Mapping to different intstruments in the song will make your map reflect the music more.
+* • **Your map should generally make use of layering.** - Mapping to different instruments in the song will make your map reflect the music more.
 * • **Breaks should only be used when absolutely necessary** - A song will generally not have any silent moments throughout it. Breaks should be used sparingly - especially long ones.
 * • **Scroll Velocity changes should reflect the music** - Try to avoid changing SV when the must doesn't call for it. This will generally make your map more difficult to read and harder to enjoy.
 * • **The patterns you use should be consistent and follow the music** - Try to avoid using bursts where they aren't appropriate, such as before a dense stream section. Furthermore, try to avoid technical or intense patterns in places that do not call for them.
