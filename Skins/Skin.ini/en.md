@@ -55,7 +55,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | ComboPosY | Integer | The Y position of the combo display relative to its default position |
 | ComboDisplayScale | Integer | The size of the combo display |
 | RatingDisplayPosX | Integer | The x position of the display that shows the current score rating | 
-| RatingDisplayPosX | Integer | The y position of the display that shows the current score rating |
+| RatingDisplayPosY | Integer | The y position of the display that shows the current score rating |
 | RatingDisplayScale | Integer | The size of the rating display |
 | JudgementBurstPosY | Integer | The Y position of the judgement burst relative to the middle of the screen |
 | HealthBarType | `Horizontal` or `Vertical` | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
