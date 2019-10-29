@@ -7,9 +7,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### Column Lighting ###
 
-`/4k/Column/column-lighting.png`
+`/4k/Lighting/column-lighting.png`
 
-`/7k/Column/column-lighting.png`
+`/7k/Lighting/column-lighting.png`
 
 ![](img/Column/4K/bar-4k-column-lighting.png)
 
@@ -151,9 +151,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HoldHitObjects ###
 
-`/4k/HoldHitObjects/note-holdhitobject-{1-4}.png`
+`/4k/HitObjects/note-holdhitobject-{1-4}.png`
 
-`/7k/HoldHitObjects/note-holdhitobject-{1-7}.png`
+`/7k/HitObjects/note-holdhitobject-{1-7}.png`
 
 ![](img/Notes/4K/HoldHitObjects/bar-4k-note-holdhitobject-2.png)
 
@@ -175,9 +175,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HoldBodies ###
 
-`/4k/HoldBodies/note-holdbody-{1-4}.png`
+`/4k/HitObjects/note-holdbody-{1-4}.png`
 
-`/7k/HoldEnds/note-holdbody-{1-7}.png`
+`/7k/HitObjects/note-holdbody-{1-7}.png`
 
 ![](img/Notes/4K/HoldBodies/bar-4k-note-holdbody-2.png)
 
@@ -201,9 +201,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ### HoldEnds ###
 
-`/4k/HoldEnds/note-holdend-{1-4}.png`
+`/4k/HitObjects/note-holdend-{1-4}.png`
 
-`/7k/HoldEnds/note-holdend-{1-7}.png`
+`/7k/HitObjects/note-holdend-{1-7}.png`
 
 ![](img/Notes/4K/HoldEnds/bar-4k-note-holdend-2.png)
 
