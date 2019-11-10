@@ -42,7 +42,7 @@ We will only share your personal information if it is for the purposes of where 
 
 ## Cookies
 
-We use cookies and similar technologies such as pixels and local storage to recognize you when you return to our Services. We use them in various ways, for example to log you in, remember your preferences (such as default language), evaluate email effectiveness, and personalize information.
+We use cookies and similar technologies such as local storage to recognize you when you return to our Services. We use them in various ways, for example to log you in, remember your preferences (such as default language), evaluate email effectiveness, and personalize information.
 
 Some third-party services that we use, such as embedly or Google Analytics, may place their own cookies in your browser. This Privacy Policy covers use of cookies by Quaver only and not the use of cookies by third parties.
 
