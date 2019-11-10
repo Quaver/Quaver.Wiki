@@ -3,18 +3,18 @@ Parfois la configuration par défaut des skins peut ne pas être assez bien et v
 
 ## Général ##
 
-La section [General] du fichier de configuration contient des métadonnées à propos du skin - son auteur, son nom, ainsi que sa version - aussi bien que des propriétés non-spécifiques aux mode de touches. C'est principalement pour pour laisser savoir aux gens de quoi votre skin en retourne.
+La section [General] du fichier de configuration contient des métadonnées à propos du skin - son auteur, son nom, ainsi que sa version - aussi bien que des propriétés non-spécifiques aux mode de touches. C'est principalement pour laisser savoir aux gens de quoi votre skin en retourne.
 
 | Valeur | Type de donnée | Notes |
 |:-:|:-:|:-:|
 | Name | String | Le nom du skin |
 | Author | String | Le créateur/auteur du skin |
 | Version | String | Le numéro de la version du skin |
-| CenterCursor | Boolean (True ou False) | Si l'image du curseur devrait être centrée (par example si c'est un cercle) |
+| CenterCursor | Boolean (True ou False) | Si l'image du curseur devrait être centrée (par exemple si c'est un cercle) |
 
 ## Keys ##
 
-Cette section est pour manipuler les éléments pour le mode de jeu Keys incluant le 4K et le 7K.
+Cette section explique comment manipuler les éléments pour le mode de jeu Keys incluant le 4K et le 7K.
 
 * Pour commencer à manipuler des éléments pour le 4K, créez une section dans le fichier intitulé `[4K]` et mettez toutes les propriétés de votre config en dessous.
 * Pour commencer à manipuler des éléments pour le 7K, créez une section dans le fichier intitulé `[7K]` et mettez toutes les propriétés de votre config en dessous.
@@ -24,17 +24,17 @@ Cette section est pour manipuler les éléments pour le mode de jeu Keys incluan
 | StageReceptorPadding | Integer | La quantité d'espace entre la bordure du fond du niveau et la première/dernière colonne. |
 | BgMaskAlpha | Float (0.0-1.0) | Le canal/opacité alpha du [Stage Bg Mask]() |
 | BgMaskPadding | Integer | La quantité d'espace entre le Stage Bg Mask et les bords de la scène |
-| HitPosOffsetY | Integer | L'offset de la hit position relativementment à sa position par défaut au bord des recepteurs. |
+| HitPosOffsetY | Integer | L'offset de la hit position relativement à sa position par défaut au bord des recepteurs. |
 | NotePadding | Integer | La quantité d'espace entre chaque colonne |
-| ColumnLightingScale | Float | L'échelle de hauteur de l'éclairage des colonnes pour le rendre plus grand ou plus petit..
+| ColumnLightingScale | Float | L'échelle de hauteur de l'éclairage des colonnes pour le rendre plus grand ou plus petit.
 | ColumnSize | Integer | La taille de chaque colonne. La même taille pour chaque colonne |
 | ReceptorPosOffsetY | Integer | La position y des recepteur relativement à sa position par défaut à l'écran |
 | ColumnAlignment | Integer (Pourcentage) | Une valeur en pourcentage de la largeur de l'écran où la scène sera placée. |
-| ColorObjectsBySnapDistance | Boolean (True ou False) | Si true, cela regardera les noms des fichiers relativement à la distance de capture. Voir la section [HitObjects]() pour plus d'informations. |
+| ColorObjectsBySnapDistance | Boolean (True ou False) | Si True, cela regardera les noms des fichiers relativement à la distance de capture. Voir la section [HitObjects]() pour plus d'informations. |
 | JudgementHitBurstScale | Float | L'échelle des judgement hit burst pour en changer la taille. |
-| ReceptorsOverHitObjects | Boolean (True ou False) | Si true, les recepteurs vont être au-dessus des hitobjects quand ils tomberont et vice-versa. |
+| ReceptorsOverHitObjects | Boolean (True ou False) | Si True, les recepteurs vont être au-dessus des hitobjects quand ils tomberont et vice-versa. |
 | ColumnColor{1-7} | RGB Color (255,255,255) | La couleur dans laquelle la  [Column Lighting]() est teintée dans la ligne spécifiée. |
-| FlipNoteImagesOnUpscroll | Boolean (True ou False) | Si true, les notes vont être renversée en bas si l'upscroll est activé. |
+| FlipNoteImagesOnUpscroll | Boolean (True ou False) | Si True, les notes vont être renversée en bas si l'upscroll est activé. |
 | FlipNoteEndImagesOnUpscroll | Boolean (True ou False) | Si true, la fin des notes va être renversée en bas si l'upscroll est activé. |
 | HitLightingY | Integer | La position Y du hit/holdlighting relativement à sa position par défaut. |
 | HitLightingX | Integer | La position Y du hit/holdlighting relativement au centre du recepteur. |
@@ -42,7 +42,7 @@ Cette section est pour manipuler les éléments pour le mode de jeu Keys incluan
 | HitLightingHeight | Integer | La taille du hit/holdlighting |
 | HitLightingFps | Integer | Les images par secondes à laquelle l'animation de hitlighting se jouera (Par défaut 60FPS) |
 | HoldLightingFps | Integer | Les images par secondes à laquelle l'animation de holdlighting se jouera (Par défaut 60FPS) |
-| ScoreDisplayPosX | Integer | La position X de l'affichage du score relativement à sa position par défaut.The X position of the score display relativement to its default position |
+| ScoreDisplayPosX | Integer | La position X de l'affichage du score relativement à sa position par défaut. |
 | ScoreDisplayPosY | Integer | La position Y de l'affichage du score relativement à sa position par défaut. |
 | ScoreDisplayScale | Integer | La taille de l'affichage du score. |
 | AccuracyDisplayPosX | Integer | La position X de l'affichage de la précision relativement à sa position par défaut |
@@ -58,7 +58,7 @@ Cette section est pour manipuler les éléments pour le mode de jeu Keys incluan
 | RatingDisplayPosX | Integer | La position Y de l'affichage qui montre le taux de score actuel |
 | RatingDisplayScale | Integer | La taille de l'affichage du taux de score |
 | JudgementBurstPosY | Integer | La position Y du judgement burst relativement au milieu de l'écran |
-| HealthBarType | `Horizontal` ou `Vertical` | Le type de bar de vie qu'est votre image. Si elle est horizontale, spécifiez horizontal et vice-versa |
+| HealthBarType | `Horizontal` ou `Vertical` | Le type de barre de vie qu'est votre image. Si elle est horizontale, spécifiez horizontal et vice-versa |
 | HealthBarKeysAlignment | `LeftStage`, `RightStage` ou `TopLeft` | Là où se trouve la barre de vie selon la scène. |
 | HitErrorPosX | Integer | La position X du hit error |
 | HitErrorPosY | Integer | La position Y du hit error |
