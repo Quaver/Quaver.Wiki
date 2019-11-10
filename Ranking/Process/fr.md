@@ -6,7 +6,7 @@ Si vous cherchez les critères qu'un mapset doit suivre pour pouvoir être ranke
 
 ## Préface
 
-Notre objectif avec ce processus de Ranking est de fournir une approche simplifiée pour rendre des mapsets rankeds. Au cours de ce procédé, vos maps seront examinées pour vérifier la cohérence avec nos [Critères de Ranking](/Ranking/Criteria). Avant de soumettre votre set pour le Ranking, assurez-vous qu'il respecte les critères, car il y a un délai avant de pouvoir soumettre à nouveau votre set s'il a été refusé.
+Notre objectif avec ce processus de Ranking est de fournir une approche simplifiée pour classer des mapsets. Au cours de ce procédé, vos maps seront examinées pour vérifier la cohérence avec nos [Critères de Ranking](/Ranking/Criteria). Avant de soumettre votre set pour le Ranking, assurez-vous qu'il respecte les critères, car il y a un délai avant de pouvoir le faire à nouveau s'il a été refusé.
 
 Si votre mapset est refusé pour le Ranking, **il faudra attendre 7 jours** avant que vous puissiez le soumettre à nouveau.
 
@@ -16,7 +16,7 @@ Il y a plusieurs états dans lesquels une map peut se trouver, en relation avec 
 
 ### Unranked *(Non classée)*
 
-Lorsque vous envoyez un mapset pour la première fois, toutes vos maps seront placées à l'état *Unranked*. Tant vos maps sont dans cet état, elles ne seront pas éligibles pour participer aux scores globaux, mais elles sont tout de même téléchargeables par la communauté.
+Lorsque vous envoyez un mapset pour la première fois, toutes vos maps seront placées à l'état *Unranked*. Tant que vos maps sont dans cet état, elles ne seront pas éligibles pour participer aux scores globaux, mais elles sont tout de même téléchargeables par la communauté.
 
 ### Pending *(En attente)*
 
