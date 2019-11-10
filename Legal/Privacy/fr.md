@@ -1,6 +1,6 @@
 # Politique de Confidentialité de Quaver
 
-Date Effectove: 14 Décembre 2018.
+Date Effective: 14 Décembre 2018.
 
 ## Information Générale
 
@@ -16,7 +16,7 @@ Lors de la création d'un compte en jeu, nous recueillons votre nom d'utilisateu
 
 ### À l'Envoi de Contenu Publié par l'Utilisateur
 
-Lorsque vous publiez du contenu sur nos services, utilisez notre chat en jeu ou publiez des commentaires sur notre système de soumission de mapset, vous publiez efficacement des informations pour que le public puisse les voir. Nous stockons et publions ces informations telles que fournies par l'utilisateur. Dans certains cas, ces informations ne peuvent pas être supprimées par l'utilisateur - par exemple lorsque le contenu publié par l'utilisateur gagne le statut *Ranked*.
+Lorsque vous publiez du contenu sur nos services, utilisez notre chat en jeu ou publiez des commentaires sur notre système de soumission de mapset, vous publiez en connaissance de cause des informations pour que le public puisse les voir. Nous stockons et publions ces informations telles que fournies par l'utilisateur. Dans certains cas, ces informations ne peuvent pas être supprimées par l'utilisateur - par exemple lorsque le contenu publié par l'utilisateur gagne le statut *Ranked*.
 
 ### Utilisation de Notre Client de Jeu
 
@@ -42,7 +42,7 @@ Nous ne partagerons vos renseignements personnels que si c'est dans le but de le
 
 ## Cookies
 
-Nous utilisons des cookies et des technologies similaires telles que les pixels et le stockage local pour vous reconnaître lorsque vous revenez sur nos Services. Nous les utilisons de diverses façons, par exemple pour vous connecter, pour mémoriser vos préférences (comme la langue par défaut), pour évaluer l'efficacité de vos e-mails et pour personnaliser les informations.
+Nous utilisons des cookies et des technologies similaires telles que le stockage local pour vous reconnaître lorsque vous revenez sur nos Services. Nous les utilisons de diverses façons, par exemple pour vous connecter, pour mémoriser vos préférences (comme la langue par défaut), pour évaluer l'efficacité de vos e-mails et pour personnaliser les informations.
 
 Certains services tiers que nous utilisons, tels que embedly ou Google Analytics, peuvent placer leurs propres cookies dans votre navigateur. La présente politique de confidentialité couvre uniquement l'utilisation de cookies par Quaver et non l'utilisation de cookies par des tiers.
 
