@@ -1,5 +1,5 @@
 # Texturage de l'interface de gameplay
-L'interface de gameplay inclus les éléments de texture généraux qui sont présents dans tous les modes de jeu. Cela inclut des  éléments comme les affichages de nombres, les tableaux de score, les Judgements, et plus encore.
+L'interface de gameplay inclut les éléments de texture généraux qui sont présents dans tous les modes de jeu. Cela inclut des  éléments comme les affichages de nombres, les tableaux de score, les Judgements, et plus encore.
 
 ## Curseur ##
 
