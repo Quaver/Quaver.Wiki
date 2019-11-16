@@ -65,7 +65,7 @@ Your overall rating is a weighted sum of all your plays in the Keys (4K or 7K) g
 
 Only your top score will account for the full amount of score rating, and it will decrease will each lower score.
 
-The weighted sum calculation is similar to Performance Points, used in the rhtyhm game osu!.
+The weighted sum calculation is similar to Performance Points, used in the rhythm game osu!.
 
 `overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[3] * 95^2 + ...`
 
