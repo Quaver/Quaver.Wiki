@@ -89,7 +89,7 @@ The easiest required difficulty **is scaled based on the length of the song/map.
 | **4:30+** |     Any |
 
 Additionally, you must have all the difficulties in between the "Easiest Required Difficulty" and the highest difficulty in your mapset.
-For example, a 2 minute Insane map must also include an Easy, Normal and Hard difficulty.
+For example, a 2 minute Insane map must also include Easy, Normal and Hard difficulties.
 
 ##### Multi-Game Mode Sets
 
