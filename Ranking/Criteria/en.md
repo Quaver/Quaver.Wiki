@@ -74,8 +74,7 @@ The following descriptions are what each difficulty should typically look like. 
 * • **Expert** 
      * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative. 
 * • **Custom** 
-     * The hardest difficulty in your mapset can have a custom difficulty name.
-
+     * Any difficulty other than the mandatory spread difficulties are custom difficulties and can have custom difficulty names.
 ##### Difficulty Spread Rules
 
 The easiest required difficulty **is scaled based on the length of the song/map.** 
