@@ -223,7 +223,9 @@ and more.
 | Name | Possible Values | Notes |
 |:-:|:-:|:-:|
 | HealthBarType | `Horizontal` or `Vertical` | If your image is horizontal, set it to horizontal. If vertical, set it to vertical. |
-| HealthBarKeysAlignment | `RightStage`, `LeftStage`, or `TopLeft` | Determines where to place the health bar in the Keys game mode.
+| HealthBarKeysAlignment | `RightStage`, `LeftStage`, or `TopLeft` | Determines where to place the health bar in the Keys game mode. |
+| HealthBarPosOffsetX | Integer | The health bar's x position relative to its default location |
+| HealthBarPosOffsetY | Integer | The health bar's y position relative to its default location |
 
 ---
 
