@@ -79,3 +79,5 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | BattleRoyaleEliminatedPosY | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
 | ColumnLightingOffsetY | Integer | The Y Offset of the Column Lighting relative to the receptors |
 | SongTimeProgressScale | Integer | The size of the song's time progress |
+| HealthBarPosOffsetX | Integer | The health bar's x position relative to its default location |
+| HealthBarPosOffsetY | Integer | The health bar's y position relative to its default location |
