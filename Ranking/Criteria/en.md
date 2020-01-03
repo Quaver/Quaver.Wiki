@@ -20,20 +20,20 @@ The following pertains to metadata that your maps contain such as song artists, 
 
 The following pertains to media files such as background images and audio files that are contained in your mapset.
 
-* • **The total file size of the mapset (.qp) must be 15 megabytes (mb) or smaller**
+* • **The total file size of the mapset (.qp) must be 15 megabytes (mb) or smaller.**
 * • **The resolution of background images must be at least 1280x720** and of exceptionally high quality.
 * • **Your mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
-* • **The max bitrate allowed for audio files are 192kbps**
+* • **The maximum bitrate allowed for audio files is 192kbps.**
 
 ### Maps 
 
 The following requirements are for the individual maps themselves.
 
-* • **Autoplay must be able to achieve a 100% (X-Grade) score**
+* • **Autoplay must be able to achieve a 100% (X-Grade) score.**
 * • **Your maps must not have overlapping notes.**
-* • **You cannot have more than 30 seconds of consecutive break time**
-* • **More than 75% of the length of the song must have notes to play**
-* • **You must place at least one note in each column**
+* • **You cannot have more than 30 seconds of consecutive break time.**
+* • **More than 75% of the length of the song must have notes to play.**
+* • **You must place at least one note in each column.**
 * • **Your maps must be at least 45 seconds long.**
 
 ### Difficulty Spread
@@ -74,19 +74,21 @@ The following descriptions are what each difficulty should typically look like. 
 * • **Expert** 
      * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative. 
 * • **Custom** 
-     * Custom difficulties can be of any difficulty range provided you have the previous ones in your set. They can have custom difficulty names as well.
-
+     * Any difficulty other than the mandatory spread difficulties are custom difficulties and can have custom difficulty names.
 ##### Difficulty Spread Rules
 
-The minimum required difficulties in a set and the easiest required difficulty **are scaled based on the length of the song/map.** 
+The easiest required difficulty **is scaled based on the length of the song/map.** 
 
-| Length       | Minimum Required Maps         | Easiest Required Difficulty  |
-| ------------- |:-------------:| -----:| 
-| **0:45-1:30**      | 3 | Beginner |
-| **1:30-2:30**      | 3      |   Easy (or lower) |
-| **2:30-3:30** | 3      |    Normal (or lower) |
-| **3:30-4:30** | 2      |    Hard (or lower) |
-| **4:30+** | 1      |    Any |
+| Length       |   Easiest Required Difficulty  |
+| ------------- | -----:| 
+| **0:45-1:30**      |  Beginner |
+| **1:30-2:30**      |    Easy (or lower) |
+| **2:30-3:30** |    Normal (or lower) |
+| **3:30-4:30** |    Hard (or lower) |
+| **4:30+** |     Any |
+
+Additionally, you must have all the difficulties in between the "Easiest Required Difficulty" and the highest difficulty in your mapset.
+For example, a 2 minute Insane map must also include Easy, Normal and Hard difficulties.
 
 ##### Multi-Game Mode Sets
 
