@@ -52,6 +52,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | KpsDisplayPosY | Integer | The Y position of the keys per second display relative to its default position |
 | KpsDisplayScale | Integer | The size of the keys per second display |
 | ComboPosX | Integer | The X position of the combo display relative to its default position |
+| ComboPosX | Integer | The Y position of the combo display relative to its default position |
 | ComboPosY | Integer | The Y position of the combo display relative to its default position |
 | ComboDisplayScale | Integer | The size of the combo display |
 | RatingDisplayPosX | Integer | The x position of the display that shows the current score rating | 
@@ -69,7 +70,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | SongTimeProgressActiveColor | RGB Color (255,255,255) | The color of the song time progress bar (active) | 
 | JudgementCounterAlpha | Float (0.0-1.0) | The alpha/opacity of the judgement counter | 
 | JudgementCounterFontColor | RGB Color (255,255,255) | The color of the judgement counter font | 
-| JudgementCounterSize| Integer | The width and height of the judgement counter | 
+| JudgementCounterSize | Integer | The width and height of the judgement counter | 
 | JudgementCounterSize | Integer | The width and height of the judgement counter | 
 | DrawLongNoteEnd | Boolean (True or False) | True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs | 
 | DeadNoteColor | RGB Color (255,255,255) | The tint of the dead notes (for example, long notes released too early) | 
@@ -78,5 +79,6 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | BattleRoyaleAlertScale | Integer | The size of the battle royale alert image
 | BattleRoyaleEliminatedPosX | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
 | BattleRoyaleEliminatedPosY | Integer | The y position of the text that shows when a player has been eliminated from battle royale |
+| BattleRoyaleEliminatedPosY | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
 | ColumnLightingOffsetY | Integer | The Y Offset of the Column Lighting relative to the receptors |
 | SongTimeProgressScale | Integer | The size of the song's time progress |
