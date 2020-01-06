@@ -51,7 +51,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | KpsDisplayPosX | Integer | The X position of the keys per second display relative to its default position |
 | KpsDisplayPosY | Integer | The Y position of the keys per second display relative to its default position |
 | KpsDisplayScale | Integer | The size of the keys per second display |
-| ComboPosX | Integer | The Y position of the combo display relative to its default position |
+| ComboPosX | Integer | The X position of the combo display relative to its default position |
 | ComboPosY | Integer | The Y position of the combo display relative to its default position |
 | ComboDisplayScale | Integer | The size of the combo display |
 | RatingDisplayPosX | Integer | The x position of the display that shows the current score rating | 
@@ -77,6 +77,6 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | BattleRoyaleAlertPosY | Integer | The y position on the screen where the alerts for battle royale will be placed |
 | BattleRoyaleAlertScale | Integer | The size of the battle royale alert image
 | BattleRoyaleEliminatedPosX | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
-| BattleRoyaleEliminatedPosY | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
+| BattleRoyaleEliminatedPosY | Integer | The y position of the text that shows when a player has been eliminated from battle royale |
 | ColumnLightingOffsetY | Integer | The Y Offset of the Column Lighting relative to the receptors |
 | SongTimeProgressScale | Integer | The size of the song's time progress |
