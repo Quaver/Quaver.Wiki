@@ -42,9 +42,9 @@ The following pertains to the spread of difficulty each mapset must follow.
 
 ##### Difficulty Names & Description
 
-The difficulties must use the standard difficulty names or contain them in any way.
+The difficulties must use the standard difficulty names or contain them in some fashion.
 
-The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity for individual cases. It is only to serve a general outlook on how each map should look and feel.
+The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
 
 * • **Beginner**
      * • For players who are being exposed to rhythm games for the first time. 
@@ -78,15 +78,14 @@ The following descriptions are what each difficulty should typically look like. 
 
 ##### Difficulty Spread Rules
 
-The minimum required difficulties in a set and the easiest required difficulty **are scaled based on the length of the song/map.** 
+| Length       | Minimum Required Maps |
+| -------------|:---------------------:|
+| **0:45-2:29**| 2                     | 
+| **2:30+**    | 1                     |
 
-| Length       | Minimum Required Maps         | Easiest Required Difficulty  |
-| ------------- |:-------------:| -----:| 
-| **0:45-1:30**      | 3 | Beginner |
-| **1:30-2:30**      | 3      |   Easy (or lower) |
-| **2:30-3:30** | 3      |    Normal (or lower) |
-| **3:30-4:30** | 2      |    Hard (or lower) |
-| **4:30+** | 1      |    Any |
+##### Skipping Difficulties
+ 
+You are **not** permitted to skip difficulties for song lengths that require more than one map. For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed.
 
 ##### Multi-Game Mode Sets
 
