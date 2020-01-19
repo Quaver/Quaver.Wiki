@@ -85,7 +85,7 @@ The following descriptions are what each difficulty should typically look like. 
 
 ##### Skipping Difficulties
  
-You are **not** permitted to skip difficulties for song lengths that require more than one map. For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed.
+You are **not** permitted to skip difficulties for song lengths that **require more than one map.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed.
 
 ##### Multi-Game Mode Sets
 
