@@ -21,61 +21,61 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 | Value | Data Type | Notes |
 |:-:|:-:|:-:|
-| StageReceptorPadding | Integer | The amount of space between between the stage background's border and first/last column |
-| BgMaskAlpha | Float (0.0-1.0) | The alpha channel/opacity of the [Stage Bg Mask]() |
-| BgMaskPadding | Integer | The amount of space between the Stage Bg Mask and the edges of the stage |
-| HitPosOffsetY | Integer | The offset of the hit position relative to its default location at the edge of the receptors |
-| NotePadding | Integer | The amount of space between each column |
-| ColumnLightingScale | Float | The height scale of the column lighting to make it bigger or smaller.
-| ColumnSize | Integer | The size of each column. Equal size for each column |
-| ReceptorPosOffsetY | Integer | The y position of the receptors relative to its default location on the screen |
-| ColumnAlignment | Integer (Percentage) | A percentage value of the width of the screen where the stage will be placed |
-| ColorObjectsBySnapDistance | Boolean (True or False) | If true, it will look for file names relative to snap distance. See the [HitObjects]() section for more information |
-| JudgementHitBurstScale | Float | The scale of the judgement hit bursts to change the size of it |
-| ReceptorsOverHitObjects | Boolean (True or False) | If true, the receptors will be over the hitobjects when they fall down and vice versa |
-| ColumnColor{1-7} | RGB Color (255,255,255) | The color in which the [Column Lighting]() is tinted in the specified lane |
-| FlipNoteImagesOnUpscroll | Boolean (True or False) | If true, the notes will be flipped upside down if upscroll is enabled |
-| FlipNoteEndImagesOnUpscroll | Boolean (True or False) | If true, the notes's ends will be flipped upside down if upscroll is enabled |
-| HitLightingY | Integer | The Y position of the hit/holdlighting relative to its default position |
-| HitLightingX | Integer | The X position of the hit/holdlighting relative to the center of the receptor |
-| HitLightingWidth | Integer | The width of the hit/holdlighting |
-| HitLightingHeight | Integer | The height of the hit/holdlighting |
-| HitLightingFps | Integer | The frames per second the hitlighting animation will run at (default 60 FPS) |
-| HoldLightingFps | Integer | The frames per second the holdlighting animation will run at (default 60 FPS) |
-| ScoreDisplayPosX | Integer | The X position of the score display relative to its default position |
-| ScoreDisplayPosY | Integer | The Y position of the score display relative to its default position |
-| ScoreDisplayScale | Integer | The size of the score display |
 | AccuracyDisplayPosX | Integer | The X position of the accuracy display relative to its default position |
 | AccuracyDisplayPosY | Integer | The Y position of the accuracy display relative to its default position |
 | AccuracyDisplayScale | Integer | The size of the accuracy display |
+| BattleRoyaleAlertPosX | Integer | The x position on the screen where the alerts for battle royale will be placed |
+| BattleRoyaleAlertPosY | Integer | The y position on the screen where the alerts for battle royale will be placed |
+| BattleRoyaleAlertScale | Integer | The size of the battle royale alert image |
+| BattleRoyaleEliminatedPosX | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
+| BattleRoyaleEliminatedPosY | Integer | The y position of the text that shows when a player has been eliminated from battle royale |
+| BgMaskAlpha | Float (0.0-1.0) | The alpha channel/opacity of the [Stage Bg Mask]() |
+| BgMaskPadding | Integer | The amount of space between the Stage Bg Mask and the edges of the stage |
+| ColorObjectsBySnapDistance | Boolean (True or False) | If true, it will look for file names relative to snap distance. See the [HitObjects]() section for more information |
+| ColumnAlignment | Integer (Percentage) | A percentage value of the width of the screen where the stage will be placed |
+| ColumnColor{1-7} | RGB Color (255,255,255) | The color in which the [Column Lighting]() is tinted in the specified lane |
+| ColumnLightingOffsetY | Integer | The Y Offset of the Column Lighting relative to the receptors |
+| ColumnLightingScale | Float | The height scale of the column lighting to make it bigger or smaller.
+| ColumnSize | Integer | The size of each column. Equal size for each column |
+| ComboDisplayScale | Integer | The size of the combo display |
+| ComboPosX | Integer | The X position of the combo display relative to its default position |
+| ComboPosY | Integer | The Y position of the combo display relative to its default position |
+| DeadNoteColor | RGB Color (255,255,255) | The tint of the dead notes (for example, long notes released too early) |
+| DrawLongNoteEnd | Boolean (True or False) | True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs |
+| FlipNoteEndImagesOnUpscroll | Boolean (True or False) | If true, the notes's ends will be flipped upside down if upscroll is enabled |
+| FlipNoteImagesOnUpscroll | Boolean (True or False) | If true, the notes will be flipped upside down if upscroll is enabled |
+| HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` | Where the health bar is positioned in relation to the stage |
+| HealthBarType | `Horizontal` or `Vertical` | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
+| HitErrorChevronSize | Integer | The size of the chevron that displays the player's last hit above the hit error |
+| HitErrorHeight | Integer | The height of the hit error |
+| HitErrorPosX | Integer | The X position of the hit error |
+| HitErrorPosY | Integer | The Y position of the hit error |
+| HitLightingFps | Integer | The frames per second the hitlighting animation will run at (default 60 FPS) |
+| HitLightingHeight | Integer | The height of the hit/holdlighting |
+| HitLightingWidth | Integer | The width of the hit/holdlighting |
+| HitLightingX | Integer | The X position of the hit/holdlighting relative to the center of the receptor |
+| HitLightingY | Integer | The Y position of the hit/holdlighting relative to its default position |
+| HitPosOffsetY | Integer | The offset of the hit position relative to its default location at the edge of the receptors |
+| HoldLightingFps | Integer | The frames per second the holdlighting animation will run at (default 60 FPS) |
+| JudgementBurstPosY | Integer | The Y position of the judgement burst relative to the middle of the screen |
+| JudgementCounterAlpha | Float (0.0-1.0) | The alpha/opacity of the judgement counter |
+| JudgementCounterFontColor | RGB Color (255,255,255) | The color of the judgement counter font |
+| JudgementCounterSize | Integer | The width and height of the judgement counter |
+| JudgementHitBurstScale | Float | The scale of the judgement hit bursts to change the size of it |
 | KpsDisplayPosX | Integer | The X position of the keys per second display relative to its default position |
 | KpsDisplayPosY | Integer | The Y position of the keys per second display relative to its default position |
 | KpsDisplayScale | Integer | The size of the keys per second display |
-| ComboPosX | Integer | The Y position of the combo display relative to its default position |
-| ComboPosY | Integer | The Y position of the combo display relative to its default position |
-| ComboDisplayScale | Integer | The size of the combo display |
-| RatingDisplayPosX | Integer | The x position of the display that shows the current score rating | 
+| NotePadding | Integer | The amount of space between each column |
+| RatingDisplayPosX | Integer | The x position of the display that shows the current score rating |
 | RatingDisplayPosY | Integer | The y position of the display that shows the current score rating |
 | RatingDisplayScale | Integer | The size of the rating display |
-| JudgementBurstPosY | Integer | The Y position of the judgement burst relative to the middle of the screen |
-| HealthBarType | `Horizontal` or `Vertical` | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
-| HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` | Where the health bar is positioned in relation to the stage |
-| HitErrorPosX | Integer | The X position of the hit error |
-| HitErrorPosY | Integer | The Y position of the hit error |
-| HitErrorHeight | Integer | The height of the hit error |
-| HitErrorChevronSize | Integer | The size of the chevron that displays the player's last hit above the hit error |
-| TimingLineColor | RGB Color (255,255,255) | The color of the timing lines |
-| SongTimeProgressInactiveColor | RGB Color (255,255,255) | The color of the song time progress bar (inactive) | 
-| SongTimeProgressActiveColor | RGB Color (255,255,255) | The color of the song time progress bar (active) | 
-| JudgementCounterAlpha | Float (0.0-1.0) | The alpha/opacity of the judgement counter | 
-| JudgementCounterFontColor | RGB Color (255,255,255) | The color of the judgement counter font | 
-| JudgementCounterSize | Integer | The width and height of the judgement counter | 
-| DrawLongNoteEnd | Boolean (True or False) | True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs | 
-| DeadNoteColor | RGB Color (255,255,255) | The tint of the dead notes (for example, long notes released too early) | 
-| BattleRoyaleAlertPosX | Integer | The x position on the screen where the alerts for battle royale will be placed |
-| BattleRoyaleAlertPosY | Integer | The y position on the screen where the alerts for battle royale will be placed |
-| BattleRoyaleAlertScale | Integer | The size of the battle royale alert image
-| BattleRoyaleEliminatedPosX | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
-| BattleRoyaleEliminatedPosY | Integer | The x position of the text that shows when a player has been eliminated from battle royale |
-| ColumnLightingOffsetY | Integer | The Y Offset of the Column Lighting relative to the receptors |
+| ReceptorPosOffsetY | Integer | The y position of the receptors relative to its default location on the screen |
+| ReceptorsOverHitObjects | Boolean (True or False) | If true, the receptors will be over the hitobjects when they fall down and vice versa |
+| ScoreDisplayPosX | Integer | The X position of the score display relative to its default position |
+| ScoreDisplayPosY | Integer | The Y position of the score display relative to its default position |
+| ScoreDisplayScale | Integer | The size of the score display |
+| SongTimeProgressActiveColor | RGB Color (255,255,255) | The color of the song time progress bar (active) |
+| SongTimeProgressInactiveColor | RGB Color (255,255,255) | The color of the song time progress bar (inactive) |
 | SongTimeProgressScale | Integer | The size of the song's time progress |
+| StageReceptorPadding | Integer | The amount of space between between the stage background's border and first/last column |
+| TimingLineColor | RGB Color (255,255,255) | The color of the timing lines |
