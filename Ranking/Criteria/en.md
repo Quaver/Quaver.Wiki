@@ -75,6 +75,7 @@ The following descriptions are what each difficulty should typically look like. 
      * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative. 
 * • **Custom** 
      * Any difficulty other than the mandatory spread difficulties are custom difficulties and can have custom difficulty names.
+
 ##### Difficulty Spread Rules
 
 | Length       | Minimum Required Maps |
@@ -84,7 +85,7 @@ The following descriptions are what each difficulty should typically look like. 
 
 ##### Skipping Difficulties
  
-You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or greater.**
+You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 
 ##### Multi-Game Mode Sets
 
