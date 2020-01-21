@@ -20,7 +20,6 @@ Folgendes trifft auf Metadaten zu, welche deine Map enthält, wie z.B. Song, Tit
 
 Folgendes trifft auf Medien zu, wie z.B. Hintergrundbilder und Audio-Dateien die in deinem Mapset enthalten sind.
 
-* • **Die Gesamtgröße des Mapsets (.qp) muss 15 Megabytes (MB) oder kleiner sein**
 * • **Die Auflösung des Hintergrundbildes muss mindestens 1280x720 sein** und hoher Qualität entsprechen.
 * • **Dein Mapset darf nur eine einzige Audio-Datei enthalten.** Mapsets mit mehreren Audio-Dateien ist es nicht möglich in den Ranked Status versetzt zu werden.
 
