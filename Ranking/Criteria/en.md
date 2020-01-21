@@ -20,7 +20,7 @@ The following pertains to metadata that your maps contain such as song artists, 
 
 The following pertains to media files such as background images and audio files that are contained in your mapset.
 
-* • **The total file size of the mapset (.qp) must be 15 megabytes (mb) or smaller.**
+* • **The total file size of the mapset (.qp) must be 50 megabytes (mb) or smaller.**
 * • **The resolution of background images must be at least 1280x720** and of exceptionally high quality.
 * • **Your mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
 * • **The maximum bitrate allowed for audio files is 192kbps.**
