@@ -41,7 +41,8 @@ The following pertains to the spread of difficulty each mapset must follow.
 
 ##### Difficulty Names & Description
 
-The difficulties must use the standard difficulty names or contain them in some fashion.
+The standard names for difficulties in a mapset are Beginner, Easy, Normal, Hard, Insane, and Expert.
+Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret.
 
 The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
 
@@ -72,8 +73,6 @@ The following descriptions are what each difficulty should typically look like. 
      * • Denser patterns are suitable for this level if they are straightforward, and not difficult to execute - such as jumptrills.
 * • **Expert** 
      * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative. 
-* • **Custom** 
-     * Any difficulty other than the mandatory spread difficulties are custom difficulties and can have custom difficulty names.
 
 ##### Difficulty Spread Rules
 
