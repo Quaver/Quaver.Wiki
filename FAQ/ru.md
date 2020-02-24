@@ -84,6 +84,11 @@ load-module module-udev-detect fixed_latency_range=yes
 
 Чтобы включить Wayland VSync, вам нужен Linux и Wayland-композитор, например, присутствующий в новых версиях GNOME и KDE (удостоверьтесь, что вы не используете режим "Xorg"), или отдельный, например, Weston или sway. Проверить, используете ли вы Wayland, можно, посмотрев на переменную окружения `WAYLAND_DISPLAY`, например, открыв терминал и выполнив команду `echo $WAYLAND_DISPLAY`: она должна вывести что-то вроде `wayland-0`, а не пустую строку.
 
+Вам также понадобится `libwayland-client.so`:
+- для Debian, Ubuntu, Mint или другого дистрибутива на основе Debian, попробуйте `sudo apt install libwayland-dev`
+- для Fedora, попробуйте `sudo dnf install wayland-devel`
+- для Arch Linux, попробуйте `sudo pacman -S wayland`
+
 Запустить Quaver на Wayland можно, выставив значение переменной окружения `SDL_VIDEODRIVER` в `wayland`.
 
 - При запуске через Steam, нажмите правой кнопкой мыши на Quaver в библиотеке, откройте свойства и нажмите на Установить настройки запуска. В поле введите: `SDL_VIDEODRIVER=wayland %command%` и нажмите OK.
