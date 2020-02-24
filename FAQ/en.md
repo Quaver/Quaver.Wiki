@@ -88,6 +88,11 @@ Then reboot the system. Note that this may cause severe audio glitches in certai
 
 To use Wayland VSync, you need to be running Linux with a Wayland compositor, such as present in the newer versions of GNOME and KDE (make sure you're not using the "Xorg" mode), or a standalone one, such as Weston or sway. To check if you're on Wayland, see if the `WAYLAND_DISPLAY` environment variable is set, for example by opening a terminal and typing `echo $WAYLAND_DISPLAY`—it should show something like `wayland-0` and not an empty line.
 
+You also need `libwayland-client.so` installed:
+- for Debian, Ubuntu, Mint or other Debian-based distributions, try `sudo apt install libwayland-dev`
+- for Fedora, try `sudo dnf install wayland-devel`
+- for Arch Linux, try `sudo pacman -S wayland`
+
 You can run Quaver natively on Wayland by setting the `SDL_VIDEODRIVER` environment variable to `wayland`.
 
 - When running through Steam, right click on Quaver in the Steam library, open Properties, and then click on Set Launch Options. In the field, enter: `SDL_VIDEODRIVER=wayland %command%` and click OK.
