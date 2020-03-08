@@ -134,7 +134,7 @@ Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c D
 
 To run .NET Core on Windows 7, you need some extra dependencies.
 
-Follow the steps in the purple box on [this](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore2x#net-core-dependencies) website.
+Follow the “Install the following” steps on [this](https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore21&pivots=os-windows) website.
 
 ### I can’t upload my mapset using the editor
 

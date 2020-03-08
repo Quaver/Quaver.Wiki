@@ -126,6 +126,12 @@ sudo pacman -S glibc
 ~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
 ```
 
+#### Windows 7
+
+Для запуска .NET Core на Windows 7 вам понадобится установить несколько пакетов обновлений.
+
+Следуйте инструкциям «Установите следующие компоненты» на [этой](https://docs.microsoft.com/ru-ru/dotnet/core/install/dependencies?pivots=os-windows&tabs=netcore21#net-core-dependencies) странице.
+
 ### Я не могу загрузить свой набор карт из редактора
 
 Если не удаётся загрузить набор карт из редактора, можно загрузить вручную на сайте в разделе [Upload Mapset](https://quavergame.com/upload/mapset/).
