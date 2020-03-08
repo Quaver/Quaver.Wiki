@@ -99,19 +99,31 @@ load-module module-udev-detect fixed_latency_range=yes
 
 Убедитесь, что запущен Steam. Steam необходим для запуска игры, даже для офлайн-версии.
 
-#### Linux
+#### Linux, Steam-версия
 
-Для работы Quaver требуются `libgdiplus.so` и `libdl.so`. Если вы используете Debian, Ubuntu, Mint или другой дистрибутив на основе Debian, попробуйте следующую команду:
+Для работы Quaver на данный момент требуется `libdl.so`. Обычно он установлен по умолчанию, но иногда это не так. Если вы используете Debian, Ubuntu, Mint или другой дистрибутив на основе Debian, попробуйте следующую команду:
 ```shell
-sudo apt install libc6-dev libgdiplus
+sudo apt install libc6-dev
 ```
 Если вы используете Fedora, попробуйте следующую команду:
 ```shell
-sudo dnf install glibc-devel libgdiplus
+sudo dnf install glibc-devel
 ```
 Если вы используете Arch Linux, попробуйте следующую команду:
 ```shell
-sudo pacman -S glibc libgdiplus
+sudo pacman -S glibc
+```
+
+#### Linux, офлайн-версия или самостоятельная сборка
+
+Для запуска офлайн-версии или самостоятельно собранной версии со встроенной средой выполнения .NET (например, полученной командой `dotnet publish -c Release -r linux-x64`) требуется использовать среду выполнения Steam. Запустите следующую команду из папки с репозиторием Quaver:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
+```
+
+Для запуска самостоятельно собранной версии без среды выполнения .NET (например, полученной командой `dotnet build -p Quaver -c Debug`) нужен правильно настроенный путь загрузки библиотек. Это можно сделать с помощью скрипта запуска среды выполнения Steam и скрипта запуска Quaver:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
 ```
 
 ### Я не могу загрузить свой набор карт из редактора

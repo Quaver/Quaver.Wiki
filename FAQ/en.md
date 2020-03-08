@@ -103,19 +103,31 @@ For the lowest latency (below 1 frame) when running sway, set up `max_render_tim
 
 Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
 
-#### Linux
+#### Linux, Steam
 
-Quaver needs `libgdiplus.so` and `libdl.so` installed to run. If you’re using Debian, Ubuntu, Mint or other Debian-based distribution, try this command:
+Quaver currently needs `libdl.so` installed to run. It’s usually installed by default, but sometimes it’s not. If you’re using Debian, Ubuntu, Mint or other Debian-based distribution, try this command:
 ```shell
-sudo apt install libc6-dev libgdiplus
+sudo apt install libc6-dev
 ```
 If you’re running Fedora, try this:
 ```shell
-sudo dnf install glibc-devel libgdiplus
+sudo dnf install glibc-devel
 ```
 If you’re running Arch Linux, try this:
 ```shell
-sudo pacman -S glibc libgdiplus
+sudo pacman -S glibc
+```
+
+#### Linux, offline or local build
+
+Running an offline, or a published stand-alone build (e.g. from `dotnet publish -c Release -r linux-x64`) needs to be done through the Steam runtime. Run this command from the Quaver repository folder:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
+```
+
+Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c Debug`) requires the correct library path. This can be done using the Steam runtime launch script and Quaver’s own launch script:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
 ```
 
 #### Windows 7
