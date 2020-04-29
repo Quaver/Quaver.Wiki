@@ -29,6 +29,13 @@ The following are a list of sound effects that are customizable in Quaver.
 
 * Plays when completing a map with over 80% accuracy in the results screen.
 
+---
+
+`/SFX/sound-menu-keyclick-1.wav`
+
+* Plays when pressing a key in any textbox that has keyclick samples enabled.
+* You can add multiple samples by adding another file `/SFX/sound-menu-keyclick-2,3,4....etc`. They are played in a randomized order.
+
 ## Gameplay ##
 `/SFX/sound-hit.wav`
 
