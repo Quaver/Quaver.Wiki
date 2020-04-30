@@ -74,6 +74,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | ScoreDisplayPosX | Integer | The X position of the score display relative to its default position |
 | ScoreDisplayPosY | Integer | The Y position of the score display relative to its default position |
 | ScoreDisplayScale | Integer | The size of the score display |
+| ScratchLaneSize | Integer | The size of the scratch lane if playing nK+1 mode. A value of zero will default it to ColumnSize |
 | SongTimeProgressActiveColor | RGB Color (255,255,255) | The color of the song time progress bar (active) |
 | SongTimeProgressInactiveColor | RGB Color (255,255,255) | The color of the song time progress bar (inactive) |
 | SongTimeProgressScale | Integer | The size of the song's time progress |
