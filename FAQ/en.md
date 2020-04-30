@@ -88,11 +88,6 @@ Then reboot the system. Note that this may cause severe audio glitches in certai
 
 To use Wayland VSync, you need to be running Linux with a Wayland compositor, such as present in the newer versions of GNOME and KDE (make sure you're not using the "Xorg" mode), or a standalone one, such as Weston or sway. To check if you're on Wayland, see if the `WAYLAND_DISPLAY` environment variable is set, for example by opening a terminal and typing `echo $WAYLAND_DISPLAY`—it should show something like `wayland-0` and not an empty line.
 
-You also need `libwayland-client.so` installed:
-- for Debian, Ubuntu, Mint or other Debian-based distributions, try `sudo apt install libwayland-dev`
-- for Fedora, try `sudo dnf install wayland-devel`
-- for Arch Linux, try `sudo pacman -S wayland`
-
 You can run Quaver natively on Wayland by setting the `SDL_VIDEODRIVER` environment variable to `wayland`.
 
 - When running through Steam, right click on Quaver in the Steam library, open Properties, and then click on Set Launch Options. In the field, enter: `SDL_VIDEODRIVER=wayland %command%` and click OK.
@@ -108,26 +103,38 @@ For the lowest latency (below 1 frame) when running sway, set up `max_render_tim
 
 Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
 
-#### Linux
+#### Linux, Steam
 
-Quaver needs `libgdiplus.so` and `libdl.so` installed to run. If you’re using Debian, Ubuntu, Mint or other Debian-based distribution, try this command:
+Quaver currently needs `libdl.so` installed to run. It’s usually installed by default, but sometimes it’s not. If you’re using Debian, Ubuntu, Mint or other Debian-based distribution, try this command:
 ```shell
-sudo apt install libc6-dev libgdiplus
+sudo apt install libc6-dev
 ```
 If you’re running Fedora, try this:
 ```shell
-sudo dnf install glibc-devel libgdiplus
+sudo dnf install glibc-devel
 ```
 If you’re running Arch Linux, try this:
 ```shell
-sudo pacman -S glibc libgdiplus
+sudo pacman -S glibc
+```
+
+#### Linux, offline or local build
+
+Running an offline, or a published stand-alone build (e.g. from `dotnet publish -c Release -r linux-x64`) needs to be done through the Steam runtime. Run this command from the Quaver repository folder:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
+```
+
+Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c Debug`) requires the correct library path. This can be done using the Steam runtime launch script and Quaver’s own launch script:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
 ```
 
 #### Windows 7
 
 To run .NET Core on Windows 7, you need some extra dependencies.
 
-Follow the steps in the purple box on [this](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore2x#net-core-dependencies) website.
+Follow the “Install the following” steps on [this](https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore21&pivots=os-windows) website.
 
 ### I can’t upload my mapset using the editor
 

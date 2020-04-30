@@ -84,11 +84,6 @@ load-module module-udev-detect fixed_latency_range=yes
 
 Чтобы включить Wayland VSync, вам нужен Linux и Wayland-композитор, например, присутствующий в новых версиях GNOME и KDE (удостоверьтесь, что вы не используете режим "Xorg"), или отдельный, например, Weston или sway. Проверить, используете ли вы Wayland, можно, посмотрев на переменную окружения `WAYLAND_DISPLAY`, например, открыв терминал и выполнив команду `echo $WAYLAND_DISPLAY`: она должна вывести что-то вроде `wayland-0`, а не пустую строку.
 
-Вам также понадобится `libwayland-client.so`:
-- для Debian, Ubuntu, Mint или другого дистрибутива на основе Debian, попробуйте `sudo apt install libwayland-dev`
-- для Fedora, попробуйте `sudo dnf install wayland-devel`
-- для Arch Linux, попробуйте `sudo pacman -S wayland`
-
 Запустить Quaver на Wayland можно, выставив значение переменной окружения `SDL_VIDEODRIVER` в `wayland`.
 
 - При запуске через Steam, нажмите правой кнопкой мыши на Quaver в библиотеке, откройте свойства и нажмите на Установить настройки запуска. В поле введите: `SDL_VIDEODRIVER=wayland %command%` и нажмите OK.
@@ -104,20 +99,38 @@ load-module module-udev-detect fixed_latency_range=yes
 
 Убедитесь, что запущен Steam. Steam необходим для запуска игры, даже для офлайн-версии.
 
-#### Linux
+#### Linux, Steam-версия
 
-Для работы Quaver требуются `libgdiplus.so` и `libdl.so`. Если вы используете Debian, Ubuntu, Mint или другой дистрибутив на основе Debian, попробуйте следующую команду:
+Для работы Quaver на данный момент требуется `libdl.so`. Обычно он установлен по умолчанию, но иногда это не так. Если вы используете Debian, Ubuntu, Mint или другой дистрибутив на основе Debian, попробуйте следующую команду:
 ```shell
-sudo apt install libc6-dev libgdiplus
+sudo apt install libc6-dev
 ```
 Если вы используете Fedora, попробуйте следующую команду:
 ```shell
-sudo dnf install glibc-devel libgdiplus
+sudo dnf install glibc-devel
 ```
 Если вы используете Arch Linux, попробуйте следующую команду:
 ```shell
-sudo pacman -S glibc libgdiplus
+sudo pacman -S glibc
 ```
+
+#### Linux, офлайн-версия или самостоятельная сборка
+
+Для запуска офлайн-версии или самостоятельно собранной версии со встроенной средой выполнения .NET (например, полученной командой `dotnet publish -c Release -r linux-x64`) требуется использовать среду выполнения Steam. Запустите следующую команду из папки с репозиторием Quaver:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
+```
+
+Для запуска самостоятельно собранной версии без среды выполнения .NET (например, полученной командой `dotnet build -p Quaver -c Debug`) нужен правильно настроенный путь загрузки библиотек. Это можно сделать с помощью скрипта запуска среды выполнения Steam и скрипта запуска Quaver:
+```shell
+~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
+```
+
+#### Windows 7
+
+Для запуска .NET Core на Windows 7 вам понадобится установить несколько пакетов обновлений.
+
+Следуйте инструкциям «Установите следующие компоненты» на [этой](https://docs.microsoft.com/ru-ru/dotnet/core/install/dependencies?pivots=os-windows&tabs=netcore21#net-core-dependencies) странице.
 
 ### Я не могу загрузить свой набор карт из редактора
 
