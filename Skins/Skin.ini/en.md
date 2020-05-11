@@ -80,3 +80,4 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 | SongTimeProgressScale | Integer | The size of the song's time progress |
 | StageReceptorPadding | Integer | The amount of space between between the stage background's border and first/last column |
 | TimingLineColor | RGB Color (255,255,255) | The color of the timing lines |
+| UseAndRotateHitObjectSheet | Boolean | If true, the game will look for a spritesheet named `note-hitobject-sheet@{rows}x{columns}.png` to use as objects. Useful for easily creating arrow skins that use different beat snap colors. |
