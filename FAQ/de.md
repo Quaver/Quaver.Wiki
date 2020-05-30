@@ -86,21 +86,6 @@ Starte dann das System neu. Bedenke, dass dies schwerwiegende Audiofehler in man
 
 Stelle sicher, dass Steam läuft, da Steam benötigt wird, um Quaver zu starten. Dies gilt auch für die offline Version.
 
-#### Linux
-
-Quaver benötigt `libgdiplus.so` und `libdl.so` um zu laufen. Falls du Debian, Ubuntu, Mint oder andere Debian basierte Distributionen verwendest, versuche diesen Befehl:
-```shell
-sudo apt install libc6-dev libgdiplus
-```
-Falls du Fedora benutzt, versuche das:
-```shell
-sudo dnf install glibc-devel libgdiplus
-```
-Falls du Arch Linux benutzt, versuche das:
-```shell
-sudo pacman -S glibc libgdiplus
-```
-
 ### Ich kann meine Map nicht über den Editor hochladen
 
 Falls es zu Fehlern beim Hochladen über den Client kommt, kannst du die Map manuell auf der [Mapset Hochladen](https://quavergame.com/upload/mapset/) Seite hochladen.
