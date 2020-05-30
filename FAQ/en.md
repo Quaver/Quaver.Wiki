@@ -103,21 +103,6 @@ For the lowest latency (below 1 frame) when running sway, set up `max_render_tim
 
 Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
 
-#### Linux, Steam
-
-Quaver currently needs `libdl.so` installed to run. It’s usually installed by default, but sometimes it’s not. If you’re using Debian, Ubuntu, Mint or other Debian-based distribution, try this command:
-```shell
-sudo apt install libc6-dev
-```
-If you’re running Fedora, try this:
-```shell
-sudo dnf install glibc-devel
-```
-If you’re running Arch Linux, try this:
-```shell
-sudo pacman -S glibc
-```
-
 #### Linux, offline or local build
 
 Running an offline, or a published stand-alone build (e.g. from `dotnet publish -c Release -r linux-x64`) needs to be done through the Steam runtime. Run this command from the Quaver repository folder:
