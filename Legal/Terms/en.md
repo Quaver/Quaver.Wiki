@@ -2,7 +2,7 @@
 
 These terms and conditions outline the rules and regulations for the use of Quaver's services.
 
-By accessing this website we assume you accept these terms and conditions in full. Do not continue to use Quaver's website if you do not accept all of the terms and conditions stated on this page.
+By accessing this website/game we assume you accept these terms and conditions in full. Do not continue to use Quaver's website/game if you do not accept all of the terms and conditions stated on this page.
 
 Violating any these terms of use will terminate your permission to use Quaver services.
 
