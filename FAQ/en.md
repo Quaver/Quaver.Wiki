@@ -86,14 +86,9 @@ Then reboot the system. Note that this may cause severe audio glitches in certai
 
 ### How do I use the Wayland VSync?
 
-To use Wayland VSync, you need to be running Linux with a Wayland compositor, such as present in the newer versions of GNOME and KDE (make sure you're not using the "Xorg" mode), or a standalone one, such as Weston or sway. To check if you're on Wayland, see if the `WAYLAND_DISPLAY` environment variable is set, for example by opening a terminal and typing `echo $WAYLAND_DISPLAY`—it should show something like `wayland-0` and not an empty line.
+To use Wayland VSync, you need to be running Linux with a Wayland compositor, such as present in the newer versions of GNOME and KDE (make sure you're not using the "Xorg" mode), or a standalone one, such as Weston or sway.
 
-You can run Quaver natively on Wayland by setting the `SDL_VIDEODRIVER` environment variable to `wayland`.
-
-- When running through Steam, right click on Quaver in the Steam library, open Properties, and then click on Set Launch Options. In the field, enter: `SDL_VIDEODRIVER=wayland %command%` and click OK.
-- When running via `quaver.sh`, add a line that says `export SDL_VIDEODRIVER=wayland` right before the line that says `exec dotnet ...`.
-
-That's it! Now open Quaver and enable Wayland VSync. Enable the FPS counter to make sure it works. Your FPS should become equal to your monitor refresh rate, while UPS should become higher.
+Turn on the "Prefer Wayland" option in Video/Linux and restart Quaver. Now turn on Wayland VSync. You can ensure that it works using the FPS counter. Your FPS should become equal to your monitor refresh rate, while UPS should become higher.
 
 For the lowest latency (below 1 frame) when running sway, set up `max_render_time` on the output and on the Quaver window. See `man 5 sway` for instructions.
 
