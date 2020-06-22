@@ -34,6 +34,7 @@ The following requirements are for the individual maps themselves.
 * • **More than 75% of the length of the song must have notes to play.**
 * • **You must place at least one note in each column.**
 * • **Your maps must be at least 45 seconds long.**
+* • **Your maps must have a song preview point set somewhere within the song.**
 
 ### Difficulty Spread
 
