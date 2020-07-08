@@ -38,7 +38,8 @@ Once you've got your song timed, and your metadata set up, you are ready to get 
 - Using the "select" tool and dragging over multiple notes will select them. You can use this to delete multiple notes (by pressing your "delete" button), 
 or copy and paste sections.
 
-### The Editor View
+
+## The Editor View
 If you take a look around the editor, you will notice there are various windows with tools that the Quaver Editor offers. Let's briefly go over what they provide.
 
 - The **details** window gives you various information about your map thus far.
@@ -48,3 +49,13 @@ individual notes down. *Long Note* allows you to place notes and drag to make lo
 types. For example: You can have a layer for all snare drum beats, and another for the kick, and maybe a third for synth or piano. Making use of layers can help
 improve the consistency of your maps!
 - The **hitsounds** window gives you the ability to add different sounds to your notes. There are three to choose from: Whistle, Finish, and Clap.
+
+## Additional Features
+
+Here are the many features that make Quaver's Editor so robust and unique.
+
+### Playback Speed and Beat Snap
+
+Quaver's Editor allows you to change the speed at which the song is played. This can be found at the bottom bar titled **Playback Speed**. You can also go to **Audio -> Playback Speed**. Here you can adjust at which speed the audio is played in increments of 25, from 25% speed all the way to 200% speed. 100% being the default.
+
+Beat Snap allows you to change how the beats are divided. You can adjust this by holding **CTRL** and moving your mouse wheel, you can also click on the bottom bar which has an option titled **Beat Snap**, or lastly you can go to **View -> Beat Snap Divisor** as well.
