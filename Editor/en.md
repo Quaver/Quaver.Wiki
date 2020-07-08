@@ -38,6 +38,12 @@ Once you've got your song timed, and your metadata set up, you are ready to get 
 - Using the "select" tool and dragging over multiple notes will select them. You can use this to delete multiple notes (by pressing your "delete" button), 
 or copy and paste sections.
 
+### Test Playing
+
+Of course when you're ready to try out your map, you can test play it! Click on the bottom right to enter Test Play mode from where you currently are in the editor. You cannot test play if there are no notes from beyond that location.
+
+You can also set additional Test Play modifiers by going to **View -> Test Play Modifiers**
+
 
 ## The Editor View
 If you take a look around the editor, you will notice there are various windows with tools that the Quaver Editor offers. Let's briefly go over what they provide.
@@ -47,7 +53,7 @@ If you take a look around the editor, you will notice there are various windows 
 individual notes down. *Long Note* allows you to place notes and drag to make long notes.
 - The **layers** window allows you to create, remove, select, and modify the different layers in your map. Layers are ways of organizing your notes into different
 types. For example: You can have a layer for all snare drum beats, and another for the kick, and maybe a third for synth or piano. Making use of layers can help
-improve the consistency of your maps!
+improve the consistency of your maps! **Please note, in order to see layers you must make sure View -> View Layers is checked off.**
 - The **hitsounds** window gives you the ability to add different sounds to your notes. There are three to choose from: Whistle, Finish, and Clap.
 
 ## Additional Features
@@ -59,3 +65,7 @@ Here are the many features that make Quaver's Editor so robust and unique.
 Quaver's Editor allows you to change the speed at which the song is played. This can be found at the bottom bar titled **Playback Speed**. You can also go to **Audio -> Playback Speed**. Here you can adjust at which speed the audio is played in increments of 25, from 25% speed all the way to 200% speed. 100% being the default.
 
 Beat Snap allows you to change how the beats are divided. You can adjust this by holding **CTRL** and moving your mouse wheel, you can also click on the bottom bar which has an option titled **Beat Snap**, or lastly you can go to **View -> Beat Snap Divisor** as well.
+
+### Live Map Preview
+
+You can see how your map will look to a player in real time by going to **View -> Display Gameplay Preview**
