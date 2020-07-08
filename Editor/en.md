@@ -89,3 +89,7 @@ You can *also* press Tab to play your map through the live preview as well if yo
 ### Metronome
 
 It is important to make use of the metronome to determine whether or not your song is properly timed. You can turn on and off the metronome by going to **Audio -> Metronome -> Enable**. There is also an option for the metronome to play half beats as well.
+
+## Ranking Your Map
+
+Once your map is finished, you might be looking to try and get it ranked. It's important to follow the [Ranking Criteria](/Ranking/Criteria)
