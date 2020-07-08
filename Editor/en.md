@@ -92,4 +92,4 @@ It is important to make use of the metronome to determine whether or not your so
 
 ## Ranking Your Map
 
-Once your map is finished, you might be looking to try and get it ranked. It's important to follow the [Ranking Criteria](/Ranking/Criteria)
+Once your map is finished, you might be looking to try and get it ranked. It's important to follow the [Ranking Criteria](/Ranking/Criteria) to make sure your map is eligible to be ranked. After that, please follow the [Ranking Process](/Ranking/Process) to successfully submit your map for ranked.
