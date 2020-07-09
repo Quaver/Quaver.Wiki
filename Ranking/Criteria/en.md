@@ -14,7 +14,7 @@ The following pertains to metadata that your maps contain such as song artists, 
 
 * • **The artist and title must be absolutely correct.**
 * • **Tags must contain the genre of the song.**
-* • **Metadata must not contain non-romanized characters.** If the name of the song is in a different language, use the appropriate English translation.
+* • **If the name of the song is in a different language, use the appropriate romanization or English translation.** Non-romanized song title can be included in tags.
 
 ### Media
 
@@ -33,7 +33,7 @@ The following requirements are for the individual maps themselves.
 * • **You cannot have more than 30 seconds of consecutive break time.**
 * • **More than 75% of the length of the song must have notes to play.**
 * • **You must place at least one note in each column.**
-* • **Your maps must be at least 45 seconds long.**
+* • **Your maps must be at least 45 seconds long.** This means the time between first and last note.
 
 ### Difficulty Spread
 
@@ -50,17 +50,17 @@ The following descriptions are what each difficulty should typically look like. 
      * • For players who are being exposed to rhythm games for the first time. 
      * • Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
      * • Jumps are suitable for this difficulty when emphasizing important sounds in the music.
-     
+     * • SV changes must not be used in non-marathon Beginner difficulties. Multi-BPM songs must have normalized scroll speed.
 * • **Easy** 
      * • This difficulty can be thought of as an "upgraded Beginner." 
      * • Players at this level will be able to play at slightly higher speeds and execute more complicated patterns. 
      * • One beat streams and 1/2 bursts are generally comfortable to these players.
      * • Jumps can be used more freely but sparingly, as players at this level may still have trouble with them.
-     
+     * • SV changes must not be used in non-marathon Easy difficulties. Multi-BPM songs must have normalized scroll speed.     
 * • **Normal**
      * • Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner. 
      * • 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
-     
+     * • SV changes are allowed, but should be used with caution. It's recommended to normalize scroll speed on multi-BPM songs.
 * **Hard** 
      * • At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
      * • Maps at this difficulty can branch into light 1/4th streams with jumps interspersed in them depending on the BPM of the song.
