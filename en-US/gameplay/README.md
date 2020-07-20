@@ -8,7 +8,9 @@ This section explains the different parts of gameplay within Quaver. It gives a 
 
 ## Game Mode: Keys
 
+<center>
 ![](/docs/images/gameplay.jpg)
+</center>
 
 
 Quaver is built to support multiple game modes, but the main focus of the game is the Keys game mode. The concept of this game mode has been used in a variety of different rhythm games such as Beatmania, Dance Dance Revolution, and osu!.
