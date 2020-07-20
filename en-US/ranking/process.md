@@ -7,11 +7,11 @@ name: Ranking Process
 
 This document outlines the process of getting a mapset ranked starting from uploading the set to getting it reviewed by our Ranking Supervisors.
 
-If you're looking for the criteria a mapset needs to follow in order to get ranked, see: [Quaver Ranking Criteria](/Ranking/Criteria).
+If you're looking for the criteria a mapset needs to follow in order to get ranked, see: [Quaver Ranking Criteria](/docs/Ranking/Criteria).
 
 ## Preface
 
-Our goal with this ranking process is to provide an easy and streamlined approach to getting mapsets ranked. During this process, your maps will be reviewed for coherence with our [Ranking Criteria](/Ranking/Criteria). Before submitting your set for rank, make sure it is following the criteria, as there are cooldown periods in place if your set is denied.
+Our goal with this ranking process is to provide an easy and streamlined approach to getting mapsets ranked. During this process, your maps will be reviewed for coherence with our [Ranking Criteria](/docs/Ranking/Criteria). Before submitting your set for rank, make sure it is following the criteria, as there are cooldown periods in place if your set is denied.
 
 If your mapset is denied for rank, it will be placed on a **7 day cooldown period** before you can submit it again.
 
