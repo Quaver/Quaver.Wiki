@@ -7,7 +7,7 @@ name: Ranking Criteria
 
 In order to get a mapset ranked, it must follow the criteria listed below. In the event that it does not, you may be asked to modify your mapset and resubmit it again for rank.
 
-If you're looking for the process of getting a mapset ranked, see: [Quaver Ranking Process](/Ranking/Process).
+If you're looking for the process of getting a mapset ranked, see: [Quaver Ranking Process](/docs/Ranking/Process).
 
 ## Mandatory
 

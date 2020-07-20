@@ -102,4 +102,4 @@ Combo is when you successfully hit objects without missing.
 
 ### Skins
 
-You can completely customize the game to your liking. [See the Skins/Keys section of the wiki](/Skins/Keys).
+You can completely customize the game to your liking. [See the Skins/Keys section of the wiki](/docs/Skins/Keys).
