@@ -4,11 +4,13 @@ name: FAQ
 
 # Frequently Asked Questions
 
+Here you can find answers to some of the most frequently asked questions. If you can't find your question here, feel free to ask for more help on the [Official Quaver Discord Server](https://discord.gg/pDbHYag).
+
 ## General
 
 ### What is Quaver?
 
-Quaver is a community-driven and open source competitive rhythm game. It is inspired by a variety of classic rhythm games and plans to expand on them by being focused on real-time competitive play.
+Quaver is a community-driven and open source competitive rhythm game. It is inspired by a variety of classic vertical scrolling rhythm games and plans to expand on them by being focused on real-time competitive play.
 
 ### How is Quaver different from other games?
 
@@ -16,45 +18,29 @@ The game is fully open-source, which allows anyone to help and improve the game.
 
 ### How far in development is Quaver?
 
-Quaver is still in early development and is currently in closed alpha. In order to use online features of Quaver, you need to sign up for the alpha.
+Quaver is in Early Access, which means the core features have been finished and everyone can freely play the game online. During this phase, the game will recieve frequent updates, such as bug fixes and additions of new features.
 
-### What platforms will Quaver be released on?
+### What platforms is Quaver released on?
 
-Quaver will be released on Windows, Mac and Linux.
-
-### Where can I sign up for the Quaver Alpha?
-
-Registrations for the closed alpha occur in rounds. Each round of sign-ups are announced before they open.
-
-### Can I play without being part of the Quaver Alpha?
-
-Yes, you can download an offline version from Quaver’s [Github page](https://github.com/Quaver/Quaver/releases), However, you won’t be able to experience any of the online features including online rankings, map uploading, and other community-based features such as in-game chat.
-
-### Does this mean I can’t download maps from the Quaver website?
-
-You cannot download maps from the Quaver website, however you can still download packs via a [mirror](https://rhythmgamers.net/pack/).
-
-### Is there an estimate for the public release date?
-
-We do not have an estimate for the public release date yet.
-
-### How to redeem your key once you receieve it?
-
-To redeem your key, follow [these steps](https://support.steampowered.com/kb_article.php?ref=5414-TFBN-1352)
+Quaver is released on Windows, Mac and Linux.
 
 ## Gameplay
 
 ### What game modes does Quaver support?
 
-Quaver currently only supports 4 keys (4k) and 7 keys (7k).
+Quaver currently supports 4 keys (4k) and 7 keys (7k). 7k maps with additional scratch lane (7k+1) are also supported, while scores on them remain unranked.
+
+### Where can I get more maps?
+
+You can download more maps using the in-game downloader or from the [Quaver website](https://quavergame.com/maps).
 
 ### Can I import maps from other games?
 
-Yes, Quaver currently supports .osz and .sm files. To import them, drag the files into the game window.
+Yes, Quaver currently supports .osz, .sm and .mcz files. To import them, drag the files into the game window.
 
 ### I have a lot of maps in an external game, can I import them all at once?
 
-It is possible to import all of your maps at once by linking the game’s “.db” file inside your “quaver.cfg” file, which can be located inside your Quaver folder.
+It is possible to import all of your maps from other games at once. In Quaver, navigate to Options > Miscellaneous, enable "Load Songs From Other Installed Games", and click "Detect Songs From Other Installed Games."
 
 ### Can I import my skin from another game?
 
@@ -62,7 +48,11 @@ The game doesn't support skin conversions out of the box, however you can downlo
 
 ### I found a bug, where can I report it?
 
-Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Make sure to post anything you find, but please check if the issue has already been reported to avoid duplication.
+Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Feel free to post anything you find, but please check if the issue has already been reported to avoid duplication.
+
+### Can I change my username?
+
+Changing your username is a donator-only feature. If you are a donator, you can change username once every 30 days.
 
 ### I have a feature request, where can I post it?
 
@@ -100,7 +90,7 @@ For the lowest latency (below 1 frame) when running sway, set up `max_render_tim
 
 ### The game doesn’t launch
 
-Make sure Steam is running, as Steam is required in order to run Quaver. This also applies to the offline build!
+Make sure Steam is running, as Steam is required in order to run Quaver.
 
 #### Linux, offline or local build
 
