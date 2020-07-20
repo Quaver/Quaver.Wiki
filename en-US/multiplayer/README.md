@@ -12,9 +12,9 @@ If you're looking for multiplayer chat commands, they can be found [here](/docs/
 
 Quaver's multiplayer offers three game modes including: 
 
-* • **Free-For-All** - Go head to head with other players
-* • **Team** - The team with the highest average performance rating wins
-* • **Battle Royale** - Be the last one standing while players get eliminated from the match in intervals
+* **Free-For-All** - Go head to head with other players
+* **Team** - The team with the highest average performance rating wins
+* **Battle Royale** - Be the last one standing while players get eliminated from the match in intervals
 
 ### Free-For-All
 
@@ -62,17 +62,17 @@ Quaver's multiplayer also offers a **ton** of filters to truly customize your mu
 
 Here are a few filters that is available:
 
-* • **Allowed Game Mode** - Only maps that are of these allowed game modes can be chosen.
-* • **Difficulty Range** - You can set a minimum and maximum difficulty rating for selected maps.
-* • **Max Length** - The maximum song length allowed for selected maps.
-* • **Long Note Percentage Range** - The long note percentage maps must have to be selected.
+* **Allowed Game Mode** - Only maps that are of these allowed game modes can be chosen.
+* **Difficulty Range** - You can set a minimum and maximum difficulty rating for selected maps.
+* **Max Length** - The maximum song length allowed for selected maps.
+* **Long Note Percentage Range** - The long note percentage maps must have to be selected.
 
 ## Free Mod & Free Rate
 
 Quaver offers two types of settings that allow players in the game to customize their modifiers.
 
-* • **Free Mod** - Allows players to select any mod (excludes speed modifier).
-* • **Free Rate** - Allows players to select any speed of the song they choose.
+* **Free Mod** - Allows players to select any mod (excludes speed modifier).
+* **Free Rate** - Allows players to select any speed of the song they choose.
 
 It must be noted that free mod and free rate have to be activated separately. If you would like to allow players to activate any mod, turn on both free mod and free rate.
 
