@@ -55,13 +55,13 @@ You receive one judgement per regular note and two judgements for a long note (p
 |  Okay    | -100% |
 |  Miss   | -50% |
 
-#### Score Rating
+#### Performance Rating
 
-Your score rating is an assessment of your performance throughout a given play in correlation to the map's difficulty rating. It is the same metric that is used to measure scores in global rankings.
+Your performance rating is an assessment of your performance throughout a given play in correlation to the map's difficulty rating. It is the same metric that is used to measure scores in global rankings.
 
 The formula is relatively simple with it being:
 
-`DifficultyRating * Math.Pow(Accuracy / 98, 6);`
+`PerformanceRating = DifficultyRating * Math.Pow(Accuracy / 98, 6);`
 
 #### Overall Rating
 
@@ -71,7 +71,7 @@ Only your top score will account for the full amount of score rating, and it wil
 
 The weighted sum calculation is similar to Performance Points, used in the rhythm game osu!.
 
-`overall = scoreRating[1] * 95^0 + scoreRating[2] * 95^1 + scoreRating[3] * 95^2 + ...`
+`OverallRating = PerformanceRating[1] * 0.95^0 + PerformanceRating[2] * 0.95^1 + PerformanceRating[3] * 0.95^2 + ...`
 
 #### Score
 
@@ -90,15 +90,13 @@ This section explains the judgement windows that are used within Quaver. It deta
 |  Okay    | ±127ms |
 |  Miss   | ±164ms |
 
-When releasing a long note, you are awarded with the `Okay` judgement, which is significantly worse than a miss when it comes to accuracy percentage.
-
 #### Combo
 
 Combo is when you successfully hit objects without missing. 
 
 * Not pressing an object within its judgement timing windows will result in a Miss, restting your combo.
 * Pressing an object too early (164ms) will result in a Miss, resetting your combo.
-* Not releasing a long note will result in an Okay, which does not reset your combo.
+* Not releasing a long note will result in a Good, which does not reset your combo.
 
 ### Skins
 
