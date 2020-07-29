@@ -57,4 +57,18 @@ press [Tab] during this to take control and start playing yourself.
   - **Volume** - Sets the volume of the hitsounds in the editor.
 - **Metronome** - Options for modifying the metronome.
   - **Enable** - Enables or disables the metronome
-  - **Play Half Beats** - Instead of playing a metronome
+  - **Play Half Beats** - Instead of playing a metronome only every full beat, it will play it every half beat in between as well.
+
+## Web
+- **View Online Listing** - If the map is uploaded to Quaver's website, you can use this to go to the map page.
+- **Modding Discussion** - If the map is uploaded to Quaver's website, you can use this to go to the modding section of the map page
+
+## Tools
+- **Timing Point Editor** - Allows you to edit the timing points of a map to more accurately time it (e.g. multiple BPMs in one song)
+- **Scroll Velocity Editor** - Allows you to edit the scroll velocities to make certain sections of your map change scroll speed of the playfield.
+- **BPM Calculator** - Lets you edit the BPM and offset of the song.
+- **BPM Detector** - Attempts to detect the BPM of the song (with a varying degree of confidence). You can also choose to set the offset at your current point, or a pre-determined offset. This is useful for getting a base timing and then modifying it from there.
+- **Go To Objects** - Allows you to move to a specific object if that object was copy and pasted into text (like the modding discussion).
+
+## Plugins
+This section allows you to view all the plugins you have installed. Quaver supports custom plugins so that the users can control how hey want their editor to run. There are a few plugins out there already that help users with simple tasks, and any user can make a plugin!
