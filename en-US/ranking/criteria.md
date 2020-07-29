@@ -18,15 +18,18 @@ If you're looking for the process of getting a mapset ranked, see: [Quaver Ranki
 The following pertains to metadata that your maps contain such as song artists, titles, and tags.
 
 * **The artist and title must be absolutely correct.**
+* **The artist and title must be romanized.** However, non-romanized characters are allowed to be used in source and tags.
+* **The artist, title and source must not repeat in tags.** However, romanizing or translating the source in tags is encouraged, in case it's relevant.
 * **Tags must contain the genre of the song.**
-* **Metadata must not contain non-romanized characters.** If the name of the song is in a different language, use the appropriate English translation.
+* **Every difficulty must have a difficulty name.**
 
 ### Media
 
 The following pertains to media files such as background images and audio files that are contained in your mapset.
 
-* **The resolution of background images must be at least 1280x720** and of exceptionally high quality.
+* **The resolution of background images must be at least 1280x720** and of exceptionally high quality. The file size of a background image must not exceed 4 Mb.
 * **Your mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
+* **MP3 is the only allowed audio file format.**
 * **The maximum bitrate allowed for audio files is 192kbps.**
 
 ### Maps 
@@ -39,6 +42,7 @@ The following requirements are for the individual maps themselves.
 * **More than 75% of the length of the song must have notes to play.**
 * **You must place at least one note in each column.**
 * **Your maps must be at least 45 seconds long.**
+* **Your maps must be timed as accurately as possible.** Timing points must not be used for any other purpose than timing the maps.
 
 ### Difficulty Spread
 
@@ -55,12 +59,14 @@ The following descriptions are what each difficulty should typically look like. 
      * For players who are being exposed to rhythm games for the first time. 
      * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
      * Jumps are suitable for this difficulty when emphasizing important sounds in the music.
+     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
      
 * **Easy** 
      * This difficulty can be thought of as an "upgraded Beginner." 
      * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns. 
      * One beat streams and 1/2 bursts are generally comfortable to these players.
      * Jumps can be used more freely but sparingly, as players at this level may still have trouble with them.
+     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
      
 * **Normal**
      * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner. 
@@ -70,12 +76,14 @@ The following descriptions are what each difficulty should typically look like. 
      * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
      * Maps at this difficulty can branch into light 1/4th streams with jumps interspersed in them depending on the BPM of the song.
      * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
+
 * **Insane**
      * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to: 
           * Light Jacks
           * Complex Long Note Usage
           * Light Jumpstreams
      * Denser patterns are suitable for this level if they are straightforward, and not difficult to execute - such as jumptrills.
+
 * **Expert** 
      * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative. 
 
