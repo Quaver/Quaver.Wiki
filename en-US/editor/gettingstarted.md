@@ -61,3 +61,5 @@ Finally, we can start mapping! We can use the **Composition Tools** at the botto
 - **Note** - Allows you to place down individual notes. With this selected, you can left click on the playfield and a note will be place in the position nearest to your cursor.
 Notes will be snapped to the grid
 - **Long Note** - Clicking and dragging with this tool allows you to create Long Notes. Also keep in mind, you can place normal notes with this tool as well.
+
+With all of that said, you can now create basically any map. There are additional features you can mess around with, or take a look at the Editor Functions guide to see what tools the editor provides that can benefit you.
