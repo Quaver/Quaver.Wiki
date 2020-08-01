@@ -58,15 +58,9 @@ Changing your username is a donator-only feature. If you are a donator, you can 
 
 Similar to bug reports, feature requests belong on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
 
-### How do I reduce the hitsound audio latency on Linux?
+### How do I tweak the hitsound audio latency on Linux?
 
-In the Audio options you can find the “Audio Device Period” and the “Audio Device Buffer Length” settings. The general rule is: as you decrease these values the latency decreases, but the CPU usage and the audio glitch probability increases. Try setting the Period to 2 ms and the Buffer Length to 8 ms and restarting the game. If the audio is glitching, try increasing the Period or the Buffer Length.
-
-A common recommendation for reducing the audio glitching is to open the `/etc/security/limits.conf` file and add a line like this:
-```
-your_username      -   rtprio      99
-```
-Replace `your_username` with your Linux username. Reboot the system in order for this change to have an effect.
+The audio latency should work well out of the box. It's still possible to tweak the variables if unusual circumstances arise.
 
 If you experience the audio latency increasing over play-time, open `/etc/pulse/default.pa`, find a line that says:
 ```
@@ -76,7 +70,14 @@ and change it to:
 ```
 load-module module-udev-detect fixed_latency_range=yes
 ```
-Then reboot the system. Note that this may cause severe audio glitches in certain applications (for example the Discord voice chat).
+Then reboot the system. Note that this may cause severe audio glitches in certain applications (opening Discord in Firefox currently causes this, although the responsible component has already had a fix deployed).
+
+You can also adjust the latency Quaver requests from the system. In `quaver.cfg`, find the following settings:
+```
+DevicePeriod = 2
+DeviceBufferLengthMultiplier = 4
+```
+These control the period (2 ms by default, how often the system polls Quaver for new audio) and the buffer length (4 by default, how large the audio buffer is, as a multiple of the period). Decreasing period will decrease the audio latency while increasing the CPU load, and decreasing the buffer length multiplier will decrease the audio latency while potentially introducing audio "crackling" and other artifacts. Increasing these values will lead to more latency while decreasing the CPU load and audio glitch probability respectively.
 
 ### How do I use the Wayland VSync?
 
