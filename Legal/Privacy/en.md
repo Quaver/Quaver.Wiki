@@ -20,13 +20,13 @@ When posting content to our services, using our in-game chat, or posting comment
 
 ### Using our Game Client
 
-When logging into our servers on the game client and submitting scores, we collect your ip address, hashed versions of hardware and client identifiers as well as game client configurations. This information contains no personal identifiable information and is used solely to track user access across our services. We collect this information to help keep unfair players off of the game for the purpose of maintaining leaderboard integrity and to further enforce account security. 
+When logging into our servers on the game client and submitting scores, we collect your IP address, hashed versions of hardware and client identifiers as well as game client configurations. This information contains no personal identifiable information and is used solely to track user access across our services. We collect this information to help keep unfair players off of the game for the purpose of maintaining leaderboard integrity and to further enforce account security. 
 
 When submitting scores to our game servers, replay data may also be sent. This allows us to publically display your replays for scores on leaderboards and user profiles. This data cannot be deleted or modified in any shape or form.
 
 ### Analytics
 
-As you use our services, we collect error logs as well as web analytics that give us information about technical and usage information. This information might include your username, ip address, browser information, and operating system.
+As you use our services, we collect error logs as well as web analytics that give us information about technical and usage information. This information might include your username, IP address, browser information, and operating system.
 
 These logs are only stored if deemed useful for technical purposes.
 
