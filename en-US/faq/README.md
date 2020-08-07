@@ -95,7 +95,7 @@ For the lowest latency (below 1 frame) when running sway, set up `max_render_tim
 
 ## Interface
 
-### How do search filters work?
+### How do song select search filters work?
 
 We currently have following search filters:
 
