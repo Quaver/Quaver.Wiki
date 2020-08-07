@@ -93,6 +93,32 @@ Turn on the "Prefer Wayland" option in Video/Linux and restart Quaver. Now turn 
 
 For the lowest latency (below 1 frame) when running sway, set up `max_render_time` on the output and on the Quaver window. See `man 5 sway` for instructions.
 
+## Interface
+
+### How do search filters work?
+
+We currently have following search filters:
+
+| Filter       | Short flag | Long flag   | Argument                                                    |
+| ------------ | ---------- | ----------- | ----------------------------------------------------------- |
+| BPM          | b          | bpm         | number                                                      |
+| Difficulty   | d          | difficulty  | number                                                      |
+| Game         | g          | game        | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
+| Keys         | k          | keys        | number                                                      |
+| Length       | l          | length      | number in seconds                                           |
+| LNs          | ln         | lns         | either an absolute number (452) or a whole percentage (57%) |
+| NPS          | n          | nps         | number                                                      |
+| Status       | s          | status      | ranked/r, notsubmitted/n, unranked/u, (dan/d)               |
+| Times Played | t          | timesplayed | number                                                      |
+
+All filters can use the `=` (equals) and `!=` (not equals) operator, number comparisons can additionally use `>= > <= <`.
+
+You use a filter by typing a flag, an operator and an argument into the search bar, all without spaces. An example would be `difficulty>30`. Any string from the short to the long flags will be matched, `diff>30` would be a valid filter.
+
+If no flag or operator is given, it will be treated as a regular keyword and display all mapsets that contain that keywork in the metadata (artist, title, mapper, tags).
+
+All conditions in the search have to be met for a mapset to be shown (AND). There is no option for OR gates yet.
+
 ## Troubleshooting
 
 ### The game doesn’t launch
