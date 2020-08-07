@@ -50,6 +50,9 @@ press [Tab] during this to take control and start playing yourself.
 - **View Layers** - Instead of viewing your notes as normal you will view them as layer colors.
 - **Test Play Modifiers** - Will let you set the modifiers for test playing your map. (like autoplay, setting the rate, etc)
 
+## Layers
+Layers are a very good tool to structure your own map. You can set up different colors for different sounds and turn on **View -> View Layers** which will allow you to see and assign layers to notes. For example, if you have a kick every beat, you can assign a color to the note that lies on that beat each time, which allows you to visually see that kick and make your map a little more consistent.
+
 ## Audio
 - **Playback Speed** - Sets the speed in which the map is played in the editor.
 - **Hitsounds** - Options for modifying hitsounds
@@ -72,6 +75,3 @@ press [Tab] during this to take control and start playing yourself.
 
 ## Plugins
 This section allows you to view all the plugins you have installed. Quaver supports custom plugins so that the users can control how hey want their editor to run. There are a few plugins out there already that help users with simple tasks, and any user can make a plugin!
-
-## Layers
-Layers are a very good tool to structure your own map. You can set up different colors for different sounds and turn on **View -> View Layers** which will allow you to see and assign layers to notes. For example, if you have a kick every beat, you can assign a color to the note that lies on that beat each time, which allows you to visually see that kick and make your map a little more consistent.
