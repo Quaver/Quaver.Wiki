@@ -47,7 +47,7 @@ press [Tab] during this to take control and start playing yourself.
 - **Show Waveform** - Shows the blue waveform on the editor field.
 - **Long Note Opacity** - Sets the opacity of the long note bodies.
 - **Center Objects** - Sets the objects to be centered onto the beat snaps (this is recommended for skins like arrow skins)
-- **View Layers** - Instead of viewing your notes as normal you will view them as layer colors.
+- **View Layers** - Instead of viewing your notes as normal you will view them as layer colors. **(See Layers Below)**
 - **Test Play Modifiers** - Will let you set the modifiers for test playing your map. (like autoplay, setting the rate, etc)
 
 ## Layers
@@ -68,10 +68,18 @@ Layers are a very good tool to structure your own map. You can set up different 
 
 ## Tools
 - **Timing Point Editor** - Allows you to edit the timing points of a map to more accurately time it (e.g. multiple BPMs in one song)
-- **Scroll Velocity Editor** - Allows you to edit the scroll velocities to make certain sections of your map change scroll speed of the playfield.
+- **Scroll Velocity Editor** - Allows you to edit the scroll velocities to make certain sections of your map change scroll speed of the playfield. **(see Scroll Velocities Below)**
 - **BPM Calculator** - Lets you edit the BPM and offset of the song.
 - **BPM Detector** - Attempts to detect the BPM of the song (with a varying degree of confidence). You can also choose to set the offset at your current point, or a pre-determined offset. This is useful for getting a base timing and then modifying it from there.
 - **Go To Objects** - Allows you to move to a specific object if that object was copy and pasted into text (like the modding discussion).
+
+## Scroll Velocities
+Scroll velocities are ways to change certain sections of your map to scroll faster or slower. It can be used as a form of emphasis, or to throw your players off. It can be used to add some neat effects to your map if it calls for it.
+- To add a scroll velocity go into **Tools -> Scroll Velocity Editor**.
+- Ensure you are at the proper beat tick that you'd like to place the Scroll Velocity at.
+- Under "Multiplier" type in a decimal value. 1.00 is normal speed, while lower is slower and higher is faster.
+- Make sure to hit "Enter" after you type in your multipler so it locks in that value.
+- Press "Add" at the top to add that Scroll Velocity to the map.
 
 ## Plugins
 This section allows you to view all the plugins you have installed. Quaver supports custom plugins so that the users can control how hey want their editor to run. There are a few plugins out there already that help users with simple tasks, and any user can make a plugin!
