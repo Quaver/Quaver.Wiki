@@ -51,7 +51,8 @@ press [Tab] during this to take control and start playing yourself.
 - **Test Play Modifiers** - Will let you set the modifiers for test playing your map. (like autoplay, setting the rate, etc)
 
 ## Layers
-Layers are a very good tool to structure your own map. You can set up different colors for different sounds and turn on **View -> View Layers** which will allow you to see and assign layers to notes. For example, if you have a kick every beat, you can assign a color to the note that lies on that beat each time, which allows you to visually see that kick and make your map a little more consistent.
+Layers are a useful tool to structure your own map. You can set up different colors for different sounds and turn on **View -> View Layers** which will allow you to see and assign layers to notes. 
+- For example, if you have a kick every beat, you can assign a color to the note that lies on that beat each time, which allows you to visually see that kick and make your map a little more consistent.
 
 ## Audio
 - **Playback Speed** - Sets the speed in which the map is played in the editor.
@@ -74,7 +75,7 @@ Layers are a very good tool to structure your own map. You can set up different 
 - **Go To Objects** - Allows you to move to a specific object if that object was copy and pasted into text (like the modding discussion).
 
 ## Scroll Velocities
-Scroll velocities are ways to change certain sections of your map to scroll faster or slower. It can be used as a form of emphasis, or to throw your players off. It can be used to add some neat effects to your map if it calls for it.
+Scroll velocities (or SV in short) are used to change the speed at which notes move on screen. It can be used to emphasize parts in your map to better fit the song.
 - To add a scroll velocity go into **Tools -> Scroll Velocity Editor**.
 - Ensure you are at the proper beat tick that you'd like to place the Scroll Velocity at.
 - Under "Multiplier" type in a decimal value. 1.00 is normal speed, while lower is slower and higher is faster.
