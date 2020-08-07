@@ -11,7 +11,7 @@ If you're looking for the process of getting a mapset ranked, see: [Quaver Ranki
 
 ## Mandatory
 
-**You must follow all the requirements listed in this section. Failing to meet all the requirements will not allow your map to recieve ranked status.**
+**You must follow all the requirements listed in this section. Failing to meet all the requirements will not allow your map to receive ranked status.**
 
 ### Metadata
 
@@ -32,7 +32,7 @@ The following pertains to media files such as background images and audio files 
 * **MP3 is the only allowed audio file format.**
 * **The maximum bitrate allowed for audio files is 192kbps.**
 
-### Maps 
+### Maps
 
 The following requirements are for the individual maps themselves.
 
@@ -56,51 +56,51 @@ Should you choose not to use the standard names, the difficulty names in your se
 The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
 
 * **Beginner**
-     * For players who are being exposed to rhythm games for the first time. 
+     * For players who are being exposed to rhythm games for the first time.
      * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
      * Jumps are suitable for this difficulty when emphasizing important sounds in the music.
      * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
-     
-* **Easy** 
-     * This difficulty can be thought of as an "upgraded Beginner." 
-     * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns. 
+
+* **Easy**
+     * This difficulty can be thought of as an "upgraded Beginner."
+     * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns.
      * One beat streams and 1/2 bursts are generally comfortable to these players.
      * Jumps can be used more freely but sparingly, as players at this level may still have trouble with them.
      * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
-     
+
 * **Normal**
-     * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner. 
+     * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
      * 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
-     
-* **Hard** 
+
+* **Hard**
      * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
      * Maps at this difficulty can branch into light 1/4th streams with jumps interspersed in them depending on the BPM of the song.
      * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
 
 * **Insane**
-     * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to: 
+     * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to:
           * Light Jacks
           * Complex Long Note Usage
           * Light Jumpstreams
      * Denser patterns are suitable for this level if they are straightforward, and not difficult to execute - such as jumptrills.
 
-* **Expert** 
-     * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative. 
+* **Expert**
+     * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative.
 
 ##### Difficulty Spread Rules
 
-| Length       | Minimum Required Maps |
-| -------------|:---------------------:|
-| **0:45-2:29**| 2                     | 
-| **2:30+**    | 1                     |
+| Length        | Minimum Required Maps |
+| ------------- | :-------------------: |
+| **0:45-2:29** |           2           |
+| **2:30+**     |           1           |
 
 ##### Skipping Difficulties
- 
+
 You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 
 ##### Multi-Game Mode Sets
 
-Furthermore, **each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes. 
+Furthermore, **each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 
 **If you have two game modes, you must preface each difficulty with either "4K" or "7K"** (Example: "7K Insane").
 

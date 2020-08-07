@@ -18,7 +18,7 @@ The game is fully open-source, which allows anyone to help and improve the game.
 
 ### How far in development is Quaver?
 
-Quaver is in Early Access, which means the core features have been finished and everyone can freely play the game online. During this phase, the game will recieve frequent updates, such as bug fixes and additions of new features.
+Quaver is in Early Access, which means the core features have been finished and everyone can freely play the game online. During this phase, the game will receive frequent updates, such as bug fixes and additions of new features.
 
 ### What platforms is Quaver released on?
 
@@ -63,20 +63,26 @@ Similar to bug reports, feature requests belong on our [GitHub issues](https://g
 The audio latency should work well out of the box. It's still possible to tweak the variables if unusual circumstances arise.
 
 If you experience the audio latency increasing over play-time, open `/etc/pulse/default.pa`, find a line that says:
+
 ```
 load-module module-udev-detect
 ```
+
 and change it to:
+
 ```
 load-module module-udev-detect fixed_latency_range=yes
 ```
+
 Then reboot the system. Note that this may cause severe audio glitches in certain applications (opening Discord in Firefox currently causes this, although the responsible component has already had a fix deployed).
 
 You can also adjust the latency Quaver requests from the system. In `quaver.cfg`, find the following settings:
+
 ```
 DevicePeriod = 2
 DeviceBufferLengthMultiplier = 4
 ```
+
 These control the period (2 ms by default, how often the system polls Quaver for new audio) and the buffer length (4 by default, how large the audio buffer is, as a multiple of the period). Decreasing period will decrease the audio latency while increasing the CPU load, and decreasing the buffer length multiplier will decrease the audio latency while potentially introducing audio "crackling" and other artifacts. Increasing these values will lead to more latency while decreasing the CPU load and audio glitch probability respectively.
 
 ### How do I use the Wayland VSync?
@@ -96,11 +102,13 @@ Make sure Steam is running, as Steam is required in order to run Quaver.
 #### Linux, offline or local build
 
 Running an offline, or a published stand-alone build (e.g. from `dotnet publish -c Release -r linux-x64`) needs to be done through the Steam runtime. Run this command from the Quaver repository folder:
+
 ```shell
 ~/.steam/bin/steam-runtime/run.sh Quaver/bin/Release/netcoreapp2.1/linux-x64/publish/Quaver
 ```
 
 Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c Debug`) requires the correct library path. This can be done using the Steam runtime launch script and Quaver’s own launch script:
+
 ```shell
 ~/.steam/bin/steam-runtime/run.sh Quaver/bin/Debug/netcoreapp2.1/quaver.sh
 ```
@@ -122,6 +130,7 @@ This seems to be an issue related to Steam.
 A few things that might help fix this problem can be, running Steam as administrator, restarting your computer, and verifying the integrity of Quaver's game files.
 
 If none of these work for you, you might find the answer in one of these forum threads:
+
 - [Thread One (SteamCommunity)](https://steamcommunity.com/app/346110/discussions/0/333656722964822410/)
 - [Thread Two (Reddit)](https://www.reddit.com/r/Steam/comments/5cnjzf/content_file_locked/)
 

@@ -25,7 +25,7 @@ When you first upload a mapset, all of your maps will be placed in a state of Un
 
 ### Pending
 
-When you submit a mapset for ranking, it will be sent to a queue where our Ranking Supervisors will be able to review the set to make sure it aligns with our Ranking Criteria. 
+When you submit a mapset for ranking, it will be sent to a queue where our Ranking Supervisors will be able to review the set to make sure it aligns with our Ranking Criteria.
 
 ### Denied
 
@@ -57,9 +57,9 @@ Players are eligible to submit their own mapsets for ranked status when they fee
 
 ### 4. Ranking Supervisor Reviewal
 
-After submitting your set for rank, it will be placed in a queue for the Ranking Supervisor team to review. 
+After submitting your set for rank, it will be placed in a queue for the Ranking Supervisor team to review.
 
-In order to get your set ranked, **you will need to get 1 vote from the Ranking Supervisors** that dictates if the set is eligible for rank. 
+In order to get your set ranked, **you will need to get 1 vote from the Ranking Supervisors** that dictates if the set is eligible for rank.
 
 During this vote, **a Supervisor has the ability to veto a mapset from being ranked before it reaches 1 vote and are able place it in a denied state** if there are any issues with the set.
 
@@ -67,7 +67,7 @@ You can check the status of the vote for your set by going to its respective map
 
 Once your mapset receives 1 positive vote, it will automatically be placed in a ranked state.
 
-Each mapset is reviewed by our Supervisors in the order that they are submitted to the ranking queue. The sets that contain the highest amount of Supervisor votes at a given time are given priority. 
+Each mapset is reviewed by our Supervisors in the order that they are submitted to the ranking queue. The sets that contain the highest amount of Supervisor votes at a given time are given priority.
 
 Supervisors are also not allowed to vote for their own mapsets. They must go through the same process as all other users and wait for their respective turn in the ranking queue.
 
@@ -77,7 +77,7 @@ If your mapset is denied, you will receive a comment from one or more Ranking Su
 
 ### 5b. Mapset Blacklisted
 
-Serious mapsets will rarely be blacklisted. If your set does reach this state, it means that it was deemed to be in a state where you aren't showing signs of improving the set after repeated denials or if it was never in an approaching rankable state to begin with. 
+Serious mapsets will rarely be blacklisted. If your set does reach this state, it means that it was deemed to be in a state where you aren't showing signs of improving the set after repeated denials or if it was never in an approaching rankable state to begin with.
 
 ### 5c. Mapset Ranked
 

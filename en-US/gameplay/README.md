@@ -12,10 +12,9 @@ This section explains the different parts of gameplay within Quaver. It gives a 
 ![](/docs/images/gameplay.jpg)
 </center>
 
-
 Quaver is built to support multiple game modes, but the main focus of the game is the Keys game mode. The concept of this game mode has been used in a variety of different rhythm games such as Beatmania, Dance Dance Revolution, and osu!.
 
-The concept of the game mode is simple - notes fall down from the screen (or up depending on scroll direction), and the objective is to press the correct key at the correct time. 
+The concept of the game mode is simple - notes fall down from the screen (or up depending on scroll direction), and the objective is to press the correct key at the correct time.
 
 Quaver has both 4 Keys (4K) and 7 Keys (7K) which are treated as two game modes and have separate leaderboards for them.
 
@@ -30,15 +29,15 @@ This section explains the different types of scoring and grading systems Quaver 
 This section outlines the accuracy percentage that is needed to achieve each grade.
 
 | Grade | Accuracy%                                                  |
-|-------|------------------------------------------------------------|
+| ----- | ---------------------------------------------------------- |
 | X     | 100% (Only achievable by getting all Marvelous judgements) |
-| SS    | 99% Accuracy                                         |
-| S     | 95-98% Accuracy                                         |
-| A     | 90-94% Accuracy                                         |
-| B     | 80-89% Accuracy                                         |
-| C     | 70-79% Accuracy                                         |
-| D     | 60-69% Accuracy                                         |
-| F     | Failed                                      |
+| SS    | 99% Accuracy                                               |
+| S     | 95-98% Accuracy                                            |
+| A     | 90-94% Accuracy                                            |
+| B     | 80-89% Accuracy                                            |
+| C     | 70-79% Accuracy                                            |
+| D     | 60-69% Accuracy                                            |
+| F     | Failed                                                     |
 
 #### Accuracy
 
@@ -46,14 +45,14 @@ Accuracy is a weighted average of received judgements out of the sum of judgemen
 
 You receive one judgement per regular note and two judgements for a long note (press and release).
 
-| Judgement | Weighting                                            |
-|-------|------------------------------------------------------------|
-|  Marvelous    | 100% |
-|  Perfect    | 98.25% |
-|  Great    | 65% |
-|  Good    | 25% |
-|  Okay    | -100% |
-|  Miss   | -50% |
+| Judgement | Weighting |
+| --------- | --------- |
+| Marvelous | 100%      |
+| Perfect   | 98.25%    |
+| Great     | 65%       |
+| Good      | 25%       |
+| Okay      | -100%     |
+| Miss      | -50%      |
 
 #### Performance Rating
 
@@ -81,18 +80,18 @@ Score is another measurement of your performance throughout a play in Quaver. It
 
 This section explains the judgement windows that are used within Quaver. It details the time in milliseconds needed to press a key for a note in order to receive it. Currently there is one standard judgement timing window in Quaver, however this may change in the future.
 
-| Judgement | Window                                  |
-|-------|------------------------------------------------------------|
-|  Marvelous    | ±18ms |
-|  Perfect    | ±43ms |
-|  Great    | ±76ms |
-|  Good    | ±106ms |
-|  Okay    | ±127ms |
-|  Miss   | ±164ms |
+| Judgement | Window |
+| --------- | ------ |
+| Marvelous | ±18ms  |
+| Perfect   | ±43ms  |
+| Great     | ±76ms  |
+| Good      | ±106ms |
+| Okay      | ±127ms |
+| Miss      | ±164ms |
 
 #### Combo
 
-Combo is when you successfully hit objects without missing. 
+Combo is when you successfully hit objects without missing.
 
 * Not pressing an object within its judgement timing windows will result in a Miss, restting your combo.
 * Pressing an object too early (164ms) will result in a Miss, resetting your combo.

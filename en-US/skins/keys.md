@@ -3,23 +3,24 @@ name: Keys
 ---
 
 # Skinning the Keys game mode (4K and 7K)
+
 The following are the list of elements to customize the Keys game mode. This includes 4K and 7K.
 
 **Note: All elements in this case must be in either a folder titled `4k` or `7k` depending on which game mode you wish the element to be for.**
 
-## Column ##
+## Column
 
-### Column Lighting ###
+### Column Lighting
 
 `/4k/Lighting/column-lighting.png`
 
 `/7k/Lighting/column-lighting.png`
 
-![](/docs/images/Column/4K/bar-4k-column-lighting.png)
+![Column Lighting](/docs/images/Column/4K/bar-4k-column-lighting.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | MidCenter | - |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
 
 **Notes:**
 
@@ -27,23 +28,23 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| ColumnLightingScale | Float | The y size scale of the column lighting.
+|        Name         | Possible Values |                  Notes                   |
+| :-----------------: | :-------------: | :--------------------------------------: |
+| ColumnLightingScale |      Float      | The y size scale of the column lighting. |
 
-## Lane Cover  ##
+## Lane Cover
 
-### Top Lane Cover ###
+### Top Lane Cover
 
 `/4k/LaneCover/cover-top.png`
 
 `/7k/LaneCover/cover-top.png`
 
-![](/docs/images/LaneCover/4K/cover-top.png)
+![Top Lane Cover](/docs/images/LaneCover/4K/cover-top.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | BotLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  BotLeft  |       -        |
 
 **Notes:**
 
@@ -51,35 +52,35 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ---
 
-### Bottom Lane Cover ###
+### Bottom Lane Cover
 
 `/4k/LaneCover/cover-bottom.png`
 
 `/7k/LaneCover/cover-bottom.png`
 
-![](/docs/images/LaneCover/4K/cover-bottom.png)
+![Bottom Lane Cover](/docs/images/LaneCover/4K/cover-bottom.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
 - The sprite that is displayed moves up and down depending on corresponding setting's value.
 
-## Lighting ##
+## Lighting
 
-### Hit Lighting ### 
+### Hit Lighting
 
 `/4k/Lighting/hitlighting.png`
 
 `/7k/Lighting/hitlighting.png`
 
-![](/docs/images/Lighting/4K/bar-4k-hitlighting@1x8.png)
+![Hit Lighting](/docs/images/Lighting/4K/bar-4k-hitlighting@1x8.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| Yes | MidCenter | - |
+| :--------: | :-------: | :------------: |
+|    Yes     | MidCenter |       -        |
 
 **Notes:**
 
@@ -91,25 +92,25 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| HitLightingWidth | Integer | The width of the lighting |
-| HitLightingHeight | Integer | The height of the lighting |
-| HitLightingY | Integer | The y position of the lighting |
+|       Name        | Possible Values |             Notes              |
+| :---------------: | :-------------: | :----------------------------: |
+| HitLightingWidth  |     Integer     |   The width of the lighting    |
+| HitLightingHeight |     Integer     |   The height of the lighting   |
+|   HitLightingY    |     Integer     | The y position of the lighting |
 
 ---
 
-### Hold Lighting ### 
+### Hold Lighting
 
 `/4k/Lighting/holdlighting.png`
 
 `/7k/Lighting/holdlighting.png`
 
-![](/docs/images/Lighting/4K/bar-4k-holdlighting@1x12.png)
+![Hold Lighting](/docs/images/Lighting/4K/bar-4k-holdlighting@1x12.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| Yes | MidCenter | - |
+| :--------: | :-------: | :------------: |
+|    Yes     | MidCenter |       -        |
 
 **Notes:**
 
@@ -121,25 +122,25 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| HitLightingWidth | Integer | The width of the lighting |
-| HitLightingHeight | Integer | The height of the lighting |
-| HitLightingY | Integer | The y position of the lighting |
+|       Name        | Possible Values |             Notes              |
+| :---------------: | :-------------: | :----------------------------: |
+| HitLightingWidth  |     Integer     |   The width of the lighting    |
+| HitLightingHeight |     Integer     |   The height of the lighting   |
+|   HitLightingY    |     Integer     | The y position of the lighting |
 
-## Notes ##
+## Notes
 
-### HitObjects ###
+### HitObjects
 
 `/4k/HitObjects/note-hitobject-{1-4}.png`
 
 `/7k/HitObjects/note-hitobject-{1-7}.png`
 
-![](/docs/images/Notes/4K/HitObjects/bar-4k-note-hitobject-2.png)
+![HitObjects](/docs/images/Notes/4K/HitObjects/bar-4k-note-hitobject-2.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -148,22 +149,22 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| FlipNoteImagesOnUpscroll | Boolean (True or False) | If the image will be flipped upside down on upscroll. |
-| ColorObjectsBySnapDistance | Boolean (True or False) | If specified, it will look for file names with the specified snap distance. If it can't find it, it will default it.
+|            Name            |     Possible Values     |                                                        Notes                                                         |
+| :------------------------: | :---------------------: | :------------------------------------------------------------------------------------------------------------------: |
+|  FlipNoteImagesOnUpscroll  | Boolean (True or False) |                                If the image will be flipped upside down on upscroll.                                 |
+| ColorObjectsBySnapDistance | Boolean (True or False) | If specified, it will look for file names with the specified snap distance. If it can't find it, it will default it. |
 
-### HoldHitObjects ###
+### HoldHitObjects
 
 `/4k/HitObjects/note-holdhitobject-{1-4}.png`
 
 `/7k/HitObjects/note-holdhitobject-{1-7}.png`
 
-![](/docs/images/Notes/4K/HoldHitObjects/bar-4k-note-holdhitobject-2.png)
+![HoldHitObjects](/docs/images/Notes/4K/HoldHitObjects/bar-4k-note-holdhitobject-2.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -172,22 +173,22 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| FlipNoteImagesOnUpscroll | Boolean (True or False) | If the image will be flipped upside down on upscroll. |
-| ColorObjectsBySnapDistance | Boolean (True or False) | If specified, it will look for file names with the specified snap distance. If it can't find it, it will default it.
+|            Name            |     Possible Values     |                                                        Notes                                                         |
+| :------------------------: | :---------------------: | :------------------------------------------------------------------------------------------------------------------: |
+|  FlipNoteImagesOnUpscroll  | Boolean (True or False) |                                If the image will be flipped upside down on upscroll.                                 |
+| ColorObjectsBySnapDistance | Boolean (True or False) | If specified, it will look for file names with the specified snap distance. If it can't find it, it will default it. |
 
-### HoldBodies ###
+### HoldBodies
 
 `/4k/HitObjects/note-holdbody-{1-4}.png`
 
 `/7k/HitObjects/note-holdbody-{1-7}.png`
 
-![](/docs/images/Notes/4K/HoldBodies/bar-4k-note-holdbody-2.png)
+![HoldBodies](/docs/images/Notes/4K/HoldBodies/bar-4k-note-holdbody-2.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| Yes | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|    Yes     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -198,22 +199,21 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
+|           Name           |     Possible Values     |                         Notes                         |
+| :----------------------: | :---------------------: | :---------------------------------------------------: |
 | FlipNoteImagesOnUpscroll | Boolean (True or False) | If the image will be flipped upside down on upscroll. |
 
-
-### HoldEnds ###
+### HoldEnds
 
 `/4k/HitObjects/note-holdend-{1-4}.png`
 
 `/7k/HitObjects/note-holdend-{1-7}.png`
 
-![](/docs/images/Notes/4K/HoldEnds/bar-4k-note-holdend-2.png)
+![HoldEnds](/docs/images/Notes/4K/HoldEnds/bar-4k-note-holdend-2.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -221,24 +221,23 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
+|           Name           |     Possible Values     |                         Notes                         |
+| :----------------------: | :---------------------: | :---------------------------------------------------: |
 | FlipNoteImagesOnUpscroll | Boolean (True or False) | If the image will be flipped upside down on upscroll. |
 
+## Receptors
 
-## Receptors ##
-
-### Receptors (Up) ### 
+### Receptors (Up)
 
 `/4k/Receptors/receptor-up-{1-4}.png`
 
 `/7k/Receptors/receptor-up-{1-7}.png`
 
-![](/docs/images/Receptors/4K/Up/bar-4k-receptor-up-1.png)
+![Receptors (Up)](/docs/images/Receptors/4K/Up/bar-4k-receptor-up-1.png)
 
-| Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | Square Image (256x256) |
+| Animatable | Alignment |     Suggested Size     |
+| :--------: | :-------: | :--------------------: |
+|     No     |  TopLeft  | Square Image (256x256) |
 
 **Notes:**
 
@@ -246,25 +245,25 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| ReceptorPosOffsetY | Integer | The y position offset of the receptors relative to the bottom/top of the stage |
-| ColumnSize | Integer | Increases the width of the receptors.
-| ReceptorsOverHitObjects | True or False | If true, the receptors will be over the hitobjects when they fall down.
+|          Name           | Possible Values |                                     Notes                                      |
+| :---------------------: | :-------------: | :----------------------------------------------------------------------------: |
+|   ReceptorPosOffsetY    |     Integer     | The y position offset of the receptors relative to the bottom/top of the stage |
+|       ColumnSize        |     Integer     |                     Increases the width of the receptors.                      |
+| ReceptorsOverHitObjects |  True or False  |    If true, the receptors will be over the hitobjects when they fall down.     |
 
 ---
 
-### Receptors (Down) ### 
+### Receptors (Down)
 
 `/4k/Receptors/receptor-down-{1-4}.png`
 
 `/7k/Receptors/receptor-down-{1-7}.png`
 
-![](/docs/images/Receptors/4K/Down/bar-4k-receptor-down-1.png)
+![Receptors (Down)](/docs/images/Receptors/4K/Down/bar-4k-receptor-down-1.png)
 
-| Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | Square Image (256x256) |
+| Animatable | Alignment |     Suggested Size     |
+| :--------: | :-------: | :--------------------: |
+|     No     |  TopLeft  | Square Image (256x256) |
 
 **Notes:**
 
@@ -272,25 +271,25 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| ReceptorPosOffsetY | Integer | The y position offset of the receptors relative to the bottom/top of the stage |
-| ColumnSize | Integer | Increases the width of the receptors. |
-| ReceptorsOverHitObjects | True or False | If true, the receptors will be over the hitobjects when they fall down. |
- 
-## Stage ##
+|          Name           | Possible Values |                                     Notes                                      |
+| :---------------------: | :-------------: | :----------------------------------------------------------------------------: |
+|   ReceptorPosOffsetY    |     Integer     | The y position offset of the receptors relative to the bottom/top of the stage |
+|       ColumnSize        |     Integer     |                     Increases the width of the receptors.                      |
+| ReceptorsOverHitObjects |  True or False  |    If true, the receptors will be over the hitobjects when they fall down.     |
 
-### Stage BG Mask ### 
+## Stage
+
+### Stage BG Mask
 
 `/4k/Stage/stage-bgmask.png`
 
 `/7k/Stage/stage-bgmask.png`
 
-![](/docs/images/Stage/4K/bar-4k-stage-bgmask.png)
+![Stage BG Mask](/docs/images/Stage/4K/bar-4k-stage-bgmask.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | MidCenter | - |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
 
 **Notes:**
 
@@ -298,23 +297,23 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-| Name | Possible Values | Notes |
-|:-:|:-:|:-:|
-| BgMaskAlpha | Float (0.0-1.0) | The alpha channel/opacity of the bg mask.
+|    Name     | Possible Values |                   Notes                   |
+| :---------: | :-------------: | :---------------------------------------: |
+| BgMaskAlpha | Float (0.0-1.0) | The alpha channel/opacity of the bg mask. |
 
 ---
 
-### Stage Distant Overlay ### 
+### Stage Distant Overlay
 
 `/4k/Stage/stage-distant-overlay.png`
 
 `/7k/Stage/stage-distant-overlay.png`
 
-![](/docs/images/Stage/4K/bar-4k-stage-distant-overlay.png)
+![Stage Distant Overlay](/docs/images/Stage/4K/bar-4k-stage-distant-overlay.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopCenter | - |
+| :--------: | :-------: | :------------: |
+|     No     | TopCenter |       -        |
 
 **Notes:**
 
@@ -326,17 +325,17 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ---
 
-### Stage Hit Position Overlay ###
+### Stage Hit Position Overlay
 
 `/4k/Stage/stage-hitposition-overlay.png`
 
 `/7k/Stage/stage-hitposition-overlay.png`
 
-![](/docs/images/Stage/4K/bar-4k-stage-hitposition-overlay.png)
+![Stage Hit Position Overlay](/docs/images/Stage/4K/bar-4k-stage-hitposition-overlay.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | MidCenter | - |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
 
 **Notes:**
 
@@ -348,17 +347,17 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ---
 
-### Stage Left Border ###
+### Stage Left Border
 
 `/4k/Stage/stage-left-border.png`
 
 `/7k/Stage/stage-left-border.png`
 
-![](/docs/images/Stage/4K/bar-4k-stage-left-border.png)
+![Stage Left Border](/docs/images/Stage/4K/bar-4k-stage-left-border.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -370,17 +369,17 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ---
 
-### Stage Right Border ###
+### Stage Right Border
 
 `/4k/Stage/stage-right-border.png`
 
 `/7k/Stage/stage-right-border.png`
 
-![](/docs/images/Stage/4K/bar-4k-stage-right-border.png)
+![Stage Right Border](/docs/images/Stage/4K/bar-4k-stage-right-border.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopRight | - |
+| :--------: | :-------: | :------------: |
+|     No     | TopRight  |       -        |
 
 **Notes:**
 
@@ -392,7 +391,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 ---
 
-## Editor ##
+## Editor
 
 ### Layer HitObjects
 
@@ -400,11 +399,11 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 `/7k/Editor/note-hitobject-{1-7}.png`
 
-![](/docs/images/Editor/4K/note-hitobject-1.png)
+![Layer HitObjects](/docs/images/Editor/4K/note-hitobject-1.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -422,11 +421,11 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 `/7k/Editor/note-holdbody-{1-7}.png`
 
-![](/docs/images/Editor/4K/note-holdbody-1.png)
+![Layer Note Holdbodies](/docs/images/Editor/4K/note-holdbody-1.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -444,11 +443,11 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 `/7k/Editor/note-holdend-{1-7}.png`
 
-![](/docs/images/Editor/4K/note-holdend-1.png)
+![Layer Note Holdends](/docs/images/Editor/4K/note-holdend-1.png)
 
 | Animatable | Alignment | Suggested Size |
-|:-:|:-:|:-:|
-| No | TopLeft | - |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 

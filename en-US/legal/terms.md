@@ -26,6 +26,7 @@ If a change is material, we’ll let you know before they take effect. By using 
 Quaver reserves the right to modify or discontinue the Service with or without notice to Client. Quaver shall not be liable to Client or any third party should Quaver exercise its right to modify or discontinue the Service.
 
 ## Disclaimer of warranty
+
 Quaver provides the Services to you as is. You use them at your own risk and discretion. That means they don’t come with any warranty. None express, none implied. No implied warranty of merchantability, fitness for a particular purpose, availability, security, title or non-infringement.
 
 ## Limitation of Liability
@@ -67,6 +68,7 @@ Whilst we endeavour to ensure that the information on this website is correct, w
 We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any page on your Web site or within any context containing content or materials that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
 
 ## No children
+
 Quaver is only for people 13 years old and over. By using Quaver, you affirm that you are over 13. If we learn someone under 13 is using Quaver, we’ll terminate their account.
 
 ## Incorporated rules and policies
