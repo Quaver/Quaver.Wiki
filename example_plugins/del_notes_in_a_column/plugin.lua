@@ -1,25 +1,11 @@
 function draw()
     imgui.Begin("Delete all notes in a column")
 
-    --[[
-        Prevents mouse and scroll from interacting with
-        the editor space behind the plugin
-    ]]
-    state.IsWindowHovered = imgui.IsWindowHovered()
-
     local keys = 0
 
-    --[[
-        map.Mode is represented as an Enum in source code,
-        which translates to the Lua object being considered
-        "userdata" which you can't directly string compare.
-        tostring() converts it to a comparable string.
-        There also isn't any switch-case to use.
-    ]]
-
-    if tostring(map.Mode) == "Keys4" then
+    if map.Mode == game_mode.Keys4 then
         keys = 4
-    elseif tostring(map.Mode) == "Keys7" then
+    elseif map.Mode == game_mode.Keys7 then
         keys = 7
     else
         imgui.Text("Invalid keymode!")
