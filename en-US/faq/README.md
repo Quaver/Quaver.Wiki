@@ -50,15 +50,15 @@ The game doesn't support skin conversions out of the box, however you can downlo
 
 Any bug reports should be posted on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Feel free to post anything you find, but please check if the issue has already been reported to avoid duplication.
 
-### Can I change my username?
-
-Changing your username is a donator-only feature. If you are a donator, you can change username once every 30 days.
-
 ### I have a feature request, where can I post it?
 
 Similar to bug reports, feature requests belong on our [GitHub issues](https://github.com/Quaver/Quaver/issues). Simply choose “Feature Request” when creating a new issue!
 
-### How do I tweak the hitsound audio latency on Linux?
+### Can I change my username?
+
+Changing your username is a donator-only feature. If you are a donator, you can change username once every 30 days.
+
+### How do I reduce the hitsound audio latency on Linux?
 
 The audio latency should work well out of the box. It's still possible to tweak the variables if unusual circumstances arise.
 
@@ -144,10 +144,6 @@ Running a regular, non-stand-alone build (e.g. from `dotnet build -p Quaver -c D
 To run .NET Core on Windows 7, you need some extra dependencies.
 
 Follow the “Install the following” steps on [this](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31&pivots=os-windows#additional-deps) website.
-
-### I can’t upload my mapset using the editor
-
-If your mapset fails to upload using the client, you can upload it manually on the [Upload Mapset](https://quavergame.com/upload/mapset/) page.
 
 ### I'm getting "Content File Locked" while trying to download Quaver on Steam
 
