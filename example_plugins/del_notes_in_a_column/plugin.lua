@@ -1,6 +1,12 @@
 function draw()
     imgui.Begin("Delete all notes in a column")
 
+    --[[
+        Prevents mouse and scroll from interacting with
+        the editor space behind the plugin
+    ]]
+    state.IsWindowHovered = imgui.IsWindowHovered()
+
     local keys = 0
 
     --[[
