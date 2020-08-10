@@ -1,3 +1,7 @@
+---
+name: Getting Started
+---
+
 # Getting Started
 
 ## Importing an MP3 File

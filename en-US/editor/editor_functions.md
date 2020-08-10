@@ -1,3 +1,7 @@
+---
+name: Editor Functions
+---
+
 # Editor Functions
 
 The editor provides a lot of features that help mappers improve their workflow. Complex things like a direct gameplay preview side by side your editor field, as well as simple
