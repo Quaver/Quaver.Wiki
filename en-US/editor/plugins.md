@@ -66,3 +66,19 @@ If you're looking for examples to work off, feel free to look at the
 [example plugins folder](https://github.com/Quaver/Quaver.Wiki/tree/master/example_plugins). The already included tools in the editor for BPM Calculator,
 Detector and "Go to objects" were also written in Lua and can be found
 [here](https://github.com/Quaver/Quaver.Resources/tree/master/Quaver.Resources/Scripts/Lua/Editor).
+
+## User-created plugins
+
+A few users have already gone ahead and made plugins for everyone to use! There isn't any complete list of them yet, but here are the most known and popular ones so far:
+
+* [iceSV](https://github.com/IceDynamix/iceSV), a large plugin for general SV
+  pattern creation and editing
+* [StackedNotesFinder](https://github.com/Illuminati-CRAZ/StackedNotesFinder), a
+  plugin to find overlapped notes in a map
+* [UnsnappedNotesFinder](https://github.com/Illuminati-CRAZ/UnsnappedNotesFinder),
+  a plugin to find unsnapped notes in a map
+* [KeepStill](https://github.com/Illuminati-CRAZ/KeepStill), a plugin to easily
+  a specific SV effect with instant teleports
+* [BeatSnapColorOverride](https://github.com/Illuminati-CRAZ/BeatSnapColorOverride),
+  a plugin to conveniently place timing points in a way to force snap notes to a
+  specific color in-game
