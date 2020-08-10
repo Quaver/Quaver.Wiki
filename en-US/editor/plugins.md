@@ -59,3 +59,10 @@ you can use to interact with the editor.
 Another useful resource is the
 [ImGuiWrapper.cs](https://github.com/Quaver/Quaver/blob/ui-redesign/Quaver.Shared/Scripting/ImGuiWrapper.cs)
 file, which contains all GUI related functions you're able to use.
+
+## Example plugins
+
+If you're looking for examples to work off, feel free to look at the
+[example plugins folder](https://github.com/Quaver/Quaver.Wiki/tree/master/example_plugins). The already included tools in the editor for BPM Calculator,
+Detector and "Go to objects" were also written in Lua and can be found
+[here](https://github.com/Quaver/Quaver.Resources/tree/master/Quaver.Resources/Scripts/Lua/Editor).
