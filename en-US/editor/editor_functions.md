@@ -12,11 +12,11 @@ things like a metronome. These are features the editor provides to help benefit 
 - **New Song** - Lets you select an MP3 file from your desktop to create an entirely new map with. You can ALSO drag an MP3 into the Quaver window to create a new map as well.
 - **Create New Difficulty** - Creates a new difficulty for the current song.
   - **New Map** - The new difficulty created will contain *no* notes and will start from scratch.
-  - **Copy Current Map** - The new difficulty created will retain all the same notes. Useful for cutting up cerain sections for practice or wanting to make an easier diff with
+  - **Copy Current Map** - The new difficulty created will retain all the same notes. Useful for cutting up certain sections for practice or wanting to make an easier diff with
   the same idea.
 - **Save** - Saves the current map. **(requires changes to be made from previous save to function)**
 - **Upload** - Uploads the current mapset to the Quaver website.
-- **Export** - Exports the current mapset as a .qp file to send to others without needing to upload to the website (good for quickly sending a map to someone without comitting to
+- **Export** - Exports the current mapset as a .qp file to send to others without needing to upload to the website (good for quickly sending a map to someone without committing to
 an upload).
 - **Open Song Folder** - Opens the folder associated with that specific mapset.
 - **Open .qua File** - Opens the specific difficulty file to edit certain things.
@@ -32,7 +32,7 @@ an upload).
 - **Delete** - Deletes a selected set of notes. **(requires notes to be selected with the select tool)**
 - **Select All** - Selects all of the notes in the map.
 - **Select All In Layer** - Selects all of the notes in the map that are of the same layer that is selected.
-- **Flip Objects** - Mirrors a seleted set of objects **(requires notes to be selected with the select tool)**
+- **Flip Objects** - Mirrors a selected set of objects **(requires notes to be selected with the select tool)**
 - **Move Objects To Layer** - Moves a selected set of notes to a specific layer. **(requires notes to be selected with the select tool)**
 - **Edit Metadata** - Lets you edit the metadata of the current song.
 - **Edit Timing Points** - Lets you add, remove, or modify timing points which can help time the song.
