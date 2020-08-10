@@ -10,7 +10,7 @@ If you're looking for multiplayer chat commands, they can be found [here](/docs/
 
 ## Game Modes
 
-Quaver's multiplayer offers three game modes including: 
+Quaver's multiplayer offers three game modes including:
 
 * **Free-For-All** - Go head to head with other players
 * **Team** - The team with the highest average performance rating wins
@@ -20,7 +20,7 @@ Quaver's multiplayer offers three game modes including:
 
 In free-for-all, you will go head to head with all other players in the game. The player with the highest performance rating will win the match.
 
-If there are only two players in the match (1v1), the game will display each player's win count on-screen. 
+If there are only two players in the match (1v1), the game will display each player's win count on-screen.
 
 **Note: You must have at least 2 players to start the match.**
 
@@ -32,7 +32,7 @@ In Team mode, there are two teams: Red & Blue. The team with the highest average
 
 ### Battle Royale
 
-Battle Royale is a new and unique game mode to Quaver and rhythm game multiplayer. 
+Battle Royale is a new and unique game mode to Quaver and rhythm game multiplayer.
 
 In this game mode, the played map will be broken up into equal intervals divided by the amount of players in the game. After each interval, a player will be eliminated from the match and will be placed in a state of death. When there are two players left, the player with the highest performance rating at the end of the map will win the game.
 

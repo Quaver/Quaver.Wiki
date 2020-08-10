@@ -3,17 +3,20 @@ name: SFX
 ---
 
 # Skinning Sound Effects
+
 The following are a list of sound effects that are customizable in Quaver.
 
 **Important Notes:**
+
 * **ALL sound effects must be located in the /SFX/ directory in the root folder of your skin**
 
-## Menu ##
+## Menu
+
 `/SFX/sound-clck.wav`
 
-* Plays when advancing through the menus. 
+* Plays when advancing through the menus.
      * *Example: When clicking a button to travel to the song select screen.*
-     
+
 ---
 
 `/SFX/sound-back.wav`
@@ -40,7 +43,8 @@ The following are a list of sound effects that are customizable in Quaver.
 * Plays when pressing a key in any textbox that has keyclick samples enabled.
 * You can add multiple samples by adding another file `/SFX/sound-menu-keyclick-2,3,4....etc`. They are played in a randomized order.
 
-## Gameplay ##
+## Gameplay
+
 `/SFX/sound-hit.wav`
 
 * In the Keys game mode, this will play when pressing an input key if the next object in the lane doesn't have hitsounds.

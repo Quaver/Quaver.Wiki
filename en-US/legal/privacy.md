@@ -11,7 +11,7 @@ Effective Date: December 14th, 2018
 
 This policy sets out our privacy practices and explains how we handle the information we collect when you visit and use our sites, services, mobile applications, products, and content (“Services”).
 
-By using our Service, you confirm that you have read the Terms of Service and the following privacy policy. If you do not wish for us to collect or process your infromation as described, do not use our Services.
+By using our Service, you confirm that you have read the Terms of Service and the following privacy policy. If you do not wish for us to collect or process your information as described, do not use our Services.
 
 ## Information We Collect
 
@@ -25,7 +25,7 @@ When posting content to our services, using our in-game chat, or posting comment
 
 ### Using our Game Client
 
-When logging into our servers on the game client and submitting scores, we collect your ip address, hashed versions of hardware and client identifiers as well as game client configurations. This information contains no personal identifiable information and is used solely to track user access across our services. We collect this information to help keep unfair players off of the game for the purpose of maintaining leaderboard integrity and to further enforce account security. 
+When logging into our servers on the game client and submitting scores, we collect your ip address, hashed versions of hardware and client identifiers as well as game client configurations. This information contains no personal identifiable information and is used solely to track user access across our services. We collect this information to help keep unfair players off of the game for the purpose of maintaining leaderboard integrity and to further enforce account security.
 
 When submitting scores to our game servers, replay data may also be sent. This allows us to publically display your replays for scores on leaderboards and user profiles. This data cannot be deleted or modified in any shape or form.
 
