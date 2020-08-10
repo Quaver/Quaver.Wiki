@@ -6,9 +6,9 @@ name: Editor
 
 Quaver comes with a fully featured editor that contains many different tools to help create your dream map.
 
-[Getting Started](/docs/Editor/Getting_started)
-
-[Editor Functions](/docs/Editor/Editor_functions)
+* [Getting Started](/docs/Editor/Getting_started)
+* [Editor Functions](/docs/Editor/Editor_functions)
+* [Plugins](/docs/Editor/plugins)
 
 ## I made a map in another game and I want to upload it to Quaver's website!
 
