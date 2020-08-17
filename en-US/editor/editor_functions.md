@@ -39,6 +39,7 @@ an upload).
 * **Edit Scroll Velocities** - Lets you modify the map with scroll velocities that change the speed of how the song scrolls.
 * **Set Song Select Preview Time** - Sets the location (at the current point) in which the song select will start the song preview at.
 * **Apply Offset to Map** - Applies an offset to the entire map, which shifts timing points, scroll velocities, and notes by a given ms.
+* **Resnap all notes** - Moves all unsnapped notes to the closest snap, either to the currently selected one or 1/16 and 1/12 by default.
 * **Apply Modifier to Map** - Applies a note modifier to your map so you can see how it would look.
 
 ## View
