@@ -77,11 +77,11 @@ If your mapset is denied, you will receive a comment from one or more Ranking Su
 
 ### 5b. Mapset On-Hold
 
-When a mapset is put into this state, its position in the queue is retained but is awaiting further minor changes that needs to be resolved. This is used to put mapsets that are of otherwise rankable quality that is lacking in formalities which would otherwise be grounds for denial, such as improper metadata or overlapping notes, into a state where all supervisor votes are reset and bars the mapset from any further voting by supervisors, as well as keeping its queue position. 
+This is used to put mapset which have minor issues that prevent them from being ranked, such as improper metadata or overlapping notes, into a state that resets and restricts all supervisors until the mapset is resolved. 
 
 ### 5c. Mapset Resolved
 
-When the creator of a mapset that has been put onto the On-Hold state updates said mapset, its status will become Resolved, meaning that it can be voted for again by any supervisor.
+If the status of a mapset is On Hold, it has to be updated for it to be marked as Resolved. In this state supervisors can review it again.
 
 ### 5d. Mapset Blacklisted
 
@@ -90,4 +90,3 @@ Serious mapsets will rarely be blacklisted. If your set does reach this state, i
 ### 5e. Mapset Ranked
 
 After this stage, you don't need to do anything else! Your mapset is now ranked and is eligible to play in global rankings.
-
