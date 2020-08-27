@@ -77,7 +77,7 @@ If your mapset is denied, you will receive a comment from one or more Ranking Su
 
 ### 5b. Mapset On-Hold
 
-This is used to put mapset which have minor issues that prevent them from being ranked, such as improper metadata or overlapping notes, into a state that resets and restricts all supervisors until the mapset is resolved. 
+If your mapset is put on-hold, it means that minor issues were found that prevent it from being ranked. The most common issues are improper metadata or overlapping notes. During this state, any existing supervisor votes will be reset back to zero, and your set cannot be voted for until all issues are resolved. You will need to update your mapset in order for it to go to a status of "Resolved."
 
 ### 5c. Mapset Resolved
 
