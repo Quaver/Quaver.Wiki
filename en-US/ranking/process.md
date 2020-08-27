@@ -81,7 +81,7 @@ If your mapset is put on-hold, it means that minor issues were found that preven
 
 ### 5c. Mapset Resolved
 
-If the status of a mapset is On Hold, it has to be updated for it to be marked as Resolved. In this state supervisors can review it again.
+If the status of your mapset is on-hold, it has to be updated for it to automatically be marked as resolved. While in this state, the supervisors can review and vote for it again. 
 
 ### 5d. Mapset Blacklisted
 
