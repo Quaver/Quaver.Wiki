@@ -75,10 +75,18 @@ Supervisors are also not allowed to vote for their own mapsets. They must go thr
 
 If your mapset is denied, you will receive a comment from one or more Ranking Supervisors with the reason(s) why. After this period, you are eligible to update your map with fixes to submit again for rank. **Keep in mind that if denied, your set will be placed in a cooldown period for 3 days until you are able to submit it again.**
 
-### 5b. Mapset Blacklisted
+### 5b. Mapset On-Hold
+
+If your mapset is put on-hold, it means that minor issues were found that prevent it from being ranked. The most common issues are improper metadata or overlapping notes. During this state, any existing supervisor votes will be reset back to zero, and your set cannot be voted for until all issues are resolved. You will need to update your mapset in order for it to go to a status of "Resolved."
+
+### 5c. Mapset Resolved
+
+If the status of your mapset is on-hold, it has to be updated for it to automatically be marked as resolved. While in this state, the supervisors can review and vote for it again. 
+
+### 5d. Mapset Blacklisted
 
 Serious mapsets will rarely be blacklisted. If your set does reach this state, it means that it was deemed to be in a state where you aren't showing signs of improving the set after repeated denials or if it was never in an approaching rankable state to begin with.
 
-### 5c. Mapset Ranked
+### 5e. Mapset Ranked
 
 After this stage, you don't need to do anything else! Your mapset is now ranked and is eligible to play in global rankings.
