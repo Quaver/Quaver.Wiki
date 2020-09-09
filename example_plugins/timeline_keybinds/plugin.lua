@@ -24,7 +24,7 @@ function draw()
 
                 -- and-or construct resembles a ternary operator
                 -- https://hisham.hm/2011/05/04/luas-and-or-as-a-ternary-operator/
-                msToMove = amount * (isShiftDown and shiftMultiplier or 1)
+                msToMove = amount * (isShiftDown() and shiftMultiplier or 1)
                 actions.GoToObjects(state.SongTime + msToMove)
                 break
 
