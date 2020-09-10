@@ -1,12 +1,12 @@
 function draw()
     imgui.Begin("Move Selected Notes Right x Lanes")
 
-    --Prevent the user from interacting with the editor when interacting with the plugin window
+    --Prevents the user from interacting with the editor while they are interacting with the plugin window
     state.IsWindowHovered = imgui.IsWindowHovered()
 
+    --Determine the number of lanes in the map
     local lanes = 0
 
-    --Determine the number of lanes in the map
     if map.Mode == game_mode.Keys4 then
         lanes = 4
     elseif map.Mode == game_mode.Keys7 then
@@ -17,7 +17,16 @@ function draw()
         return
     end
 
-    --Retrieve the value of x, defaulting to 1
+    --[[
+        Variables that need to persist across multiple frames
+        need to be handled with state.GetValue() and state.SetValue(),
+        since all variables are cleared in the next frame.
+
+        The state variable is not set in the first frame,
+        returning nil (Lua's null equivalent) which would break the following code.
+        The 'or' accommodates for that case and gives it a 'default' value of 1 in the first frame,
+        until the state variable has been set at the end of the code.
+    ]]
     local x = state.GetValue("x") or 1
 
     local selection = state.SelectedHitObjects
@@ -35,20 +44,34 @@ function draw()
     if imgui.Button("Shift Notes " .. x .. plural(" Lane", x) .." to the Right") then
         local result = {}
 
-        for _, note in pairs(selection) do
+        for i, note in pairs(selection) do
             --Notes on the last lane move to the first lane
-            table.insert(result, utils.CreateHitObject(note.StartTime, (note.Lane + x - 1) % lanes + 1, note.EndTime))
+            local newLane = (note.Lane + x - 1) % lanes + 1
+            table.insert(result, utils.CreateHitObject(note.StartTime, newLane, note.EndTime))
         end
 
+        --2 undos are required to fully undo the shifting of notes by this plugin
         actions.RemoveHitObjectBatch(selection)
         actions.PlaceHitObjectBatch(result)
 
+        --[[
+            As of the 10th of September 2020,
+            there is currently a bug that causes HitObjects
+            removed by plugins to not be removed from the selection.
+
+            Without the following line of code,
+            pressing the button again would duplicate the notes
+            at the new pasted location.
+
+            The following line of code also allows for the shifting of notes
+            across multiple lanes through the repeated clicking
+            of the button, without having to change 'x'.
+        ]]
         actions.SetHitObjectSelection(result)
     end
 
     imgui.TextWrapped(#selection .. " notes selected")
 
-    --Store the value of x for the next frame
     state.SetValue("x", x)
 
     imgui.End()
@@ -57,5 +80,5 @@ end
 function plural(word, number)
     -- and-or construct resembles a ternary operator
     -- https://hisham.hm/2011/05/04/luas-and-or-as-a-ternary-operator/
-    return(number == 1 and word or word .. "s")
+    return (number == 1 and word or word .. "s")
 end
