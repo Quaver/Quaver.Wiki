@@ -39,7 +39,13 @@ an upload).
 * **Edit Scroll Velocities** - Lets you modify the map with scroll velocities that change the speed of how the song scrolls.
 * **Set Song Select Preview Time** - Sets the location (at the current point) in which the song select will start the song preview at.
 * **Apply Offset to Map** - Applies an offset to the entire map, which shifts timing points, scroll velocities, and notes by a given ms.
-* **Apply Modifier to Map** - Applies a note modifier to your map so you can see how it would look.
+* **Resnap All Notes** - Options to resnap all notes.
+  * **Resnap to currently selected snap** - Resnaps all notes to the currently selected beat snap, which is shown in the brackets.
+  * **Resnap to 1/16 and 1/12 snaps** - Resnaps all notes to 1/16 and 1/12 snaps. Notes will snap to the closest beat snap divisor.
+* **Resnap Selected Notes** - Options to resnap notes highlighted with the "Select" tool.
+  * **Resnap to currently selected snap** - Resnaps selected notes to the currently selected beat snap, which is shown in the brackets.
+  * **Resnap to 1/16 and 1/12 snaps** - Resnaps selected notes to 1/16 and 1/12 snaps. Notes will snap to the closest beat snap divisor.
+* **Apply Modifier to Map** - Applies a note modifier to your map, such as Mirror, No Long Notes, Full Long Notes, or Inverse. This action is irreversible. 
 
 ## View
 
@@ -49,9 +55,10 @@ press [Tab] during this to take control and start playing yourself.
 * **Background Brightness** - Changes how bright or dark the background image is.
 * **Beat Snap Divisor** - Lets you set the beat snap of the given song (you can also adjust this by holding CTRL and using your mouse wheel)
 * **Beat Snap Color** - Changes the color of the beat snaps to one of three color schemes.
-* **Scale Scroll Speed** - Scales the speed of the editor field to BPM changes (faster BPM = faster scroll speed)
-* **Place Objects On Nearest Tick** - Places objects on the nearest beat tick from your mouse position
-* **Show Waveform** - Shows the blue waveform on the editor field.
+* **Scale Scroll Speed** - Enable/Disable scaling the speed of the editor field to BPM changes (faster BPM = faster scroll speed)
+* **Place Objects On Nearest Tick** - Enable/Disable placing objects on the nearest beat tick from your mouse position
+* **Place Objects With Top Row Numbers** - Enable/Disable placing objects using the top row numbers. Numbers 1-4 are used for the 4K key mode, while numbers 1-7 are used for the 7K key mode.
+* **Show Waveform** - Enable/Disable the blue waveform on the editor field.
 * **Long Note Opacity** - Sets the opacity of the long note bodies.
 * **Center Objects** - Sets the objects to be centered onto the beat snaps (this is recommended for skins like arrow skins)
 * **View Layers** - Instead of viewing your notes as normal you will view them as layer colors. **(See Layers Below)**
@@ -66,7 +73,7 @@ Layers are a useful tool to structure your own map. You can set up different col
 ## Audio
 
 * **Playback Speed** - Sets the speed in which the map is played in the editor.
-* **Hitsounds** - Options for modifying hitsounds
+* **Hitsounds** - Options for modifying hitsounds.
   * **Enabled** - Enable or disable hitsounds
   * **Volume** - Sets the volume of the hitsounds in the editor.
 * **Metronome** - Options for modifying the metronome.
