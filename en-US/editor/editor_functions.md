@@ -59,7 +59,7 @@ press [Tab] during this to take control and start playing yourself.
 * **Place Objects With Top Row Numbers** - Enable/Disable placing objects using the top row numbers. Numbers 1-4 are used for the 4K key mode, while numbers 1-7 are used for the 7K key mode.
 * **Show Waveform** - Enable/Disable the blue waveform on the editor field.
 * **Long Note Opacity** - Sets the opacity of the long note bodies.
-* **Center Objects** - Sets the objects to be centered onto the beat snaps. This is recommended for skins like arrow skins.
+* **Center Objects** - Sets the objects to be centered onto the beat snaps. This is recommended for arrow-type skins.
 * **View Layers** - Instead of viewing your notes as normal you will view them as layer colors. **(See Layers Below)**
 * **Test Play Modifiers** - Will let you set the modifiers for test playing your map (like autoplay, setting the rate, etc).
 
