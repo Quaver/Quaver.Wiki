@@ -54,7 +54,7 @@ press [Tab] during this to take control and start playing yourself.
 * **Background Brightness** - Changes how bright or dark the background image is.
 * **Beat Snap Divisor** - Lets you set the beat snap of the given song. You can also adjust this by holding CTRL and using your mouse wheel.
 * **Beat Snap Color** - Changes the color of the beat snaps to one of three color schemes.
-* **Scale Scroll Speed** - Enable/Disable scaling the speed of the editor field to BPM changes. (faster BPM = faster scroll speed)
+* **Scale Scroll Speed** - Enable/Disable scaling the speed of the editor field to playback rate. (faster rate = faster scroll speed)
 * **Place Objects On Nearest Tick** - Enable/Disable placing objects on the nearest beat tick from your mouse position.
 * **Place Objects With Top Row Numbers** - Enable/Disable placing objects using the top row numbers. Numbers 1-4 are used for the 4K key mode, while numbers 1-7 are used for the 7K key mode.
 * **Show Waveform** - Enable/Disable the blue waveform on the editor field.
