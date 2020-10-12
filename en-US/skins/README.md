@@ -24,11 +24,12 @@ To get started, it'll be helpful to start with a base skin. You can download bot
 * [Skin.ini](/docs/Skins/Skin.ini)
 
 If you want to start creating skin elements from the scratch, you will need an image editing software of your choice. We made a list of the software below:
-   * [Adobe Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
-   * [GIMP](https://www.gimp.org)
-   * [paint.net](https://www.getpaint.net/index.html)
-   * [Figma](https://www.figma.com/login)
-   * [Photopea](https://www.photopea.com)
+
+   - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
+   - [GIMP](https://www.gimp.org)
+   - [paint.net](https://www.getpaint.net/index.html)
+   - [Figma](https://www.figma.com/login)
+   - [Photopea](https://www.photopea.com)
 
 
 ## Where can I get skins that I saw someone played with in Quaver?
