@@ -472,8 +472,8 @@ and more.
 
 **skin.ini Values:**
 
-|                                   Name                                    | Possible Values |                                Notes                                |
-| :-----------------------------------------------------------------------: | :-------------: | :-----------------------------------------------------------------: |
+|                                       Name                                       | Possible Values |                                Notes                                |
+| :------------------------------------------------------------------------------: | :-------------: | :-----------------------------------------------------------------: |
 |   ScoreDisplayPosX, RatingDisplayPosX, KpsDisplayPosX, and AccuracyDisplayPosX   |     Integer     | Determines the x position of the display relative to the alignment. |
 |  ScoreDisplayPosY, RatingDisplayPosY,  KpsDisplayPosY, and AccuracyDisplayPosY   |     Integer     | Determines the y position of the display relative to the alignment. |
 | ScoreDisplayScale, RatingDisplayScale, KpsDisplayScale, and AccuracyDisplayScale |     Integer     |                       The size of the display                       |
