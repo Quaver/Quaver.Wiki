@@ -25,12 +25,14 @@ The following are the list of elements to customize the Keys game mode. This inc
 **Notes:**
 
 - The sprite that is displayed that lights up the column when holding down the respective input key.
+- When there is no assigned value on the ColumnLightingOffsetY, the default position will be at the top of receptor.
 
 **skin.ini Values:**
 
-|        Name         | Possible Values |                  Notes                   |
-| :-----------------: | :-------------: | :--------------------------------------: |
-| ColumnLightingScale |      Float      | The y size scale of the column lighting. |
+|         Name          | Possible Values |                             Notes                             |
+| :-------------------: | :-------------: | :-----------------------------------------------------------: |
+|  ColumnLightingScale  |      Float      |           The y size scale of the column lighting.            |
+| ColumnLightingOffsetY |     Integer     | The Y Offset of the Column Lighting relative to the receptors |
 
 ## Lane Cover
 
@@ -343,7 +345,9 @@ The following are the list of elements to customize the Keys game mode. This inc
 
 **skin.ini Values:**
 
-- None
+|     Name      | Possible Values |                                            Notes                                             |
+| :-----------: | :-------------: | :------------------------------------------------------------------------------------------: |
+| HitPosOffsetY |     Integer     | The offset of the hit position relative to its default location at the edge of the receptors |
 
 ---
 
