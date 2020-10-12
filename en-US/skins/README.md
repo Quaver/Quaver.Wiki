@@ -54,10 +54,14 @@ However, we suggest giving credit to the original author of the skin if you woul
 With the skin of your choice, reloading the skin is by pressing CTRL + S in the song selection menu or the main menu.
 
 
-# Uploading a Skin in Workshop
+# Uploading a Skin to the Workshop
 
-If you want to upload your skin in the workshop, you must abide by [the rules and guidelines](https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810). Otherwise, you will get blocked by the Steam Community Moderators from uploading your skins in the workshop.
+If you want to upload your skin to the workshop, you must abide by [the rules and guidelines](https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810). Otherwise, your skin will get reported and taken down or will get blocked by the Steam Community Moderators from uploading your skins in the workshop.
 
-The requirements of uploading in Steam Workshop is to have a file named *steam_workshop_preview.png* in your skin folder, which will be used as the thumbnail of your skin in the workshop and you need to agree on the [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/) so you can publish your skin.
+The requirements of uploading in Steam Workshop are the following to be able to upload your skin:
+
+- Your skin folder must contain a file named *steam_workshop_preview.png* (file size must be under 1MB). The file will be used as the thumbnail of your skin.
+- Your Steam account must be eligible for uploading. If you have issues uploading your skin to the workshop, [this article](https://support.steampowered.com/kb_article.php?ref=3330-iagk-7663) may be one of the reasons.
+- You must have agreed on the [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/).
 
 We suggest putting the gameplay of your skin in the *steam_workshop_preview.png* so the players can see what the skin would and the file size should be under 1MB regardless of the image's resolution.
