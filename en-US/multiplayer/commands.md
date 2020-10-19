@@ -57,10 +57,11 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 
 ## Referees
 
-| Command                     | Description                                       |
-| --------------------------- | ------------------------------------------------- |
-| **!mp referee [user_name]** | Designates a player to be the referee of the game |
-| **!mp clearreferee**        | Removes referee status from the current referee.  |
+| Command                     | Description                                                                                                                                 |
+| --------------------------- | -------------------------------------------------                                                                                           |
+| **!mp referee [user_name]** | Designates a player to be the referee of the game                                                                                           |
+| **!mp clearreferee**        | Removes referee status from the current referee.                                                                                            |
+| **!mp tournament**          | Toggles tournament mode for the match. If enabled, all replays will be uploaded to the server **(Requires EnableTournamentMode Privilege)** | 
 
 ## Invites
 
