@@ -51,7 +51,7 @@ However, we suggest giving credit to the original author of the skin if you woul
 
 
 ## How do I reload my skin in Quaver?
-With the skin of your choice, reloading the skin is by pressing CTRL + S in the song selection menu or the main menu.
+You can reload your skin by pressing CTRL + S in the menu screens.
 
 
 # Uploading a Skin to the Workshop
