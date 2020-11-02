@@ -39,11 +39,12 @@ The following requirements are for the individual maps themselves.
 
 * **Autoplay must be able to achieve a 100% (X-Grade) score.**
 * **The maps must not have overlapping notes.**
+* **All long note releases must have at least 36 milliseconds of space after them.** The value is derived from 2x of the Standard "Marvelous" timing window.
 * **The maps cannot have more than 30 seconds of consecutive break time.**
 * **More than 75% of the length of the song must have notes to play.**
 * **At least one note must be placed in every column.**
 * **The maps must be at least 45 seconds long.**
-* **The maps must be timed as accurately as possible.** Timing points must not be used in place of scroll velocity changes. 
+* **The maps must be timed as accurately as possible.** Timing points must not be used in place of scroll velocity changes.
 * **The maps must have a song select preview point that sufficently compliments the song.** It's usually placed before the chorus or at the beginning of a section. A solid preview point attracts more players to try the map.
 
 ### Difficulty Spread
