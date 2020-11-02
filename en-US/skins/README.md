@@ -32,7 +32,7 @@ If you want to start creating skin elements from scratch, you will need image ed
    - [Photopea](https://www.photopea.com)
 
 
-## Where can I get skins that I saw someone played with in Quaver?
+## Where can I download skins made by other players?
 
 There are two ways of getting skins made by other people:
 
