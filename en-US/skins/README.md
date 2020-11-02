@@ -58,7 +58,7 @@ You can reload your skin by pressing CTRL + S in the menu screens.
 
 If you would like to upload your skin to the workshop, you must abide by [the rules and guidelines](https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810). Otherwise, you may not be allowed to upload it.
 
-The requirements of uploading in Steam Workshop are the following to be able to upload your skin:
+The requirements of uploading your skin to the Steam Workshop are as follows:
 
 - Your skin folder must contain a file named *steam_workshop_preview.png* (file size must be under 1MB). The file will be used as the thumbnail of your skin.
 - Your Steam account must be eligible for uploading. If you have issues uploading your skin to the workshop, [this article](https://support.steampowered.com/kb_article.php?ref=3330-iagk-7663) may be one of the reasons.
