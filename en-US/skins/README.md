@@ -38,7 +38,7 @@ There are two ways of downloading skins made by other players:
 
 * [Quaver's Steam Workshop](https://steamcommunity.com/app/980610/workshop/)
   
-  You can get skins in the Steam Workshop by clicking on a skin of your choice, and click Subscribe. After subscribing, Steam will download the skin files from the workshop. When the download is complete, the skin should be available in Skin Settings. Skins that you have currently subscribed to are in blue font color.
+  You can download skins from the Steam Workshop by subscribing to them. After subscribing, Steam will download the skin files from the workshop. When the download is complete, the skin should be available in the Skin section of the options. Skins that you are currently subscribed to are in a blue font color.
 
 * Asking the person for the skin they're using.
   
