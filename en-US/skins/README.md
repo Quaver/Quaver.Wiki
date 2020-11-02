@@ -23,7 +23,7 @@ To get started, it'll be helpful to start with a base skin. You can download bot
 * [Sound Effects (SFX)](/docs/Skins/SFX)
 * [Skin.ini](/docs/Skins/Skin.ini)
 
-If you want to start creating skin elements from the scratch, you will need an image editing software of your choice. We made a list of the software below:
+If you want to start creating skin elements from scratch, you will need image editing software. We recommend either of the following programs:
 
    - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
    - [GIMP](https://www.gimp.org)
