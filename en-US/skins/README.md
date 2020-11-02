@@ -10,7 +10,7 @@ Skins are one of the many great features of Quaver. It allows players to complet
 
 Quaver has multiple default skins to choose from which includes bars and arrows for the Keys game modes. It is important to note that when creating user skins, any elements not explicitly specified will be defaulted to the selected default skin. This may cause unintended results, so if you're creating an arrow skin, make sure you have the default arrow skin selected in-game and vice versa.
 
-# Skinning FAQs
+# Skinning FAQ
 
 ## How do I create a skin?
 
