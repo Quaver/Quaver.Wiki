@@ -45,7 +45,7 @@ There are two ways of downloading skins made by other players:
   Some people do not upload their skins in the Steam Workshop. You may ask them for the skin but they may not give it to you.
 
 ## Can I make my own edits of another player's skin?
-Yes, you can make your own edition or use skin elements from other skins and you are allowed to upload them in the Steam Workshop.
+Yes, you can make your own edits or use skin elements from other skins, and you are allowed to upload them in the Steam Workshop if the original creator(s) allow it.
 
 However, we suggest giving credit to the original author of the skin if you would use their skin elements.
 
