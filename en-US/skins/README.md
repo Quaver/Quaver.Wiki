@@ -56,7 +56,7 @@ With the skin of your choice, reloading the skin is by pressing CTRL + S in the 
 
 # Uploading a Skin to the Workshop
 
-If you want to upload your skin to the workshop, you must abide by [the rules and guidelines](https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810). Otherwise, your skin will get reported and taken down or will get blocked by the Steam Community Moderators from uploading your skins in the workshop.
+If you would like to upload your skin to the workshop, you must abide by [the rules and guidelines](https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810). Otherwise, you may not be allowed to upload it.
 
 The requirements of uploading in Steam Workshop are the following to be able to upload your skin:
 
