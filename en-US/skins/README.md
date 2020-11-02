@@ -34,7 +34,7 @@ If you want to start creating skin elements from scratch, you will need image ed
 
 ## Where can I download skins made by other players?
 
-There are two ways of getting skins made by other people:
+There are two ways of downloading skins made by other players:
 
 * [Quaver's Steam Workshop](https://steamcommunity.com/app/980610/workshop/)
   
