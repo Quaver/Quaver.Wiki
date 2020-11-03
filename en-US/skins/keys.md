@@ -32,7 +32,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 |         Name          | Possible Values |                             Notes                             |
 | :-------------------: | :-------------: | :-----------------------------------------------------------: |
 |  ColumnLightingScale  |      Float      |           The y size scale of the column lighting.            |
-| ColumnLightingOffsetY |     Integer     | The Y Offset of the Column Lighting relative to the receptors |
+| ColumnLightingOffsetY |     Integer     | The Y offset of the Column Lighting relative to the receptors |
 
 ## Lane Cover
 
