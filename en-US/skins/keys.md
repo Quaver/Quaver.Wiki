@@ -25,7 +25,7 @@ The following are the list of elements to customize the Keys game mode. This inc
 **Notes:**
 
 - The sprite that is displayed that lights up the column when holding down the respective input key.
-- When there is no assigned value on the ColumnLightingOffsetY, the default position will be at the top of receptor.
+- When there is no assigned value for the ColumnLightingOffsetY, the default position will be at the top of receptor.
 
 **skin.ini Values:**
 
