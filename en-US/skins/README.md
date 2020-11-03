@@ -41,13 +41,10 @@ There are two ways of downloading skins made by other players:
   You can download skins from the Steam Workshop by subscribing to them. After subscribing, Steam will download the skin files from the workshop. When the download is complete, the skin should be available in the Skin section of the options. Skins that you are currently subscribed to are in a blue font color.
 
 * Alternatively, you could reach out to the player, and ask if they would be willing to share the skin they are using.
-  
-  Some people do not upload their skins in the Steam Workshop. You may ask them for the skin but they may not give it to you.
+
 
 ## Can I make my own edits of another player's skin?
 Yes, you can make your own edits or use skin elements from other skins, and you are allowed to upload them in the Steam Workshop if the original creator(s) allow it.
-
-However, we suggest giving credit to the original author of the skin if you would use their skin elements.
 
 
 ## How do I reload my skin in Quaver?
