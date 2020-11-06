@@ -80,8 +80,8 @@ A few users have already gone ahead and made plugins for everyone to use! There 
   plugin to find overlapped notes in a map
 * [UnsnappedNotesFinder](https://github.com/Illuminati-CRAZ/UnsnappedNotesFinder),
   a plugin to find unsnapped notes in a map
-* [KeepStill](https://github.com/Illuminati-CRAZ/KeepStill), a plugin to easily
-  a specific SV effect with instant teleports
+* [KeepStill](https://github.com/Illuminati-CRAZ/KeepStill), a plugin to create
+  a specific SV effect that makes notes look frozen in place
 * [BeatSnapColorOverride](https://github.com/Illuminati-CRAZ/BeatSnapColorOverride),
   a plugin to conveniently place timing points in a way to force snap notes to a
   specific color in-game

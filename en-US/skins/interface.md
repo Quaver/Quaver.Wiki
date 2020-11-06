@@ -229,6 +229,7 @@ and more.
 | :--------------------: | :-------------------------------------: | :---------------------------------------------------------------------------------: |
 |     HealthBarType      |       `Horizontal` or `Vertical`        | If your image is horizontal, set it to horizontal. If vertical, set it to vertical. |
 | HealthBarKeysAlignment | `RightStage`, `LeftStage`, or `TopLeft` |           Determines where to place the health bar in the Keys game mode.           |
+|     HealthBarScale     |          Integer (Percentage)           |                           The size of health bar display                            |
 
 ---
 
@@ -253,6 +254,7 @@ and more.
 | :--------------------: | :-------------------------------------: | :---------------------------------------------------------------------------------: |
 |     HealthBarType      |       `Horizontal` or `Vertical`        | If your image is horizontal, set it to horizontal. If vertical, set it to vertical. |
 | HealthBarKeysAlignment | `RightStage`, `LeftStage`, or `TopLeft` |           Determines where to place the health bar in the Keys game mode.           |
+|     HealthBarScale     |          Integer (Percentage)           |                           The size of health bar display                            |
 
 ## Judgements
 
@@ -277,6 +279,7 @@ and more.
 |         Name          |     Possible Values     |                           Notes                           |
 | :-------------------: | :---------------------: | :-------------------------------------------------------: |
 | JudgeColor{Marv-Miss} | RGB Color (255,255,255) | The overlay is tinted according to these skin.ini values. |
+| JudgementCounterSize  |         Integer         |       The width and height of the judgement counter       |
 
 ---
 
@@ -453,15 +456,15 @@ and more.
 
 ---
 
-### Score/Accuracy Numbers
+### Score/Accuracy/KPS/Rating Numbers
 
 `/Numbers/score-{0-9}.png`
 
-![Score/Accuracy Numbers](/docs/images/Numbers/score-9.png)
+![Score/Accuracy/KPS/Rating Numbers](/docs/images/Numbers/score-9.png)
 
-| Animatable |                    Alignment                     | Suggested Size |
-| :--------: | :----------------------------------------------: | :------------: |
-|     No     | Depends. TopLeft if score. TopRight if accuracy. |       -        |
+| Animatable |                                    Alignment                                    | Suggested Size |
+| :--------: | :-----------------------------------------------------------------------------: | :------------: |
+|     No     | Depends. TopLeft if score and rating. TopRight if accuracy and keys per second. |       -        |
 
 **Notes:**
 
@@ -469,11 +472,11 @@ and more.
 
 **skin.ini Values:**
 
-|                    Name                    | Possible Values |                                Notes                                |
-| :----------------------------------------: | :-------------: | :-----------------------------------------------------------------: |
-|  ScoreDisplayPosX and AccuracyDisplayPosX  |     Integer     | Determines the x position of the display relative to the alignment. |
-|  ScoreDisplayPosY and AccuracyDisplayPosY  |     Integer     | Determines the y position of the display relative to the alignment. |
-| ScoreDisplayScale and AccuracyDisplayScale |     Integer     |                       The size of the display                       |
+|                                       Name                                       | Possible Values |                                Notes                                |
+| :------------------------------------------------------------------------------: | :-------------: | :-----------------------------------------------------------------: |
+|   ScoreDisplayPosX, RatingDisplayPosX, KpsDisplayPosX, and AccuracyDisplayPosX   |     Integer     | Determines the x position of the display relative to the alignment. |
+|  ScoreDisplayPosY, RatingDisplayPosY,  KpsDisplayPosY, and AccuracyDisplayPosY   |     Integer     | Determines the y position of the display relative to the alignment. |
+| ScoreDisplayScale, RatingDisplayScale, KpsDisplayScale, and AccuracyDisplayScale |     Integer     |                       The size of the display                       |
 
 ---
 
