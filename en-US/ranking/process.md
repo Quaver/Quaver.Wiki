@@ -13,7 +13,7 @@ If you're looking for the criteria a mapset needs to follow in order to get rank
 
 Our goal with this ranking process is to provide an easy and streamlined approach to getting mapsets ranked. During this process, your maps will be reviewed for coherence with our [Ranking Criteria](/docs/Ranking/Criteria). Before submitting your set for rank, make sure it is following the criteria, as there are cooldown periods in place if your set is denied.
 
-If your mapset is denied for rank, it will be placed on a **7 day cooldown period** before you can submit it again.
+If your mapset is denied for rank, it will be placed on a **3 day cooldown period** before you can submit it again.
 
 ## Ranked Status Terminology
 
