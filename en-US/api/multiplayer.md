@@ -190,7 +190,41 @@ Gets the data of a currently live game. Only works for games that are live.
         "game_mode": 2,
         "difficulty_rating": 3.7918667793273926
     },
-    "players": []
+    "players": [
+        // example is written by hand
+        {
+            "id": 1,
+            "steam_id": 1,
+            "username": "Swan",
+            "country": "us",
+            "avatar_url": "https://example.com",
+            "team": 1,
+            "wins": 1,
+            "score": { // is null if the player is idle/not playing
+                "mods": 1,
+                "mods_string": "None",
+                "performance_rating": 1,
+                "accuracy": 1,
+                "score": 1,
+                "combo": 1,
+                "health": 1,
+                "full_combo": false,
+                "lives_left": 1,
+                "has_failed": true,
+                "is_regenerating_health": true,
+                "grade": "F",
+                "battle_royale_rank": 1,
+                "max_combo": 1,
+                "count_marv": 1,
+                "count_perf": 1,
+                "count_great": 1,
+                "count_good": 1,
+                "count_okay": 1,
+                "count_miss": 1,
+            }
+        },
+        // ...
+    ]
 }
 ```
 
