@@ -1,5 +1,5 @@
 ---
-name: MainMenu
+name: Main Menu
 ---
 
 # Skinning The Main Menu
