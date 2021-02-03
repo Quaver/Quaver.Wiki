@@ -95,3 +95,9 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |        TimingLineColor        |        RGB Color (255,255,255)         |                                                                              The color of the timing lines                                                                               |
 |       UseHitObjectSheet       |        Boolean (True or False)         | If true, the game will look for a spritesheet named `note-hitobject-sheet@{rows}x{columns}.png` to use as objects. Useful for easily creating skins that use different beat snap colors. |
 |    WidthForNoteHeightScale    |                Integer                 |                    The column size the notes will use for scaling the objects' heights. If 0 or below, it will automatically use `ColumnSize` for scaling the height.                    |
+
+## Main Menu & Menu Border
+
+The `[MainMenu]` section of the config file allows you to customize the look and feel of the main menu screen.
+
+For a detailed list of the available skinning elements, see: [Skinning The Main Menu](/docs/Skins/mainmenu).
