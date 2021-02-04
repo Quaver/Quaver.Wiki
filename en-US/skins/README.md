@@ -18,8 +18,9 @@ Skinning has a very forced organization system and needs to be done correctly in
 
 To get started, it'll be helpful to start with a base skin. You can download both our default bar and arrow skins [here](https://steamcommunity.com/id/janko5/myworkshopfiles/?appid=980610).
 
-* [Gameplay Interface](/docs/Skins/Interface)
-* [4K and 7K](/docs/Skins/Keys)
+* [Gameplay Interface](/docs/Skins/gameplay_interface)
+* [User Interface](/docs/Skins/user_interface)
+* [Editor Notes](/docs/Skins/editor_notes)
 * [Sound Effects (SFX)](/docs/Skins/SFX)
 * [Skin.ini](/docs/Skins/Skin.ini)
 
