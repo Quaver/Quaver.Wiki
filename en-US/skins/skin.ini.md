@@ -25,7 +25,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 
 ### Navigation
 
-#### Affected Textures: [navigation-button.png](/docs/skins/user_interface#deselected-texture-location%3A-%2Fmainmenu%2Fnavigation-button.png), [navigation-button-selected.png](/docs/skins/user_interface#selected-texture-location%3A-%2Fmainmenu%2Fnavigation-button-selected.png)
+###### Affected Textures: [navigation-button.png](/docs/skins/user_interface#deselected-texture-location%3A-%2Fmainmenu%2Fnavigation-button.png), [navigation-button-selected.png](/docs/skins/user_interface#selected-texture-location%3A-%2Fmainmenu%2Fnavigation-button-selected.png)
 
 
 |             Value             |       Data Type        | Default Values |                         Notes                          |
@@ -37,7 +37,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 
 ### Tip Panel
 
-#### Affected Textures: [tip-panel.png](/docs/skins/user_interface#menu-tip-panel)
+###### Affected Textures: [tip-panel.png](/docs/skins/user_interface#menu-tip-panel)
 
 |     Value     |       Data Type        | Default Values |           Notes            |
 | :-----------: | :--------------------: | :------------: | :------------------------: |
@@ -48,7 +48,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 
 ### News Post Panel
 
-#### Affected Textures: [news-panel.png](/docs/skins/user_interface#news-post-panel)
+###### Affected Textures: [news-panel.png](/docs/skins/user_interface#news-post-panel)
 
 |     Value      |       Data Type        | Default Values |            Notes            |
 | :------------: | :--------------------: | :------------: | :-------------------------: |
@@ -60,9 +60,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 
 ### Footer Jukebox
 
-#### Affected Textures: [jukebox-overlay.png](/docs/skins/user_interface#footer-jukebox)
-| :-------------------: |
-| `` |
+###### Affected Textures: [jukebox-overlay.png](/docs/skins/user_interface#footer-jukebox)
 
 |          Value          |       Data Type        | Default Values |                        Notes                        |
 | :---------------------: | :--------------------: | :------------: | :-------------------------------------------------: |
@@ -86,7 +84,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 
 ### Menu Borders
 
-#### Affected Textures: [menu-border-background.png](/docs/skins/user_interface#menu-border)       
+###### Affected Textures: [menu-border-background.png](/docs/skins/user_interface#menu-border)       
 
 |         Value          |       Data Type        | Default Values |                                     Notes                                     |
 | :--------------------: | :--------------------: | :------------: | :---------------------------------------------------------------------------: |
@@ -132,7 +130,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 
 ### Mapset Panel
 
-#### Affected Textures: [mapset-deselected.png](/docs/skins/user_interface#deselected-texture-location%3A-%2Fsongselect%2Fmapset-deselected.png), [mapset-selected.png](/docs/skins/user_interface#selected-texture-location%3A-%2Fsongselect%2Fmapset-selected.png), [mapset-hovered.png](/docs/skins/user_interface#hovered-texture-location%3A-%2Fsongselect%2Fmapset-hovered.png), [status-ranked.png](/docs/skins/user_interface#ranked-texture-location%3A-%2Fsongselect%2Fstatus-ranked.png), [status-unranked.png](/docs/skins/user_interface#unranked-texture-location%3A-%2Fsongselect%2Fstatus-unranked.png), [status-notsubmitted.png](/docs/skins/user_interface#unsubmitted-texture-location%3A-%2Fsongselect%2Fstatus-notsubmitted.png), [status-status-osu.png](/docs/skins/user_interface#osu-mapset-texture-location%3A-%2Fsongselect%2Fstatus-osu.png), [status-status-sm.png](/docs/skins/user_interface#stepmania%2Fetterna-mapset-texture-location%3A-%2Fsongselect%2Fstatus-sm.png), [game-mode-4k.png](/docs/skins/user_interface#4k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k.png), [game-mode-7k.png](/docs/skins/user_interface#7k-texture-location%3A-%2Fsongselect%2Fgame-mode-7k.png), [game-mode-4k7k.png](/docs/skins/user_interface#4k%2F7k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k7k.png)
+###### Affected Textures: [mapset-deselected.png](/docs/skins/user_interface#deselected-texture-location%3A-%2Fsongselect%2Fmapset-deselected.png), [mapset-selected.png](/docs/skins/user_interface#selected-texture-location%3A-%2Fsongselect%2Fmapset-selected.png), [mapset-hovered.png](/docs/skins/user_interface#hovered-texture-location%3A-%2Fsongselect%2Fmapset-hovered.png), [status-ranked.png](/docs/skins/user_interface#ranked-texture-location%3A-%2Fsongselect%2Fstatus-ranked.png), [status-unranked.png](/docs/skins/user_interface#unranked-texture-location%3A-%2Fsongselect%2Fstatus-unranked.png), [status-notsubmitted.png](/docs/skins/user_interface#unsubmitted-texture-location%3A-%2Fsongselect%2Fstatus-notsubmitted.png), [status-status-osu.png](/docs/skins/user_interface#osu-mapset-texture-location%3A-%2Fsongselect%2Fstatus-osu.png), [status-status-sm.png](/docs/skins/user_interface#stepmania%2Fetterna-mapset-texture-location%3A-%2Fsongselect%2Fstatus-sm.png), [game-mode-4k.png](/docs/skins/user_interface#4k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k.png), [game-mode-7k.png](/docs/skins/user_interface#7k-texture-location%3A-%2Fsongselect%2Fgame-mode-7k.png), [game-mode-4k7k.png](/docs/skins/user_interface#4k%2F7k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k7k.png)
 
 |           Value            |       Data Type        | Default Values |                                                Notes                                                |
 | :------------------------: | :--------------------: | :------------: | :-------------------------------------------------------------------------------------------------: |
@@ -155,7 +153,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Notes
 
-#### Affected Textures: [note-hitobject-{1-7}.png](/docs/skins/gameplay_interface#hitobjects), [note-holdhitobject-{1-7}.png](/docs/skins/gameplay_interface#holdhitobjects), [note-holdbody-{1-7}.png](/docs/skins/gameplay_interface#holdbodies), [note-holdend-{1-7}.png](/docs/skins/gameplay_interface#holdends), [note-hitobject-sheet@{rows}x{columns}.png](/docs/skins/gameplay_interface#hit-object-sheets)
+###### Affected Textures: [note-hitobject-{1-7}.png](/docs/skins/gameplay_interface#hitobjects), [note-holdhitobject-{1-7}.png](/docs/skins/gameplay_interface#holdhitobjects), [note-holdbody-{1-7}.png](/docs/skins/gameplay_interface#holdbodies), [note-holdend-{1-7}.png](/docs/skins/gameplay_interface#holdends), [note-hitobject-sheet@{rows}x{columns}.png](/docs/skins/gameplay_interface#hit-object-sheets)
 
 |            Value            |         Data Type          | Default Values |                                                                                          Notes                                                                                           |
 | :-------------------------: | :------------------------: | :------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -174,7 +172,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Playfield
 
-#### Affected Textures: [column-lighting.png](/docs/skins/gameplay_interface#column-lighting), [receptor-up-{1-7}.png](/docs/skins/gameplay_interface#receptors-(up)), [receptor-down-{1-7}.png](/docs/skins/gameplay_interface#receptors-(down)), [stage-bgmask.png](/docs/skins/gameplay_interface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplay_interface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplay_interface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplay_interface#stage-left-border), [stage-right-border.png](/docs/skins/gameplay_interface#stage-right-border)
+###### Affected Textures: [column-lighting.png](/docs/skins/gameplay_interface#column-lighting), [receptor-up-{1-7}.png](/docs/skins/gameplay_interface#receptors-(up)), [receptor-down-{1-7}.png](/docs/skins/gameplay_interface#receptors-(down)), [stage-bgmask.png](/docs/skins/gameplay_interface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplay_interface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplay_interface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplay_interface#stage-left-border), [stage-right-border.png](/docs/skins/gameplay_interface#stage-right-border)
 
 |          Value          |       Data Type        | Default Values |                                                                                Notes                                                                                 |
 | :---------------------: | :--------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -194,7 +192,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Judgement Burst and Hit Error
 
-#### Affected Textures: [judge-marv.png](/docs/skins/gameplay_interface#judgement-(marv)), [judge-perf.png](/docs/skins/gameplay_interface#judgement-(perf)), [judge-great.png](/docs/skins/gameplay_interface#judgement-(great)), [judge-good.png](/docs/skins/gameplay_interface#judgement-(good)), [judge-okay.png](/docs/skins/gameplay_interface#judgement-(okay)), [judge-miss.png](/docs/skins/gameplay_interface#judgement-(miss))
+###### Affected Textures: [judge-marv.png](/docs/skins/gameplay_interface#judgement-(marv)), [judge-perf.png](/docs/skins/gameplay_interface#judgement-(perf)), [judge-great.png](/docs/skins/gameplay_interface#judgement-(great)), [judge-good.png](/docs/skins/gameplay_interface#judgement-(good)), [judge-okay.png](/docs/skins/gameplay_interface#judgement-(okay)), [judge-miss.png](/docs/skins/gameplay_interface#judgement-(miss))
 
 
 |         Value          | Data Type | Alignment | Default Values | Notes                                                                           |
@@ -211,7 +209,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## [Lighting]
 
-#### Affected Textures: [hitlighting.png](/docs/skins/gameplay_interface#hit-lighting), [holdlighting.png](/docs/skins/gameplay_interface#hold-lighting)
+###### Affected Textures: [hitlighting.png](/docs/skins/gameplay_interface#hit-lighting), [holdlighting.png](/docs/skins/gameplay_interface#hold-lighting)
 
 |           Value            |       Data Type        | Alignment | Default Values | Notes                                                                               |
 | :------------------------: | :--------------------: | :-------: | :------------: | ----------------------------------------------------------------------------------- |
@@ -228,7 +226,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Health Bar
 
-#### Affected Textures: [health-background.png](/docs/skins/gameplay_interface#health-bar-background), [health-foreground.png](/docs/skins/gameplay_interface#health-bar-foreground)
+###### Affected Textures: [health-background.png](/docs/skins/gameplay_interface#health-bar-background), [health-foreground.png](/docs/skins/gameplay_interface#health-bar-foreground)
 
 |         Value          |               Data Type                | Alignment | Default Values | Notes                                                                                        |
 | :--------------------: | :------------------------------------: | :-------: | :------------: | -------------------------------------------------------------------------------------------- |
@@ -243,7 +241,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## [Numbers](/docs/skins/gameplay_interface#numbers)
 
-#### Affected Textures: [combo-{0-9}.png](/docs/skins/gameplay_interface#combo-display-numbers), [score-{0-9}.png](/docs/skins/gameplay_interface#score%2Faccuracy%2Fkps%2Frating-numbers), [score-percent.png](/docs/skins/gameplay_interface#score-display-percent), [score-decimal.png](/docs/skins/gameplay_interface#score-display-decimal)
+###### Affected Textures: [combo-{0-9}.png](/docs/skins/gameplay_interface#combo-display-numbers), [score-{0-9}.png](/docs/skins/gameplay_interface#score%2Faccuracy%2Fkps%2Frating-numbers), [score-percent.png](/docs/skins/gameplay_interface#score-display-percent), [score-decimal.png](/docs/skins/gameplay_interface#score-display-decimal)
 
 ### Combo
 
@@ -289,7 +287,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Multiplayer
 
-#### Affected Textures: [eliminated.png](/docs/skins/gameplay_interface#eliminated), [warning.png](/docs/skins/gameplay_interface#warning)
+###### Affected Textures: [eliminated.png](/docs/skins/gameplay_interface#eliminated), [warning.png](/docs/skins/gameplay_interface#warning)
 
 |           Value            | Data Type | Alignment | Default Values | Notes                                                                                      |
 | :------------------------: | :-------: | :-------: | :------------: | ------------------------------------------------------------------------------------------ |
@@ -303,7 +301,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Judgement Counter
 
-#### Affected Textures: [judgement-overlay.png](/docs/skins/gameplay_interface#judgement-overlay)
+###### Affected Textures: [judgement-overlay.png](/docs/skins/gameplay_interface#judgement-overlay)
 
 |           Value           |       Data Type        | Default Values | Notes                                         |
 | :-----------------------: | :--------------------: | :------------: | --------------------------------------------- |
@@ -321,7 +319,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Stage Timing Bar
 
-### Affected Textures: [stage-timingbar.png](/docs/skins/gameplay_interface#stage-timing-bar)
+###### Affected Textures: [stage-timingbar.png](/docs/skins/gameplay_interface#stage-timing-bar)
 
 |             Value             |       Data Type        | Default Values | Notes                                         |
 | :---------------------------: | :--------------------: | :------------: | --------------------------------------------- |

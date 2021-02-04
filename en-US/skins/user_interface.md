@@ -111,11 +111,11 @@ The gameplay interface includes general skin elements that are present in all ga
 
 ### Navigation Buttons
 
-##### Deselected Texture Location: `/MainMenu/navigation-button.png`
+###### Deselected Texture Location: `/MainMenu/navigation-button.png`
 
 ![Deselected Navigation Button](/docs/images/MainMenu/navigation-button.png)
 
-##### Selected Texture Location: `/MainMenu/navigation-button-selected.png`
+###### Selected Texture Location: `/MainMenu/navigation-button-selected.png`
 
 ![Selected Navigation Button](/docs/images/MainMenu/navigation-button-selected.png)
 
@@ -199,15 +199,15 @@ The gameplay interface includes general skin elements that are present in all ga
 
 ### Mapset Panel Selection
 
-##### Deselected Texture Location: `/SongSelect/mapset-deselected.png`
+###### Deselected Texture Location: `/SongSelect/mapset-deselected.png`
 
 ![Deselected Mapset Panel](/docs/images/SongSelect/deselected-mapset.png)
 
-##### Selected Texture Location: `/SongSelect/mapset-selected.png`
+###### Selected Texture Location: `/SongSelect/mapset-selected.png`
 
 ![Selected Mapset Panel](/docs/images/SongSelect/selected-mapset.png)
 
-##### Hovered Texture Location: `/SongSelect/mapset-hovered.png`
+###### Hovered Texture Location: `/SongSelect/mapset-hovered.png`
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -221,23 +221,23 @@ The gameplay interface includes general skin elements that are present in all ga
 
 ### Mapset Panel Status
 
-##### Ranked Texture Location: `/SongSelect/status-ranked.png`
+###### Ranked Texture Location: `/SongSelect/status-ranked.png`
 
 ![Ranked Status](/docs/images/SongSelect/status-ranked.png)
 
-##### Unranked Texture Location: `/SongSelect/status-unranked.png`
+###### Unranked Texture Location: `/SongSelect/status-unranked.png`
 
 ![Unranked Status](/docs/images/SongSelect/status-unranked.png)
 
-##### Unsubmitted Texture Location: `/SongSelect/status-notsubmitted.png`
+###### Unsubmitted Texture Location: `/SongSelect/status-notsubmitted.png`
 
 ![Not Submitted Status](/docs/images/SongSelect/status-not-submitted.png)
 
-##### Osu Mapset Texture Location: `/SongSelect/status-osu.png`
+###### Osu Mapset Texture Location: `/SongSelect/status-osu.png`
 
 ![Osu Mapset Status](/docs/images/SongSelect/status-other-game-osu.png)
 
-##### Stepmania/Etterna Mapset Texture Location: `/SongSelect/status-sm.png`
+###### Stepmania/Etterna Mapset Texture Location: `/SongSelect/status-sm.png`
 
 ![Stepmania/Etterna Mapset Status](/docs/images/SongSelect/status-other-game-etterna.png)
 
@@ -253,15 +253,15 @@ The gameplay interface includes general skin elements that are present in all ga
 
 ### Mapset Panel Game Mode
 
-##### 4k Texture Location: `/SongSelect/game-mode-4k.png`
+###### 4k Texture Location: `/SongSelect/game-mode-4k.png`
 
 ![4k Mode](/docs/images/SongSelect/keys4.png)
 
-##### 7k Texture Location: `/SongSelect/game-mode-7k.png`
+###### 7k Texture Location: `/SongSelect/game-mode-7k.png`
 
 ![7k Mode](/docs/images/SongSelect/keys7.png)
 
-##### 4k/7k Texture Location: `/SongSelect/game-mode-4k7k.png`
+###### 4k/7k Texture Location: `/SongSelect/game-mode-4k7k.png`
 
 ![4k/7k Mode](/docs/images/SongSelect/both-modes-panel.png)
 
