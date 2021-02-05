@@ -27,7 +27,6 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 
 ###### Affected Textures: [navigation-button.png](/docs/skins/user_interface#deselected-texture-location%3A-%2Fmainmenu%2Fnavigation-button.png), [navigation-button-selected.png](/docs/skins/user_interface#selected-texture-location%3A-%2Fmainmenu%2Fnavigation-button-selected.png)
 
-
 |             Value             |       Data Type        | Default Values |                         Notes                          |
 | :---------------------------: | :--------------------: | :------------: | :----------------------------------------------------: |
 |   NavigationButtonTextColor   | RGB Color(255,255,255) |  255,255,255   |       The color of the text in navigation button       |
@@ -84,7 +83,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 
 ### Menu Borders
 
-###### Affected Textures: [menu-border-background.png](/docs/skins/user_interface#menu-border)       
+###### Affected Textures: [menu-border-background.png](/docs/skins/user_interface#menu-border)
 
 |         Value          |       Data Type        | Default Values |                                     Notes                                     |
 | :--------------------: | :--------------------: | :------------: | :---------------------------------------------------------------------------: |
@@ -172,7 +171,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Playfield
 
-###### Affected Textures: [column-lighting.png](/docs/skins/gameplay_interface#column-lighting), [receptor-up-{1-7}.png](/docs/skins/gameplay_interface#receptors-(up)), [receptor-down-{1-7}.png](/docs/skins/gameplay_interface#receptors-(down)), [stage-bgmask.png](/docs/skins/gameplay_interface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplay_interface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplay_interface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplay_interface#stage-left-border), [stage-right-border.png](/docs/skins/gameplay_interface#stage-right-border)
+###### Affected Textures: [column-lighting.png](/docs/skins/gameplay_interface#column-lighting), [receptor-up-{1-7}.png](</docs/skins/gameplay_interface#receptors-(up)>), [receptor-down-{1-7}.png](</docs/skins/gameplay_interface#receptors-(down)>), [stage-bgmask.png](/docs/skins/gameplay_interface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplay_interface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplay_interface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplay_interface#stage-left-border), [stage-right-border.png](/docs/skins/gameplay_interface#stage-right-border)
 
 |          Value          |       Data Type        | Default Values |                                                                                Notes                                                                                 |
 | :---------------------: | :--------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -192,8 +191,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Judgement Burst and Hit Error
 
-###### Affected Textures: [judge-marv.png](/docs/skins/gameplay_interface#judgement-(marv)), [judge-perf.png](/docs/skins/gameplay_interface#judgement-(perf)), [judge-great.png](/docs/skins/gameplay_interface#judgement-(great)), [judge-good.png](/docs/skins/gameplay_interface#judgement-(good)), [judge-okay.png](/docs/skins/gameplay_interface#judgement-(okay)), [judge-miss.png](/docs/skins/gameplay_interface#judgement-(miss))
-
+###### Affected Textures: [judge-marv.png](</docs/skins/gameplay_interface#judgement-(marv)>), [judge-perf.png](</docs/skins/gameplay_interface#judgement-(perf)>), [judge-great.png](</docs/skins/gameplay_interface#judgement-(great)>), [judge-good.png](</docs/skins/gameplay_interface#judgement-(good)>), [judge-okay.png](</docs/skins/gameplay_interface#judgement-(okay)>), [judge-miss.png](</docs/skins/gameplay_interface#judgement-(miss)>)
 
 |         Value          | Data Type | Alignment | Default Values | Notes                                                                           |
 | :--------------------: | :-------: | :-------: | :------------: | ------------------------------------------------------------------------------- |
@@ -315,16 +313,16 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |      JudgeColorOkay       | RGB Color(255,255,255) |  217,107,206   | The color of the Okay counter overlay         |
 |      JudgeColorMiss       | RGB Color(255,255,255) |   249,100,93   | The color of the Miss counter overlay         |
 
---- 
+---
 
 ## Stage Timing Bar
 
 ###### Affected Textures: [stage-timingbar.png](/docs/skins/gameplay_interface#stage-timing-bar)
 
-|             Value             |       Data Type        | Default Values | Notes                                         |
-| :---------------------------: | :--------------------: | :------------: | --------------------------------------------- |
-|  SongTimeProgressActiveColor  | RGB Color(255,255,255) |  255,231,107   | The color of the song time progress bar (active)    |
-| SongTimeProgressInactiveColor | RGB Color(255,255,255) |  136,136,136   | The color of the song time progress bar (inactive)       |
-|     SongTimeProgressScale     |        Integer         |       45       | The size of the song’s time progress |
-|      TimingBarPixelSize       |        Integer         |       2        | The size of the timing bar    |
-|        TimingLineColor        | RGB Color(255,255,255) |  255,255,255   | The color of the timing lines      |
+|             Value             |       Data Type        | Default Values | Notes                                              |
+| :---------------------------: | :--------------------: | :------------: | -------------------------------------------------- |
+|  SongTimeProgressActiveColor  | RGB Color(255,255,255) |  255,231,107   | The color of the song time progress bar (active)   |
+| SongTimeProgressInactiveColor | RGB Color(255,255,255) |  136,136,136   | The color of the song time progress bar (inactive) |
+|     SongTimeProgressScale     |        Integer         |       45       | The size of the song’s time progress               |
+|      TimingBarPixelSize       |        Integer         |       2        | The size of the timing bar                         |
+|        TimingLineColor        | RGB Color(255,255,255) |  255,255,255   | The color of the timing lines                      |
