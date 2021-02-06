@@ -8,7 +8,7 @@ Skins are one of the many great features of Quaver. It allows players to complet
 
 ## Default Skins vs. User Skins
 
-Quaver has multiple default skins to choose from which includes bars and arrows for the Keys game modes. It is important to note that when creating user skins, any elements not explicitly specified will be defaulted to the selected default skin. This may cause unintended results, so if you're creating an arrow skin, make sure you have the default arrow skin selected in-game and vice versa.
+Quaver has multiple default skins to choose from which includes arrows, bars, and circles for the Keys game modes. It is important to note that when creating user skins, any elements not explicitly specified will be defaulted to the selected default skin. This may cause unintended results, so if you're creating an arrow skin, make sure you have the default arrow skin selected in-game and vice versa.
 
 # Skinning FAQ
 
@@ -16,7 +16,7 @@ Quaver has multiple default skins to choose from which includes bars and arrows 
 
 Skinning has a very forced organization system and needs to be done correctly in order to work properly. The following list are guides to skin each part of the game.
 
-To get started, it'll be helpful to start with a base skin. You can download both our default bar and arrow skins [here](https://steamcommunity.com/id/janko5/myworkshopfiles/?appid=980610).
+To get started, it'll be helpful to start with a base skin. You can download both our default arrow, bar, and circle skins [here](https://steamcommunity.com/id/janko5/myworkshopfiles/?appid=980610).
 
 * [Gameplay Interface](/docs/Skins/gameplay_interface)
 * [User Interface](/docs/Skins/user_interface)
@@ -49,7 +49,7 @@ Yes, you can make your own edits or use skin elements from other skins, and you 
 
 
 ## How do I reload my skin in Quaver?
-You can reload your skin by pressing CTRL + S in the menu screens.
+You can reload your skin by pressing `CTRL` + `S` in the menu screens.
 
 
 # Uploading a Skin to the Workshop
@@ -58,7 +58,7 @@ If you would like to upload your skin to the workshop, you must abide by [the ru
 
 The requirements of uploading your skin to the Steam Workshop are as follows:
 
-- Your skin folder must contain a file named `steam_workshop_preview.png` (file size must be under 1MB). The file will be used as the thumbnail of your skin.
+- Your skin folder must contain a file named `steam_workshop_preview.png` (file size must be under 1MB). The file will be used as the thumbnail of your skin's workshop page.
 - Your Steam account must be eligible for uploading. If you have issues uploading your skin to the workshop, [this article](https://support.steampowered.com/kb_article.php?ref=3330-iagk-7663) may be one of the reasons.
 - You must have agreed on the [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/).
 
