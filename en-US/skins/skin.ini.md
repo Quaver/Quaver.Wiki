@@ -173,19 +173,19 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ###### Affected Textures: [column-lighting.png](/docs/skins/gameplay_interface#column-lighting), [receptor-up-{1-7}.png](</docs/skins/gameplay_interface#receptors-(up)>), [receptor-down-{1-7}.png](</docs/skins/gameplay_interface#receptors-(down)>), [stage-bgmask.png](/docs/skins/gameplay_interface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplay_interface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplay_interface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplay_interface#stage-left-border), [stage-right-border.png](/docs/skins/gameplay_interface#stage-right-border)
 
-|          Value          |       Data Type        | Default Values |                                                                                Notes                                                                                 |
-| :---------------------: | :--------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|       BgMaskAlpha       |    Float (0.0-1.0)     |      1.0       |                                    The alpha channel/opacity of the [Stage BG Mask](/docs/skins/gameplay_interface#stage-bg-mask)                                    |
-|      BgMaskPadding      |        Integer         |       0        |                                               The amount of space between the Stage BG Mask and the edges of the stage                                               |
-|     ColumnAlignment     |  Integer (Percentage)  |       0        |                                             A percentage value of the width of the screen where the stage will be placed                                             |
-|       ColumnSize        |        Integer         |       90       | The size of each column. Equal size for each column. Increasing the column size may also increase the receptor's size by scaling and adjust the visual hit position. |
-|    ColumnColor{1-7}     | RGB Color (255,255,255 |  255,255,255   |                       The color in which the [Column Lighting](/docs/skins/gameplay_interface#column-lighting) is tinted in the specified lane                       |
-|  ColumnLightingOffsetY  |        Integer         |       0        |                                                    The Y Offset of the Column Lighting relative to the receptors                                                     |
-|   ColumnLightingScale   |    Float (0.0-1.0)     |      1.0       |                                                The height scale of the column lighting to make it bigger or smaller.                                                 |
-|      HitPosOffsetY      |        Integer         |       0        |      The offset of the hit position relative to its default location at the edge of the receptors. Setting this value higher will make the hit position lower.       |
-|   ReceptorPosOffsetY    |        Integer         |       0        |        The Y position of the receptors relative to its default location on the screen. Setting this value higher will make the receptors at higher position.         |
-| ReceptorsOverHitObjects | Boolean(True or False) |      True      |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
-|  StageReceptorPadding   |        Integer         |       0        |                                       The amount of space between between the stage background's border and first/last column                                        |
+|          Value          |        Data Type        | Default Values |                                                                                Notes                                                                                 |
+| :---------------------: | :---------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|       BgMaskAlpha       |     Float (0.0-1.0)     |      1.0       |                                    The alpha channel/opacity of the [Stage BG Mask](/docs/skins/gameplay_interface#stage-bg-mask)                                    |
+|      BgMaskPadding      |         Integer         |       0        |                                               The amount of space between the Stage BG Mask and the edges of the stage                                               |
+|     ColumnAlignment     |  Integer (Percentage)   |       0        |                                             A percentage value of the width of the screen where the stage will be placed                                             |
+|       ColumnSize        |         Integer         |       90       | The size of each column. Equal size for each column. Increasing the column size may also increase the receptor's size by scaling and adjust the visual hit position. |
+|    ColumnColor{1-7}     | RGB Color (255,255,255) |  255,255,255   |                       The color in which the [Column Lighting](/docs/skins/gameplay_interface#column-lighting) is tinted in the specified lane                       |
+|  ColumnLightingOffsetY  |         Integer         |       0        |                                                    The Y Offset of the Column Lighting relative to the receptors                                                     |
+|   ColumnLightingScale   |     Float (0.0-1.0)     |      1.0       |                                                The height scale of the column lighting to make it bigger or smaller.                                                 |
+|      HitPosOffsetY      |         Integer         |       0        |      The offset of the hit position relative to its default location at the edge of the receptors. Setting this value higher will make the hit position lower.       |
+|   ReceptorPosOffsetY    |         Integer         |       0        |        The Y position of the receptors relative to its default location on the screen. Setting this value higher will make the receptors at higher position.         |
+| ReceptorsOverHitObjects | Boolean(True or False)  |      True      |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
+|  StageReceptorPadding   |         Integer         |       0        |                                       The amount of space between between the stage background's border and first/last column                                        |
 
 ---
 
@@ -259,6 +259,8 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ### Accuracy
 
+###### Affected Textures: [grade-small-a.png](/docs/skins/gameplay_interface#grade-small-a), [grade-small-b.png](/docs/skins/gameplay_interface#grade-small-b), [grade-small-c.png](/docs/skins/gameplay_interface#grade-small-c), [grade-small-d.png](/docs/skins/gameplay_interface#grade-small-d), [grade-small-f.png](/docs/skins/gameplay_interface#grade-small-f), [grade-small-s.png](/docs/skins/gameplay_interface#grade-small-s), [grade-small-ss.png](/docs/skins/gameplay_interface#grade-small-ss), [grade-small-x.png](/docs/skins/gameplay_interface#grade-small-x)
+
 |        Value         | Data Type | Alignment | Default Values | Notes                                                                   |
 | :------------------: | :-------: | :-------: | :------------: | ----------------------------------------------------------------------- |
 | AccuracyDisplayScale |  Integer  |     -     |      100       | The size of the accuracy display                                        |
@@ -306,12 +308,12 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |   JudgementCounterAlpha   |    Float (0.0-1.0)     |       1        | The alpha/opacity of the judgement counter    |
 | JudgementCounterFontColor | RGB Color(255,255,255) |  255,255,255   | The color of the judgement counter font       |
 |   JudgementCounterSize    |        Integer         |       40       | The width and height of the judgement counter |
-|      JudgeColorMarv       | RGB Color(255,255,255) |  255,255,255   | The color of the Marvelous counter overlay    |
-|      JudgeColorPerf       | RGB Color(255,255,255) |  255,231,107   | The color of the Perfect counter overlay      |
-|      JudgeColorGreat      | RGB Color(255,255,255) |   86,254,110   | The color of the Great counter overlay        |
-|      JudgeColorGood       | RGB Color(255,255,255) |   0,209,255    | The color of the Good counter overlay         |
-|      JudgeColorOkay       | RGB Color(255,255,255) |  217,107,206   | The color of the Okay counter overlay         |
-|      JudgeColorMiss       | RGB Color(255,255,255) |   249,100,93   | The color of the Miss counter overlay         |
+|      JudgeColorMarv       | RGB Color(255,255,255) |  255,255,255   | The color of the `Marvelous` counter overlay  |
+|      JudgeColorPerf       | RGB Color(255,255,255) |  255,231,107   | The color of the `Perfect` counter overlay    |
+|      JudgeColorGreat      | RGB Color(255,255,255) |   86,254,110   | The color of the `Great` counter overlay      |
+|      JudgeColorGood       | RGB Color(255,255,255) |   0,209,255    | The color of the `Good` counter overlay       |
+|      JudgeColorOkay       | RGB Color(255,255,255) |  217,107,206   | The color of the `Okay` counter overlay       |
+|      JudgeColorMiss       | RGB Color(255,255,255) |   249,100,93   | The color of the `Miss` counter overlay       |
 
 ---
 
