@@ -85,3 +85,5 @@ A few users have already gone ahead and made plugins for everyone to use! There 
 * [BeatSnapColorOverride](https://github.com/Illuminati-CRAZ/BeatSnapColorOverride),
   a plugin to conveniently place timing points in a way to force snap notes to a
   specific color in-game
+* [PatternMaster](https://github.com/Adrriii/PatternMaster),
+  a plugin to help enforcing consistency and maintainability of copy/pasted patterns
