@@ -147,7 +147,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 
 ---
 
-# Keys
+# Gameplay
 
 This section is to manipulate the elements for the Keys game mode including 4K and 7K.
 
