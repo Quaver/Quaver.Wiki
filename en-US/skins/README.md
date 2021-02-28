@@ -62,4 +62,4 @@ The requirements of uploading your skin to the Steam Workshop are as follows:
 - Your Steam account must be eligible for uploading. If you have issues uploading your skin to the workshop, [this article](https://support.steampowered.com/kb_article.php?ref=3330-iagk-7663) may be one of the reasons.
 - You must have agreed on the [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/).
 
-We suggest putting the gameplay of your skin in the *steam_workshop_preview.png* so the players can see what the skin would and the file size should be under 1MB regardless of the image's resolution.
+We suggest putting the gameplay of your skin in the `steam_workshop_preview.png` so the players can see what the skin would and the file size should be under 1MB regardless of the image's resolution.
