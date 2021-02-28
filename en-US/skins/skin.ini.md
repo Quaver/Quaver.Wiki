@@ -100,6 +100,8 @@ The `[SongSelect]` section contains the possible modifications of song selection
 
 ### Leaderboard Panel Values:
 
+###### Affected Textures: [leaderboard-panel.png](/docs/skins/user_interface#leaderboard-panel)
+
 |               Value                |       Data Type        | Default Values |                       Notes                        |
 | :--------------------------------: | :--------------------: | :------------: | :------------------------------------------------: |
 |     LeaderboardScoreColorEven      | RGB Color(255,255,255) |    54,54,54    | The color of the leaderboard panel in even numbers |
@@ -117,6 +119,8 @@ The `[SongSelect]` section contains the possible modifications of song selection
 ---
 
 ### Personal Best Panel Values:
+
+###### Affected Textures: [personalbest-panel.png](/docs/skins/user_interface#personal-best-panel)
 
 |          Value          |       Data Type        | Default Values |                  Notes                  |
 | :---------------------: | :--------------------: | :------------: | :-------------------------------------: |
@@ -205,7 +209,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ---
 
-## [Lighting]
+## Lighting
 
 ###### Affected Textures: [hitlighting.png](/docs/skins/gameplay_interface#hit-lighting), [holdlighting.png](/docs/skins/gameplay_interface#hold-lighting)
 
@@ -237,7 +241,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ---
 
-## [Numbers](/docs/skins/gameplay_interface#numbers)
+## Numbers
 
 ###### Affected Textures: [combo-{0-9}.png](/docs/skins/gameplay_interface#combo-display-numbers), [score-{0-9}.png](/docs/skins/gameplay_interface#score%2Faccuracy%2Fkps%2Frating-numbers), [score-percent.png](/docs/skins/gameplay_interface#score-display-percent), [score-decimal.png](/docs/skins/gameplay_interface#score-display-decimal)
 

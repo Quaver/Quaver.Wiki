@@ -117,7 +117,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/4k/HitObjects/note-hitobject-{1-4}.png`
 
-`/7k/HitObjects/note-hitobject-{1-7}.png`
+`/7k/HitObjects/note-hitobject-{1-8}.png`
 
 ![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png)
 
@@ -128,6 +128,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The note that falls down the screen for non-hold objects.
+- `note-hitobject-8.png` for `7k` folder is used for scratch lane.
 
 ---
 
@@ -135,7 +136,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/4k/HitObjects/note-holdhitobject-{1-4}.png`
 
-`/7k/HitObjects/note-holdhitobject-{1-7}.png`
+`/7k/HitObjects/note-holdhitobject-{1-8}.png`
 
 ![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png)
 
@@ -146,6 +147,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The note that falls down the screen for hold objects.
+- `note-holdhitobject-8.png` for `7k` folder is used for scratch lane.
 
 ---
 
@@ -153,7 +155,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/4k/HitObjects/note-holdbody-{1-4}.png`
 
-`/7k/HitObjects/note-holdbody-{1-7}.png`
+`/7k/HitObjects/note-holdbody-{1-8}.png`
 
 ![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png)
 
@@ -167,6 +169,7 @@ The following are the list of elements to customize the gameplay interface. This
 - Spritesheet animation file name for 7K: `/7k/HoldEnds/note-holdbody-{1-7}@{rows}x{columns}.png`
 - The body of a hold (long) note.
 - If animation spritesheet is specified, frames animate at a speed of 30 FPS.
+-  `note-holdbody-8.png` for `7k` folder is used for scratch lane.
 
 ---
 
@@ -174,7 +177,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/4k/HitObjects/note-holdend-{1-4}.png`
 
-`/7k/HitObjects/note-holdend-{1-7}.png`
+`/7k/HitObjects/note-holdend-{1-8}.png`
 
 ![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png)
 
@@ -185,6 +188,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed at the end of a hold (long) note.
+-  `note-holdend-8.png` for `7k` folder is used for scratch lane.
 
 ---
 
@@ -213,7 +217,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/4k/Receptors/receptor-up-{1-4}.png`
 
-`/7k/Receptors/receptor-up-{1-7}.png`
+`/7k/Receptors/receptor-up-{1-8}.png`
 
 ![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png)
 
@@ -224,6 +228,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed when the input key is not pressed.
+- `receptor-up-8.png` for `7k` folder is used for scratch lane.
 
 ---
 
@@ -242,6 +247,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed when the input key is pressed.
+- `receptor-down-8.png` for `7k` folder is used for scratch lane.
 
 ---
 

@@ -97,7 +97,7 @@ The gameplay interface includes general skin elements that are present in all ga
 
 `/MainMenu/menu-background.png`
 
-![Menu Background](/docs/images/MainMenu/menu-background.jpg)
+![Menu Background](/docs/images/MainMenu/menu-background.png)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -187,7 +187,7 @@ The gameplay interface includes general skin elements that are present in all ga
 
 | Animatable |       Alignment        | Optimal Size |
 | :--------: | :--------------------: | :----------: |
-|     No     | TopCenter/BottomCenter |   1920x52    |
+|     No     | TopCenter/BottomCenter |   1920x64    |
 
 **Notes:**
 
@@ -201,13 +201,15 @@ The gameplay interface includes general skin elements that are present in all ga
 
 ###### Deselected Texture Location: `/SongSelect/mapset-deselected.png`
 
-![Deselected Mapset Panel](/docs/images/SongSelect/deselected-mapset.png)
+![Deselected Mapset Panel](/docs/images/SongSelect/mapset-deselected.png)
 
 ###### Selected Texture Location: `/SongSelect/mapset-selected.png`
 
-![Selected Mapset Panel](/docs/images/SongSelect/selected-mapset.png)
+![Selected Mapset Panel](/docs/images/SongSelect/mapset-selected.png)
 
 ###### Hovered Texture Location: `/SongSelect/mapset-hovered.png`
+
+![Hovered Mapset Panel](/docs/images/SongSelect/mapset-hovered.png)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -261,9 +263,9 @@ The gameplay interface includes general skin elements that are present in all ga
 
 ![7k Mode](/docs/images/SongSelect/keys7.png)
 
-###### 4k/7k Texture Location: `/SongSelect/game-mode-4k7k.png`
+###### 4k+7k Texture Location: `/SongSelect/game-mode-4k7k.png`
 
-![4k/7k Mode](/docs/images/SongSelect/both-modes-panel.png)
+![4k+7k Mode](/docs/images/SongSelect/both-modes-panel.png)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -272,3 +274,35 @@ The gameplay interface includes general skin elements that are present in all ga
 **Notes:**
 
 - The key mode of the mapset.
+
+---
+
+### Leaderboard Panel
+
+###### Leaderboard Panel location: `/SongSelect/leaderboard-panel.png`
+
+![Leaderboard Panel](/docs/images/SongSelect/leaderboard-panel.png)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  MidLeft  |   564x664    |
+
+**Notes:**
+
+- The leaderboard panel of the skin.
+
+---
+
+### Personal Best Panel
+
+###### Personal Best Panel location: `/SongSelect/personalbest-panel.png`
+
+![Personal Best Panel](/docs/images/SongSelect/personalbest-panel.png)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  MidLeft  |    564x70    |
+
+**Notes:**
+
+- The personal best panel of the skin.
