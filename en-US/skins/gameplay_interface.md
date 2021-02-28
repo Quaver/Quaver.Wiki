@@ -910,6 +910,72 @@ Notes:
 
 ---
 
+## Pause Screen
+
+### Pause Continue Button
+
+`/Pause/pause-continue.png`
+
+![Pause Continue Button](/docs/images/Pause/pause-continue.png)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
+
+**Notes:**
+
+- The button to continue the map in the pause screen.
+
+---
+
+### Pause Retry Button
+
+`/Pause/pause-retry.png`
+
+![Pause Retry Button](/docs/images/Pause/pause-retry.png)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
+
+**Notes:**
+
+- The button to retry the map in the pause screen.
+
+---
+
+### Pause Back Button
+
+`/Pause/pause-back.png`
+
+![Pause Back Button](/docs/images/Pause/pause-back.png)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
+
+**Notes:**
+
+- The button to quit the map in the pause screen.
+
+---
+
+### Pause Background
+
+`/Pause/pause-background.png`
+
+![Pause Background](/docs/images/Pause/pause-background.png)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     | MidCenter |       -        |
+
+**Notes:**
+
+- Background image that displayed during the pause screen. If none is specified, it will dim to black.
+
+---
+
 ## Battle Royale
 
 ### Eliminated
