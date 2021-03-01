@@ -6,10 +6,10 @@ name: Scores
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/scores/map/:id`](#get-%2Fscores%2Fmap%2F%3Aid)
+    - [GET `/scores/map/:id`](#get-scoresmapid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-    - [GET `/scores/data/:id`](#get-%2Fscores%2Fdata%2F%3Aid)
+    - [GET `/scores/data/:id`](#get-scoresdataid)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-1)
 
@@ -72,7 +72,7 @@ Gets all scores of a given map (map leaderboard).
 Gets the hit data of a score. The values represent the hit difference to a
 perfect hit. Might be useful to convert accuracy into other systems or for
 plotting/graphing purposes. Some values have a L suffix, which means that the
-values was from a long note release.
+value was from a long note release.
 
 The values are not accurate right now, so it's advised to not use this endpoint.
 This will be fixed at a later date.
