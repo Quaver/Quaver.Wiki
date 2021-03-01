@@ -11,7 +11,7 @@ automated tasks very easily. They can be customized in functions, layout and
 style, and let you do nearly everything the normal editor would let you do. They
 are written in the Lua language.
 
-## Creating your own plugin
+## Adding plugins
 
 Plugins are defined by a folder structure built up in following way:
 
@@ -23,11 +23,26 @@ Plugins are defined by a folder structure built up in following way:
         * plugin.lua
         * settings.ini
 
-Each individual folder that contains a plugin.lua and a settings.ini file
+Each individual folder that contains a `plugin.lua` and a `settings.ini` file
 represents a separate plugin.
 
-To start out, fill in your plugin's metadata in your settings.ini file like
-this:
+*Adding* a plugin is done by adding a folder that contains a `plugin.lua` file
+and a `settings.ini` file to your `Quaver/Plugins` folder. It should show up in
+your Plugins dropdown next time you open the editor. Do keep in mind that the
+plugin will show up with the name specified in the `settings.ini` file, and not
+the name of the folder.
+
+However, the process of *getting* a plugin can be slightly different, depending
+on where the plugin is hosted or shared. For example, in case the plugin is
+hosted on GitHub, you want to click on the green "Download Code" button and
+download as a ZIP file, then unzip the file to get a folder.
+
+## Creating your own plugin
+
+To start out, create a new folder, a `plugin.lua` and a `settings.ini` file in
+the layout described in [Adding Plugins](#adding-plugins).
+
+Fill in your plugin's metadata in your `settings.ini` file like this:
 
 ```ini
 [Settings]
@@ -38,11 +53,12 @@ Description = Your description
 
 This is the data that will be shown in the plugins dropdown in the editor.
 
-Next, fill in your plugin.lua file like this:
+Next, fill in your `plugin.lua` file like this:
 
 ```lua
 function draw()
     imgui.Begin("Window Title")
+    imgui.Text("Hello World!")
     imgui.End()
 end
 ```
@@ -66,13 +82,16 @@ file, which contains all GUI related functions you're able to use.
 ## Example plugins
 
 If you're looking for examples to work off, feel free to look at the
-[example plugins folder](https://github.com/Quaver/Quaver.Wiki/tree/master/example_plugins). The already included tools in the editor for BPM Calculator,
-BPM Detector and "Go to objects" were also written in Lua and can be found
+[example plugins folder](https://github.com/Quaver/Quaver.Wiki/tree/master/example_plugins).
+The already included tools in the editor for BPM Calculator, BPM Detector and
+"Go to objects" were also written in Lua and can be found
 [here](https://github.com/Quaver/Quaver.Resources/tree/master/Quaver.Resources/Scripts/Lua/Editor).
 
 ## User-created plugins
 
-A few users have already gone ahead and made plugins for everyone to use! There isn't any complete list of them yet, but here are the most known and popular ones so far:
+A few users have already gone ahead and made plugins for everyone to use! There
+isn't any complete list of them yet, but here are the most known and popular
+ones so far:
 
 * [iceSV](https://github.com/IceDynamix/iceSV), a large plugin for general SV
   pattern creation and editing
