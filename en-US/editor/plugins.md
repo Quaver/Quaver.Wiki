@@ -27,10 +27,14 @@ Each individual folder that contains a `plugin.lua` and a `settings.ini` file
 represents a separate plugin.
 
 *Adding* a plugin is done by adding a folder that contains a `plugin.lua` file
-and a `settings.ini` file to your `Quaver/Plugins` folder. It should show up in
-your Plugins dropdown next time you open the editor. Do keep in mind that the
-plugin will show up with the name specified in the `settings.ini` file, and not
-the name of the folder.
+and a `settings.ini` file to your `Quaver/Plugins` folder. You can find your
+Quaver folder by searching for "Open Game folder" in the in-game settings, or by
+going to your Steam Library, right-clicking Quaver and selecting Manage > Browse
+local files.
+
+The plugin should show up in your Plugins dropdown next time you open the
+editor. Do keep in mind that the plugin will show up with the name specified in
+the `settings.ini` file, and not the name of the folder.
 
 However, the process of *getting* a plugin can be slightly different, depending
 on where the plugin is hosted or shared. For example, in case the plugin is
@@ -40,7 +44,8 @@ download as a ZIP file, then unzip the file to get a folder.
 ## Creating your own plugin
 
 To start out, create a new folder, a `plugin.lua` and a `settings.ini` file in
-the layout described in [Adding Plugins](#adding-plugins).
+your `Quaver/Plugins` folder in the layout described in
+[Adding Plugins](#adding-plugins).
 
 Fill in your plugin's metadata in your `settings.ini` file like this:
 
