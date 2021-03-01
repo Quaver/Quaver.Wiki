@@ -2,18 +2,24 @@
 name: Leaderboard
 ---
 
-- [GET `/v1/leaderboard`](#get-v1leaderboard)
-    - [Parameters](#parameters)
-    - [Example Response](#example-response)
-- [GET `/v1/leaderboard/hits`](#get-v1leaderboardhits)
-    - [Parameters](#parameters-1)
-    - [Example Response](#example-response-1)
+## Table of Contents
 
-## GET `/v1/leaderboard`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/v1/leaderboard`](#get-%2Fv1%2Fleaderboard)
+        - [Parameters](#parameters)
+        - [Example Response](#example-response)
+    - [GET `/v1/leaderboard/hits`](#get-%2Fv1%2Fleaderboard%2Fhits)
+        - [Parameters](#parameters-1)
+        - [Example Response](#example-response-1)
+
+## Endpoints
+
+### GET `/v1/leaderboard`
 
 Retrieves the top 50 users on the leaderboard
 
-### Parameters
+#### Parameters
 
 | Name    | Description       | Required |
 | ------- | ----------------- | -------- |
@@ -21,7 +27,7 @@ Retrieves the top 50 users on the leaderboard
 | country | Filter by country | No       |
 | page    | Pagination        | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/leaderboard?mode=2&country=us
@@ -73,17 +79,17 @@ Retrieves the top 50 users on the leaderboard
 }
 ```
 
-## GET `/v1/leaderboard/hits`
+### GET `/v1/leaderboard/hits`
 
 /v1/leaderboard/hits
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | page | Pagination  | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/leaderboard/hits

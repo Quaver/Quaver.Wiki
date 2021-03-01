@@ -2,28 +2,34 @@
 name: Playlist
 ---
 
-- [GET `/v1/playlist/:id`](#get-v1playlistid)
-    - [Parameters](#parameters)
-    - [Example Response](#example-response)
-- [GET `/v1/playlist/:id/maps`](#get-v1playlistidmaps)
-    - [Parameters](#parameters-1)
-    - [Example Response](#example-response-1)
-- [GET `/v1/playlist/all/search`](#get-v1playlistallsearch)
-    - [Parameters](#parameters-2)
-    - [Example Response](#example-response-2)
+## Table of Contents
 
-## GET `/v1/playlist/:id`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/v1/playlist/:id`](#get-%2Fv1%2Fplaylist%2F%3Aid)
+        - [Parameters](#parameters)
+        - [Example Response](#example-response)
+    - [GET `/v1/playlist/:id/maps`](#get-%2Fv1%2Fplaylist%2F%3Aid%2Fmaps)
+        - [Parameters](#parameters-1)
+        - [Example Response](#example-response-1)
+    - [GET `/v1/playlist/all/search`](#get-%2Fv1%2Fplaylist%2Fall%2Fsearch)
+        - [Parameters](#parameters-2)
+        - [Example Response](#example-response-2)
+
+## Endpoints
+
+### GET `/v1/playlist/:id`
 
 Gets data of a playlist
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Playlist ID | Yes      |
 | page | Pagination  | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/playlist/27
@@ -62,15 +68,15 @@ Gets data of a playlist
 }
 ```
 
-## GET `/v1/playlist/:id/maps`
+### GET `/v1/playlist/:id/maps`
 
 Gets the pure map IDs of maps in a playlist. Bypasses the need for pagination in
 comparison to `/v1/playlist:id` if you only want to check whether a map is in a
 playlist or not.
 
-### Parameters
+#### Parameters
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/playlist/27/maps
@@ -90,20 +96,20 @@ playlist or not.
 }
 ```
 
-## GET `/v1/playlist/all/search`
+### GET `/v1/playlist/all/search`
 
 Gets all playlists that match a given search query. If no search query is given,
 then all playlists are returned (with respect to pagination). Results are
 ordered by playlist ID.
 
-### Parameters
+#### Parameters
 
 | Name   | Description  | Required |
 | ------ | ------------ | -------- |
 | search | Search query | No       |
 | page   | Pagination   | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/playlist/all/search?search=Jumpstream
