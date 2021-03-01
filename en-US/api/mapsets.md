@@ -6,31 +6,31 @@ name: Mapsets
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/mapsets/ranked`](#get-%2Fv1%2Fmapsets%2Franked)
+    - [GET `/mapsets/ranked`](#get-%2Fmapsets%2Franked)
         - [Example Request](#example-request)
-    - [GET `/v1/mapsets/queue`](#get-%2Fv1%2Fmapsets%2Fqueue)
+    - [GET `/mapsets/queue`](#get-%2Fmapsets%2Fqueue)
         - [Parameters](#parameters)
         - [Example Request](#example-request-1)
-    - [GET `/v1/mapsets/:id`](#get-%2Fv1%2Fmapsets%2F%3Aid)
+    - [GET `/mapsets/:id`](#get-%2Fmapsets%2F%3Aid)
         - [Parameters](#parameters-1)
         - [Example Request](#example-request-2)
-    - [GET `/v1/mapsets/maps/search`](#get-%2Fv1%2Fmapsets%2Fmaps%2Fsearch)
+    - [GET `/mapsets/maps/search`](#get-%2Fmapsets%2Fmaps%2Fsearch)
         - [Parameters](#parameters-2)
         - [Example Request](#example-request-3)
-    - [GET `/v1/mapsets/:id/comments`](#get-%2Fv1%2Fmapsets%2F%3Aid%2Fcomments)
+    - [GET `/mapsets/:id/comments`](#get-%2Fmapsets%2F%3Aid%2Fcomments)
         - [Parameters](#parameters-3)
         - [Example Request](#example-request-4)
 
 ## Endpoints
 
-### GET `/v1/mapsets/ranked`
+### GET `/mapsets/ranked`
 
 Gets the mapset IDs of all ranked maps
 
 #### Example Request
 
 ```json
-// https://api.quavergame.com/v1/mapsets/ranked
+// https://api.quavergame.com/mapsets/ranked
 {
     "status": 200,
     "mapsets": [
@@ -47,7 +47,7 @@ Gets the mapset IDs of all ranked maps
 }
 ```
 
-### GET `/v1/mapsets/queue`
+### GET `/mapsets/queue`
 
 Gets the maps currently in the ranking queue
 
@@ -61,7 +61,7 @@ Gets the maps currently in the ranking queue
 #### Example Request
 
 ```json
-// https://api.quavergame.com/v1/mapsets/queue
+// https://api.quavergame.com/mapsets/queue
 {
     "status": 200,
     "queue": [
@@ -97,7 +97,7 @@ Gets the maps currently in the ranking queue
 }
 ```
 
-### GET `/v1/mapsets/:id`
+### GET `/mapsets/:id`
 
 Gets data of a single mapset
 
@@ -110,7 +110,7 @@ Gets data of a single mapset
 #### Example Request
 
 ```json
-// https://api.quavergame.com/v1/mapsets/2
+// https://api.quavergame.com/mapsets/2
 {
     "status": 200,
     "mapset": {
@@ -163,7 +163,7 @@ Gets data of a single mapset
 }
 ```
 
-### GET `/v1/mapsets/maps/search`
+### GET `/mapsets/maps/search`
 
 Gets all maps that match a given search query and filters
 
@@ -191,7 +191,7 @@ Gets all maps that match a given search query and filters
 
 ```json
 /*
-https://api.quavergame.com/v1/mapsets/maps/search
+https://api.quavergame.com/mapsets/maps/search
 ?search=swan
 &mode=1
 &status=2
@@ -248,7 +248,7 @@ https://api.quavergame.com/v1/mapsets/maps/search
 }
 ```
 
-### GET `/v1/mapsets/:id/comments`
+### GET `/mapsets/:id/comments`
 
 Gets comments of a mapset
 
@@ -261,7 +261,7 @@ Gets comments of a mapset
 #### Example Request
 
 ```json
-// https://api.quavergame.com/v1/mapsets/270/comments
+// https://api.quavergame.com/mapsets/270/comments
 {
     "status": 200,
     "comments": [

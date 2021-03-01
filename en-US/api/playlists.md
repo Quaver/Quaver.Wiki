@@ -6,19 +6,19 @@ name: Playlist
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/playlist/:id`](#get-%2Fv1%2Fplaylist%2F%3Aid)
+    - [GET `/playlist/:id`](#get-%2Fplaylist%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-    - [GET `/v1/playlist/:id/maps`](#get-%2Fv1%2Fplaylist%2F%3Aid%2Fmaps)
+    - [GET `/playlist/:id/maps`](#get-%2Fplaylist%2F%3Aid%2Fmaps)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-1)
-    - [GET `/v1/playlist/all/search`](#get-%2Fv1%2Fplaylist%2Fall%2Fsearch)
+    - [GET `/playlist/all/search`](#get-%2Fplaylist%2Fall%2Fsearch)
         - [Parameters](#parameters-2)
         - [Example Response](#example-response-2)
 
 ## Endpoints
 
-### GET `/v1/playlist/:id`
+### GET `/playlist/:id`
 
 Gets data of a playlist
 
@@ -32,7 +32,7 @@ Gets data of a playlist
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/playlist/27
+// https://api.quavergame.com/playlist/27
 {
     "status": 200,
     "playlist": {
@@ -68,10 +68,10 @@ Gets data of a playlist
 }
 ```
 
-### GET `/v1/playlist/:id/maps`
+### GET `/playlist/:id/maps`
 
 Gets the pure map IDs of maps in a playlist. Bypasses the need for pagination in
-comparison to `/v1/playlist:id` if you only want to check whether a map is in a
+comparison to `/playlist:id` if you only want to check whether a map is in a
 playlist or not.
 
 #### Parameters
@@ -79,7 +79,7 @@ playlist or not.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/playlist/27/maps
+// https://api.quavergame.com/playlist/27/maps
 {
     "status": 200,
     "map_ids": [
@@ -96,7 +96,7 @@ playlist or not.
 }
 ```
 
-### GET `/v1/playlist/all/search`
+### GET `/playlist/all/search`
 
 Gets all playlists that match a given search query. If no search query is given,
 then all playlists are returned (with respect to pagination). Results are
@@ -112,7 +112,7 @@ ordered by playlist ID.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/playlist/all/search?search=Jumpstream
+// https://api.quavergame.com/playlist/all/search?search=Jumpstream
 {
     "status": 200,
     "playlists": [

@@ -6,16 +6,16 @@ name: Maps
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/maps/:id`](#get-%2Fv1%2Fmaps%2F%3Aid)
+    - [GET `/maps/:id`](#get-%2Fmaps%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-    - [GET `/v1/maps/:id/mods`](#get-%2Fv1%2Fmaps%2F%3Aid%2Fmods)
+    - [GET `/maps/:id/mods`](#get-%2Fmaps%2F%3Aid%2Fmods)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-1)
 
 ## Endpoints
 
-### GET `/v1/maps/:id`
+### GET `/maps/:id`
 
 #### Parameters
 
@@ -26,7 +26,7 @@ name: Maps
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/maps/2
+// https://api.quavergame.com/maps/2
 {
     "status": 200,
     "map": {
@@ -61,7 +61,7 @@ name: Maps
 }
 ```
 
-### GET `/v1/maps/:id/mods`
+### GET `/maps/:id/mods`
 
 #### Parameters
 
@@ -72,7 +72,7 @@ name: Maps
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/maps/21914/mods
+// https://api.quavergame.com/maps/21914/mods
 {
     "status": 200,
     "mods": [

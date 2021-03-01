@@ -9,31 +9,31 @@ A *match* consists of one played map and the results of that played map. A
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/multiplayer/games`](#get-%2Fv1%2Fmultiplayer%2Fgames)
+    - [GET `/multiplayer/games`](#get-%2Fmultiplayer%2Fgames)
         - [Example Response](#example-response)
-    - [GET `/v1/multiplayer/games/:id`](#get-%2Fv1%2Fmultiplayer%2Fgames%2F%3Aid)
+    - [GET `/multiplayer/games/:id`](#get-%2Fmultiplayer%2Fgames%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response-1)
-    - [GET `/v1/multiplayer/games/:id/live`](#get-%2Fv1%2Fmultiplayer%2Fgames%2F%3Aid%2Flive)
+    - [GET `/multiplayer/games/:id/live`](#get-%2Fmultiplayer%2Fgames%2F%3Aid%2Flive)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-2)
-    - [GET `/v1/multiplayer/leaderboard`](#get-%2Fv1%2Fmultiplayer%2Fleaderboard)
+    - [GET `/multiplayer/leaderboard`](#get-%2Fmultiplayer%2Fleaderboard)
         - [Parameters](#parameters-2)
         - [Example Response](#example-response-3)
-    - [GET `/v1/multiplayer/match/:id`](#get-%2Fv1%2Fmultiplayer%2Fmatch%2F%3Aid)
+    - [GET `/multiplayer/match/:id`](#get-%2Fmultiplayer%2Fmatch%2F%3Aid)
         - [Parameters](#parameters-3)
         - [Example Response](#example-response-4)
 
 ## Endpoints
 
-### GET `/v1/multiplayer/games`
+### GET `/multiplayer/games`
 
 Gets all multiplayer lobbies currently active and a few of the recently played ones
 
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/multiplayer/games
+// https://api.quavergame.com/multiplayer/games
 {
     "status": 200,
     "matches": {
@@ -89,7 +89,7 @@ Gets all multiplayer lobbies currently active and a few of the recently played o
 }
 ```
 
-### GET `/v1/multiplayer/games/:id`
+### GET `/multiplayer/games/:id`
 
 Gets the data of a multiplayer game
 
@@ -102,7 +102,7 @@ Gets the data of a multiplayer game
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/multiplayer/games/53825
+// https://api.quavergame.com/multiplayer/games/53825
 {
     "status": 200,
     "multiplayer_game": {
@@ -153,7 +153,7 @@ Gets the data of a multiplayer game
 }
 ```
 
-### GET `/v1/multiplayer/games/:id/live`
+### GET `/multiplayer/games/:id/live`
 
 Gets the data of a currently live game. Only works for games that are live.
 
@@ -166,7 +166,7 @@ Gets the data of a currently live game. Only works for games that are live.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/multiplayer/games/49374/live
+// https://api.quavergame.com/multiplayer/games/49374/live
 {
     "game": {
         "name": "The BUS",
@@ -234,7 +234,7 @@ Gets the data of a currently live game. Only works for games that are live.
 }
 ```
 
-### GET `/v1/multiplayer/leaderboard`
+### GET `/multiplayer/leaderboard`
 
 Gets the data for the multiplayer wins leaderboard
 
@@ -248,7 +248,7 @@ Gets the data for the multiplayer wins leaderboard
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/multiplayer/leaderboard?mode=1
+// https://api.quavergame.com/multiplayer/leaderboard?mode=1
 {
     "status": 200,
     "users": [
@@ -275,7 +275,7 @@ Gets the data for the multiplayer wins leaderboard
 }
 ```
 
-### GET `/v1/multiplayer/match/:id`
+### GET `/multiplayer/match/:id`
 
 Gets data of a single match. A match refers to one played map in a game.
 
@@ -288,7 +288,7 @@ Gets data of a single match. A match refers to one played map in a game.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/multiplayer/match/202597
+// https://api.quavergame.com/multiplayer/match/202597
 {
     "status": 200,
     "game": {

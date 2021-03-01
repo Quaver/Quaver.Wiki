@@ -6,23 +6,23 @@ name: Miscellaneous
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/team`](#get-%2Fv1%2Fteam)
+    - [GET `/team`](#get-%2Fteam)
         - [Example Response](#example-response)
-    - [GET `/v1/stats`](#get-%2Fv1%2Fstats)
+    - [GET `/stats`](#get-%2Fstats)
         - [Example Response](#example-response-1)
-    - [GET `/v1/stats/country`](#get-%2Fv1%2Fstats%2Fcountry)
+    - [GET `/stats/country`](#get-%2Fstats%2Fcountry)
         - [Example Response](#example-response-2)
 
 ## Endpoints
 
-### GET `/v1/team`
+### GET `/team`
 
 Gets all users that are apart of the Quaver Team
 
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/team
+// https://api.quavergame.com/team
 {
     "status": 200,
     "team": {
@@ -182,14 +182,14 @@ Gets all users that are apart of the Quaver Team
 }
 ```
 
-### GET `/v1/stats`
+### GET `/stats`
 
 Gets server stats
 
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/stats
+// https://api.quavergame.com/stats
 {
     "status": 200,
     "stats": {
@@ -201,14 +201,14 @@ Gets server stats
 }
 ```
 
-### GET `/v1/stats/country`
+### GET `/stats/country`
 
 Gets country stats
 
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/stats/country
+// https://api.quavergame.com/stats/country
 {
     "status": 200,
     "countries": {

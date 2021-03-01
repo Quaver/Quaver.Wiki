@@ -6,16 +6,16 @@ name: Scores
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/scores/map/:id`](#get-%2Fv1%2Fscores%2Fmap%2F%3Aid)
+    - [GET `/scores/map/:id`](#get-%2Fscores%2Fmap%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-    - [GET `/v1/scores/data/:id`](#get-%2Fv1%2Fscores%2Fdata%2F%3Aid)
+    - [GET `/scores/data/:id`](#get-%2Fscores%2Fdata%2F%3Aid)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-1)
 
 ## Endpoints
 
-### GET `/v1/scores/map/:id`
+### GET `/scores/map/:id`
 
 Gets all scores of a given map (map leaderboard).
 
@@ -28,7 +28,7 @@ Gets all scores of a given map (map leaderboard).
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/scores/map/2
+// https://api.quavergame.com/scores/map/2
 {
     "status": 200,
     "scores": [
@@ -67,7 +67,7 @@ Gets all scores of a given map (map leaderboard).
 }
 ```
 
-### GET `/v1/scores/data/:id`
+### GET `/scores/data/:id`
 
 Gets the hit data of a score. The values represent the hit difference to a
 perfect hit. Might be useful to convert accuracy into other systems or for
@@ -86,7 +86,7 @@ This will be fixed at a later date.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/scores/data/115198
+// https://api.quavergame.com/scores/data/115198
 {
     "status": 200,
     "hits": [

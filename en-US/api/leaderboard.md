@@ -6,16 +6,16 @@ name: Leaderboard
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/v1/leaderboard`](#get-%2Fv1%2Fleaderboard)
+    - [GET `/leaderboard`](#get-%2Fleaderboard)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-    - [GET `/v1/leaderboard/hits`](#get-%2Fv1%2Fleaderboard%2Fhits)
+    - [GET `/leaderboard/hits`](#get-%2Fleaderboard%2Fhits)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-1)
 
 ## Endpoints
 
-### GET `/v1/leaderboard`
+### GET `/leaderboard`
 
 Retrieves the top 50 users on the leaderboard
 
@@ -30,7 +30,7 @@ Retrieves the top 50 users on the leaderboard
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/leaderboard?mode=2&country=us
+// https://api.quavergame.com/leaderboard?mode=2&country=us
 {
     "status": 200,
     "users": [
@@ -79,9 +79,9 @@ Retrieves the top 50 users on the leaderboard
 }
 ```
 
-### GET `/v1/leaderboard/hits`
+### GET `/leaderboard/hits`
 
-/v1/leaderboard/hits
+/leaderboard/hits
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Retrieves the top 50 users on the leaderboard
 #### Example Response
 
 ```json
-// https://api.quavergame.com/v1/leaderboard/hits
+// https://api.quavergame.com/leaderboard/hits
 {
     "status": 200,
     "users": [
