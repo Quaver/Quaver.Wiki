@@ -36,10 +36,10 @@ The plugin should show up in your Plugins dropdown next time you open the
 editor. Do keep in mind that the plugin will show up with the name specified in
 the `settings.ini` file, and not the name of the folder.
 
-However, the process of *getting* a plugin can be slightly different, depending
-on where the plugin is hosted or shared. For example, in case the plugin is
-hosted on GitHub, you want to click on the green "Download Code" button and
-download as a ZIP file, then unzip the file to get a folder.
+However, the process of *getting* a plugin can be slightly different depending
+on where the plugin is hosted or shared. In the case that the plugin is
+hosted on GitHub, you can click on the green "Download Code" button, and
+download it as a ZIP file. Then unzip the file to get a folder.
 
 ## Creating your own plugin
 
