@@ -32,7 +32,7 @@ Quaver folder by searching for "Open Game folder" in the in-game settings, or by
 going to your Steam Library, right-clicking Quaver and selecting Manage > Browse
 local files.
 
-The plugin should show up in your Plugins dropdown next time you open the
+The plugin should show up in your Plugins dropdown the next time you open the
 editor. Do keep in mind that the plugin will show up with the name specified in
 the `settings.ini` file, and not the name of the folder.
 
