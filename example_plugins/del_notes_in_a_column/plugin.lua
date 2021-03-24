@@ -1,21 +1,9 @@
 function draw()
     imgui.Begin("Delete all notes in a column")
 
-    local keys = 0
-
-    if map.Mode == game_mode.Keys4 then
-        keys = 4
-    elseif map.Mode == game_mode.Keys7 then
-        keys = 7
-    else
-        imgui.Text("Invalid keymode!")
-        imgui.End()
-        return
-    end
-
     imgui.Text("Delete all notes in...")
 
-    for i = 1, keys, 1 do
+    for i = 1, map.GetKeyCount(false) do
 
         imgui.Bullet()
 
