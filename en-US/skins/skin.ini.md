@@ -231,8 +231,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 ###### Affected Textures: [health-background.png](/docs/skins/gameplayinterface#health-bar-background), [health-foreground.png](/docs/skins/gameplayinterface#health-bar-foreground)
 
 |         Value          |               Data Type                | Alignment | Default Values | Notes                                                                                        |
-| :--------------------: | :------------------------------------: | :-------: | :------------: | -------------------------------------------------------------------------------------------- |
-|      HealthBarFps      |                Integer                 |     -     |       60       | The frames per second the health bar animation will run at                                   |
+| :--------------------: | :------------------------------------: | :-------: | :------------: | --------------------------------------------------------------------------------------------                                   |
 | HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` |  Depends  |  `RightStage`  | Where the health bar is positioned in relation to the stage                                  |
 |     HealthBarType      |       `Horizontal` or `Vertical`       |     -     |   `Vertical`   | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
 |  HealthBarPosOffsetX   |                Integer                 |  Depends  |       5        | The health bar's X position relative to its default location                                 |
