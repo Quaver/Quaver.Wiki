@@ -6,10 +6,10 @@ name: Scores
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/scores/map/:id`](#get-scoresmapid)
+    - [GET `/scores/map/:id`](#get-%2Fscores%2Fmap%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-    - [GET `/scores/data/:id`](#get-scoresdataid)
+    - [GET `/scores/data/:id`](#get-%2Fscores%2Fdata%2F%3Aid)
         - [Parameters](#parameters-1)
         - [Example Response](#example-response-1)
 
