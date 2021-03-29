@@ -2,18 +2,24 @@
 name: Miscellaneous
 ---
 
-- [GET `/v1/team`](#get-v1team)
-    - [Example Response](#example-response)
-- [GET `/v1/stats`](#get-v1stats)
-    - [Example Response](#example-response-1)
-- [GET `/v1/stats/country`](#get-v1statscountry)
-    - [Example Response](#example-response-2)
+## Table of Contents
 
-## GET `/v1/team`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/team`](#get-%2Fteam)
+        - [Example Response](#example-response)
+    - [GET `/stats`](#get-%2Fstats)
+        - [Example Response](#example-response-1)
+    - [GET `/stats/country`](#get-%2Fstats%2Fcountry)
+        - [Example Response](#example-response-2)
+
+## Endpoints
+
+### GET `/team`
 
 Gets all users that are apart of the Quaver Team
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/team
@@ -176,11 +182,11 @@ Gets all users that are apart of the Quaver Team
 }
 ```
 
-## GET `/v1/stats`
+### GET `/stats`
 
 Gets server stats
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/stats
@@ -195,11 +201,11 @@ Gets server stats
 }
 ```
 
-## GET `/v1/stats/country`
+### GET `/stats/country`
 
 Gets country stats
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/stats/country

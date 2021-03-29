@@ -2,24 +2,30 @@
 name: Scores
 ---
 
-- [GET `/v1/scores/map/:id`](#get-v1scoresmapid)
-    - [Parameters](#parameters)
-    - [Example Response](#example-response)
-- [GET `/v1/scores/data/:id`](#get-v1scoresdataid)
-    - [Parameters](#parameters-1)
-    - [Example Response](#example-response-1)
+## Table of Contents
 
-## GET `/v1/scores/map/:id`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/scores/map/:id`](#get-%2Fscores%2Fmap%2F%3Aid)
+        - [Parameters](#parameters)
+        - [Example Response](#example-response)
+    - [GET `/scores/data/:id`](#get-%2Fscores%2Fdata%2F%3Aid)
+        - [Parameters](#parameters-1)
+        - [Example Response](#example-response-1)
+
+## Endpoints
+
+### GET `/scores/map/:id`
 
 Gets all scores of a given map (map leaderboard).
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Map ID      | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/scores/map/2
@@ -61,23 +67,23 @@ Gets all scores of a given map (map leaderboard).
 }
 ```
 
-## GET `/v1/scores/data/:id`
+### GET `/scores/data/:id`
 
 Gets the hit data of a score. The values represent the hit difference to a
 perfect hit. Might be useful to convert accuracy into other systems or for
 plotting/graphing purposes. Some values have a L suffix, which means that the
-values was from a long note release.
+value was from a long note release.
 
 The values are not accurate right now, so it's advised to not use this endpoint.
 This will be fixed at a later date.
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Score ID    | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/scores/data/115198

@@ -5,26 +5,32 @@ name: Multiplayer
 A *match* consists of one played map and the results of that played map. A
 *game* consists of a collection of matches and other metadata.
 
-- [GET `/v1/multiplayer/games`](#get-v1multiplayergames)
-    - [Example Response](#example-response)
-- [GET `/v1/multiplayer/games/:id`](#get-v1multiplayergamesid)
-    - [Parameters](#parameters)
-    - [Example Response](#example-response-1)
-- [GET `/v1/multiplayer/games/:id/live`](#get-v1multiplayergamesidlive)
-    - [Parameters](#parameters-1)
-    - [Example Response](#example-response-2)
-- [GET `/v1/multiplayer/leaderboard`](#get-v1multiplayerleaderboard)
-    - [Parameters](#parameters-2)
-    - [Example Response](#example-response-3)
-- [GET `/v1/multiplayer/match/:id`](#get-v1multiplayermatchid)
-    - [Parameters](#parameters-3)
-    - [Example Response](#example-response-4)
+## Table of Contents
 
-## GET `/v1/multiplayer/games`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/multiplayer/games`](#get-%2Fmultiplayer%2Fgames)
+        - [Example Response](#example-response)
+    - [GET `/multiplayer/games/:id`](#get-%2Fmultiplayer%2Fgames%2F%3Aid)
+        - [Parameters](#parameters)
+        - [Example Response](#example-response-1)
+    - [GET `/multiplayer/games/:id/live`](#get-%2Fmultiplayer%2Fgames%2F%3Aid%2Flive)
+        - [Parameters](#parameters-1)
+        - [Example Response](#example-response-2)
+    - [GET `/multiplayer/leaderboard`](#get-%2Fmultiplayer%2Fleaderboard)
+        - [Parameters](#parameters-2)
+        - [Example Response](#example-response-3)
+    - [GET `/multiplayer/match/:id`](#get-%2Fmultiplayer%2Fmatch%2F%3Aid)
+        - [Parameters](#parameters-3)
+        - [Example Response](#example-response-4)
+
+## Endpoints
+
+### GET `/multiplayer/games`
 
 Gets all multiplayer lobbies currently active and a few of the recently played ones
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/multiplayer/games
@@ -83,17 +89,17 @@ Gets all multiplayer lobbies currently active and a few of the recently played o
 }
 ```
 
-## GET `/v1/multiplayer/games/:id`
+### GET `/multiplayer/games/:id`
 
 Gets the data of a multiplayer game
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Game ID     | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/multiplayer/games/53825
@@ -147,17 +153,17 @@ Gets the data of a multiplayer game
 }
 ```
 
-## GET `/v1/multiplayer/games/:id/live`
+### GET `/multiplayer/games/:id/live`
 
 Gets the data of a currently live game. Only works for games that are live.
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Game ID     | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/multiplayer/games/49374/live
@@ -228,18 +234,18 @@ Gets the data of a currently live game. Only works for games that are live.
 }
 ```
 
-## GET `/v1/multiplayer/leaderboard`
+### GET `/multiplayer/leaderboard`
 
 Gets the data for the multiplayer wins leaderboard
 
-### Parameters
+#### Parameters
 
 | Name | Description        | Required |
 | ---- | ------------------ | -------- |
 | mode | Key4 = 1, Key7 = 2 | Yes      |
 | page | Pagination         | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/multiplayer/leaderboard?mode=1
@@ -269,17 +275,17 @@ Gets the data for the multiplayer wins leaderboard
 }
 ```
 
-## GET `/v1/multiplayer/match/:id`
+### GET `/multiplayer/match/:id`
 
 Gets data of a single match. A match refers to one played map in a game.
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Match ID    | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/multiplayer/match/202597
