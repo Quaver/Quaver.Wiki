@@ -33,7 +33,7 @@ Gets all multiplayer lobbies currently active and a few of the recently played o
 #### Example Response
 
 ```json
-// https://api.quavergame.com/multiplayer/games
+// https://api.quavergame.com/v1/multiplayer/games
 {
     "status": 200,
     "matches": {
@@ -102,7 +102,7 @@ Gets the data of a multiplayer game
 #### Example Response
 
 ```json
-// https://api.quavergame.com/multiplayer/games/53825
+// https://api.quavergame.com/v1/multiplayer/games/53825
 {
     "status": 200,
     "multiplayer_game": {
@@ -166,7 +166,7 @@ Gets the data of a currently live game. Only works for games that are live.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/multiplayer/games/49374/live
+// https://api.quavergame.com/v1/multiplayer/games/49374/live
 {
     "game": {
         "name": "The BUS",
@@ -248,7 +248,7 @@ Gets the data for the multiplayer wins leaderboard
 #### Example Response
 
 ```json
-// https://api.quavergame.com/multiplayer/leaderboard?mode=1
+// https://api.quavergame.com/v1/multiplayer/leaderboard?mode=1
 {
     "status": 200,
     "users": [
@@ -288,7 +288,7 @@ Gets data of a single match. A match refers to one played map in a game.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/multiplayer/match/202597
+// https://api.quavergame.com/v1/multiplayer/match/202597
 {
     "status": 200,
     "game": {

@@ -50,7 +50,7 @@ Gets basic user data, refer to `v1/users/full/:id` for more detailed data for a 
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users?id=1&id=2
+// https://api.quavergame.com/v1/users?id=1&id=2
 {
     "status": 200,
     "users": [
@@ -97,7 +97,7 @@ Gets full user data
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/full/1
+// https://api.quavergame.com/v1/users/full/1
 {
     "status": 200,
     "user": {
@@ -211,7 +211,7 @@ Gets all users that match a given string
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/search/swan
+// https://api.quavergame.com/v1/users/search/swan
 {
     "status": 200,
     "users": [
@@ -248,7 +248,7 @@ Gets a users top scores
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/scores/best?id=1&mode=1
+// https://api.quavergame.com/v1/users/scores/best?id=1&mode=1
 {
     "status": 200,
     "scores": [
@@ -316,7 +316,7 @@ Gets a users created mapsets
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/mapsets/1
+// https://api.quavergame.com/v1/users/mapsets/1
 {
     "status": 200,
     "mapsets": [
@@ -371,7 +371,7 @@ Gets a users rank progression rank data
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/graph/rank?id=1&mode=1
+// https://api.quavergame.com/v1/users/graph/rank?id=1&mode=1
 {
     "status": 200,
     "statistics": [
@@ -405,7 +405,7 @@ Gets a users created playlists
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/1/playlists
+// https://api.quavergame.com/v1/users/1/playlists
 {
     "status": 200,
     "playlists": [
@@ -449,7 +449,7 @@ Gets all playlists and checks if it contains the given map. If it does, then the
 ### Example Response
 
 ```json
-// https://api.quavergame.com/users/1/playlists/map/5
+// https://api.quavergame.com/v1/users/1/playlists/map/5
 {
     "status": 200,
     "playlists": [
@@ -506,7 +506,7 @@ Gets a users status on all achievements
 #### Example Response
 
 ```json
-// https://api.quavergame.com/users/1/achievements
+// https://api.quavergame.com/v1/users/1/achievements
 {
     "status": 200,
     "achievements": [

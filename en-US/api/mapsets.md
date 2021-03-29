@@ -30,7 +30,7 @@ Gets the mapset IDs of all ranked maps
 #### Example Request
 
 ```json
-// https://api.quavergame.com/mapsets/ranked
+// https://api.quavergame.com/v1/mapsets/ranked
 {
     "status": 200,
     "mapsets": [
@@ -61,7 +61,7 @@ Gets the maps currently in the ranking queue
 #### Example Request
 
 ```json
-// https://api.quavergame.com/mapsets/queue
+// https://api.quavergame.com/v1/mapsets/queue
 {
     "status": 200,
     "queue": [
@@ -110,7 +110,7 @@ Gets data of a single mapset
 #### Example Request
 
 ```json
-// https://api.quavergame.com/mapsets/2
+// https://api.quavergame.com/v1/mapsets/2
 {
     "status": 200,
     "mapset": {
@@ -261,7 +261,7 @@ Gets comments of a mapset
 #### Example Request
 
 ```json
-// https://api.quavergame.com/mapsets/270/comments
+// https://api.quavergame.com/v1/mapsets/270/comments
 {
     "status": 200,
     "comments": [

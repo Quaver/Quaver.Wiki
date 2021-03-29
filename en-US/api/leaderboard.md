@@ -30,7 +30,7 @@ Retrieves the top 50 users on the leaderboard
 #### Example Response
 
 ```json
-// https://api.quavergame.com/leaderboard?mode=2&country=us
+// https://api.quavergame.com/v1/leaderboard?mode=2&country=us
 {
     "status": 200,
     "users": [
@@ -92,7 +92,7 @@ Retrieves the top 50 users on the leaderboard
 #### Example Response
 
 ```json
-// https://api.quavergame.com/leaderboard/hits
+// https://api.quavergame.com/v1/leaderboard/hits
 {
     "status": 200,
     "users": [

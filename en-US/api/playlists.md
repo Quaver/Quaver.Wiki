@@ -32,7 +32,7 @@ Gets data of a playlist
 #### Example Response
 
 ```json
-// https://api.quavergame.com/playlist/27
+// https://api.quavergame.com/v1/playlist/27
 {
     "status": 200,
     "playlist": {
@@ -79,7 +79,7 @@ playlist or not.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/playlist/27/maps
+// https://api.quavergame.com/v1/playlist/27/maps
 {
     "status": 200,
     "map_ids": [
@@ -112,7 +112,7 @@ ordered by playlist ID.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/playlist/all/search?search=Jumpstream
+// https://api.quavergame.com/v1/playlist/all/search?search=Jumpstream
 {
     "status": 200,
     "playlists": [

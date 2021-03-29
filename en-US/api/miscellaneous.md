@@ -22,7 +22,7 @@ Gets all users that are apart of the Quaver Team
 #### Example Response
 
 ```json
-// https://api.quavergame.com/team
+// https://api.quavergame.com/v1/team
 {
     "status": 200,
     "team": {
@@ -189,7 +189,7 @@ Gets server stats
 #### Example Response
 
 ```json
-// https://api.quavergame.com/stats
+// https://api.quavergame.com/v1/stats
 {
     "status": 200,
     "stats": {
@@ -208,7 +208,7 @@ Gets country stats
 #### Example Response
 
 ```json
-// https://api.quavergame.com/stats/country
+// https://api.quavergame.com/v1/stats/country
 {
     "status": 200,
     "countries": {

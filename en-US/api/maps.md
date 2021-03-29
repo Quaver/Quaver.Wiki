@@ -26,7 +26,7 @@ name: Maps
 #### Example Response
 
 ```json
-// https://api.quavergame.com/maps/2
+// https://api.quavergame.com/v1/maps/2
 {
     "status": 200,
     "map": {
@@ -72,7 +72,7 @@ name: Maps
 #### Example Response
 
 ```json
-// https://api.quavergame.com/maps/21914/mods
+// https://api.quavergame.com/v1/maps/21914/mods
 {
     "status": 200,
     "mods": [

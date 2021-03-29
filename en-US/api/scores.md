@@ -28,7 +28,7 @@ Gets all scores of a given map (map leaderboard).
 #### Example Response
 
 ```json
-// https://api.quavergame.com/scores/map/2
+// https://api.quavergame.com/v1/scores/map/2
 {
     "status": 200,
     "scores": [
@@ -86,7 +86,7 @@ This will be fixed at a later date.
 #### Example Response
 
 ```json
-// https://api.quavergame.com/scores/data/115198
+// https://api.quavergame.com/v1/scores/data/115198
 {
     "status": 200,
     "hits": [
