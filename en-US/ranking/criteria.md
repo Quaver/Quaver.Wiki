@@ -30,7 +30,7 @@ The following pertains to media files such as background images and audio files 
 * **The resolution of background images must be at least 1280x720** and of exceptionally high quality. The file size of a background image must not exceed 4 MB.
 * **The mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
 * **MP3 is the only allowed audio file format.**
-* **The maximum bitrate allowed for audio files is 192kbps.**
+* **The maximum bitrate allowed for audio files is 192kbps.** Check with http://spectro.enpts.com/download.php for the waveforms, refer to this https://homedjstudio.com/audio-bitrates-formats/ article about hertz (hz).
 * **The total file size must not exceed 50 MB.**
 
 ### Maps
@@ -50,45 +50,14 @@ The following requirements are for the individual maps themselves.
 ### Difficulty Spread
 
 The following pertains to the spread of difficulty each mapset must follow.
+Rhythm-related rules and guidelines apply to approximately 160 BPM beatmaps. If your song is drastically faster or slower, some variables might be different, as detailed in Scaling BPM on the Ranking Criteria.
 
-##### Difficulty Names & Description
+##### Difficulty Names
 
 The standard names for difficulties in a mapset are Beginner, Easy, Normal, Hard, Insane, and Expert.
 Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret.
 
 The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
-
-* **Beginner**
-     * For players who are being exposed to rhythm games for the first time.
-     * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
-     * Jumps are suitable for this difficulty when emphasizing important sounds in the music.
-     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
-
-* **Easy**
-     * This difficulty can be thought of as an "upgraded Beginner."
-     * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns.
-     * One beat streams and 1/2 bursts are generally comfortable to these players.
-     * Jumps can be used more freely but sparingly, as players at this level may still have trouble with them.
-     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
-
-* **Normal**
-     * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
-     * 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
-
-* **Hard**
-     * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
-     * Maps at this difficulty can branch into light 1/4th streams with jumps interspersed in them depending on the BPM of the song.
-     * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
-
-* **Insane**
-     * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to:
-          * Light Jacks
-          * Complex Long Note Usage
-          * Light Jumpstreams
-     * Denser patterns are suitable for this level if they are straightforward, and not difficult to execute - such as jumptrills.
-
-* **Expert**
-     * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative.
 
 ##### Difficulty Spread Rules
 
@@ -109,7 +78,68 @@ Furthermore, **each game mode is treated separately.** If you are creating a map
 
 ## Guidelines
 
-The following are guidelines to consider when creating your mapset and submitting it for ranked status. **These are not mandatory and should be taken with a grain of salt.** Our intentions with this are to allow mappers to be creative with the types of maps they produce. As such, these guidelines are merely a way to increase your chances of getting your mapset ranked - although exceptions can be made.
+The following are guidelines to consider when creating your mapset and submitting it for ranked status. **These are not mandatory and it can be broken under special circumstances.** Our intentions with this are to allow mappers to be creative with the types of maps they produce along with clear representation and not getting overmapped. As such, these guidelines are for bridges to increase your chances of getting your mapset ranked.
+
+##### Difficulty Specifics
+
+* **Beginner**
+     * For players who are being exposed to rhythm games for the first time.
+     * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
+     * Note density should consist of mostly 2/1, occasional 1/1.
+     * Chords are suitable for this difficulty when emphasizing important sounds in the music. However, it must be used sparingly.
+     * Avoid chords with more than 2 notes. Note at beginning or the end of long note is allowed to use. This applies to 4 and 7 keymode.
+     * Long notes should be held for at least 2/1. Faster timing release could be difficult for players of this level. Smaller gap between any note require moderate level of finger independence that players of this difficulty barely handle.
+     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
+
+* **Easy**
+     * This difficulty can be thought of as an "upgraded Beginner."
+     * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns.
+     * One beat streams are generally comfortable to these players.
+     * Avoid using more than 7 consecutive 1/2 notes.
+     * Note density should consist of mostly 1/1, occasional 1/2.
+     * Note snappings of consecutive 1/3 and above should not be used. Slower rhythms are more appropriate for this difficulty level.
+     * Chords can be used occasionally, as players at this level still have trouble with them.
+     * Avoid using chords during consecutive 1/2 note patterns. However, using a chord to begin or to end a pattern is fine.
+     * Avoid chords with more than 2 notes. This includes long note patterns that involve notes in more than two columns. This applies to 4 and 7 keymode.
+     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
+     * Long notes should have 1/1 duration long at minimum usage. Shorter duration could make players having hard time to play it accurately.
+
+* **Normal**
+     * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
+     * 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
+     * Note snappings of consecutive 1/6 and above should not be used. Slower rhythms are more appropriate for this difficulty level.
+     * Avoid using more than 7 consecutive 1/4 notes.
+     * Avoid chords with more than 2 notes (3 notes on 7 keymode). This includes long note patterns that involve notes in more than two columns.
+     * Scroll velocity changes is allowed to be used at this difficulty level. However, it should be used sparingly and have plenty time reaction to able to play it.
+     * Long notes should have 1/2 duration long at minimum usage. Shorter duration could make players having hard time to play it accurately.
+
+* **Hard**
+     * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
+     * Maps at this difficulty can branch into light 1/4th streams with chords per 1/1 interval during long 1/4 streams.
+     * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
+     * Avoid chords with more than 3 notes (4 notes on 7 keymode). This includes long note patterns that involve notes in more than two columns.
+     * 1/4 Jack usage is discouraged. These can be too physically demanding for players of this level.
+     * Note snappings of consecutive 1/8 and higher should not be used. These can be too physically demanding for players of this level. An exception to this guideline would be the usage of 3 grace notes that are at higher-end snaps (beyond 1/8) as they are only used to accentuate gracing sounds.
+     * Avoid using chords in the middle of 1/6 streams. However, Using a chord at the beginning or end of a stream is fine.
+     * Long notes should have 1/4 duration long at minimum usage. Shorter duration could make players having hard time to play it accurately.
+     * Scroll velocity changes is allowed to be used at this difficulty with less restriction from Normal, such as light gimmicks without changing the stage snapping.
+     * Avoid anchors consisting of five or more notes. While they are easy for players to read, longer anchors are strenuous.
+     * Avoid unjustified spikes in difficulty. Difficulty should be representative of the song's intensity.
+
+* **Insane**
+     * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to:
+          * Light Jacks
+          * Complex Long Note Usage
+          * Light Jumpstreams
+     * Denser patterns are suitable for this level.
+     * Avoid unjustified spikes in difficulty. Difficulty should be representative of the song's intensity.
+     * Avoid using 1/6 or higher snap long note streams. These are very hard to hit and release because of their very short length. Use regular notes in place of streams instead.
+     * Avoid using chords in the middle of 1/8 streams. The density of these patterns is often too difficult for players of this skill level, especially when used on the lowest difficulty of a beatmap set. Additionally, ineffective placement of chords may result in inconsistent 1/4 minijack usage. Using a chord at the beginning or end of a stream is fine.
+     * Avoid using more than 9-note split-jumptrills. These are more physically exhausting than other patterns of similar density.
+
+* **Expert**
+     * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative.
+     * Avoid unjustified spikes in difficulty. Difficulty should be representative of the song's intensity.
 
 * **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
 * **Your map should generally make use of layering.** - Mapping to different instruments in the song will make your map reflect the music more.
