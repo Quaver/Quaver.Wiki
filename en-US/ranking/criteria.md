@@ -9,6 +9,24 @@ In order to get a mapset ranked, it must follow the criteria listed below. In th
 
 If you're looking for the process of getting a mapset ranked, see: [Quaver Ranking Process](/docs/Ranking/Process).
 
+# Patterns
+* **Anchor**: A pattern that has a relatively high amount of notes in one column compared with another column, usually found within different types of streams.
+* **Bracket**: A pattern that involves multiple trills using columns near each other.
+* **Chord**: Two or more notes pressed at the same time.
+* **Chordstream (Jumpstream, Handstream, Quadstream)**: Streams that mix different types of chords.
+* **Grace**: Two or more notes pressed in rapid succession, generally using snaps at or above 1/6.
+* **Hand**: Three notes pressed at the same time. Occasionally referred to as a "triple".
+* **Jack**: Three or more consecutive notes in the same column, usually pressed at a faster pace than surrounding notes.
+* **Jump**: Two notes pressed at the same time. Occasionally referred to as a "double".
+* **Jumptrill**: A trill consisting of two alternating jumps.
+* **Minijack**: Two consecutive notes in the same column, usually pressed at a faster pace compared to surrounding notes.
+* **Release**: The end of a long note which must be released within a certain timing window to score the entirety of the note properly.
+* **Roll**: A variation of a stream consisting of notes that go from the first to the last column or last to the first column, usually done in quick succession.
+* **Shield**: A note that appears in the same column immediately before the beginning of a long note.
+* **Split-jumptrill**: A jumptrill which requires the use of both hands at the same time to be performed correctly (i.e two one-handed trills).
+* **Stream**: Constant notes with the same interval for at least one beat that do not repeat to create a minijack.
+* **Trill**: More than two notes that alternate between two columns without interruption.
+
 ## Mandatory
 
 **You must follow all the requirements listed in this section. Failing to meet all the requirements will not allow your map to receive ranked status.**
@@ -123,7 +141,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * Avoid using chords in the middle of 1/6 streams. However, Using a chord at the beginning or end of a stream is fine.
      * Long notes should have 1/4 duration long at minimum usage. Shorter duration could make players having hard time to play it accurately.
      * Scroll velocity changes is allowed to be used at this difficulty with less restriction from Normal, such as light gimmicks without changing the stage snapping.
-     * Avoid anchors consisting of five or more notes. While they are easy for players to read, longer anchors are strenuous.
+     * Avoid anchors consisting of six or more notes. While they are easy for players to read, longer anchors are quite strenuous or stamina draining.
      * Avoid unjustified spikes in difficulty. Difficulty should be representative of the song's intensity.
 
 * **Insane**
@@ -135,6 +153,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * Avoid unjustified spikes in difficulty. Difficulty should be representative of the song's intensity.
      * Avoid using 1/6 or higher snap long note streams. These are very hard to hit and release because of their very short length. Use regular notes in place of streams instead.
      * Avoid using chords in the middle of 1/8 streams. The density of these patterns is often too difficult for players of this skill level, especially when used on the lowest difficulty of a beatmap set. Additionally, ineffective placement of chords may result in inconsistent 1/4 minijack usage. Using a chord at the beginning or end of a stream is fine.
+     * Avoid anchors consisting of eleven or more notes. Excessive anchors can cause difficulty imbalance and may unfit towards music.
      * Avoid using more than 9-note split-jumptrills. These are more physically exhausting than other patterns of similar density.
 
 * **Expert**
