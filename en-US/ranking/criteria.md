@@ -9,7 +9,7 @@ In order to get a mapset ranked, it must follow the criteria listed below. In th
 
 If you're looking for the process of getting a mapset ranked, see: [Quaver Ranking Process](/docs/Ranking/Process).
 
-# Patterns
+# Pattern terms
 * **Anchor**: A pattern that has a relatively high amount of notes in one column compared with another column, usually found within different types of streams.
 * **Bracket**: A pattern that involves multiple trills using columns near each other.
 * **Chord**: Two or more notes pressed at the same time.
