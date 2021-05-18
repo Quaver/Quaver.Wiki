@@ -119,11 +119,11 @@ The following are guidelines to consider when creating your mapset and submittin
 * **Beginner**
      * For players who are being exposed to rhythm games for the first time.
      * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
-     * Chords are suitable for this difficulty when emphasizing important sounds in the music. However, it must be used sparingly.
+     * Chords are suitable for this difficulty when emphasizing important sounds in the music. However, they should be used sparingly.
      *  **Note density should consist of mostly 2/1, occasional 1/1.**
      * **Avoid chords with more than 2 notes.** However, using a chord at beginning or the end of long note is allowed to use. This applies to 4 and 7 keymode.
      * **Long notes should be held for at least 2/1.** Faster timing release could be difficult for players of this level. Smaller gap between any note require moderate level of finger independence that players of this difficulty barely handle.
-     * **Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.**
+     * **Scroll velocity changes should not be used at this difficulty level for any other purposes than scroll velocity normalization.**
      * **Map should not have unsnapped notes**
 
 * **Easy**
@@ -136,7 +136,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * **Chords can be used occasionally, as players at this level still have trouble with them.**
      * **Avoid using chords during consecutive 1/2 note patterns.** However, using a chord to begin or to end a pattern is fine.
      * **Avoid chords with more than 2 notes.** This includes long note patterns that involve notes in more than two columns. This applies to 4 and 7 keymode.
-     * **Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
+     * **Scroll velocity changes should not be used at this difficulty level for any other purposes than scroll velocity normalization.
      * **Long notes should have 1/1 duration long at minimum usage.** Shorter duration could make players having hard time to play it accurately.
      * **Map should not have unsnapped notes**
 
