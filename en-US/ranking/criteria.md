@@ -40,12 +40,12 @@ The following pertains to metadata that your maps contain such as song artists, 
 * **The artist, title and source must not repeat in tags.** However, romanizing or translating the source in tags is encouraged, in case it's relevant.
 * **Source must not a website name. It should be filled with album, mixtape, game name, etc.** However, if it comes from youtube, soundcloud and such, source should remain empty.
 * **Tags must contain the genre of the song.**
-* **Tags must be related to the beatmap and not misleading for search results.** Tags describing the beatmap's style, song content are considered to be related to the beatmap.
-* **Guest difficulty creators must be added to the tags of a beatmapset.** Only a registered username ingame or website are valid (using discord name is discouraged due how interchangeable that is)
+* **Tags must be related to the map and not misleading for search results.**
+* **Guest difficulty creators must be added to the tags of a mapset.**
 
 ### Metadata Standardisation
 
-* **Any form of `feat.`, `feat`, `ft.`, etc. must be written as `feat.` when used as an indicator for an artist featured in the song.**
+* **Any form of `feat.`, `feat`, `ft.`, etc. must be written as `feat.` when used as an indicator for an artist featured in the song.** Artists featured in the song should be part of the artist field, and not the title field.
 * **Any form of `vs.`, `VS`, etc. must be written as `vs.` when used as an indicator for collaboration between two or more artists.**
 * **When a fictional character is credited as the singer of a song, their credit is to be formatted in a `Character Name (CV: Voice Actor)` format.**
 * **If a song is used in a television program, web series, or direct-to-video series, such as an opening/ending/insert song, use a `(TV Size)` marker at the end of the current title.**
@@ -62,7 +62,7 @@ The following pertains to media files such as background images and audio files 
 * **The resolution of background images must be at least 1280x720** and of exceptionally high quality. The file size of a background image must not exceed 4 MB.
 * **The mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
 * **MP3 is the only allowed audio file format.**
-* **The maximum bitrate allowed for audio files is 192kbps.** Check with http://spectro.enpts.com/download.php for the waveforms, refer to this https://homedjstudio.com/audio-bitrates-formats/ article about hertz (hz).
+* **The maximum bitrate allowed for audio files is 192kbps.**
 * **The total file size must not exceed 50 MB.**
 
 ### Maps
@@ -78,7 +78,6 @@ The following requirements are for the individual maps themselves.
 * **The maps must be at least 45 seconds long.**
 * **The maps must be timed as accurately as possible.** Timing points must not be used in place of scroll velocity changes.
 * **The maps must have a song select preview point that sufficently compliments the song.** It's usually placed before the chorus or at the beginning of a section. A solid preview point attracts more players to try the map.
-* **BPM lines should not be used abusively for decorations or color changes.** This could be a confusing to players to play and redundant as in filesize.
 * **Objects must be snapped to timeline ticks according to snaps.** Use any custom snap as accurate as possible to the song.
 
 ### Difficulty Spread
@@ -125,6 +124,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * **Long notes should be held for at least 2/1.** Faster timing release could be difficult for players of this level. Smaller gap between any note require moderate level of finger independence that players of this difficulty barely handle.
      * **Scroll velocity changes should not be used at this difficulty level for any other purposes than scroll velocity normalization.**
      * **Map should not have unsnapped notes**
+     * **Timing points should properly reflect the song**. When used improperly, they can cause confusion to the player.
 
 * **Easy**
      * This difficulty can be thought of as an "upgraded Beginner."
@@ -139,6 +139,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * **Scroll velocity changes should not be used at this difficulty level for any other purposes than scroll velocity normalization.
      * **Long notes should have 1/1 duration long at minimum usage.** Shorter duration could make players having hard time to play it accurately.
      * **Map should not have unsnapped notes**
+     * **Timing points should properly reflect the song**. When used improperly, they can cause confusion to the player.
 
 * **Normal**
      * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
@@ -149,6 +150,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * **Scroll velocity changes is allowed to be used at this difficulty level.** However, it should be used sparingly and have plenty time reaction to able to play it.
      * **Long notes should have 1/2 duration long at minimum usage.** Shorter duration could make players having hard time to play it accurately.
      * **Map should not have unsnapped notes**
+     * **Timing points should properly reflect the song**. When used improperly, they can cause confusion to the player.
 
 * **Hard**
      * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
@@ -162,6 +164,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * Scroll velocity changes is allowed to be used at this difficulty with less restriction from Normal, such as light gimmicks without changing the stage snapping.
      * **Avoid anchors consisting of six or more notes.** While they are easy for players to read, longer anchors are quite strenuous or stamina draining.
      * **Avoid unjustified spikes in difficulty. Difficulty should be representative of the song's intensity.**
+     * **Timing points should properly reflect the song**. When used improperly, they can cause confusion to the player.
 
 * **Insane**
      * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to:
@@ -174,6 +177,7 @@ The following are guidelines to consider when creating your mapset and submittin
      * **Avoid using chords in the middle of 1/8 streams.** The density of these patterns is often too difficult for players of this skill level, especially when used on the lowest difficulty of a beatmap set. Additionally, ineffective placement of chords may result in inconsistent 1/4 minijack usage. Using a chord at the beginning or end of a stream is fine.
      * **Avoid anchors consisting of eleven or more notes.** Excessive anchors can cause difficulty imbalance and may unfit towards music.
      * **Avoid using more than 9-note split-jumptrills.** These are more physically exhausting than other patterns of similar density.
+     * **Timing points should properly reflect the song**. When used improperly, they can cause confusion to the player.
 
 * **Expert**
      * From this point on, there aren't any restrictions on how hard it should be. Feel free to be creative.
