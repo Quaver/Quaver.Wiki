@@ -38,7 +38,7 @@ The following pertains to metadata that your maps contain such as song artists, 
 * **The artist and title must be absolutely correct.**
 * **The artist and title must be romanized.** However, non-romanized characters are allowed to be used in source and tags.
 * **The artist, title and source must not repeat in tags.** However, romanizing or translating the source in tags is encouraged, in case it's relevant.
-* **Source must not a website name. It should be filled with album, mixtape, game name, etc.** However, if it comes from youtube, soundcloud and such, source should remain empty.
+* **The source should be an album, mixtape, game, show, etc. that the song comes from.** Youtube, Soundcloud, etc. and links, are not appropriate sources. This field may be left empty if there is no relevant source.
 * **Tags must contain the genre of the song.**
 * **Tags must be related to the map and not misleading for search results.**
 * **Guest difficulty creators must be added to the tags of a mapset.**
@@ -83,7 +83,6 @@ The following requirements are for the individual maps themselves.
 ### Difficulty Spread
 
 The following pertains to the spread of difficulty each mapset must follow.
-Rhythm-related rules and guidelines apply to approximately 160 BPM beatmaps. If your song is drastically faster or slower, some variables might be different, as detailed in Scaling BPM on the Ranking Criteria.
 
 ##### Difficulty Names
 
@@ -114,6 +113,7 @@ Furthermore, **each game mode is treated separately.** If you are creating a map
 The following are guidelines to consider when creating your mapset and submitting it for ranked status. **These are not mandatory and it can be broken under special circumstances.** Our intentions with this are to allow mappers to be creative with the types of maps they produce along with clear representation and not getting overmapped. As such, these guidelines are for bridges to increase your chances of getting your mapset ranked.
 
 ##### Difficulty Specifics
+* **Rhythm-related rules and guidelines apply to approximately 160 BPM beatmaps.** If your song is drastically faster or slower, some variables might be different. Scaling BPM applies depend on how fast or slow the song is.
 
 * **Beginner**
      * For players who are being exposed to rhythm games for the first time.
