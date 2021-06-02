@@ -105,7 +105,7 @@ You are **not** permitted to skip difficulties for **sets with a song length bet
 
 Furthermore, **each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 
-**If you have two game modes, you must preface each difficulty with either "4K" or "7K"** (Example: "7K Insane").
+**If you have two game modes, each difficulty must contain either "4K" or "7K"** (Example: "7K Insane").
 
 ## Guidelines
 
