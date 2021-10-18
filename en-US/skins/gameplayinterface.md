@@ -343,21 +343,6 @@ Notes:
 
 ---
 
-### Stage Timing Bar
-
-`/4k/Stage/stage-timingbar.png`
-
-`/7k/Stage/stage-timingbar.png`
-
-![Stage Timing Bar](/docs/images/Stage/stage-timingbar.png)
-
-| Animatable | Alignment  | Suggested Size |
-| :--------: | :--------: | :------------: |
-|     No     | BottomLeft |       -        |
-
-**Notes:**
-
-- Displayed at the bottom of the stage. Used for the song time duration.
 
 ---
 
