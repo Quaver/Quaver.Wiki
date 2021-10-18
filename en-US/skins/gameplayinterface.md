@@ -18,7 +18,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
-|     No     | MidCenter |       -        |
+|     No     | BotLeft |       -        |
 
 **Notes:**
 
