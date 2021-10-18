@@ -329,5 +329,4 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |  SongTimeProgressActiveColor  | RGB Color(255,255,255) |  255,231,107   | The color of the song time progress bar (active)   |
 | SongTimeProgressInactiveColor | RGB Color(255,255,255) |  136,136,136   | The color of the song time progress bar (inactive) |
 |     SongTimeProgressScale     |        Integer         |       45       | The size of the song’s time progress               |
-|      TimingBarPixelSize       |        Integer         |       2        | The size of the timing bar                         |
 |        TimingLineColor        | RGB Color(255,255,255) |  255,255,255   | The color of the timing lines                      |
