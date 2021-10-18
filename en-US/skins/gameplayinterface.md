@@ -105,7 +105,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 - Spritesheet animation name for 4K: `/4k/Lighting/holdlighting@{rows}x{columns}.png`
 - Spritesheet animation name for 7K: `/7k/Lighting/holdlighting@{rows}x{columns}.png`
-- When holding a long note, an animation will play to give feedback to the user.
+- When holding a long note, a looping animation will play to give feedback to the user.
 - If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
 
