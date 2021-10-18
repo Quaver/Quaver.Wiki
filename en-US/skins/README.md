@@ -24,7 +24,7 @@ To get started, it'll be helpful to start with a base skin. You can download our
 * [Sound Effects (SFX)](/docs/Skins/SFX)
 * [Skin.ini](/docs/Skins/Skin.ini)
 
-If you want to start creating skin from the scratch, you will need an image editing software for the elements, a text editor for skin.ini, and an audio editing software if you want to make a custom SFX for your skin. We recommend either of the following programs:
+If you want to start creating a skin from scratch, you will need an image editing software for the elements, a text editor for skin.ini, and an audio editing software if you want to make a custom SFX for your skin. We recommend either of the following programs:
 
 - For image-editing software:
 
