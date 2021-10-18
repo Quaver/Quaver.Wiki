@@ -516,7 +516,7 @@ Notes:
 **Notes:**
 
 - Spritesheet animation file name: `/Health/health-foreground@{rows}x{columns}.png`
-- Displayed in the foreground. This is the healthbar that moves according to the current health.
+- Displayed in the foreground. This is the healthbar that crops according to the current health.
 
 ---
 
