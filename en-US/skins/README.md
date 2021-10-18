@@ -70,7 +70,7 @@ Yes, you can make your own edits or use skin elements from other skins, and you 
 ## How do I reload my skin in Quaver?
 You can reload your skin by pressing `CTRL + S` in the menu screens.
 
-## Why is my Skin folder empty even though I have subscribed from the skins in the Steam Workshop?
+## Why is my Skin folder empty even though I have subscribed to the skins in the Steam Workshop?
 Because the subscribed skins from the workshop are located in the workshop folder. They can be found in `/Steam/steamapps/workshop/content/980610`
 
 > Note: The skins in the workshop folder are named after their Steam ID numbers. It's not advised to edit a skin inside the workshop folder due to Steam updating the workshop items after you exit the game. Instead, you can create a copy of the skin and paste it in your Quaver Skin folder. The skin folder can be located in `/Steam/steamapps/common/Quaver/Skins`
