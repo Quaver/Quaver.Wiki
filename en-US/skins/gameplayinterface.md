@@ -677,7 +677,7 @@ Notes:
 
 **Notes:**
 
-- Represents the number {0-9} that displays the player's current score and accuracy
+- Represents the number {0-9} that displays the player's current score, accuracy, rating and keys per second.
 
 ---
 
