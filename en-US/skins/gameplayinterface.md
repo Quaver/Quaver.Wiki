@@ -791,7 +791,7 @@ Notes:
 
 **Notes:**
 
-- Background image is displayed for the all other players in the scoreboard (not including the player themselves)
+- Background image is displayed for the all other players in the scoreboard (not including the player themself)
 
 ---
 
