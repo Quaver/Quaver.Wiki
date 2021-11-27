@@ -47,21 +47,17 @@ This section outlines the process of getting a mapset ranked from A-Z starting w
 
 The first step in getting a mapset ranked is uploading it. You can do this within the map editor by going to `File -> Upload`.
 
-### 2. Getting Feedback
+### 2. Submitting For Rank
 
-After uploading your set, it's important to receive feedback on your set before submitting it for rank. This is where the community comes in. While we do not currently have a system in place for getting structured feedback from other players, it is important to have an extra set of eyes take a look at your set to make sure it is following the Ranking Criteria. We'll be looking at making this step in the process more streamlined in the future.
+Players are eligible to submit their own mapsets for ranked status **when they feel it is ready.** You can submit a set for ranked status within the map editor by going to `File -> Submit for Rank`. This will send the mapset to a queue where our Ranking Supervisors will review it.
 
-### 3. Submitting For Rank
+### 3. Ranking and Modding Supervisors Reviewal
 
-Players are eligible to submit their own mapsets for ranked status when they feel it is ready. You can submit a set for ranked status within the map editor by going to `File -> Submit for Rank`. This will send the mapset to a queue where our Ranking Supervisors will review it.
+After submitting your set for rank, it will be placed in a queue for the Ranking and Modding Supervisor teams to review.
 
-### 4. Ranking Supervisor Reviewal
+In order to get your set ranked, **you will need to get 1 vote from each Supervisor team,** dictating if the set is eligible for rank.
 
-After submitting your set for rank, it will be placed in a queue for the Ranking Supervisor team to review.
-
-In order to get your set ranked, **you will need to get 2 votes from the Ranking Supervisors** that dictates if the set is eligible for rank.
-
-During this vote, **a Supervisor has the ability to veto a mapset from being ranked before it reaches 2 vote and are able place it in a denied state** if there are any issues with the set.
+During this vote, **either Supervisors or Modders have the ability to veto a mapset from being ranked before it reaches 2 votes and are able place it in a denied state** if there are any issues with the set.
 
 You can check the status of the vote for your set by going to its respective mapset page. Here will be displayed the amount of votes it has as well as the Supervisors who are nominating it for rank.
 
@@ -73,7 +69,7 @@ Supervisors are also not allowed to vote for their own mapsets. They must go thr
 
 ### 5a. Mapset Denied
 
-If your mapset is denied, you will receive a comment from one or more Ranking Supervisors with the reason(s) why. After this period, you are eligible to update your map with fixes to submit again for rank. **Keep in mind that if denied, your set will be placed in a cooldown period for 14 days until you are able to submit it again.**
+If your mapset is denied, you will receive a comment from one or more Ranking Supervisors with the reason(s) why. After this period, you are eligible to update your map with fixes to submit again for rank. **Keep in mind that if denied, your set will be placed in a cooldown period for 7 days until you are able to submit it again.**
 
 ### 5b. Mapset On-Hold
 
@@ -81,7 +77,7 @@ If your mapset is put on-hold, it means that minor issues were found that preven
 
 ### 5c. Mapset Resolved
 
-If the status of your mapset is on-hold, it has to be updated for it to automatically be marked as resolved. While in this state, the supervisors can review and vote for it again. 
+If the status of your mapset is on-hold, it has to be updated for it to automatically be marked as resolved. While in this state, the supervisors can review and vote for it again.
 
 ### 5d. Mapset Blacklisted
 

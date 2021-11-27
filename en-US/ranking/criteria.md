@@ -28,6 +28,8 @@ The following pertains to metadata that your maps contain such as song artists, 
 The following pertains to media files such as background images and audio files that are contained in your mapset.
 
 * **The resolution of background images must be at least 1280x720** and of exceptionally high quality. The file size of a background image must not exceed 4 MB.
+* **The background image must be SFW.** Explicit content won't be tolerated.
+* **The background image must be coherent enough to compliment the song.**  
 * **The mapset must contain only one audio file.** Multiple song file mapsets are not eligible to be ranked.
 * **MP3 is the only allowed audio file format.**
 * **The maximum bitrate allowed for audio files is 192kbps.**
@@ -44,7 +46,8 @@ The following requirements are for the individual maps themselves.
 * **More than 75% of the length of the song must have notes to play.**
 * **At least one note must be placed in every column.**
 * **The maps must be at least 45 seconds long.**
-* **The maps must be timed as accurately as possible.** Timing points must not be used in place of scroll velocity changes.
+* **The maps must be timed as accurately as possible using the wavelength feature.** This is to standarize how Quaver manages offsets.
+* **Timing points must not be used in place of scroll velocity changes.**
 * **The maps must have a song select preview point that sufficently compliments the song.** It's usually placed before the chorus or at the beginning of a section. A solid preview point attracts more players to try the map.
 
 ### Difficulty Spread
@@ -74,10 +77,11 @@ The following descriptions are what each difficulty should typically look like. 
 * **Normal**
      * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
      * 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
+     * 1/4 can be tolerated as long it's not too draining or demanding for the player and it doesn't create an abnormal difficulty spike.
 
 * **Hard**
      * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
-     * Maps at this difficulty can branch into light 1/4th streams with jumps interspersed in them depending on the BPM of the song.
+     * Maps at this difficulty can branch into any pattern as long as the difficulty over the map doesn't spike significantly (depending on the BPM of the song).
      * Usage of more long notes are suited for this difficulty, as players will typically be learning to play them in more frequent circumstances.
 
 * **Insane**
@@ -109,10 +113,12 @@ Furthermore, **each game mode is treated separately.** If you are creating a map
 
 ## Guidelines
 
-The following are guidelines to consider when creating your mapset and submitting it for ranked status. **These are not mandatory and should be taken with a grain of salt.** Our intentions with this are to allow mappers to be creative with the types of maps they produce. As such, these guidelines are merely a way to increase your chances of getting your mapset ranked - although exceptions can be made.
+The following are guidelines to consider when creating your mapset and submitting it for ranked status. **This is some of the points that Modding Supervisors would check, judge and evaluate on a map.** Our intentions with this are to allow mappers to be creative with the types of maps they produce, at the same time of being able to release maps with high quality of mapping. As such, these guidelines are merely a way to increase your chances of getting your mapset ranked - **although exceptions can be made.**
 
 * **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
 * **Your map should generally make use of layering.** - Mapping to different instruments in the song will make your map reflect the music more.
 * **Breaks should only be used when absolutely necessary** - A song will generally not have any silent moments throughout it. Breaks should be used sparingly - especially long ones.
 * **Scroll Velocity changes should reflect the music** - Try to avoid changing SV when the must doesn't call for it. This will generally make your map more difficult to read and harder to enjoy.
-* **The patterns you use should be consistent and follow the music** - Try to avoid using bursts where they aren't appropriate, such as before a dense stream section. Furthermore, try to avoid technical or intense patterns in places that do not call for them.
+* **The patterns you use should be consistent and represent in some way what's being played.** - Try to avoid using patterns where they aren't appropriate. Furthermore, try to avoid technical or intense patterns in places that do not call for them.
+* **Try to avoid copy-pasting sections of the map.** If the music is repetitive enough to use the exact same patterns, try to change their arrangement (for example, by mirroring them). This also applies when adding patterns with the intention of only filling some section.
+* **Every single section of the map has to be self-justified.** All patterns are allowed - as long as the map follows what is being played in the music.
