@@ -153,10 +153,10 @@ The `[SongSelect]` section contains the possible modifications of song selection
 
 The `[Results]` section contains modifications for the results screen.
 
-|            Value             |             Data Type             | Default Values |                                 Notes                                  |
-| :--------------------------: | :-------------------------------: | :------------: | :--------------------------------------------------------------------: |
-|    ResultsBackgroundType     | `Header`, `Background`, or `None` |    `Header`    | The type of which background image will be displayed in results screen |
-| ResultsBackgroundFilterAlpha |         Float(0.00-1.00)          |       1        |     The opacity of the image filter of the map's background image      |
+|            Value             |             Data Type             | Default Values |                             Notes                              |
+| :--------------------------: | :-------------------------------: | :------------: | :------------------------------------------------------------: |
+|    ResultsBackgroundType     | `Header`, `Background`, or `None` |    `Header`    |          The background type shown on results screen           |
+| ResultsBackgroundFilterAlpha |         Float(0.00-1.00)          |       1        | The opacity of the image filter on top of the background image |
 
 ---
 
