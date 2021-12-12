@@ -12,7 +12,7 @@ The following are a list of sound effects that are customizable in Quaver.
 
 ## Menu
 
-`/SFX/sound-clck.wav`
+`/SFX/sound-click.wav`
 
 * Plays when advancing through the menus.
      * *Example: When clicking a button to travel to the song select screen.*
