@@ -31,7 +31,6 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 | :---------------------------: | :--------------------: | :------------: | :----------------------------------------------------: |
 |   NavigationButtonTextColor   | RGB Color(255,255,255) |  255,255,255   |       The color of the text in navigation button       |
 | NavigationQuitButtonTextColor | RGB Color(255,255,255) |   249,100,93   | The color of the `Quit Game` text in navigation button |
-| NavigationButtonHoveredAlpha  |    Float(0.00-1.00)    |      0.35      |   The opacity of the navigation button when hovered    |
 
 ---
 
@@ -143,20 +142,8 @@ The `[SongSelect]` section contains the possible modifications of song selection
 |  MapsetPanelCreatorColor   | RGB Color(255,255,255) |   5,135,229    |                              The color of the text of the map creator                               |
 |     MapsetPanelByColor     | RGB Color(255,255,255) |  117,117,117   |                                     The color of the text `By:`                                     |
 |   MapsetPanelBannerSize    | Integer(Width, Length) |     421,82     |                                 The size of the mapset panel banner                                 |
-|  MapsetPanelHoveringAlpha  |    Float(0.00-1.00)    |      0.35      |                            The opacity of the mapset panel when hovered                             |
 |  MapBackgroundBrightness   |      Byte(0-255)       |       15       |                                The brightness of the map background                                 |
 |    DisplayMapBackground    | Boolean(True or False) |     False      | If true, it displays the mapset's background. Otherwise, it uses the default song select background |
-
----
-
-# Results Screen
-
-The `[Results]` section contains modifications for the results screen.
-
-|            Value             |             Data Type             | Default Values |                                 Notes                                  |
-| :--------------------------: | :-------------------------------: | :------------: | :--------------------------------------------------------------------: |
-|    ResultsBackgroundType     | `Header`, `Background`, or `None` |    `Header`    | The type of which background image will be displayed in results screen |
-| ResultsBackgroundFilterAlpha |         Float(0.00-1.00)          |       1        |     The opacity of the image filter of the map's background image      |
 
 ---
 
@@ -174,7 +161,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |            Value            |         Data Type          | Default Values |                                                                                          Notes                                                                                           |
 | :-------------------------: | :------------------------: | :------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |         DefaultSkin         | `Arrow`, `Bar` or `Circle` |      Bar       |                          Sets the skin's default skin. If set to `Arrow` without setting `RotateHitObjectsByColumn` to `False`, the hitobjects will be rotated                           |
-| ColorObjectsBySnapDistance  |   Boolean(True or False)   |     False      |            If true, it will look for file names relative to snap distance. See the [Hit-Object Sheet](/docs/skins/gameplayinterface#hit-object-sheets) for more information.             |
+| ColorObjectsBySnapDistance  |   Boolean(True or False)   |     False      |            If true, it will look for file names relative to snap distance. See the [Hit-Object Sheet](/docs/skins/gameplayinterface#hit-object-sheets) for more information.            |
 |      UseHitObjectSheet      |   Boolean(True or False)   |     False      | If true, the game will look for a spritesheet named `note-hitobject-sheet@{rows}x{columns}.png` to use as objects. Useful for easily creating skins that use different beat snap colors. |
 |  RotateHitObjectsByColumn   |   Boolean(True or False)   |     False      |                    If true, the game will rotate the notes according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                    |
 |  FlipNoteImagesOnUpscroll   |   Boolean(True or False)   |     False      |                                                          If true, the notes will be flipped upside down if upscroll is enabled                                                           |
@@ -192,11 +179,11 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 |          Value          |        Data Type        | Default Values |                                                                                Notes                                                                                 |
 | :---------------------: | :---------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|       BgMaskAlpha       |     Float (0.0-1.0)     |      1.0       |                                    The alpha channel/opacity of the [Stage BG Mask](/docs/skins/gameplayinterface#stage-bg-mask)                                     |
+|       BgMaskAlpha       |     Float (0.0-1.0)     |      1.0       |                                    The alpha channel/opacity of the [Stage BG Mask](/docs/skins/gameplayinterface#stage-bg-mask)                                    |
 |      BgMaskPadding      |         Integer         |       0        |                                               The amount of space between the Stage BG Mask and the edges of the stage                                               |
 |     ColumnAlignment     |  Integer (Percentage)   |       0        |                                             A percentage value of the width of the screen where the stage will be placed                                             |
 |       ColumnSize        |         Integer         |       90       | The size of each column. Equal size for each column. Increasing the column size may also increase the receptor's size by scaling and adjust the visual hit position. |
-|    ColumnColor{1-7}     | RGB Color (255,255,255) |  255,255,255   |                       The color in which the [Column Lighting](/docs/skins/gameplayinterface#column-lighting) is tinted in the specified lane                        |
+|    ColumnColor{1-7}     | RGB Color (255,255,255) |  255,255,255   |                       The color in which the [Column Lighting](/docs/skins/gameplayinterface#column-lighting) is tinted in the specified lane                       |
 |  ColumnLightingOffsetY  |         Integer         |       0        |                                                    The Y Offset of the Column Lighting relative to the receptors                                                     |
 |   ColumnLightingScale   |     Float (0.0-1.0)     |      1.0       |                                                The height scale of the column lighting to make it bigger or smaller.                                                 |
 |      HitPosOffsetY      |         Integer         |       0        |      The offset of the hit position relative to its default location at the edge of the receptors. Setting this value higher will make the hit position lower.       |
@@ -244,7 +231,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 ###### Affected Textures: [health-background.png](/docs/skins/gameplayinterface#health-bar-background), [health-foreground.png](/docs/skins/gameplayinterface#health-bar-foreground)
 
 |         Value          |               Data Type                | Alignment | Default Values | Notes                                                                                        |
-| :--------------------: | :------------------------------------: | :-------: | :------------: | -------------------------------------------------------------------------------------------- |
+| :--------------------: | :------------------------------------: | :-------: | :------------: | --------------------------------------------------------------------------------------------                                   |
 | HealthBarKeysAlignment | `LeftStage`, `RightStage` or `TopLeft` |  Depends  |  `RightStage`  | Where the health bar is positioned in relation to the stage                                  |
 |     HealthBarType      |       `Horizontal` or `Vertical`       |     -     |   `Vertical`   | The type of health bar your image is. If it is horizontal, specify horizontal and vice versa |
 |  HealthBarPosOffsetX   |                Integer                 |  Depends  |       5        | The health bar's X position relative to its default location                                 |
