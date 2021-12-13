@@ -13,7 +13,7 @@ If you're looking for the criteria a mapset needs to follow in order to get rank
 
 Our goal with this ranking process is to provide an easy and streamlined approach to getting mapsets ranked. During this process, your maps will be reviewed for coherence with our [Ranking Criteria](/docs/Ranking/Criteria). Before submitting your set for rank, make sure it is following the criteria, as there are cooldown periods in place if your set is denied.
 
-If your mapset is denied for rank, it will be placed on a **3 day cooldown period** before you can submit it again.
+If your mapset is denied for rank, it will be placed on a **14 day cooldown period** before you can submit it again.
 
 ## Ranked Status Terminology
 
@@ -29,7 +29,7 @@ When you submit a mapset for ranking, it will be sent to a queue where our Ranki
 
 ### Denied
 
-If you've submitted your mapset, and it isn't eligible to be ranked, it will be placed in a state of Denied. If your set was denied, you will receive comments on it from our Ranking Supervisors about what needs to be changed. While your set is in this state, you will not be able to resubmit it for Pending status for another 3 days
+If you've submitted your mapset, and it isn't eligible to be ranked, it will be placed in a state of Denied. If your set was denied, you will receive comments on it from our Ranking Supervisors about what needs to be changed. While your set is in this state, you will not be able to resubmit it for Pending status for another 14 days
 
 ### Blacklisted
 
@@ -53,7 +53,7 @@ After uploading your set, it's important to receive feedback on your set before 
 
 ### 3. Submitting For Rank
 
-Players are eligible to submit their own mapsets for ranked status when they feel it is ready. You can submit a set for ranked status by heading over to its page on the website while logged in and clicking the "Submit For Rank" button. This will send the mapset to a queue where our Ranking Supervisors will review it.
+Players are eligible to submit their own mapsets for ranked status when they feel it is ready. You can submit a set for ranked status within the map editor by going to `File -> Submit for Rank`. This will send the mapset to a queue where our Ranking Supervisors will review it.
 
 ### 4. Ranking Supervisor Reviewal
 
@@ -73,7 +73,7 @@ Supervisors are also not allowed to vote for their own mapsets. They must go thr
 
 ### 5a. Mapset Denied
 
-If your mapset is denied, you will receive a comment from one or more Ranking Supervisors with the reason(s) why. After this period, you are eligible to update your map with fixes to submit again for rank. **Keep in mind that if denied, your set will be placed in a cooldown period for 3 days until you are able to submit it again.**
+If your mapset is denied, you will receive a comment from one or more Ranking Supervisors with the reason(s) why. After this period, you are eligible to update your map with fixes to submit again for rank. **Keep in mind that if denied, your set will be placed in a cooldown period for 14 days until you are able to submit it again.**
 
 ### 5b. Mapset On-Hold
 

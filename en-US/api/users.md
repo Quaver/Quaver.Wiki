@@ -2,46 +2,52 @@
 name: Users
 ---
 
-- [GET `/v1/users`](#get-v1users)
-    - [Parameters](#parameters)
-    - [Example Response](#example-response)
-- [GET `/v1/users/full/:id`](#get-v1usersfullid)
-    - [Parameters](#parameters-1)
-    - [Example Response](#example-response-1)
-- [GET `/v1/users/search/:name`](#get-v1userssearchname)
-    - [Parameters](#parameters-2)
-    - [Example Response](#example-response-2)
-- [GET `/v1/users/scores/best`](#get-v1usersscoresbest)
-    - [Parameters](#parameters-3)
-    - [Example Response](#example-response-3)
-- [GET `/v1/users/scores/recent`](#get-v1usersscoresrecent)
-- [GET `/v1/users/scores/firstplace`](#get-v1usersscoresfirstplace)
-- [GET `/v1/users/mapsets/:id`](#get-v1usersmapsetsid)
-    - [Example Response](#example-response-4)
-- [GET `/v1/users/graph/rank`](#get-v1usersgraphrank)
-    - [Parameters](#parameters-4)
-    - [Example Response](#example-response-5)
-- [GET `/v1/users/:id/playlists`](#get-v1usersidplaylists)
-    - [Parameters](#parameters-5)
-    - [Example Response](#example-response-6)
-- [GET `/v1/users/:id/playlists/map/:map_id`](#get-v1usersidplaylistsmapmap_id)
-    - [Parameters](#parameters-6)
-- [Example Response](#example-response-7)
-- [GET `/v1/users/:id/achievements`](#get-v1usersidachievements)
-    - [Parameters](#parameters-7)
-    - [Example Response](#example-response-8)
+## Table of Contents
 
-## GET `/v1/users`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/users`](#get-%2Fusers)
+        - [Parameters](#parameters)
+        - [Example Response](#example-response)
+    - [GET `/users/full/:id`](#get-%2Fusers%2Ffull%2F%3Aid)
+        - [Parameters](#parameters-1)
+        - [Example Response](#example-response-1)
+    - [GET `/users/search/:name`](#get-%2Fusers%2Fsearch%2F%3Aname)
+        - [Parameters](#parameters-2)
+        - [Example Response](#example-response-2)
+    - [GET `/users/scores/best`](#get-%2Fusers%2Fscores%2Fbest)
+        - [Parameters](#parameters-3)
+        - [Example Response](#example-response-3)
+    - [GET `/users/scores/recent`](#get-%2Fusers%2Fscores%2Frecent)
+    - [GET `/users/scores/firstplace`](#get-%2Fusers%2Fscores%2Ffirstplace)
+    - [GET `/users/mapsets/:id`](#get-%2Fusers%2Fmapsets%2F%3Aid)
+        - [Example Response](#example-response-4)
+    - [GET `/users/graph/rank`](#get-%2Fusers%2Fgraph%2Frank)
+        - [Parameters](#parameters-4)
+        - [Example Response](#example-response-5)
+    - [GET `/users/:id/playlists`](#get-%2Fusers%2F%3Aid%2Fplaylists)
+        - [Parameters](#parameters-5)
+        - [Example Response](#example-response-6)
+    - [GET `/users/:id/playlists/map/:map_id`](#get-%2Fusers%2F%3Aid%2Fplaylists%2Fmap%2F%3Amap_id)
+        - [Parameters](#parameters-6)
+    - [Example Response](#example-response-7)
+    - [GET `/users/:id/achievements`](#get-%2Fusers%2F%3Aid%2Fachievements)
+        - [Parameters](#parameters-7)
+        - [Example Response](#example-response-8)
+
+## Endpoints
+
+### GET `/users`
 
 Gets basic user data, refer to `v1/users/full/:id` for more detailed data for a single user.
 
-### Parameters
+#### Parameters
 
 | Name | Description                                              | Required |
 | ---- | -------------------------------------------------------- | -------- |
 | id   | User ID, can be repeated to query multiple users at once | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users?id=1&id=2
@@ -78,17 +84,17 @@ Gets basic user data, refer to `v1/users/full/:id` for more detailed data for a 
 }
 ```
 
-## GET `/v1/users/full/:id`
+### GET `/users/full/:id`
 
 Gets full user data
 
-### Parameters
+#### Parameters
 
 | Name | Description         | Required |
 | ---- | ------------------- | -------- |
 | :id  | Username or user ID | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/full/1
@@ -192,17 +198,17 @@ Gets full user data
 }
 ```
 
-## GET `/v1/users/search/:name`
+### GET `/users/search/:name`
 
 Gets all users that match a given string
 
-### Parameters
+#### Parameters
 
 | Name  | Description            | Required |
 | ----- | ---------------------- | -------- |
 | :name | Username to search for | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/search/swan
@@ -226,11 +232,11 @@ Gets all users that match a given string
 }
 ```
 
-## GET `/v1/users/scores/best`
+### GET `/users/scores/best`
 
 Gets a users top scores
 
-### Parameters
+#### Parameters
 
 | Name  | Description           | Required |
 | ----- | --------------------- | -------- |
@@ -239,7 +245,7 @@ Gets a users top scores
 | limit | 50 is max and default | No       |
 | page  | Pagination            | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/scores/best?id=1&mode=1
@@ -284,19 +290,19 @@ Gets a users top scores
 }
 ```
 
-## GET `/v1/users/scores/recent`
+### GET `/users/scores/recent`
 
 Gets a users most recent scores
 
-Parameters and response format is the same as `/v1/users/scores/best`
+Parameters and response format is the same as `/users/scores/best`
 
-## GET `/v1/users/scores/firstplace`
+### GET `/users/scores/firstplace`
 
 Gets a users first place scores
 
-Parameters and response format is the same as `/v1/users/scores/best`
+Parameters and response format is the same as `/users/scores/best`
 
-## GET `/v1/users/mapsets/:id`
+### GET `/users/mapsets/:id`
 
 Gets a users created mapsets
 
@@ -307,7 +313,7 @@ Gets a users created mapsets
 | status | Unranked = 1, Ranked = 2 | No       |
 | page   | Pagination               | No       |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/mapsets/1
@@ -351,18 +357,18 @@ Gets a users created mapsets
 }
 ```
 
-## GET `/v1/users/graph/rank`
+### GET `/users/graph/rank`
 
 Gets a users rank progression rank data
 
-### Parameters
+#### Parameters
 
 | Name | Description        | Required |
 | ---- | ------------------ | -------- |
 | id   | User ID            | Yes      |
 | mode | Key4 = 1, Key7 = 2 | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/graph/rank?id=1&mode=1
@@ -386,17 +392,17 @@ Gets a users rank progression rank data
 }
 ```
 
-## GET `/v1/users/:id/playlists`
+### GET `/users/:id/playlists`
 
 Gets a users created playlists
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | User ID     | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/1/playlists
@@ -428,19 +434,19 @@ Gets a users created playlists
 }
 ```
 
-## GET `/v1/users/:id/playlists/map/:map_id`
+### GET `/users/:id/playlists/map/:map_id`
 
 Gets all playlists and checks if it contains the given map. If it does, then the
 `has_map` property will contain the map ID, otherwise it will be null.
 
-### Parameters
+#### Parameters
 
 | Name    | Description | Required |
 | ------- | ----------- | -------- |
 | :id     | User ID     | Yes      |
 | :map_id | Map ID      | Yes      |
 
-## Example Response
+### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/1/playlists/map/5
@@ -487,17 +493,17 @@ Gets all playlists and checks if it contains the given map. If it does, then the
 }
 ```
 
-## GET `/v1/users/:id/achievements`
+### GET `/users/:id/achievements`
 
 Gets a users status on all achievements
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | User ID     | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/users/1/achievements
