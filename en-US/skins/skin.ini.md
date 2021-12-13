@@ -205,7 +205,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |      HitErrorPosY      |  Integer  | MidCenter |       45       | The Y position of the hit error                                                 |
 |  JudgementHitBurstFps  |  Integer  |     -     |       60       | The frames per second the judgement hit burst animation will run at             |
 |   JudgementBurstPosY   |  Integer  | MidCenter |       0        | The Y Offset of the judgement hit burst                                         |
-| JudgementHitBurstScale |   Float   |     -     |      100       | The size of the judgement hit burst to make it bigger or smaller.               |
+| JudgementHitBurstScale |   Float   |     -     |      100       | The size of the judgement hit burst.                                            |
 
 ---
 
