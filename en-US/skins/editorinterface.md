@@ -14,7 +14,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 `/7k/Editor/note-hitobject-{1-7}.png`
 
-![Layer HitObjects](/docs/images/Editor/Arrow/4k/note-hitobject-1.png)
+![Layer HitObjects](/docs/images/Editor/Arrow/4k/note-hitobject-1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -32,7 +32,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 `/7k/Editor/note-holdbody-{1-7}.png`
 
-![Layer Note Holdbodies](/docs/images/Editor/Arrow/4k/note-holdbody-1.png)
+![Layer Note Holdbodies](/docs/images/Editor/Arrow/4k/note-holdbody-1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -50,7 +50,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 `/7k/Editor/note-holdend-{1-7}.png`
 
-![Layer Note Holdends](/docs/images/Editor/Arrow/4k/note-holdend-1.png)
+![Layer Note Holdends](/docs/images/Editor/Arrow/4k/note-holdend-1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
