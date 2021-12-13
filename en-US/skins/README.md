@@ -8,7 +8,7 @@ Skins are one of the many great features of Quaver. It allows players to complet
 
 ## Default Skins vs. User Skins
 
-Quaver has multiple default skins to choose from which includes bars and arrows for the Keys game modes. It is important to note that when creating user skins, any elements not explicitly specified will be defaulted to the selected default skin. This may cause unintended results, so if you're creating an arrow skin, make sure you have the default arrow skin selected in-game and vice versa.
+Quaver has multiple default skins to choose from which includes arrows, bars, and circles. It is important to note that when creating user skins, any elements and skin.ini values not explicitly specified will be defaulted to the selected default skin under the Skin Settings.
 
 # Skinning FAQ
 
@@ -16,20 +16,40 @@ Quaver has multiple default skins to choose from which includes bars and arrows 
 
 Skinning has a very forced organization system and needs to be done correctly in order to work properly. The following list are guides to skin each part of the game.
 
-To get started, it'll be helpful to start with a base skin. You can download both our default bar and arrow skins [here](https://steamcommunity.com/id/janko5/myworkshopfiles/?appid=980610).
+To get started, it'll be helpful to start with a base skin. You can download our default arrow, bar, and circle skins [here](https://steamcommunity.com/id/janko5/myworkshopfiles/?appid=980610).
 
-* [Gameplay Interface](/docs/Skins/Interface)
-* [4K and 7K](/docs/Skins/Keys)
+* [Client Interface](/docs/Skins/clientinterface)
+* [Gameplay Interface](/docs/Skins/gameplayinterface)
+* [Editor Interface](/docs/Skins/editorinterface)
 * [Sound Effects (SFX)](/docs/Skins/SFX)
 * [Skin.ini](/docs/Skins/Skin.ini)
 
-If you want to start creating skin elements from scratch, you will need image editing software. We recommend either of the following programs:
+If you want to start creating a skin from scratch, you will need an image editing software for the elements, a text editor for skin.ini, and an audio editing software if you want to make a custom SFX for your skin. We recommend either of the following programs:
 
-   - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
-   - [GIMP](https://www.gimp.org)
-   - [paint.net](https://www.getpaint.net/index.html)
-   - [Figma](https://www.figma.com/login)
-   - [Photopea](https://www.photopea.com)
+- For image-editing software:
+
+   - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other) (Paid)
+   - [Adobe Illustrator](https://www.adobe.com/sea/products/illustrator.html) (Paid)
+   - [GIMP](https://www.gimp.org) (Free)
+   - [paint.net](https://www.getpaint.net/index.html) (Free)
+   - [Figma](https://www.figma.com/login) (Free)
+   - [Photopea](https://www.photopea.com) (Free)
+
+- For text editor:
+
+    - [Notepad++](https://notepad-plus-plus.org) (Free)
+    - [Sublime Text](https://www.sublimetext.com) (Free)
+    - [Visual Studio Code](https://code.visualstudio.com) (Free)
+
+- For audio-editing software:
+
+    - [Audacity](https://www.audacityteam.org) (Free)
+    - [FL Studio](https://www.image-line.com) (Free/Paid)
+
+There are also various tools that can be used for making a skin:
+
+  - [Advanced Renamer](https://www.advancedrenamer.com) - a program for renaming multiple files and folders at once.
+  - [Pinga/Pingo](https://css-ig.net/pingo) - a program used for optimizing images.
 
 
 ## Where can I download skins made by other players?
@@ -48,8 +68,12 @@ Yes, you can make your own edits or use skin elements from other skins, and you 
 
 
 ## How do I reload my skin in Quaver?
-You can reload your skin by pressing CTRL + S in the menu screens.
+You can reload your skin by pressing `CTRL + S` in the menu screens.
 
+## Why is my Skin folder empty even though I have subscribed to the skins in the Steam Workshop?
+Because the subscribed skins from the workshop are located in the workshop folder. They can be found in `/Steam/steamapps/workshop/content/980610`
+
+> Note: The skins in the workshop folder are named after their App ID. It's not advised to edit a skin inside the workshop folder due to Steam updating the workshop items when it's updated by the creator. Instead, you can create a copy of the skin and paste it in your Quaver Skin folder. The skin folder can be located in `/Steam/steamapps/common/Quaver/Skins`
 
 # Uploading a Skin to the Workshop
 
@@ -61,4 +85,4 @@ The requirements of uploading your skin to the Steam Workshop are as follows:
 - Your Steam account must be eligible for uploading. If you have issues uploading your skin to the workshop, [this article](https://support.steampowered.com/kb_article.php?ref=3330-iagk-7663) may be one of the reasons.
 - You must have agreed on the [Steam Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/).
 
-We suggest putting the gameplay of your skin in the *steam_workshop_preview.png* so the players can see what the skin would and the file size should be under 1MB regardless of the image's resolution.
+We suggest putting the gameplay of your skin in the `steam_workshop_preview.png` so the players can see what the skin would and the file size should be under 1MB regardless of the image's resolution.
