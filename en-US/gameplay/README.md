@@ -93,7 +93,7 @@ This section explains the judgement windows that are used within Quaver. It deta
 
 Combo is when you successfully hit objects without missing.
 
-* Not pressing an object within its judgement timing windows will result in a Miss, restting your combo.
+* Not pressing an object within its judgement timing windows will result in a Miss, reseting your combo.
 * Pressing an object too early (164ms) will result in a Miss, resetting your combo.
 * Not releasing a long note will result in a Good, which does not reset your combo.
 

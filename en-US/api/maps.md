@@ -2,22 +2,28 @@
 name: Maps
 ---
 
-- [GET `/v1/maps/:id`](#get-v1mapsid)
-    - [Parameters](#parameters)
-    - [Example Response](#example-response)
-- [GET `/v1/maps/:id/mods`](#get-v1mapsidmods)
-    - [Parameters](#parameters-1)
-    - [Example Response](#example-response-1)
+## Table of Contents
 
-## GET `/v1/maps/:id`
+- [Table of Contents](#table-of-contents)
+- [Endpoints](#endpoints)
+    - [GET `/maps/:id`](#get-%2Fmaps%2F%3Aid)
+        - [Parameters](#parameters)
+        - [Example Response](#example-response)
+    - [GET `/maps/:id/mods`](#get-%2Fmaps%2F%3Aid%2Fmods)
+        - [Parameters](#parameters-1)
+        - [Example Response](#example-response-1)
 
-### Parameters
+## Endpoints
+
+### GET `/maps/:id`
+
+#### Parameters
 
 | Name | Description   | Required |
 | ---- | ------------- | -------- |
 | :id  | Map ID or md5 | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/maps/2
@@ -55,15 +61,15 @@ name: Maps
 }
 ```
 
-## GET `/v1/maps/:id/mods`
+### GET `/maps/:id/mods`
 
-### Parameters
+#### Parameters
 
 | Name | Description | Required |
 | ---- | ----------- | -------- |
 | :id  | Map ID      | Yes      |
 
-### Example Response
+#### Example Response
 
 ```json
 // https://api.quavergame.com/v1/maps/21914/mods

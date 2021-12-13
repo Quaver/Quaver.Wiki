@@ -25,7 +25,7 @@ The following rules apply when using our in-game chat to communicate with others
 2. **Keep it PG-13** - No NSFW/NSFL, gore, pornography, or erotic roleplaying. Nobody wants to see this stuff here. Breaking this rule could result in a ban or mute depending on the severity.
 3. **Keep channel discussion relevant** - In-game chat channels are created with topics in mind. Don't gear away from them.
 4. **Keep criticism constructive.** - Feedback is welcome as long as it is constructive. Every decision in development, mapping, art, and design has a reason behind it. We would like everybody to respect that. We're not here to demoralize others.
-5. **No advertising, politics, religion, ear rape, spam, raiding, or any unwanted content** - Adverising includes any third-party games, websites, or chat servers. Keep it civil and clean. This is pretty self-explanatory.
+5. **No advertising, politics, religion, ear rape, spam, raiding, or any unwanted content** - Adveritsing includes any third-party games, websites, or chat servers. Keep it civil and clean. This is pretty self-explanatory.
 
 ## Mapset Submission Rules
 
