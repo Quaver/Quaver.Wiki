@@ -12,7 +12,7 @@ The client interface includes general skin elements that are present in all game
 
 `/Cursor/main-cursor.png`
 
-![Main Cursor](/docs/images/Cursor/main-cursor.png)
+![Main Cursor](/docs/images/Cursor/main-cursor.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -31,7 +31,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/menu-background.png`
 
-![Menu Background](/docs/images/MainMenu/menu-background.png)
+![Menu Background](/docs/images/MainMenu/menu-background.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -47,11 +47,11 @@ The client interface includes general skin elements that are present in all game
 
 ###### Deselected Texture Location: `/MainMenu/navigation-button.png`
 
-![Deselected Navigation Button](/docs/images/MainMenu/navigation-button.png)
+![Deselected Navigation Button](/docs/images/MainMenu/navigation-button.png?v=2)
 
 ###### Selected Texture Location: `/MainMenu/navigation-button-selected.png`
 
-![Selected Navigation Button](/docs/images/MainMenu/navigation-button-selected.png)
+![Selected Navigation Button](/docs/images/MainMenu/navigation-button-selected.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -67,7 +67,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/tip-panel.png`
 
-![Tip Panel](/docs/images/MainMenu/menu-tip-panel.png)
+![Tip Panel](/docs/images/MainMenu/menu-tip-panel.png?v=2)
 
 | Animatable |  Alignment  | Optimal Size |
 | :--------: | :---------: | :----------: |
@@ -83,7 +83,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/news-panel.png`
 
-![News Panel](/docs/images/MainMenu/news-panel.png)
+![News Panel](/docs/images/MainMenu/news-panel.png?v=2)
 
 | Animatable |  Alignment  | Optimal Size |
 | :--------: | :---------: | :----------: |
@@ -99,7 +99,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/jukebox-overlay.png`
 
-![Jukebox Overlay](/docs/images/MainMenu/jukebox-overlay.png)
+![Jukebox Overlay](/docs/images/MainMenu/jukebox-overlay.png?v=2)
 
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
@@ -117,7 +117,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MenuBorder/menu-border-background.png`
 
-![Menu Borders](/docs/images/MenuBorder/menu-border-background.png)
+![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
 
 | Animatable |       Alignment        | Optimal Size |
 | :--------: | :--------------------: | :----------: |
@@ -135,15 +135,15 @@ The client interface includes general skin elements that are present in all game
 
 ###### Deselected Texture Location: `/SongSelect/mapset-deselected.png`
 
-![Deselected Mapset Panel](/docs/images/SongSelect/mapset-deselected.png)
+![Deselected Mapset Panel](/docs/images/SongSelect/mapset-deselected.png?v=2)
 
 ###### Selected Texture Location: `/SongSelect/mapset-selected.png`
 
-![Selected Mapset Panel](/docs/images/SongSelect/mapset-selected.png)
+![Selected Mapset Panel](/docs/images/SongSelect/mapset-selected.png?v=2)
 
 ###### Hovered Texture Location: `/SongSelect/mapset-hovered.png`
 
-![Hovered Mapset Panel](/docs/images/SongSelect/mapset-hovered.png)
+![Hovered Mapset Panel](/docs/images/SongSelect/mapset-hovered.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -159,23 +159,23 @@ The client interface includes general skin elements that are present in all game
 
 ###### Ranked Texture Location: `/SongSelect/status-ranked.png`
 
-![Ranked Status](/docs/images/SongSelect/status-ranked.png)
+![Ranked Status](/docs/images/SongSelect/status-ranked.png?v=2)
 
 ###### Unranked Texture Location: `/SongSelect/status-unranked.png`
 
-![Unranked Status](/docs/images/SongSelect/status-unranked.png)
+![Unranked Status](/docs/images/SongSelect/status-unranked.png?v=2)
 
 ###### Unsubmitted Texture Location: `/SongSelect/status-notsubmitted.png`
 
-![Not Submitted Status](/docs/images/SongSelect/status-not-submitted.png)
+![Not Submitted Status](/docs/images/SongSelect/status-not-submitted.png?v=2)
 
 ###### Osu Mapset Texture Location: `/SongSelect/status-osu.png`
 
-![Osu Mapset Status](/docs/images/SongSelect/status-other-game-osu.png)
+![Osu Mapset Status](/docs/images/SongSelect/status-other-game-osu.png?v=2)
 
 ###### Stepmania/Etterna Mapset Texture Location: `/SongSelect/status-sm.png`
 
-![Stepmania/Etterna Mapset Status](/docs/images/SongSelect/status-other-game-etterna.png)
+![Stepmania/Etterna Mapset Status](/docs/images/SongSelect/status-other-game-etterna.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -191,15 +191,15 @@ The client interface includes general skin elements that are present in all game
 
 ###### 4k Texture Location: `/SongSelect/game-mode-4k.png`
 
-![4k Mode](/docs/images/SongSelect/keys4.png)
+![4k Mode](/docs/images/SongSelect/keys4.png?v=2)
 
 ###### 7k Texture Location: `/SongSelect/game-mode-7k.png`
 
-![7k Mode](/docs/images/SongSelect/keys7.png)
+![7k Mode](/docs/images/SongSelect/keys7.png?v=2)
 
 ###### 4k+7k Texture Location: `/SongSelect/game-mode-4k7k.png`
 
-![4k+7k Mode](/docs/images/SongSelect/both-modes-panel.png)
+![4k+7k Mode](/docs/images/SongSelect/both-modes-panel.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -215,7 +215,7 @@ The client interface includes general skin elements that are present in all game
 
 ###### Leaderboard Panel location: `/SongSelect/leaderboard-panel.png`
 
-![Leaderboard Panel](/docs/images/SongSelect/leaderboard-panel.png)
+![Leaderboard Panel](/docs/images/SongSelect/leaderboard-panel.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -231,7 +231,7 @@ The client interface includes general skin elements that are present in all game
 
 ###### Personal Best Panel location: `/SongSelect/personalbest-panel.png`
 
-![Personal Best Panel](/docs/images/SongSelect/personalbest-panel.png)
+![Personal Best Panel](/docs/images/SongSelect/personalbest-panel.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
