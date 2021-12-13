@@ -14,7 +14,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Lighting/column-lighting.png`
 
-![Column Lighting](/docs/images/Column/4K/bar-4k-column-lighting.png)
+![Column Lighting](/docs/images/Column/4K/bar-4k-column-lighting.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -35,7 +35,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/LaneCover/cover-top.png`
 
-![Top Lane Cover](/docs/images/LaneCover/4K/cover-top.png)
+![Top Lane Cover](/docs/images/LaneCover/4K/cover-top.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -53,7 +53,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/LaneCover/cover-bottom.png`
 
-![Bottom Lane Cover](/docs/images/LaneCover/4K/cover-bottom.png)
+![Bottom Lane Cover](/docs/images/LaneCover/4K/cover-bottom.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -73,7 +73,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Lighting/hitlighting.png`
 
-![Hit Lighting](/docs/images/Lighting/Bar/hitlighting@1x12.png)
+![Hit Lighting](/docs/images/Lighting/Bar/hitlighting@1x12.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -95,7 +95,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Lighting/holdlighting.png`
 
-![Hold Lighting](/docs/images/Lighting/Bar/holdlighting@1x12.png)
+![Hold Lighting](/docs/images/Lighting/Bar/holdlighting@1x12.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -119,7 +119,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/HitObjects/note-hitobject-{1-8}.png`
 
-![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png)
+![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -138,7 +138,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/HitObjects/note-holdhitobject-{1-8}.png`
 
-![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png)
+![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -157,7 +157,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/HitObjects/note-holdbody-{1-8}.png`
 
-![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png)
+![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -179,7 +179,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/HitObjects/note-holdend-{1-8}.png`
 
-![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png)
+![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -198,7 +198,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
 
-![HitObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png)
+![HitObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -219,7 +219,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Receptors/receptor-up-{1-8}.png`
 
-![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png)
+![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png?v=2)
 
 | Animatable | Alignment |     Suggested Size     |
 | :--------: | :-------: | :--------------------: |
@@ -238,7 +238,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Receptors/receptor-down-{1-7}.png`
 
-![Receptors (Down)](/docs/images/Receptors/Bar/4k/receptor-down-2.png)
+![Receptors (Down)](/docs/images/Receptors/Bar/4k/receptor-down-2.png?v=2)
 
 | Animatable | Alignment |     Suggested Size     |
 | :--------: | :-------: | :--------------------: |
@@ -259,7 +259,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Stage/stage-bgmask.png`
 
-![Stage BG Mask](/docs/images/Stage/stage-bgmask.png)
+![Stage BG Mask](/docs/images/Stage/stage-bgmask.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -277,7 +277,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Stage/stage-distant-overlay.png`
 
-![Stage Distant Overlay](/docs/images/Stage/stage-distant-overlay.png)
+![Stage Distant Overlay](/docs/images/Stage/stage-distant-overlay.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -295,7 +295,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/Stage/stage-hitposition-overlay.png`
 
-![Stage Hit Position Overlay](/docs/images/Stage/stage-hitposition-overlay.png)
+![Stage Hit Position Overlay](/docs/images/Stage/stage-hitposition-overlay.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -313,7 +313,7 @@ Notes:
 
 `/7k/Stage/stage-left-border.png`
 
-![Stage Left Border](/docs/images/Stage/stage-left-border.png)
+![Stage Left Border](/docs/images/Stage/stage-left-border.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -331,7 +331,7 @@ Notes:
 
 `/7k/Stage/stage-right-border.png`
 
-![Stage Right Border](/docs/images/Stage/stage-right-border.png)
+![Stage Right Border](/docs/images/Stage/stage-right-border.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -352,7 +352,7 @@ Notes:
 
 `/Grades/grade-small-a.png`
 
-![Grade Small A](/docs/images/Grades/grade-small-a.png)
+![Grade Small A](/docs/images/Grades/grade-small-a.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -369,7 +369,7 @@ Notes:
 
 `/Grades/grade-small-b.png`
 
-![Grade Small B](/docs/images/Grades/grade-small-b.png)
+![Grade Small B](/docs/images/Grades/grade-small-b.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -386,7 +386,7 @@ Notes:
 
 `/Grades/grade-small-c.png`
 
-![Grade Small C](/docs/images/Grades/grade-small-c.png)
+![Grade Small C](/docs/images/Grades/grade-small-c.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -403,7 +403,7 @@ Notes:
 
 `/Grades/grade-small-d.png`
 
-![Grade Small D](/docs/images/Grades/grade-small-d.png)
+![Grade Small D](/docs/images/Grades/grade-small-d.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -420,7 +420,7 @@ Notes:
 
 `/Grades/grade-small-f.png`
 
-![Grade Small F](/docs/images/Grades/grade-small-f.png)
+![Grade Small F](/docs/images/Grades/grade-small-f.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -437,7 +437,7 @@ Notes:
 
 `/Grades/grade-small-s.png`
 
-![Grade Small S](/docs/images/Grades/grade-small-s.png)
+![Grade Small S](/docs/images/Grades/grade-small-s.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -454,7 +454,7 @@ Notes:
 
 `/Grades/grade-small-ss.png`
 
-![Grade Small SS](/docs/images/Grades/grade-small-ss.png)
+![Grade Small SS](/docs/images/Grades/grade-small-ss.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -471,7 +471,7 @@ Notes:
 
 `/Grades/grade-small-x.png`
 
-![Grade Small X](/docs/images/Grades/grade-small-x.png)
+![Grade Small X](/docs/images/Grades/grade-small-x.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -490,7 +490,7 @@ Notes:
 
 `/Health/health-background.png`
 
-![Health Bar Background](/docs/images/Health/health-background.png)
+![Health Bar Background](/docs/images/Health/health-background.png?v=2)
 
 | Animatable | Alignment |              Suggested Size              |
 | :--------: | :-------: | :--------------------------------------: |
@@ -507,7 +507,7 @@ Notes:
 
 `/Health/health-foreground.png`
 
-![Health Bar Foreground](/docs/images/Health/health-foreground.png)
+![Health Bar Foreground](/docs/images/Health/health-foreground.png?v=2)
 
 | Animatable | Alignment |              Suggested Size              |
 | :--------: | :-------: | :--------------------------------------: |
@@ -526,7 +526,7 @@ Notes:
 
 `/Judgements/judgement-overlay.png`
 
-![Judgement Overlay](/docs/images/Judgements/judgement-overlay.png)
+![Judgement Overlay](/docs/images/Judgements/judgement-overlay.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -543,7 +543,7 @@ Notes:
 
 `/Judgements/judge-marv.png`
 
-![Judgement (Marv)](/docs/images/Judgements/judge-marv.png)
+![Judgement (Marv)](/docs/images/Judgements/judge-marv.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -561,7 +561,7 @@ Notes:
 
 `/Judgements/judge-perf.png`
 
-![Judgement (Perf)](/docs/images/Judgements/judge-perf.png)
+![Judgement (Perf)](/docs/images/Judgements/judge-perf.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -579,7 +579,7 @@ Notes:
 
 `/Judgements/judge-great.png`
 
-![Judgement (Great)](/docs/images/Judgements/judge-great.png)
+![Judgement (Great)](/docs/images/Judgements/judge-great.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -597,7 +597,7 @@ Notes:
 
 `/Judgements/judge-good.png`
 
-![Judgement (Good)](/docs/images/Judgements/judge-good.png)
+![Judgement (Good)](/docs/images/Judgements/judge-good.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -615,7 +615,7 @@ Notes:
 
 `/Judgements/judge-okay.png`
 
-![Judgement (Okay)](/docs/images/Judgements/judge-okay.png)
+![Judgement (Okay)](/docs/images/Judgements/judge-okay.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -633,7 +633,7 @@ Notes:
 
 `/Judgements/judge-miss.png`
 
-![Judgement (Miss)](/docs/images/Judgements/judge-miss.png)
+![Judgement (Miss)](/docs/images/Judgements/judge-miss.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -653,7 +653,7 @@ Notes:
 
 `/Numbers/combo-{0-9}.png`
 
-![Combo Display Numbers](/docs/images/Numbers/combo-9.png)
+![Combo Display Numbers](/docs/images/Numbers/combo-9.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -669,7 +669,7 @@ Notes:
 
 `/Numbers/score-{0-9}.png`
 
-![Score/Accuracy/KPS/Rating Numbers](/docs/images/Numbers/score-9.png)
+![Score/Accuracy/KPS/Rating Numbers](/docs/images/Numbers/score-9.png?v=2)
 
 | Animatable |                               Alignment                                | Suggested Size |
 | :--------: | :--------------------------------------------------------------------: | :------------: |
@@ -685,7 +685,7 @@ Notes:
 
 `/Numbers/score-percent.png`
 
-![Score Display Percent](/docs/images/Numbers/score-percent.png)
+![Score Display Percent](/docs/images/Numbers/score-percent.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -701,7 +701,7 @@ Notes:
 
 `/Numbers/score-decimal.png`
 
-![Score Display Decimal](/docs/images/Numbers/score-decimal.png)
+![Score Display Decimal](/docs/images/Numbers/score-decimal.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -717,7 +717,7 @@ Notes:
 
 `/Numbers/song-time-{0-9}.png`
 
-![Song Time Display Numbers](/docs/images/Numbers/song-time-8.png)
+![Song Time Display Numbers](/docs/images/Numbers/song-time-8.png?v=2)
 
 | Animatable |        Alignment         | Suggested Size |
 | :--------: | :----------------------: | :------------: |
@@ -733,7 +733,7 @@ Notes:
 
 `/Numbers/song-time-colon.png`
 
-![Song Time Display Colon](/docs/images/Numbers/song-time-colon.png)
+![Song Time Display Colon](/docs/images/Numbers/song-time-colon.png?v=2)
 
 | Animatable |        Alignment         | Suggested Size |
 | :--------: | :----------------------: | :------------: |
@@ -749,7 +749,7 @@ Notes:
 
 `/Numbers/song-time-minus.png`
 
-![Song Time Display Minus](/docs/images/Numbers/song-time-minus.png)
+![Song Time Display Minus](/docs/images/Numbers/song-time-minus.png?v=2)
 
 | Animatable |        Alignment         | Suggested Size |
 | :--------: | :----------------------: | :------------: |
@@ -767,7 +767,7 @@ Notes:
 
 `/Scoreboard/scoreboard.png`
 
-![Scoreboard User](/docs/images/Scoreboard/scoreboard.png)
+![Scoreboard User](/docs/images/Scoreboard/scoreboard.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -783,7 +783,7 @@ Notes:
 
 `/Scoreboard/scoreboard-other.png`
 
-![Scoreboard Other](/docs/images/Scoreboard/scoreboard-other.png)
+![Scoreboard Other](/docs/images/Scoreboard/scoreboard-other.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -799,7 +799,7 @@ Notes:
 
 `/Scoreboard/scoreboard-red-team.png`
 
-![Scoreboard Red Team](/docs/images/Scoreboard/scoreboard-red-team.png)
+![Scoreboard Red Team](/docs/images/Scoreboard/scoreboard-red-team.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -815,7 +815,7 @@ Notes:
 
 `/Scoreboard/scoreboard-red-team-other.png`
 
-![Scoreboard Red Team Other](/docs/images/Scoreboard/scoreboard-red-team-other.png)
+![Scoreboard Red Team Other](/docs/images/Scoreboard/scoreboard-red-team-other.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -831,7 +831,7 @@ Notes:
 
 `/Scoreboard/scoreboard-blue-team.png`
 
-![Scoreboard Blue Team](/docs/images/Scoreboard/scoreboard-blue-team.png)
+![Scoreboard Blue Team](/docs/images/Scoreboard/scoreboard-blue-team.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -847,7 +847,7 @@ Notes:
 
 `/Scoreboard/scoreboard-blue-team-other.png`
 
-![Scoreboard Blue Team Other](/docs/images/Scoreboard/scoreboard-blue-team-other.png)
+![Scoreboard Blue Team Other](/docs/images/Scoreboard/scoreboard-blue-team-other.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -865,7 +865,7 @@ Notes:
 
 `/Skip/skip.png`
 
-![Skip](/docs/images/Skip/skip.png)
+![Skip](/docs/images/Skip/skip.png?v=2)
 
 | Animatable | Alignment |  Suggested Size  |
 | :--------: | :-------: | :--------------: |
@@ -901,7 +901,7 @@ Notes:
 
 `/Pause/pause-continue.png`
 
-![Pause Continue Button](/docs/images/Pause/pause-continue.png)
+![Pause Continue Button](/docs/images/Pause/pause-continue.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -917,7 +917,7 @@ Notes:
 
 `/Pause/pause-retry.png`
 
-![Pause Retry Button](/docs/images/Pause/pause-retry.png)
+![Pause Retry Button](/docs/images/Pause/pause-retry.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -933,7 +933,7 @@ Notes:
 
 `/Pause/pause-back.png`
 
-![Pause Back Button](/docs/images/Pause/pause-back.png)
+![Pause Back Button](/docs/images/Pause/pause-back.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -949,7 +949,7 @@ Notes:
 
 `/Pause/pause-background.png`
 
-![Pause Background](/docs/images/Pause/pause-background.png)
+![Pause Background](/docs/images/Pause/pause-background.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -967,7 +967,7 @@ Notes:
 
 `/Multiplayer/eliminated.png`
 
-![Eliminated](/docs/images/Multiplayer/eliminated.png)
+![Eliminated](/docs/images/Multiplayer/eliminated.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -983,7 +983,7 @@ Notes:
 
 `/Multiplayer/warning.png`
 
-![Warning](/docs/images/Multiplayer/warning.png)
+![Warning](/docs/images/Multiplayer/warning.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
