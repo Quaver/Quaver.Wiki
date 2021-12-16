@@ -25,12 +25,13 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 
 ### Navigation
 
-###### Affected Textures: [navigation-button.png](/docs/skins/clientinterface#deselected-texture-location%3A-%2Fmainmenu%2Fnavigation-button.png), [navigation-button-selected.png](/docs/skins/clientinterface#selected-texture-location%3A-%2Fmainmenu%2Fnavigation-button-selected.png)
+###### Affected Textures: [navigation-button.png](/docs/skins/clientinterface#deselected-texture-location%3A-%2Fmainmenu%2Fnavigation-button.png), [navigation-button-selected.png](/docs/skins/clientinterface#selected-texture-location%3A-%2Fmainmenu%2Fnavigation-button-selected.png), [navigation-button-hovered](/docs/skins/clientinterface#hovered-texture-location%3A-%2Fmainmenu%2Fnavigation-button-hovered.png)
 
 |             Value             |       Data Type        | Default Values |                         Notes                          |
 | :---------------------------: | :--------------------: | :------------: | :----------------------------------------------------: |
 |   NavigationButtonTextColor   | RGB Color(255,255,255) |  255,255,255   |       The color of the text in navigation button       |
 | NavigationQuitButtonTextColor | RGB Color(255,255,255) |   249,100,93   | The color of the `Quit Game` text in navigation button |
+| NavigationButtonHoveredAlpha  |    Float(0.00~1.00)    |      0.35      |  The opacity of the hovered navigation button element  |
 
 ---
 
@@ -68,6 +69,8 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 ---
 
 ### Audio Visualizer & Note Visualizer Values:
+
+###### Affected Textures: [note-visualizer.png](/docs/skins/clientinterface#note-visualizer)
 
 |         Value          |       Data Type        | Default Values |                              Notes                              |
 | :--------------------: | :--------------------: | :------------: | :-------------------------------------------------------------: |
@@ -142,8 +145,24 @@ The `[SongSelect]` section contains the possible modifications of song selection
 |  MapsetPanelCreatorColor   | RGB Color(255,255,255) |   5,135,229    |                              The color of the text of the map creator                               |
 |     MapsetPanelByColor     | RGB Color(255,255,255) |  117,117,117   |                                     The color of the text `By:`                                     |
 |   MapsetPanelBannerSize    | Integer(Width, Length) |     421,82     |                                 The size of the mapset panel banner                                 |
+|  MapsetPanelHoveringAlpha  |    Float(0.00~1.00)    |      0.35      |                           The opacity of the hovered mapset panel element                           |
 |  MapBackgroundBrightness   |      Byte(0-255)       |       15       |                                The brightness of the map background                                 |
 |    DisplayMapBackground    | Boolean(True or False) |     False      | If true, it displays the mapset's background. Otherwise, it uses the default song select background |
+
+---
+
+# Results Screen
+
+The `[Results]` section contains the possible modifications of results screen background.
+
+### Results Screen Background
+
+###### Affected Textures: [background.png](/docs/skins/clientinterface#background)
+
+|            Value             |             Data Type             | Default Values |                                                                             Notes                                                                              |
+| :--------------------------: | :-------------------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    ResultsBackgroundType     | `Header`, `Background`, or `None` |    `Header`    |       The type of background displayed in results screen. `Background` uses the mapset's background image while `None` uses the custom `background.png`.       |
+| ResultsBackgroundFilterAlpha |         Float(0.00~1.00)          |       1        | The opacity of the image filter used for results background. If the skin does not have a custom `background-filter.png` file, it uses the default one instead. |
 
 ---
 
