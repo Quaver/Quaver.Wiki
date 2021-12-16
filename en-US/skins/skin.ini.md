@@ -157,7 +157,7 @@ The `[Results]` section contains the possible modifications of results screen ba
 
 ### Results Screen Background
 
-###### Affected Textures: [background.png](/docs/skins/clientinterface#background)
+###### Affected Textures: [background.png](/docs/skins/clientinterface#background), [background-filter.png](/docs/skins/clientinterface#background-filter)
 
 |            Value             |             Data Type             | Default Values |                                                                             Notes                                                                              |
 | :--------------------------: | :-------------------------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
