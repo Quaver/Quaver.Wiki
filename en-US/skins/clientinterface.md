@@ -298,7 +298,7 @@ The client interface includes general skin elements that are present in all game
 
 **Notes:**
 
-- Binary alpha mask for user avatar on results screen. Each pixel is either 1: show the pixel, or 0: don't show the pixel.
+- The alpha mask for user avatar on results screen.
 
 ---
 
@@ -314,7 +314,7 @@ The client interface includes general skin elements that are present in all game
 
 **Notes:**
 
-- Backing body for modifiers, "overview" and "multiplayer" near the top of the screen on results screen.
+- Background image for modifiers, "overview" and "multiplayer" near the top of the screen on results screen.
 - Draws below `avatar-border.png`.
 
 ---
@@ -331,7 +331,7 @@ The client interface includes general skin elements that are present in all game
 
 **Notes:**
 
-- Backing body for labels and stat numbers (rating, combo, etc.) on results screen.
+- Background image for labels and stat numbers (rating, combo, etc.) on results screen.
 - Draworder below label elemnts.
 
 ---
@@ -427,7 +427,7 @@ The client interface includes general skin elements that are present in all game
 
 **Notes:**
 
-- Backing body for grades, graph, graph type dropdown etc.
+- Background image for grades, graph, graph type dropdown etc.
 
 ---
 
@@ -451,5 +451,5 @@ The client interface includes general skin elements that are present in all game
 
 **Notes:**
 
-- Backing body for the stats per player in the lobby after the map ends.
+- Background image for the stats per player in the lobby after the map ends.
 - Used in multiplayer only.
