@@ -57,6 +57,14 @@ The client interface includes general skin elements that are present in all game
 | :--------: | :-------: | :----------: |
 |     No     |  MidLeft  |    434x52    |
 
+###### Hovered Texture Location: `/MainMenu/navigation-button-hovered.png`
+
+![Hovered Navigation Button](/docs/images/MainMenu/navigation-button-hovered.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  MidLeft  |    430x48    |
+
 **Notes:**
 
 - The buttons to navigate to different parts of the game (single player, multiplayer, etc)
@@ -104,6 +112,22 @@ The client interface includes general skin elements that are present in all game
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
 |     No     | BottomCenter |    500x54    |
+
+**Notes:**
+
+- The jukebox that displays in the footer of the main menu.
+
+---
+
+### Note Visualizer
+
+`/MainMenu/note-visualizer.png`
+
+<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Jukebox Overlay" width="817" height="1276">
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |   Right   |  1634x2553   |
 
 **Notes:**
 
@@ -240,3 +264,192 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The personal best panel of the skin.
+
+---
+
+## Results Screen Skinning
+
+### Avatar Border
+
+`/Results/avatar-border.png`
+
+![Avatar Border](/docs/images/Results/avatar-border.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  TopLeft  |   190x190    |
+
+**Notes:**
+
+- Borders the user avatar on results screen.
+- Draws above `tab-selector-background`.
+
+---
+
+### Avatar Mask
+
+`/Results/avatar-mask.png`
+
+![Avatar Mask](/docs/images/Results/avatar-mask.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  TopLeft  |   190x190    |
+
+**Notes:**
+
+- The alpha mask for user avatar on results screen.
+
+---
+
+### Tab Selector Background
+
+`/Results/tab-selector-background.png`
+
+![Tab Selector Background](/docs/images/Results/tab-selector-background.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     | TopCenter |   1599x62    |
+
+**Notes:**
+
+- Background image for modifiers, "overview" and "multiplayer" near the top of the screen on results screen.
+- Draws below `avatar-border.png`.
+
+---
+
+### Score Container Panel
+
+`/Results/score-container-panel.png`
+
+![Score Container Panel](/docs/images/Results/score-container-panel.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     | TopCenter |   1599x62    |
+
+**Notes:**
+
+- Background image for labels and stat numbers (rating, combo, etc.) on results screen.
+- Draworder below label elemnts.
+
+---
+
+### Label Elements
+
+###### Label Accuracy Texture Location: `/Results/label-accuracy.png`
+
+![Label Accuracy](/docs/images/Results/label-accuracy.png?v=2)
+
+###### Label Max Combo Texture Location: `/Results/label-max-combo.png`
+
+![Label Max Combo](/docs/images/Results/label-max-combo.png?v=2)
+
+###### Label Performance Rating Texture Location: `/Results/label-performance-rating.png`
+
+![Label Performance Rating](/docs/images/Results/label-performance-rating.png?v=2)
+
+###### Label Ranked Accuracy Texture Location: `/Results/label-ranked-accuracy.png`
+
+![Label Ranked Accuracy](/docs/images/Results/label-ranked-accuracy.png?v=2)
+
+###### Label Total Score Texture Location: `/Results/label-total-score.png`
+
+![Label Total Score](/docs/images/Results/label-total-score.png?v=2)
+
+###### Label Blue Team Texture Location: `/Results/label-label-blue-team.png`
+
+![Label Blue Team](/docs/images/Results/label-blue-team.png?v=2)
+
+###### Label Red Team Texture Location: `/Results/label-red-team.png`
+
+![Label Red Team](/docs/images/Results/label-red-team.png?v=2)
+
+###### Label Score Texture Location: `/Results/label-score.png`
+
+![Label Score](/docs/images/Results/results-label-score.png?v=2)
+
+| Animatable |  Alignment   | Optimal Size |
+| :--------: | :----------: | :----------: |
+|     No     | BottomCenter |    256x28    |
+
+**Notes:**
+
+- Label under numbers describing what they are.
+- Drawn on top of `score-container-panel.png`, below numbers.
+
+---
+
+### Background
+
+`/Results/background.png`
+
+![Background](/docs/images/Results/background.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |     -     |  1920x1080   |
+
+**Notes:**
+
+- Custom background on results screen.
+
+---
+
+### Background Filter
+
+`/Results/background-filter.png`
+
+![Background Filter](/docs/images/Results/background-filter.png?v=2)
+
+| Animatable | Alignment |    Optimal Size    |
+| :--------: | :-------: | :----------------: |
+|     No     |     -     | 1920x1080/1920x208 |
+
+**Notes:**
+
+- Overlays the background depending on type with normal blend.
+- Drawn on top of `background.png` or map background depending on skin.ini value.
+- 1920x1080 is used for `Background` or `None` type, while 1920x208 is used for `Header` or default.
+
+---
+
+### Graph Container Panel
+
+`/Results/graph-container-panel.png`
+
+![Graph Container Panel](/docs/images/Results/graph-container-panel.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  Center   |   1669x485   |
+
+**Notes:**
+
+- Background image for grades, graph, graph type dropdown etc.
+
+---
+
+### Multiplayer Table
+
+###### Multiplayer Table FFA Texture Location:`/Results/multiplayer-table-ffa.png`
+
+![Multiplayer Table FFA](/docs/images/Results/multiplayer-table-ffa.png?v=2)
+
+| Animatable |  Alignment   | Optimal Size |
+| :--------: | :----------: | :----------: |
+|     No     | BottomCenter |   1669x609   |
+
+###### Multiplayer Team Panel Texture Location:`/Results/multiplayer-team-panel.png`
+
+![Multiplayer Team Panel](/docs/images/Results/multiplayer-team-panel.png?v=2)
+
+| Animatable |  Alignment   | Optimal Size |
+| :--------: | :----------: | :----------: |
+|     No     | BottomCenter |   1669x485   |
+
+**Notes:**
+
+- Background image for the stats per player in the lobby after the map ends.
+- Used in multiplayer only.
