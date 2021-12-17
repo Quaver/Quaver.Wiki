@@ -131,7 +131,7 @@ The client interface includes general skin elements that are present in all game
 
 **Notes:**
 
-- The jukebox that displays in the footer of the main menu.
+- The image of notes that fall in the main menu. You can set its opacity with `NoteVisualizerOpacity` in skin.ini.
 
 ---
 
