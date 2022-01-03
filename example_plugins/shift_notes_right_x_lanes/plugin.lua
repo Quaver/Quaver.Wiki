@@ -50,23 +50,16 @@ function draw()
             table.insert(result, utils.CreateHitObject(note.StartTime, newLane, note.EndTime))
         end
 
-        --2 undos are required to fully undo the shifting of notes by this plugin
-        actions.RemoveHitObjectBatch(selection)
-        actions.PlaceHitObjectBatch(result)
+        --Perform the remove and place actions as one so that they can be reverted together with one undo
+        local editorActions = {}
 
-        --[[
-            As of the 10th of September 2020,
-            there is currently a bug that causes HitObjects
-            removed by plugins to not be removed from the selection.
+        table.insert(editorActions, utils.CreateEditorAction(action_type.RemoveHitObjectBatch, selection))
+        table.insert(editorActions, utils.CreateEditorAction(action_type.PlaceHitObjectBatch, result))
 
-            Without the following line of code,
-            pressing the button again would duplicate the notes
-            at the new pasted location.
+        actions.PerformBatch(editorActions)
 
-            The following line of code also allows for the shifting of notes
-            across multiple lanes through the repeated clicking
-            of the button, without having to change 'x'.
-        ]]
+        --Allows for shifting notes across multiple lanes by repeated clicking of the button
+        --Setting hitobject selection is actually not an action the user can undo
         actions.SetHitObjectSelection(result)
     end
 
