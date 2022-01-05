@@ -27,20 +27,20 @@ Quaver provides customizable tournament settings and skin elements for the playe
 
 After setting up the miscellaneous assets for tournament, you may now start configuring the tournament settings by adjusting values in `settings.ini` file. In order to know how the values work in the file, please go to [Settings.ini](/docs/Tournament/settings.ini) tab.
 
-Other skinnable elements may also be found in the [Skin Elements](/docs/Tournament/skinelements) tab.
+Other skinnable elements may be found in the [Skin Elements](/docs/Tournament/skinelements) tab.
 
 IMPORTANT NOTES:
 
 - Make sure to go into Settings and turn `Display 1v1 Playfield Scores` off and turn `Display 1v1 Tournament Overlay` on.
-- In `Settings.ini`, under the [MatchRound] setting, you must set `MatchRoundCustomText` to the current round of the tournament.
+- In `Settings.ini`, under the `[MatchRound]` setting, you must set `MatchRoundCustomText` to the current round of the tournament.
   - For example, if the round of the tournament is **Semi-Finals**, you must set the value to `Semi-Finals`.
-- Under the [BestOf] setting, you must set `BestOfCustomText` to the current best of count such as **B07**, **BO11**, etc.
+- Under the `[BestOf]` setting, you must set `BestOfCustomText` to the current best of count such as **B07**, **BO11**, etc.
 - You must update these values each round of the tournament.
 - Keep track of all your original settings so you can switch back to them after streaming.
 
 ## Setting up the tournament for streaming/recording
 
-As for the tournament timer in stream, [Snaz](https://github.com/JimmyAppelt/Snaz/wiki) is recommended to use for countdowns. You may check the wiki to install the program.
+As for the tournament timer in stream, [Snaz](https://github.com/JimmyAppelt/Snaz/wiki) is recommended to use for countdowns. You may check their wiki to install the program.
 
 [OBS](https://obsproject.com) is a recommended program used for streaming or recording tournament in Quaver and **Snaz** has a tutorial on how to set up the program for **OBS**.
 
