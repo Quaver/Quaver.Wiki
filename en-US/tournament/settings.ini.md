@@ -200,18 +200,18 @@ Mapset Settings contains of the song's title, difficulty name, length, BPM, rati
 
 The `[Song]` section contains customization of the song title in the overlay.
 
-|            Value             |       Data Type        | Default Values |
-| :--------------------------: | :--------------------: | :------------: |
-|       SongTitleVisible       | Boolean(True or False) |      True      |
-|      SongTitleFontSize       |        Integer         |       22       |
-|      SongTitlePosition       |     Integer(X, Y)      |     0,-225     |
-|      SongTitleAlignment      |       Alignment        |   BotCenter    |
-|        SongTitleColor        | RGB Color(255,255,255) |  255,255,255   |
-|      SongTitleInverted       | Boolean(True or False) |      True      |
-|        SongTitleFont         |         String         |   Lato-Bold    |
-| Player1RatingColorWhenLosing | RGB Color(255,255,255) |  255,255,255   |
-|    SongTitleDimWhenLosing    | Boolean(True or False) |     False      |
-|      SongTitleMaxWidth       |        Integer         |      450       |
+|          Value           |       Data Type        | Default Values |
+| :----------------------: | :--------------------: | :------------: |
+|     SongTitleVisible     | Boolean(True or False) |      True      |
+|    SongTitleFontSize     |        Integer         |       22       |
+|    SongTitlePosition     |     Integer(X, Y)      |     0,-225     |
+|    SongTitleAlignment    |       Alignment        |   BotCenter    |
+|      SongTitleColor      | RGB Color(255,255,255) |  255,255,255   |
+|    SongTitleInverted     | Boolean(True or False) |      True      |
+|      SongTitleFont       |         String         |   Lato-Bold    |
+| SongTitleColorWhenLosing | RGB Color(255,255,255) |  255,255,255   |
+|  SongTitleDimWhenLosing  | Boolean(True or False) |     False      |
+|    SongTitleMaxWidth     |        Integer         |      450       |
 
 ---
 
@@ -232,19 +232,114 @@ The `[DifficultyName]` section contains customization of the difficulty name in 
 
 ---
 
-The `[SongLength]` section contains customization of the difficulty name in the overlay.
+The `[SongLength]` section contains customization of the song's length in the overlay.
 
-|             Value             |       Data Type        | Default Values |
-| :---------------------------: | :--------------------: | :------------: |
-|     DifficultyNameVisible     | Boolean(True or False) |      True      |
-|    DifficultyNameFontSize     |        Integer         |       22       |
-|    DifficultyNamePosition     |     Integer(X, Y)      |     0,-177     |
-|    DifficultyNameAlignment    |       Alignment        |   BotCenter    |
-|      DifficultyNameColor      | RGB Color(255,255,255) |  255,255,255   |
-|    DifficultyNameInverted     | Boolean(True or False) |      True      |
-|      DifficultyNameFont       |         String         |   Lato-Bold    |
-| DifficultyNameColorWhenLosing | RGB Color(255,255,255) |  150,150,150   |
-| DifficultyNameUseDefaultColor | Boolean(True or False) |      True      |
-|    DifficultyNameMaxWidth     |        Integer         |      400       |
+|           Value           |       Data Type        | Default Values |
+| :-----------------------: | :--------------------: | :------------: |
+|     SongLengthVisible     | Boolean(True or False) |     False      |
+|    SongLengthFontSize     |        Integer         |       26       |
+|    SongLengthPosition     |     Integer(X, Y)      |    -50,-100    |
+|    SongLengthAlignment    |       Alignment        |   BotCenter    |
+|      SongLengthColor      | RGB Color(255,255,255) |  255,255,255   |
+|    SongLengthInverted     | Boolean(True or False) |      True      |
+|      SongLengthFont       |         String         |   Lato-Bold    |
+| SongLengthColorWhenLosing | RGB Color(255,255,255) |  255,255,255   |
+|    SongLengthMaxWidth     |        Integer         |   2147483647   |
 
 ---
+
+The `[SongBpm]` section contains customization of the song's BPM in the overlay.
+
+|         Value          |       Data Type        | Default Values |
+| :--------------------: | :--------------------: | :------------: |
+|     SongBpmVisible     | Boolean(True or False) |      True      |
+|    SongBpmFontSize     |        Integer         |       26       |
+|    SongBpmPosition     |     Integer(X, Y)      |    50,-100     |
+|    SongBpmAlignment    |       Alignment        |   BotCenter    |
+|      SongBpmColor      | RGB Color(255,255,255) |  255,255,255   |
+|    SongBpmInverted     | Boolean(True or False) |      True      |
+|      SongBpmFont       |         String         |   Lato-Bold    |
+| SongBpmColorWhenLosing | RGB Color(255,255,255) |  150,150,150   |
+|    SongBpmMaxWidth     |        Integer         |   2147483647   |
+
+---
+
+The `[DifficultyRating]` section contains customization of the difficulty rating of the map in the overlay.
+
+|              Value              |       Data Type        | Default Values |
+| :-----------------------------: | :--------------------: | :------------: |
+|     DifficultyRatingVisible     | Boolean(True or False) |      True      |
+|    DifficultyRatingFontSize     |        Integer         |       24       |
+|    DifficultyRatingPosition     |     Integer(X, Y)      |     0,-198     |
+|    DifficultyRatingAlignment    |       Alignment        |   BotCenter    |
+|      DifficultyRatingColor      | RGB Color(255,255,255) |  255,255,255   |
+|    DifficultyRatingInverted     | Boolean(True or False) |      True      |
+|      DifficultyRatingFont       |         String         |   Lato-Bold    |
+| DifficultyRatingColorWhenLosing | RGB Color(255,255,255) |  150,150,150   |
+| DifficultyRatingUseDefaultColor | Boolean(True or False) |      True      |
+|    DifficultyRatingMaxWidth     |        Integer         |   2147483647   |
+
+---
+
+The `[MapCreator]` section contains customization of the map creator's name in the overlay.
+
+|          Value           |       Data Type        | Default Values |
+| :----------------------: | :--------------------: | :------------: |
+|     SongTitleVisible     | Boolean(True or False) |      True      |
+|    SongTitleFontSize     |        Integer         |       22       |
+|    SongTitlePosition     |     Integer(X, Y)      |     0,-225     |
+|    SongTitleAlignment    |       Alignment        |   BotCenter    |
+|      SongTitleColor      | RGB Color(255,255,255) |  255,255,255   |
+|    SongTitleInverted     | Boolean(True or False) |      True      |
+|      SongTitleFont       |         String         |   Lato-Bold    |
+| SongTitleColorWhenLosing | RGB Color(255,255,255) |  255,255,255   |
+|  SongTitleDimWhenLosing  | Boolean(True or False) |     False      |
+|    SongTitleMaxWidth     |        Integer         |      450       |
+
+---
+
+The `[MatchRound]` section contains customization of the round of the match text in the overlay.
+
+|           Value           |       Data Type        | Default Values |
+| :-----------------------: | :--------------------: | :------------: |
+|   MatchRoundCustomText    |         String         |  Round of 64   |
+|     MatchRoundVisible     | Boolean(True or False) |      True      |
+|    MatchRoundFontSize     |        Integer         |       46       |
+|    MatchRoundPosition     |     Integer(X, Y)      |     0,-424     |
+|    MatchRoundAlignment    |       Alignment        |   MidCenter    |
+|      MatchRoundColor      | RGB Color(255,255,255) |   69,214,245   |
+|    MatchRoundInverted     | Boolean(True or False) |      True      |
+|      MatchRoundFont       |         String         |   Lato-Bold    |
+| MatchRoundColorWhenLosing | RGB Color(255,255,255) |   69,214,245   |
+|    MatchRoundMaxWidth     |        Integer         |      550       |
+
+---
+
+The `[BestOf]` section contains customization of the best of text in the overlay.
+
+|         Value         |       Data Type        | Default Values |
+| :-------------------: | :--------------------: | :------------: |
+|   BestOfCustomText    |         String         |   Best of 7    |
+|     BestOfVisible     | Boolean(True or False) |      True      |
+|    BestOfFontSize     |        Integer         |       26       |
+|    BestOfPosition     |     Integer(X, Y)      |     0,-363     |
+|    BestOfAlignment    |       Alignment        |   MidCenter    |
+|      BestOfColor      | RGB Color(255,255,255) |   69,214,245   |
+|    BestOfInverted     | Boolean(True or False) |      True      |
+|      BestOfFont       |         String         |   Lato-Bold    |
+| BestOfColorWhenLosing | RGB Color(255,255,255) |   69,214,245   |
+|    BestOfMaxWidth     |        Integer         |      300       |
+
+---
+
+The `[Banner]` section contains customization of the banner of the map's background in the overlay.
+
+|          Value          |       Data Type        | Default Values |
+| :---------------------: | :--------------------: | :------------: |
+|      BannerVisible      | Boolean(True or False) |      True      |
+|       BannerSize        | Integer(Width, Height) |    382,115     |
+|     BannerPosition      |     Integer(X, Y)      |     1,226      |
+|     BannerAlignment     |       Alignment        |   MidCenter    |
+|  BannerBackgroundSize   | Integer(Width, Height) |    498,280     |
+|   BannerDarknessAlpha   |     Float(0.0~1.0)     |      0.0       |
+| BannerBackgroundOffsetY |        Integer         |       0        |
