@@ -12,11 +12,12 @@ The tournament interface consists of 3 customizable elements. This only shows up
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
-|     No     |  Center   |   1920x1080    |
+|     No     |  Center   |      None      |
 
 Notes:
 
-- The tournament overlay and stream overlay is created only for Full HD resolution (1920x1080). Using another resolutions may be problematic.
+- The tournament overlay size depends on the streamer or recorder's screen resolution.
+- Streamers or recorders of the tournament must adjust their `settings.ini` values depending on the resolution of tournament overlay as the default setting is based on FHD resolution (1920x1080).
 
 ## Winner Elements
 
