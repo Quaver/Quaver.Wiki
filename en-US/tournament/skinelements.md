@@ -37,4 +37,5 @@ Notes:
 |     No     | BottomRight |    678x116     |
 
 Notes:
+
 - This element will only display in their respective alignments depending on which player has the higher rating in the match.
