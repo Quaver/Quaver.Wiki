@@ -37,6 +37,7 @@ IMPORTANT NOTES:
 - Under the `[BestOf]` setting, you must set `BestOfCustomText` to the current best of count such as **B07**, **BO11**, etc.
 - You must update these values each round of the tournament.
 - Keep track of all your original settings so you can switch back to them after streaming.
+- Keep in mind that adjusting any values in `settings.ini` will update the tournament overlay in real time.
 
 ## Setting up the tournament for streaming/recording
 
