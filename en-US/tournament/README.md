@@ -15,10 +15,10 @@ Quaver provides customizable tournament settings and skin elements for the playe
 
 • Second, make sure that you place these files in `Tournament` folder:
 
-- `settings.ini`
-- `tournament-overlay.png`
-- `winner-1.png`
-- `winner-2.png`
+- [settings.ini](https://gist.github.com/AiAe/2a2822bfafbebf2845e38f72dab071b9)
+- [tournament-overlay.png](/docs/images/Tournament/tournament-overlay.png)
+- [winner-1.png](/docs/images/Tournament/winner-1.png)
+- [winner-2.png](/docs/images/Tournament/winner-2.png)
 
 • Third, make sure that you have selected the custom tournament skin in the Skin settings for both `Custom Skin` and `Co-op Player 2 Skin`.
 

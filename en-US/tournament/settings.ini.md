@@ -6,6 +6,8 @@ name: Settings.ini
 
 Tournament overlay setting in Quaver comes with a lot of customizations where you can set most of the values to blend in with the custom tournament overlay for streaming or recording a tournament match.
 
+You may download the default setting.ini file [here](https://gist.github.com/AiAe/2a2822bfafbebf2845e38f72dab071b9).
+
 # Players Settings
 
 The `[Players]` section contains customization for the players' username in the lobby.

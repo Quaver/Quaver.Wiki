@@ -10,6 +10,8 @@ The tournament interface consists of 3 customizable elements. This only shows up
 
 `/Tournament/tournament-overlay.png`
 
+![Tournament Overlay](/docs/images/Tournament/tournament-overlay.png)
+
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
 |     No     |  Center   |      None      |
@@ -25,6 +27,8 @@ Notes:
 
 `/Tournament/winner-1.png`
 
+![Winner 1](/docs/images/Tournament/winner-1.png)
+
 | Animatable | Alignment  | Suggested Size |
 | :--------: | :--------: | :------------: |
 |     No     | BottomLeft |    678x116     |
@@ -32,6 +36,8 @@ Notes:
 ### For Player 2
 
 `/Tournament/winner-2.png`
+
+![Winner 2](/docs/images/Tournament/winner-2.png)
 
 | Animatable |  Alignment  | Suggested Size |
 | :--------: | :---------: | :------------: |
