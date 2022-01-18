@@ -1,5 +1,5 @@
 ---
-name: Ranking Criteria (WIP)
+name: Ranking Criteria
 ---
 
 # Quaver Ranking Criteria
