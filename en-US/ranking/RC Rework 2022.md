@@ -9,7 +9,7 @@ In order to get a mapset ranked, it must follow the ranking criteria listed belo
 
 The ranking criteria is divided into rules and guidelines.
 * Rules are, literally, rules that may not be broken under any circumstances.
-* Guidelines try to guide the mapper and may be ignored when its deemed reasonable.
+* Guidelines try to guide the mapper and may be ignored when deemed reasonable.
 
 If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking Process](/docs/Ranking/Process).
 
@@ -114,7 +114,19 @@ The following requirements are for the individual maps themselves.
 
 #### Guidelines
 
-
+* **Notes should correlate to sounds in the music.** This includes but is not limited to:
+     * Representing distinct sounds with certain amounts of notes
+     * Representing distinct sounds with certain patterns of notes
+* **Using layering is encouraged.** Mapping different instruments in the song will make the map reflect the music more.
+* **Paying attention to chord/pattern consistency is encouraged.** Mapping certain elements of the song with very different ideas in quick fashion without justification lowers the map's quality.
+* **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
+* Examples of cases where **simplifications to completely accurately following the music should be favoured** include but are not limited to:
+     * Causing an inappropriate difficulty spike relative to the rest of the map
+     * Song can be effectively represented with more consistent and predictable snap
+     * Pattern would be unreasonable to execute with perfect accuracy
+     * Intended difficulty of the map does not match the song intensity
+* **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the songs tempo variance. 
+* **Scroll Velocity changes should reflect the music.** Try to avoid changing SV when the must doesn’t call for it. This will generally make your map more difficult to read and harder to enjoy.
 
 ## Difficulty Spread
 
@@ -134,7 +146,7 @@ The following requirements are for the individual maps themselves.
 
 ### Difficulty descriptions
 
-The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel. The descriptions are mainly for the 4K game mode.
+The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
 
 * **Beginner**
      * For players who are being exposed to rhythm games for the first time.
