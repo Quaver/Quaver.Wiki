@@ -80,7 +80,7 @@ The following metadata rules are put in place to create consistency within the r
 * **The resolution of a background image must be at least 1280x720.**
 * **The file size of a background image must not exceed 4 MB.**
 * **The background must be of exceptionally high quality.** 
-* **the background must be appropriate for players of all ages and should not contain explicit content.
+* **the background must be appropriate for players of all ages and should not contain explicit content.**
 
 #### Guidelines
 
@@ -93,7 +93,7 @@ The following metadata rules are put in place to create consistency within the r
 * **The mapset must contain only one audio file.**  Mapsets with multiple audio files are not eligible to be ranked.
 * **MP3 is the only allowed audio file format.**
 * **The maximum bitrate allowed for MP3 files is 192kbps.** 
-* **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.
+* **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.**
 
 # Maps
 
