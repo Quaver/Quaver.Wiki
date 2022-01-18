@@ -67,6 +67,7 @@ The following metadata rules are put in place to create consistency within the r
 * If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
 * Unofficial cut versions of songs must use `(Cut Ver.)` at the end of the title. If the title contains a length marker by default, it should be replaced with `(Cut Ver.)`. This rule does not apply to songs that are shortened in ways that nearly match their original verisons or songs that consist of a full loop from a looping track.
 * If a song has been edited to have higher tempo, `(Sped Up Ver.)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(Sped Up Ver.)`.
+* If a song has been edited to have lower tempo, `(Slowed Down Ver.)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(Slowed Down Ver.)`.
 * Special unicode characters must be filtered to their nearest standard equivalent. Stars such as `★ ☆` should be substituted with an asterisk (`*`). Other special characters should be romanized or left out on a case-by-case basis.
 
 # Media
