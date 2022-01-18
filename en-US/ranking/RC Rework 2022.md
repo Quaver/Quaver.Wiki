@@ -26,13 +26,14 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 * **The artist must be absolutely correct.**
 * **The artist must be romanized.** Non-romanized artist can be added to tags.
 * **The artist must not repeat in tags.** Only exception being the case where the artist appears in a relevant tag, such as song genre.
+* If there is no existing person to credit as the artist, `Unknown Artist` must be used.
 
 ## Title
 
 #### Rules
 
 * **The title must be absolutely correct.**
-* **The title must be romanized.** Non-romanized title can be added to tags.
+* **The title must be romanized.** Non-romanized title can be added to tags. Loan words from other languages should use the original words instead of attempted romanization.
 * **The title must not repeat in tags.** Only exception being the case where the song title appears in a relevant tag, such as song genre.
 
 ## Source
@@ -118,7 +119,7 @@ The following requirements are for the individual maps themselves.
      * Representing distinct sounds with certain amounts of notes
      * Representing distinct sounds with certain patterns of notes
 * **Using layering is encouraged.** Mapping different instruments in the song will make the map reflect the music more.
-* **Paying attention to chord/pattern consistency is encouraged.** Mapping certain elements of the song with very different ideas in quick fashion without justification lowers the map's quality.
+* **Paying attention to chord/pattern consistency is encouraged.** Mapping certain elements of the song with very different ideas in quick succession without justification lowers the map's quality.
 * **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
 * Examples of cases where **simplifications to completely accurately following the music should be favoured** include but are not limited to:
      * Causing an inappropriate difficulty spike relative to the rest of the map
@@ -137,12 +138,16 @@ The following requirements are for the individual maps themselves.
 
 #### Rules
 
-* The standard names for difficulties in a mapset are **Beginner, Easy, Normal, Hard, Insane, and Expert**. Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret.
+* The standard names for difficulties in a mapset are **Beginner, Easy, Normal, Hard, Insane, and Expert**. Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret. The highest difficulty of each game mode is always free to have a custom difficulty name.
 * You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 * **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 * **If a mapset has two game modes, each difficulty must be prefaced with either `4K` or `7K`** (Example: `7K Insane`).
 * **If a mapset contains guest difficulties, the guest difficulties creators must be credited in their respective difficulty names** (Example: `Flamingo's Hard`). Mapset's host should not be credited in this fashion.
-* **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed.
+* **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed. The creators of guest difficulties should also be credited in the tags.
+
+#### Guidelines
+
+* **Avoid the use of non-alphanumeric unicode characters in difficulty names.**
 
 ### Difficulty descriptions
 
