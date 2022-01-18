@@ -22,6 +22,9 @@ The following pertains to metadata that your maps contain such as song artists, 
 * **The artist, title and source must not repeat in tags.** However, romanizing or translating the source in tags is encouraged, in case it's relevant.
 * **Tags must contain the genre of the song.**
 * **Every difficulty must have a difficulty name.**
+* **The Source field must be used if the song is directly from a video game, album, series, etc.** This also includes songs that were featured in another piece of media after it's release, and is known mainly from that source.
+* **Remixes, arrangements, covers and anything similar that are based on an original song should have the original source used.**
+* **Song compilations, medleys and other pieces of media with multiple songs without a common source should have the sources put in the tags.** This rule does not apply if the compilation is directly linked from a source itself such as an album.
 
 ### Media
 
