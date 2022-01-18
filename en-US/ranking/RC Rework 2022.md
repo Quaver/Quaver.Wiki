@@ -25,7 +25,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 * **The artist must be absolutely correct.**
 * **The artist must be romanized.** Non-romanized artist can be added to tags.
-* **The artist must not repeat in tags.** Only exception being the case where the name of the artist appears in a relevant tag, such as song genre.
+* **The artist must not repeat in tags.** Only exception being the case where the artist appears in a relevant tag, such as song genre.
 
 ## Title
 
@@ -59,6 +59,8 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 The following metadata rules are put in place to create consistency within the ranked section.
 
+* Any form of `vs.`, `VS`, etc. indicating collaboration between artists should be formatted as `vs.`.
+* Any form of `feat.`, `ft.`, etc. indicating a featured artist should be formatted as `feat.`.
 * If a fictional character is credited as the artist of a song, the artist should be formatted as `Character (CV: Voice Actor)`
 * If a song is used in a TV program, series, or similar media as an opening/ending song, `(TV Size)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(TV Size)`.
 * If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
@@ -126,7 +128,8 @@ The following requirements are for the individual maps themselves.
 * The standard names for difficulties in a mapset are **Beginner, Easy, Normal, Hard, Insane, and Expert**. Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret.
 * You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 * **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
-* **If you have two game modes, you must preface each difficulty with either "4K" or "7K"** (Example: "7K Insane").
+* **If a mapset has two game modes, each difficulty must be prefaced with either `4K` or `7K`** (Example: `7K Insane`).
+* **If a mapset contains guest difficulties, the guest difficulties creators must be credited in the difficulty names** (Example: `Flamingo's Hard`).
 
 ### Difficulty descriptions
 
