@@ -129,7 +129,8 @@ The following requirements are for the individual maps themselves.
 * You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 * **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 * **If a mapset has two game modes, each difficulty must be prefaced with either `4K` or `7K`** (Example: `7K Insane`).
-* **If a mapset contains guest difficulties, the guest difficulties creators must be credited in the difficulty names** (Example: `Flamingo's Hard`).
+* **If a mapset contains guest difficulties, the guest difficulties creators must be credited in their respective difficulty names** (Example: `Flamingo's Hard`). Mapset's host should not be credited in this fashion.
+* **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed.
 
 ### Difficulty descriptions
 
