@@ -40,7 +40,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 #### Rules
 
 * **The source field must be used if the song is directly from a video game, album, series etc.**
-* **Remixes, arrangements, covers etc. that are based on another song should use the original song's source.
+* **Remixes, arrangements, covers etc. that are based on another song should use the original song's source.**
 * **Song compilations, medleys and other pieces of media with multiple songs without a common source should have the sources put in the tags.** This rule does not apply if the piece of media is linked to a source itself, such as an album.
 * **The source must be romanized** Non-romanized source can be added to tags.
 
@@ -48,7 +48,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 #### Rules
 
-* **The tags must contain the genre of the song.
+* **The tags must contain the genre of the song.**
 * **The tags must be comma-separated.** This is to ensure that tags consisting of multiple words can be easily distinguished.
 
 #### Guidelines
