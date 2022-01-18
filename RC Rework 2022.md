@@ -1,7 +1,7 @@
 ---
 name: Ranking Criteria (WIP)
 ---
-[//] # 2022-Rework by PL
+2022-Rework by PL
 
 # Quaver Ranking Criteria
 
