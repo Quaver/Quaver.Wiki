@@ -67,7 +67,7 @@ The following metadata rules are put in place to create consistency within the r
 * If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
 * Unofficial cut versions of songs must use `(Cut Ver.)` at the end of the title. If the title contains a length marker by default, it should be replaced with `(Cut Ver.)`. This rule does not apply to songs that are shortened in ways that nearly match their original verisons or songs that consist of a full loop from a looping track.
 * If a song has been edited to have higher tempo, `(Sped Up Ver.)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(Sped Up Ver.)`.
-* Special unicode characters must be filtered to their nearest standard equivalent. Stars such as `★ ☆` should be substituted with an asterisk (`*`). Other special characters should be romanized or dropped out on a case-by-case basis.
+* Special unicode characters must be filtered to their nearest standard equivalent. Stars such as `★ ☆` should be substituted with an asterisk (`*`). Other special characters should be romanized or left out on a case-by-case basis.
 
 # Media
 
@@ -139,6 +139,7 @@ The following requirements are for the individual maps themselves.
 #### Rules
 
 * The standard names for difficulties in a mapset are **Beginner, Easy, Normal, Hard, Insane, and Expert**. Should you choose not to use the standard names, the difficulty names in your set must show clear sign of progression in difficulty consistent with that of the mapset and should be easy to interpret. The highest difficulty of each game mode is always free to have a custom difficulty name.
+     * Standard difficulty name may be added to the end of custom difficulty name in brackets to improve the interpretation of difficulty.
 * You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 * **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 * **If a mapset has two game modes, each difficulty must be prefaced with either `4K` or `7K`** (Example: `7K Insane`).
@@ -151,24 +152,23 @@ The following requirements are for the individual maps themselves.
 
 ### Difficulty descriptions
 
-The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel.
+The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is only to serve a general outlook on how each map should look and feel. The following descriptions are crafted for approximately 180 BPM 4k difficulties.
 
 * **Beginner**
      * For players who are being exposed to rhythm games for the first time.
      * Notes should typically be on every other beat in most cases and once every beat to portray emphasis in the music.
      * Jumps are suitable for this difficulty when emphasizing important sounds in the music.
-     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
 
 * **Easy**
      * This difficulty can be thought of as an "upgraded Beginner."
      * Players at this level will be able to play at slightly higher speeds and execute more complicated patterns.
      * One beat streams and 1/2 bursts are generally comfortable to these players.
      * Jumps can be used more freely but sparingly, as players at this level may still have trouble with them.
-     * Scroll velocity changes must not be used at this difficulty level for any other purposes than scroll velocity normalization.
 
 * **Normal**
      * Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to easy and beginner.
      * 1/2 rhythms with more complicated note placements and jumps are suitable for this difficulty.
+     * Short bursts of 1/4 notes may be used for emphasis.
 
 * **Hard**
      * At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
@@ -178,7 +178,7 @@ The following descriptions are what each difficulty should typically look like. 
 * **Insane**
      * Players at this level will be able to handle a wide variety of patterns at lower densities including but not limited to:
           * Light Jacks
-          * Complex Long Note Usage
+          * More Complex Long Note Usage
           * Light Jumpstreams
      * Denser patterns are suitable for this level if they are straightforward, and not difficult to execute - such as jumptrills.
 
