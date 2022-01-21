@@ -13,6 +13,7 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 | **!mp kick [user_name]**    | Kicks a player from the multiplayer game                  |
 | **!mp name [name]**         | Changes the name of the multiplayer game                  |
 | **!mp host [user_name]**    | Transfers host to a specific user in the multiplayer game |
+| **!mp map [map_id]**        | Sets a map to be played for the match                     |
 | **!mp hostrotation**        | Enables/Disables auto host rotation for the match         |
 | **!mp maxplayers [number]** | Changes the max player count of the multiplayer game      |
 
@@ -58,10 +59,11 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 ## Referees
 
 | Command                     | Description                                                                                                                                 |
-| --------------------------- | -------------------------------------------------                                                                                           |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **!mp referee [user_name]** | Designates a player to be the referee of the game                                                                                           |
 | **!mp clearreferee**        | Removes referee status from the current referee.                                                                                            |
-| **!mp tournament**          | Toggles tournament mode for the match. If enabled, all replays will be uploaded to the server **(Requires EnableTournamentMode Privilege)** | 
+| **!mp tournament**          | Toggles tournament mode for the match. If enabled, all replays will be uploaded to the server **(Requires EnableTournamentMode Privilege)** |
+| **!mp joinmpchat**          | Join the multiplayer lobby chat **(Requires EnableTournamentMode Privilege)** |
 
 ## Invites
 
