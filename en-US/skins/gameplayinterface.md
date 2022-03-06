@@ -354,9 +354,9 @@ Notes:
 
 ![Grade Small A](/docs/images/Grades/grade-small-a.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -371,9 +371,9 @@ Notes:
 
 ![Grade Small B](/docs/images/Grades/grade-small-b.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -388,9 +388,9 @@ Notes:
 
 ![Grade Small C](/docs/images/Grades/grade-small-c.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -405,9 +405,9 @@ Notes:
 
 ![Grade Small D](/docs/images/Grades/grade-small-d.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -422,9 +422,9 @@ Notes:
 
 ![Grade Small F](/docs/images/Grades/grade-small-f.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -439,9 +439,9 @@ Notes:
 
 ![Grade Small S](/docs/images/Grades/grade-small-s.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -456,9 +456,9 @@ Notes:
 
 ![Grade Small SS](/docs/images/Grades/grade-small-ss.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
@@ -473,9 +473,9 @@ Notes:
 
 ![Grade Small X](/docs/images/Grades/grade-small-x.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |     -     |      None      |
+| Animatable | Alignment |      Suggested Size      |
+| :--------: | :-------: | :----------------------: |
+|     No     |     -     |      50x50 or 60x60      |
 
 **Notes:**
 
