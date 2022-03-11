@@ -327,7 +327,7 @@ The client interface includes general skin elements that are present in all game
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
-|     No     | TopCenter |   1599x62    |
+|     No     | TopCenter |   1682x99    |
 
 **Notes:**
 
@@ -423,7 +423,7 @@ The client interface includes general skin elements that are present in all game
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
-|     No     |  Center   |   1669x485   |
+|     No     |  Center   |   1682x485   |
 
 **Notes:**
 
@@ -439,7 +439,7 @@ The client interface includes general skin elements that are present in all game
 
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
-|     No     | BottomCenter |   1669x609   |
+|     No     | BottomCenter |   1682x609   |
 
 ###### Multiplayer Team Panel Texture Location:`/Results/multiplayer-team-panel.png`
 
@@ -447,7 +447,7 @@ The client interface includes general skin elements that are present in all game
 
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
-|     No     | BottomCenter |   1669x485   |
+|     No     | BottomCenter |   1682x485   |
 
 **Notes:**
 
