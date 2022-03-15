@@ -216,15 +216,15 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ###### Affected Textures: [judge-marv.png](</docs/skins/gameplayinterface#judgement-(marv)>), [judge-perf.png](</docs/skins/gameplayinterface#judgement-(perf)>), [judge-great.png](</docs/skins/gameplayinterface#judgement-(great)>), [judge-good.png](</docs/skins/gameplayinterface#judgement-(good)>), [judge-okay.png](</docs/skins/gameplayinterface#judgement-(okay)>), [judge-miss.png](</docs/skins/gameplayinterface#judgement-(miss)>)
 
-|         Value          | Data Type | Alignment | Default Values | Notes                                                                           |
-| :--------------------: | :-------: | :-------: | :------------: | ------------------------------------------------------------------------------- |
-|  HitErrorChevronSize   |  Integer  |     -     |       8        | The size of the chevron that displays the player's last hit above the hit error |
-|     HitErrorHeight     |  Integer  |     -     |       10       | The height of the hit error                                                     |
-|      HitErrorPosX      |  Integer  | MidCenter |       0        | The X position of the hit error                                                 |
-|      HitErrorPosY      |  Integer  | MidCenter |       45       | The Y position of the hit error                                                 |
-|  JudgementHitBurstFps  |  Integer  |     -     |       60       | The frames per second the judgement hit burst animation will run at             |
-|   JudgementBurstPosY   |  Integer  | MidCenter |       0        | The Y Offset of the judgement hit burst                                         |
-| JudgementHitBurstScale |   Float   |     -     |      100       | The size of the judgement hit burst.                                            |
+|         Value          |    Data Type   | Alignment | Default Values | Notes                                                                           |
+| :--------------------: | :------------: | :-------: | :------------: | ------------------------------------------------------------------------------- |
+|  HitErrorChevronSize   |    Integer     |     -     |        8       | The size of the chevron that displays the player's last hit above the hit error |
+|     HitErrorHeight     |    Integer     |     -     |       10       | The height of the hit error                                                     |
+|      HitErrorPosX      |    Integer     | MidCenter |        0       | The X position of the hit error                                                 |
+|      HitErrorPosY      |    Integer     | MidCenter |       45       | The Y position of the hit error                                                 |
+|  JudgementHitBurstFps  |    Integer     |     -     |       60       | The frames per second the judgement hit burst animation will run at             |
+|   JudgementBurstPosY   |    Integer     | MidCenter |        0       | The Y Offset of the judgement hit burst                                         |
+| JudgementHitBurstScale |  Byte(0-255)   |     -     |      100       | The size of the judgement hit burst. 255 = 357x357px at 1080p                   |
 
 ---
 
