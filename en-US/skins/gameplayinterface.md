@@ -545,9 +545,9 @@ Notes:
 
 ![Judgement (Marv)](/docs/images/Judgements/judge-marv.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|    Yes     | MidCenter |       -        |
+| Animatable | Alignment |      Suggested Size        |
+| :--------: | :-------: | :------------------------: |
+|    Yes     | MidCenter |  357x357 maximum per frame |
 
 **Notes:**
 
@@ -563,9 +563,9 @@ Notes:
 
 ![Judgement (Perf)](/docs/images/Judgements/judge-perf.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|    Yes     | MidCenter |       -        |
+| Animatable | Alignment |      Suggested Size        |
+| :--------: | :-------: | :------------------------: |
+|    Yes     | MidCenter |  357x357 maximum per frame |
 
 **Notes:**
 
@@ -581,9 +581,9 @@ Notes:
 
 ![Judgement (Great)](/docs/images/Judgements/judge-great.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|    Yes     | MidCenter |       -        |
+| Animatable | Alignment |      Suggested Size        |
+| :--------: | :-------: | :------------------------: |
+|    Yes     | MidCenter |  357x357 maximum per frame |
 
 **Notes:**
 
@@ -599,9 +599,9 @@ Notes:
 
 ![Judgement (Good)](/docs/images/Judgements/judge-good.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|    Yes     | MidCenter |       -        |
+| Animatable | Alignment |      Suggested Size        |
+| :--------: | :-------: | :------------------------: |
+|    Yes     | MidCenter |  357x357 maximum per frame |
 
 **Notes:**
 
@@ -617,9 +617,9 @@ Notes:
 
 ![Judgement (Okay)](/docs/images/Judgements/judge-okay.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|    Yes     | MidCenter |       -        |
+| Animatable | Alignment |      Suggested Size        |
+| :--------: | :-------: | :------------------------: |
+|    Yes     | MidCenter |  357x357 maximum per frame |
 
 **Notes:**
 
@@ -635,9 +635,9 @@ Notes:
 
 ![Judgement (Miss)](/docs/images/Judgements/judge-miss.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|    Yes     | MidCenter |       -        |
+| Animatable | Alignment |      Suggested Size        |
+| :--------: | :-------: | :------------------------: |
+|    Yes     | MidCenter |  357x357 maximum per frame |
 
 **Notes:**
 
