@@ -403,15 +403,16 @@ The client interface includes general skin elements that are present in all game
 
 ![Background Filter](/docs/images/Results/background-filter.png?v=2)
 
-| Animatable | Alignment |    Optimal Size    |
-| :--------: | :-------: | :----------------: |
-|     No     |     -     | 1920x1080/1920x208 |
+| Animatable |  Alignment  |    Optimal Size    |
+| :--------: | :---------: | :----------------: |
+|     No     |  TopCenter  | 1920x1080/1920x208 |
 
 **Notes:**
 
 - Overlays the background depending on type with normal blend.
 - Drawn on top of `background.png` or map background depending on skin.ini value.
 - 1920x1080 is used for `Background` or `None` type, while 1920x208 is used for `Header` or default.
+- Aligned to the bottom of the MenuBorder line.
 
 ---
 
