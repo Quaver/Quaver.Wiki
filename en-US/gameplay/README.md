@@ -54,6 +54,22 @@ You receive one judgement per regular note and two judgements for a long note (p
 | Okay      | -100%     |
 | Miss      | -50%      |
 
+#### Judgement Timing Windows
+
+This section explains the judgement windows that are used within Quaver. It details the time in milliseconds needed to press a key on a note in order to hit it. 
+There are 8 default judgement windows that come with the game, but you can also create custom ones. 
+
+All ranked scores are converted to the "Standard*" judgement window.
+
+| Judgement | Peaceful | Lenient | Chill  | Standard*  | Strict | Tough  | Extreme | Impossible |
+| --------- | -------- | ------- | ------ | ---------- | ------ | ------ | ------- | ---------- |
+| Marvelous | ±23ms    | ±21ms   | ±19ms  | **±18ms**  | ±16ms  | ±14ms  | ±13ms   | ±8ms       |
+| Perfect   | ±57ms    | ±52ms   | ±47ms  | **±43ms**  | ±39ms  | ±35ms  | ±32ms   | ±20ms      |
+| Great     | ±101ms   | ±91ms   | ±83ms  | **±76ms**  | ±69ms  | ±62ms  | ±57ms   | ±35ms      |
+| Good      | ±141ms   | ±128ms  | ±116ms | **±106ms** | ±96ms  | ±87ms  | ±79ms   | ±49ms      |
+| Okay      | ±169ms   | ±153ms  | ±139ms | **±127ms** | ±115ms | ±104ms | ±95ms   | ±59ms      |
+| Miss      | ±218ms   | ±198ms  | ±180ms | **±164ms** | ±149ms | ±135ms | ±123ms  | ±76ms      |
+
 #### Performance Rating
 
 Your performance rating is an assessment of your performance throughout a given play in correlation to the map's difficulty rating. It is the same metric that is used to measure scores in global rankings.
@@ -74,28 +90,17 @@ The weighted sum calculation is similar to Performance Points, used in the rhyth
 
 #### Score
 
-Score is another measurement of your performance throughout a play in Quaver. It is mainly a measurement of how frequently you are able to combo in correlation to the judgements received. It isn't used in any metric for global rankings and is purely in the game as a form of "XP." Score is capped at 1 million points.
-
-#### Judgement Timing Windows
-
-This section explains the judgement windows that are used within Quaver. It details the time in milliseconds needed to press a key for a note in order to receive it. Currently there is one standard judgement timing window in Quaver, however this may change in the future.
-
-| Judgement | Window |
-| --------- | ------ |
-| Marvelous | ±18ms  |
-| Perfect   | ±43ms  |
-| Great     | ±76ms  |
-| Good      | ±106ms |
-| Okay      | ±127ms |
-| Miss      | ±164ms |
+Score is another measurement of your performance throughout a play in Quaver. It is mainly a measurement of how frequently you are able to combo in correlation to the judgements received. It isn't used in any metric for global rankings and is purely in the game as a form of "XP." Score is capped at 1 million points per map.
 
 #### Combo
 
-Combo is when you successfully hit objects without missing.
+Combo is achieved when you consecutively hit objects. You can customize what judgement breaks combo, resetting it to 0.
 
-* Not pressing an object within its judgement timing windows will result in a Miss, reseting your combo.
-* Pressing an object too early (164ms) will result in a Miss, resetting your combo.
-* Not releasing a long note will result in a Good, which does not reset your combo.
+For ranked play it is converted to the "Miss" judgement.
+
+* Not pressing an object within its judgement timing windows will result in a Miss, resetting your combo.
+* Pressing an object too early (±164ms on Standard* judgement window) will result in a Miss, resetting your combo.
+* Not releasing a long note will result in a Good which by default, and in ranked, does not reset your combo.
 
 ### Skins
 
