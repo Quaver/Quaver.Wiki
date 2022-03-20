@@ -358,7 +358,7 @@ The client interface includes general skin elements that are present in all game
 
 ![Label Total Score](/docs/images/Results/label-total-score.png?v=2)
 
-###### Label Blue Team Texture Location: `/Results/label-label-blue-team.png`
+###### Label Blue Team Texture Location: `/Results/label-blue-team.png`
 
 ![Label Blue Team](/docs/images/Results/label-blue-team.png?v=2)
 
