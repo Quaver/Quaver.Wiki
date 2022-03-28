@@ -432,11 +432,11 @@ The client interface includes general skin elements that are present in all game
 
 ---
 
-### Multiplayer Table
+### Multiplayer Panel
 
-###### Multiplayer Table FFA Texture Location:`/Results/multiplayer-table-ffa.png`
+###### Multiplayer FFA Panel Texture Location:`/Results/multiplayer-ffa-panel.png`
 
-![Multiplayer Table FFA](/docs/images/Results/multiplayer-table-ffa.png?v=2)
+![Multiplayer FFA Panel](/docs/images/Results/multiplayer-ffa-panel.png?v=2)
 
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |

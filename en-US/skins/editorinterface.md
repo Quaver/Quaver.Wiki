@@ -23,6 +23,7 @@ The following are the list of elements that are skinnable for editor purposes.
 **Notes:**
 
 - The notes displayed when having the "View Layers" option turned on in the editor.
+- Tinted by layer color, so grayscale colorspace is recommended.
 
 ---
 
@@ -41,6 +42,7 @@ The following are the list of elements that are skinnable for editor purposes.
 **Notes:**
 
 - The hold bodies for the notes displayed when having the "View Layers" option turned on in the editor.
+- Tinted by layer color, so grayscale colorspace is recommended.
 
 ---
 
@@ -59,3 +61,4 @@ The following are the list of elements that are skinnable for editor purposes.
 **Notes:**
 
 - The hold ends for the notes displayed when having the "View Layers" option turned on in the editor.
+- Tinted by layer color, so grayscale colorspace is recommended.
