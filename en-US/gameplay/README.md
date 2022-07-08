@@ -67,8 +67,8 @@ All ranked scores are converted to the "Standard*" judgement window.
 | Perfect   | ±57ms    | ±52ms   | ±47ms  | **±43ms**  | ±39ms  | ±35ms  | ±32ms   | ±20ms      |
 | Great     | ±101ms   | ±91ms   | ±83ms  | **±76ms**  | ±69ms  | ±62ms  | ±57ms   | ±35ms      |
 | Good      | ±141ms   | ±128ms  | ±116ms | **±106ms** | ±96ms  | ±87ms  | ±79ms   | ±49ms      |
-| Okay      | ±169ms   | ±153ms  | ±139ms | **±127ms** | ±115ms | ±104ms | ±95ms   | ±59ms      |
-| Miss      | ±218ms   | ±198ms  | ±180ms | **±164ms** | ±149ms | ±135ms | ±123ms  | ±76ms      |
+| Okay      | ±169ms   | ±153ms  | ±139ms | **±127ms** | ±127ms | ±127ms | ±127ms  | ±127ms     |
+| Miss      | ±218ms   | ±198ms  | ±180ms | **±164ms** | ±164ms | ±164ms | ±164ms  | ±164ms     |
 
 #### Performance Rating
 
