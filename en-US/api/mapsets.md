@@ -191,7 +191,7 @@ Gets all maps that match a given search query and filters
 
 ```json
 /*
-https://api.quavergame.com/mapsets/maps/search
+https://api.quavergame.com/v1/mapsets/maps/search
 ?search=swan
 &mode=1
 &status=2
