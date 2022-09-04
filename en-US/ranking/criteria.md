@@ -69,7 +69,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 ### Rules
 
 - **The source field must be used if the song is directly from a video game, album, series etc.**
-- **Remixes, arrangements, covers etc. that are based on another song should use the original song's source.**
+- **Remixes, arrangements, covers etc. that are based on another song should use their own source and put the original song's source in tags.**
 - **Song compilations, medleys and other pieces of media with multiple songs without a common source should have the sources put in the tags.** This rule does not apply if the piece of media is linked to a source itself, such as an album.
 - **The source must be romanized** Non-romanized source can be added to tags.
 
@@ -84,6 +84,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 - Including relevant tags such as language, instruments, metadata translations or pattern type used in the map is encouraged.
 - Consider adding "SV" to your tags if your map contains SV that significantly influence gameplay.
+- If the song uses sampled material from other songs, add the original sample sources to tags.
 
 ## Standardization
 
@@ -109,9 +110,10 @@ The following metadata rules are put in place to create consistency within the r
 
 ### Rules
 
-- **Every map in the mapset must have a background image.** Using different background images for different maps is acceptable.
+- **Every map in the mapset must have a background image.** Using different background images for different maps is acceptable. A mapset does not require a banner image.
 - **The resolution of a background image must be at least 1280x720.**
 - **The file size of a background image must not exceed 4 MB.**
+- **The resolution of a banner image must be at least 421x82, if included.** This resolution also represents the default size and aspect ratio.
 - **The background must be appropriate for players of 13+ years old and should not contain explicit content.**
 
 ### Guidelines
@@ -144,6 +146,7 @@ The following requirements are for the individual maps themselves.
 
 ### Guidelines
 
+- **All maps in a mapset should use the same timing points.**
 - **Notes should correlate to sounds in the music.** This includes but is not limited to:
      - Representing distinct sounds with certain amounts of notes
      - Representing distinct sounds with certain patterns of notes
@@ -178,7 +181,7 @@ The following requirements are for the individual maps themselves.
 
 ### Guidelines
 
-- **Avoid the use of non-alphanumeric unicode characters in difficulty names.**
+- **Avoid the use of non-alphanumeric unicode characters in difficulty names.** If non-alphanumeric unicode characters are used in a difficulty name anyway, it is encouraged to add a romanized version of it to the tags of the individual difficulty.
 
 ### Difficulty descriptions
 
