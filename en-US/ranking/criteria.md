@@ -45,7 +45,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 ## Rules
 
-- **Metadata must be consistent across difficulties.** The only exception being specific map-descriptive tags, such as pattern names, that improve the searchability of singular difficulties.
+- **Metadata must be consistent across difficulties.** The only exception being specific map-descriptive tags, such as pattern names, that improve the searchability of singular difficulties, or guest difficulty mapper names.
 
 ## Artist
 
@@ -82,7 +82,8 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 ### Guidelines
 
-- Including relevant tags such as language, instruments or metadata translations is encouraged.
+- Including relevant tags such as language, instruments, metadata translations or pattern type used in the map is encouraged.
+- Consider adding "SV" to your tags if your map contains SV that significantly influence gameplay.
 
 ## Standardization
 
@@ -93,7 +94,7 @@ The following metadata rules are put in place to create consistency within the r
 - If a fictional character is credited as the artist of a song, the artist should be formatted as `Character (CV: Voice Actor)`
 - If a song is used in a TV program, series, or similar media as an opening/ending song, `(TV Size)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(TV Size)`.
 - If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
-- Unofficial cut versions of songs must use `(Cut Ver.)` at the end of the title. If the title contains a length marker by default, it should be replaced with `(Cut Ver.)`. This rule does not apply to songs that are shortened in ways that nearly match their original verisons or songs that consist of a full loop from a looping track.
+- Unofficial cut versions of songs must use `(Cut Ver.)` at the end of the title. If the title contains a length marker by default, it should be replaced with `(Cut Ver.)`. This rule does not apply to songs that are shortened in ways that nearly match their original versions or songs that consist of a full loop from a looping track.
 - If a song has been edited to have higher tempo, `(Sped Up Ver.)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(Sped Up Ver.)`.
 - If a song has been edited to have lower tempo, `(Slowed Down Ver.)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(Slowed Down Ver.)`.
 - Special unicode characters must be filtered to their nearest standard equivalent. Stars such as `★ ☆` should be substituted with an asterisk (`*`). Other special characters should be romanized or left out on a case-by-case basis.
@@ -111,8 +112,7 @@ The following metadata rules are put in place to create consistency within the r
 - **Every map in the mapset must have a background image.** Using different background images for different maps is acceptable.
 - **The resolution of a background image must be at least 1280x720.**
 - **The file size of a background image must not exceed 4 MB.**
-- **The background must be of exceptionally high quality.**
-- **the background must be appropriate for players of all ages and should not contain explicit content.**
+- **The background must be appropriate for players of 13+ years old and should not contain explicit content.**
 
 ### Guidelines
 
@@ -139,8 +139,8 @@ The following requirements are for the individual maps themselves.
 - **More than 75% of the length of the song must have notes to play.**
 - **At least one note must be placed in every column.**
 - **The maps must be at least 45 seconds long.**
-- **The maps must be timed as accurately as possible.** The waveform in the editor may be used for more accurate timing.
-- **The maps must have a song select preview point that sufficently compliments the song.** Preview point is commonly placed at the beginning of a clear segment in the song, such as the chorus. A solid preview point attracts more players to try the map.
+- **The maps must be timed accurately.** The waveform in the editor may be used for more accurate timing.
+- **The maps must have a song select preview point that sufficiently compliments the song.** Preview point is commonly placed at the beginning of a clear segment in the song, such as the chorus. A solid preview point attracts more players to try the map.
 
 ### Guidelines
 
@@ -155,8 +155,8 @@ The following requirements are for the individual maps themselves.
      - Song can be effectively represented with more consistent and predictable snap
      - Pattern would be unreasonable to execute with perfect accuracy
      - Intended difficulty of the map does not match the song intensity
-- **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the songs tempo variance.
-- **Scroll Velocity changes should reflect the music.** Try to avoid changing SV when the must doesn’t call for it. This will generally make your map more difficult to read and harder to enjoy.
+- **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the song's tempo variance.
+- **Scroll Velocity changes should reflect the music.** Try to avoid changing SV when the music doesn’t call for it. This will generally make your map more difficult to read and harder to enjoy.
 
 ## Difficulty Spread
 
@@ -173,7 +173,8 @@ The following requirements are for the individual maps themselves.
 - **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 - **If a mapset has two game modes, each difficulty must be prefaced with either `4K` or `7K`** (Example: `7K Insane`).
 - **If a mapset contains guest difficulties, the guest difficulties creators must be credited in their respective difficulty names** (Example: `Flamingo's Hard`). Mapset's host should not be credited in this fashion.
-- **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed. The creators of guest difficulties should also be credited in the tags.
+- **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed.
+- **The creators of guest difficulties must be credited in the tags of their respective difficulties.**
 
 ### Guidelines
 
