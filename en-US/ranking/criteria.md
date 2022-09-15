@@ -14,20 +14,22 @@ name: Ranking Criteria
      - [Tags](#tags)
           - [Rules](#rules-4)
           - [Guidelines](#guidelines)
+     - [Difficulty Name](#difficulty-name)
+          - [Guidelines](#guidelines-1)
      - [Standardization](#standardization)
 - [Media](#media)
      - [Rules](#rules-5)
      - [Background](#background)
           - [Rules](#rules-6)
-          - [Guidelines](#guidelines-1)
+          - [Guidelines](#guidelines-2)
      - [Audio](#audio)
           - [Rules](#rules-7)
 - [Maps](#maps)
      - [Rules](#rules-8)
-          - [Guidelines](#guidelines-2)
+          - [Guidelines](#guidelines-3)
      - [Difficulty Spread](#difficulty-spread)
           - [Rules](#rules-9)
-          - [Guidelines](#guidelines-3)
+          - [Guidelines](#guidelines-4)
           - [Difficulty descriptions](#difficulty-descriptions)
 
 # Quaver Ranking Criteria
@@ -85,6 +87,12 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 - Including relevant tags such as language, instruments, metadata translations or pattern type used in the map is encouraged.
 - Consider adding "SV" to your tags if your map contains SV that significantly influence gameplay.
 - If the song uses sampled material from other songs, add the original sample sources to tags.
+
+## Difficulty Name
+
+### Guidelines
+
+- The difficulty name should be kept at a reasonable length, around 20-30 characters is the regular upper bound
 
 ## Standardization
 
