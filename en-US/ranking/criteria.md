@@ -93,7 +93,7 @@ The following metadata rules are put in place to create consistency within the r
 - Any form of `vs.`, `VS`, etc. indicating collaboration between artists should be formatted as `vs.`.
 - Any form of `feat.`, `ft.`, etc. indicating a featured artist should be formatted as `feat.`.
 - If a fictional character is credited as the artist of a song, the artist should be formatted as `Character (CV: Voice Actor)`
-- If a song is used in a TV program, series, or similar media as an opening/ending song, `(TV Size)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(TV Size)`.
+- If a song is used in a TV program, series, or similar media as an opening/ending song, `(TV Size)` marker must be used at the end of the title. If the title contains a similar marker by default, it should be replaced with `(TV Size)`.
 - If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
 - Unofficial cut versions of songs must use `(Cut Ver.)` at the end of the title. If the title contains a length marker by default, it should be replaced with `(Cut Ver.)`. This rule does not apply to songs that are shortened in ways that nearly match their original versions or songs that consist of a full loop from a looping track.
 - If a song has been edited to have higher tempo, `(Sped Up Ver.)` marker must be used at the end of the title. If the title contains similar marker by default, it should be replaced with `(Sped Up Ver.)`.
@@ -105,6 +105,7 @@ The following metadata rules are put in place to create consistency within the r
 ## Rules
 
 - **The total file size of the mapset must not exceed 50 MB.**
+- **A mapset cannot contain unused files.**
 
 ## Background
 
@@ -113,20 +114,22 @@ The following metadata rules are put in place to create consistency within the r
 - **Every map in the mapset must have a background image.** Using different background images for different maps is acceptable. A mapset does not require a banner image.
 - **The resolution of a background image must be at least 1280x720.**
 - **The file size of a background image must not exceed 4 MB.**
-- **The resolution of a banner image must be at least 421x82, if included.** This resolution also represents the default size and aspect ratio.
+- **If included, the resolution of a banner image must be at least 421x82.** While not required, it is encouraged to include a banner image for your mapset. This resolution also represents the default size and aspect ratio.
 - **The background must be appropriate for players of 13+ years old and should not contain explicit content.**
 
 ### Guidelines
 
 - The background should show relevance to the song in some way. While mappers are allowed creative freedom when it comes to choosing backgrounds, completely unrelated background images that do not compliment the song in any way should generally not be used.
+- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used without a good reason
+- Avoid backgrounds with a high resolution if possible, as large backgrounds can cause lag.
 
 ## Audio
 
 ### Rules
 
-- **The mapset must contain only one audio file.**  Mapsets with multiple audio files are not eligible to be ranked.
+- **The mapset must contain only one main audio file.** Mapsets with multiple main audio files are not eligible to be ranked. Keysounds are excluded from this rule.
 - **MP3 is the only allowed audio file format.**
-- **The maximum bitrate allowed for MP3 files is 192kbps.**
+- **The maximum bitrate allowed for MP3 files is 192kbps.** This is to keep file size in check
 - **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.**
 
 # Maps
@@ -137,7 +140,6 @@ The following requirements are for the individual maps themselves.
 
 - **Autoplay must be able to achieve a 100% (X-Grade) score.**
 - **The maps must not have overlapping notes.**
-- **The maps cannot have more than 30 seconds of consecutive break time.**
 - **More than 75% of the length of the song must have notes to play.**
 - **At least one note must be placed in every column.**
 - **The maps must be at least 45 seconds long.**
@@ -146,15 +148,16 @@ The following requirements are for the individual maps themselves.
 
 ### Guidelines
 
-- **All maps in a mapset should use the same timing points.**
+- **All maps in a mapset should use the same timing points.** Exceptions can be made for timing line art or other visual gimmicks.
+- **Avoid using overly long breaks (more than 30 seconds of consecutive break time).**
 - **Notes should correlate to sounds in the music.** This includes but is not limited to:
      - Representing distinct sounds with certain amounts of notes
      - Representing distinct sounds with certain patterns of notes
 - **Using layering is encouraged.** Mapping different instruments in the song will make the map reflect the music more.
 - **Paying attention to chord/pattern consistency is encouraged.** Mapping certain elements of the song with very different ideas in quick succession without justification lowers the map's quality.
 - **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
-- Examples of cases where **simplifications to completely accurately following the music should be favoured** include but are not limited to:
-     - Causing an inappropriate difficulty spike relative to the rest of the map
+- Cases where **simplification of patterns may be preferred over following the music completely accurately** include, but are not limited to:
+     - When an inappropriate difficulty spike would otherwise be made
      - Song can be effectively represented with more consistent and predictable snap
      - Pattern would be unreasonable to execute with perfect accuracy
      - Intended difficulty of the map does not match the song intensity
@@ -175,8 +178,8 @@ The following requirements are for the individual maps themselves.
 - You are **not** permitted to skip difficulties for **sets with a song length between 0:45-2:29.** For instance, if you are making a 1 minute set with an Insane, you can either create a Hard or an Expert difficulty. Having a Beginner and an Insane is not allowed. **This rule does not apply to sets with a song length of 2:30 or longer.**
 - **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
 - **If a mapset has two game modes, each difficulty must be prefaced with either `4K` or `7K`** (Example: `7K Insane`).
-- **If a mapset contains guest difficulties, the guest difficulties creators must be credited in their respective difficulty names** (Example: `Flamingo's Hard`). Mapset's host should not be credited in this fashion.
-- **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed.
+- **If a mapset contains guest difficulties, the guest difficulties creators must be credited in their respective difficulty names** (Example: `Flamingo's Hard`). Guest creator comes before keymode.
+- **The number of difficulties created by the host of a mapset must be equal or higher than the largest number of guest difficulties created by a single user.** If a mapper with guest difficulties has contributed to the set with more difficulties than the host, the host should be changed. Exceptions can be made for guest difficulties from mappers with no Quaver account.
 - **The creators of guest difficulties must be credited in the tags of their respective difficulties.**
 
 ### Guidelines
