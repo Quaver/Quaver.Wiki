@@ -73,7 +73,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 - **The source field must be used if the song is directly from a video game, album, series etc.**
 - **Remixes, arrangements, covers etc. that are based on another song should use their own source and put the original song's source in tags.**
 - **Song compilations, medleys and other pieces of media with multiple songs without a common source should have the sources put in the tags.** This rule does not apply if the piece of media is linked to a source itself, such as an album.
-- **The source must be romanized** Non-romanized source can be added to tags.
+- **The source must be romanized.** Non-romanized source can be added to tags.
 
 ## Tags
 
@@ -128,7 +128,7 @@ The following metadata rules are put in place to create consistency within the r
 ### Guidelines
 
 - The background should show relevance to the song in some way. While mappers are allowed creative freedom when it comes to choosing backgrounds, completely unrelated background images that do not compliment the song in any way should generally not be used.
-- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used without a good reason
+- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used without a good reason.
 - Avoid backgrounds with a high resolution if possible, as large backgrounds can cause lag.
 
 ## Audio
@@ -137,7 +137,7 @@ The following metadata rules are put in place to create consistency within the r
 
 - **The mapset must contain only one main audio file.** Mapsets with multiple main audio files are not eligible to be ranked. Keysounds are excluded from this rule.
 - **MP3 is the only allowed audio file format.**
-- **The maximum bitrate allowed for MP3 files is 192kbps.** This is to keep file size in check
+- **The maximum bitrate allowed for MP3 files is 192kbps.** This is to keep file size in check.
 - **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.**
 
 # Maps
