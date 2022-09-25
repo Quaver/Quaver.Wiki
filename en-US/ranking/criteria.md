@@ -47,7 +47,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 ## Rules
 
-- **Metadata must be consistent across difficulties.** The only exception being specific map-descriptive tags, such as pattern names, that improve the searchability of singular difficulties, or guest difficulty mapper names.
+- **Metadata must be consistent across difficulties.**
 
 ## Artist
 
