@@ -80,6 +80,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 ### Rules
 
 - **The tags must contain the genre of the song.**
+- **The tags need to be the same across all difficulties.**
 - **The tags must be comma-separated.** This is to ensure that tags consisting of multiple words can be easily distinguished.
 
 ### Guidelines
