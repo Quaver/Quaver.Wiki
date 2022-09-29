@@ -19,16 +19,18 @@ name: Ranking Criteria
      - [Standardization](#standardization)
 - [Media](#media)
      - [Rules](#rules-5)
+          - [Guidelines](#guidelines-2)
      - [Background](#background)
           - [Rules](#rules-6)
-          - [Guidelines](#guidelines-2)
-     - [Audio](#audio)
+     - [Banner](#banner)
           - [Rules](#rules-7)
+     - [Audio](#audio)
+          - [Rules](#rules-8)
 - [Maps](#maps)
-     - [Rules](#rules-8)
+     - [Rules](#rules-9)
           - [Guidelines](#guidelines-3)
      - [Difficulty Spread](#difficulty-spread)
-          - [Rules](#rules-9)
+          - [Rules](#rules-10)
           - [Guidelines](#guidelines-4)
           - [Difficulty descriptions](#difficulty-descriptions)
 
@@ -115,21 +117,29 @@ The following metadata rules are put in place to create consistency within the r
 - **The total file size of the mapset must not exceed 50 MB.**
 - **A mapset cannot contain unused files.**
 
+### Guidelines
+
+- The background/banner should show relevance to the song in some way. While mappers are allowed creative freedom when it comes to choosing background/banners, completely unrelated background/banner images that do not compliment the song in any way should generally not be used.
+- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used without a good reason
+
 ## Background
 
 ### Rules
 
 - **Every map in the mapset must have a background image.** Using different background images for different maps is acceptable. A mapset does not require a banner image.
-- **The resolution of a background image must be at least 1280x720.**
+- **The resolution of a background image must be at least 1280x720 and at most 2560x1440.**
 - **The file size of a background image must not exceed 4 MB.**
-- **If included, the resolution of a banner image must be at least 421x82.** While not required, it is encouraged to include a banner image for your mapset. This resolution also represents the default size and aspect ratio.
 - **The background must be appropriate for players of 13+ years old and should not contain explicit content.**
 
-### Guidelines
+## Banner
 
-- The background should show relevance to the song in some way. While mappers are allowed creative freedom when it comes to choosing backgrounds, completely unrelated background images that do not compliment the song in any way should generally not be used.
-- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used without a good reason
-- Avoid backgrounds with a high resolution if possible, as large backgrounds can cause lag.
+A mapset is not required to have a banner image. These rules apply in case the mapset contains a banner image.
+
+### Rules
+
+- **The resolution of a banner image must be at least 421x82 and at most 1263x243.** This resolution also represents the default size and aspect ratio.
+- **The file size of a banner image must not exceed 2 MB.**
+- **The banner must be appropriate for players of 13+ years old and should not contain explicit content.**
 
 ## Audio
 
@@ -137,7 +147,7 @@ The following metadata rules are put in place to create consistency within the r
 
 - **The mapset must contain only one main audio file.** Mapsets with multiple main audio files are not eligible to be ranked. Keysounds are excluded from this rule.
 - **MP3 is the only allowed audio file format.**
-- **The maximum bitrate allowed for MP3 files is 192kbps.** This is to keep file size in check
+- **The maximum bitrate allowed for MP3 files is 192kbps.** This is to keep file size in check.
 - **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.**
 
 # Maps
