@@ -49,7 +49,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 ## Rules
 
-- **Metadata must be consistent across difficulties.** The only exception being specific map-descriptive tags, such as pattern names, that improve the searchability of singular difficulties, or guest difficulty mapper names.
+- **Metadata must be consistent across difficulties.**
 
 ## Artist
 
@@ -75,13 +75,14 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 - **The source field must be used if the song is directly from a video game, album, series etc.**
 - **Remixes, arrangements, covers etc. that are based on another song should use their own source and put the original song's source in tags.**
 - **Song compilations, medleys and other pieces of media with multiple songs without a common source should have the sources put in the tags.** This rule does not apply if the piece of media is linked to a source itself, such as an album.
-- **The source must be romanized** Non-romanized source can be added to tags.
+- **The source must be romanized.** Non-romanized source can be added to tags.
 
 ## Tags
 
 ### Rules
 
 - **The tags must contain the genre of the song.**
+- **The tags need to be the same across all difficulties.**
 - **The tags must be comma-separated.** This is to ensure that tags consisting of multiple words can be easily distinguished.
 
 ### Guidelines
