@@ -336,12 +336,16 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |       JudgeColorGood        | RGB Color(255,255,255) |     -     |   0,209,255    | The color of the `Good` counter overlay                                                                         |
 |       JudgeColorOkay        | RGB Color(255,255,255) |     -     |  217,107,206   | The color of the `Okay` counter overlay                                                                         |
 |       JudgeColorMiss        | RGB Color(255,255,255) |     -     |   249,100,93   | The color of the `Miss` counter overlay                                                                         |
-|    JudgementCounterPosX     |        Integer         | MidRight  |       0        | The horizontal position of the judgement counter relative to its default position                                        |
-|    JudgementCounterPosY     |        Integer         | MidRight  |       0        | The vertical position of the judgement counter relative to its default position                                        |
+|    JudgementCounterPosX     |        Integer         | MidRight  |       0        | The horizontal position of the judgement counter relative to its default position                               |
+|    JudgementCounterPosY     |        Integer         | MidRight  |       0        | The vertical position of the judgement counter relative to its default position                                 |
 |   JudgementCounterPadding   |        Integer         |     -     |       0        | The amount of space between the judgement counters                                                              |
 | JudgementCounterHorizontal  | Boolean(True or False) |     -     |     False      | If set to `True`, the judgement counter arranges horizontally instead of vertically                             |
 | JudgementCounterFadeToAlpha | Boolean(True or False) |     -     |     False      | If set to `True`, `judgement-counter-overlay` changes animation to fade with alpha instead of fading with color |
 | UseJudgementColorForNumbers | Boolean(True or False) |     -     |     False      | If set to `True`, color of numbers in judgement counter will use the color based on of judge colors value set   |
+
+**Additional Notes:**
+
+- `JudgeColor{Marv, Perf, Great, Good, Okay, Miss}` values also affect hitlighting tint if enabled in settings and hiterror.
 
 ---
 
