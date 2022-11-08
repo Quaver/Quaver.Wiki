@@ -534,9 +534,9 @@ Notes:
 
 **Notes:**
 
-- Background image that displays the current judgements the player has.
-- Automatically colored according to the [JudgeColors skin.ini value]()
-- Can be edited per judgement: `/Judgements/judgement-overlay-{marv, perf, great, good, okay, miss}.png`
+- Container image that displays the current judgements the player has.
+- Can be skinned per judgement: `/Judgements/judgement-overlay-{marv, perf, great, good, okay, miss}.png`
+- Colored according to the [JudgeColors skin.ini value]() when not using per judgement images.
 - Setting `JudgementCounterFadeToAlpha` value to `True` changes the element's animation to fade with alpha instead of fading with color.
 
 ---
