@@ -4,7 +4,7 @@ name: Frequently Asked Questions
 
 # Frequently Asked Questions
 
-Here you can find answers to some of the most frequently asked questions. If you can't find your question here, feel free to ask for more help on the [Official Quaver Discord Server](https://discord.gg/pDbHYag).
+Here you can find answers to some of the most frequently asked questions. If you can't find your question here, feel free to ask for more help on the [Official Quaver Discord Server](https://discord.gg/quaver).
 
 ## General
 
