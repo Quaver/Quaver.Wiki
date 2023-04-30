@@ -36,7 +36,7 @@ name: Quaver API (v1)
     * GET `/scores/map/:id`
     * GET `/scores/data/:id`
 
-* [Leaderboard](/docs/api/scores)
+* [Leaderboard](/docs/api/leaderboard)
     * GET `/leaderboard`
     * GET `/leaderboard/hits`
 
