@@ -120,8 +120,7 @@ The following metadata rules are put in place to create consistency within the r
 
 ## Guidelines
 
-- The background/banner should show relevance to the song in some way. While mappers are allowed creative freedom when it comes to choosing background/banners, completely unrelated background/banner images that do not compliment the song in any way should generally not be used.
-- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used without a good reason
+- Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used.
 
 ## Background
 
