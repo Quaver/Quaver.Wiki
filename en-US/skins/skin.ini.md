@@ -353,9 +353,10 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ###### Affected Textures: [stage-timingbar.png](/docs/skins/gameplayinterface#stage-timing-bar)
 
-|             Value             |       Data Type        | Default Values | Notes                                              |
-| :---------------------------: | :--------------------: | :------------: | -------------------------------------------------- |
-|  SongTimeProgressActiveColor  | RGB Color(255,255,255) |  255,231,107   | The color of the song time progress bar (active)   |
-| SongTimeProgressInactiveColor | RGB Color(255,255,255) |  136,136,136   | The color of the song time progress bar (inactive) |
-|     SongTimeProgressScale     |        Integer         |       45       | The size of the song’s time progress               |
-|        TimingLineColor        | RGB Color(255,255,255) |  255,255,255   | The color of the timing lines                      |
+|             Value             |       Data Type        | Default Values | Notes                                                                                    |
+| :---------------------------: | :--------------------: | :------------: | ---------------------------------------------------------------------------------------- |
+|  SongTimeProgressActiveColor  | RGB Color(255,255,255) |  255,231,107   | The color of the song time progress bar (active)                                         |
+| SongTimeProgressInactiveColor | RGB Color(255,255,255) |  136,136,136   | The color of the song time progress bar (inactive)                                       |
+|     SongTimeProgressScale     |        Integer         |       45       | The size of the song’s time progress                                                     |
+| SongTimeProgressPositionAtTop | Boolean(True or False) |     False      | If set to `True`, The song time progress bar will be positioned at the top of the screen |
+|        TimingLineColor        | RGB Color(255,255,255) |  255,255,255   | The color of the timing lines                                                            |
