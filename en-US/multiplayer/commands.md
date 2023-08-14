@@ -16,6 +16,9 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 | **!mp map [map_id]**        | Sets a map to be played for the match                     |
 | **!mp hostrotation**        | Enables/Disables auto host rotation for the match         |
 | **!mp maxplayers [number]** | Changes the max player count of the multiplayer game      |
+| **!mp autohost**            | Automatically selects ranked maps (lobby rules apply)     |
+| **!mp randmap**             | Picks random ranked map (can be used by host)             |
+| **!mp roll**                | Picks random number between 0 and 100                     |
 
 ## Match Start Control
 
@@ -30,14 +33,11 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 
 | Command                                              | Description                                                                                 |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **!mp ruleset [team OR freeforall OR battleroyale]** | Changes the ruleset/game mode for the multiplayer game                                      |
 | **!mp mindiff [number]**                             | Sets the minimum required difficulty rating for maps in the multiplayer game                |
 | **!mp maxdiff [number]**                             | Sets the maximum difficulty rating for maps in the multiplayer game                         |
 | **!mp maxlength [seconds]**                          | Sets the maximum length (in seconds) a song must be                                         |
 | **!mp allowmode [4k OR 7k]**                         | Allows maps of this specific game mode to be selected                                       |
 | **!mp disallowmode [4k OR 7k]**                      | Disallows maps of this specific game mode to be selected                                    |
-| **!mp health [regen OR lives]**                      | Sets the health type of the multiplayer game                                                |
-| **!mp lives [number]**                               | Sets the amount of lives each player has for the multiplayer game (if health type is lives) |
 | **!mp lnmin [0-100]**                                | Changes the minimum long note percentage a map must have to be selected                     |
 | **!mp lnmax [0-100]**                                | Changes the maximum long note percentage a map must have to be selected                     |
 
@@ -70,10 +70,3 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 | Command                    | Description                                               |
 | -------------------------- | --------------------------------------------------------- |
 | **!mp invite [user_name]** | Sends a multiplayer lobby invite to the specified player. |
-
-## Bots
-
-| Command               | Description                                                      |
-| --------------------- | ---------------------------------------------------------------- |
-| **!mp bots [number]** | Adds bots to the multiplayer game **(Developers Only)**          |
-| **!mp nukebots**      | Removes all bots from the multiplayer game **(Developers Only)** |
