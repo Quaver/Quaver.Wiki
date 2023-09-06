@@ -104,4 +104,4 @@ Scroll velocities (or SV in short) are used to change the speed at which notes m
 
 ## Plugins
 
-This section allows you to view all the plugins you have installed. Quaver supports custom plugins so that the users can control how hey want their editor to run. There are a few plugins out there already that help users with simple tasks, and any user can make a plugin!
+This section allows you to view all the plugins you have installed. Quaver supports custom plugins so that the users can control how they want their editor to run. There are a few plugins out there already that help users with simple tasks, and any user can make a plugin!
