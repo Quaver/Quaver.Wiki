@@ -17,7 +17,7 @@ name: Miscellaneous
 
 ### GET `/team`
 
-Gets all users that are apart of the Quaver Team
+Gets all users that are a part of the Quaver Team
 
 #### Example Response
 
