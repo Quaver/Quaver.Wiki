@@ -24,7 +24,7 @@ Quaver is released on Windows, Mac and Linux.
 
 ### What game modes does Quaver support?
 
-Quaver currently supports 4 keys (4k) and 7 keys (7k). 7k maps with additional scratch lane (7k+1) are also supported, while scores on them remain unranked.
+Quaver currently supports 4 keys (4K) and 7 keys (7K). 7K maps with additional scratch lane (7K+1) are also supported, while scores on them remain unranked.
 
 ### Where can I get more maps?
 
@@ -32,7 +32,7 @@ You can download more maps using the in-game downloader or from the [Quaver webs
 
 ### Can I import maps from other games?
 
-Yes, Quaver currently supports .osz, .sm and .mcz files. To import them, drag the files into the game window.
+Yes, Quaver currently supports .osz, .sm and .mcz files. To import them, drag the files into the game's window.
 
 ### I have a lot of maps in an external game, can I import them all at once?
 
@@ -52,11 +52,11 @@ Similar to bug reports, feature requests belong on our [GitHub issues](https://g
 
 ### Can I change my username?
 
-Changing your username is a donator-only feature. If you are a donator, you can change username once every 30 days.
+Changing your username is a donator-only feature. If you are a donator, you can change you username once every 30 days.
 
 ### How do I reduce the hitsound audio latency on Linux?
 
-The audio latency should work well out of the box. It's still possible to tweak the variables if unusual circumstances arise.
+The audio latency should work well out of the box. It's possible to tweak the variables if unusual circumstances arise.
 
 If you experience the audio latency increasing over play-time, open `/etc/pulse/default.pa`, find a line that says:
 
@@ -70,7 +70,7 @@ and change it to:
 load-module module-udev-detect fixed_latency_range=yes
 ```
 
-Then reboot the system. Note that this may cause severe audio glitches in certain applications (opening Discord in Firefox currently causes this, although the responsible component has already had a fix deployed).
+Then reboot the system. Note, that this may cause severe audio glitches in certain applications (opening Discord in Firefox currently causes this, although the responsible component has already had a fix deployed).
 
 You can also adjust the latency Quaver requests from the system. In `quaver.cfg`, find the following settings:
 
@@ -154,6 +154,6 @@ Open the `quaver.cfg` file and look for the configuration options `WindowHeight`
 
 ### My antivirus detected Quaver as malicious software
 
-This is due to the fact that the game files are not digitally signed for their authenticity as this requires purchasing and maintaining costs for a Digital Certificate.
+This is due to the fact, that the game files are not digitally signed for their authenticity as this requires purchasing and maintaining costs for a Digital Certificate.
 
 To avoid Quaver being picked up by your antivirus, add `Quaver.exe` or the local files directory to your antivirus's whitelist.
