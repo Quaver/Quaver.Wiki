@@ -52,7 +52,7 @@ Similar to bug reports, feature requests belong on our [GitHub issues](https://g
 
 ### Can I change my username?
 
-Changing your username is a donator-only feature. If you are a donator, you can change you username once every 30 days.
+Changing your username is a donator-only feature. If you are a donator, you can change your username once every 30 days.
 
 ### How do I reduce the hitsound audio latency on Linux?
 
