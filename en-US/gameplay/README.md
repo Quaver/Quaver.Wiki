@@ -82,7 +82,7 @@ The formula is relatively simple with it being:
 
 Your overall rating is a weighted sum of all your plays in the Keys (4K or 7K) game mode. 4K and 7K are separate and have two different leaderboards for them.
 
-Only your top score will account for the full amount of score rating, and it will decrease will each lower score.
+Only your top score will account for the full amount of score rating, and it will decrease with each lower score.
 
 The weighted sum calculation is similar to Performance Points, used in the rhythm game osu!.
 
