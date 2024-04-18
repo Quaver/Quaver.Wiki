@@ -40,7 +40,7 @@ In order to get a mapset ranked, it must follow the ranking criteria listed belo
 
 The ranking criteria is divided into rules and guidelines.
 
-- Rules are, literally, rules that may not be broken under any circumstances.
+- Rules that may not be broken under any circumstances.
 - Guidelines try to guide the mapper and may be ignored when deemed reasonable.
 
 If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking Process](/docs/Ranking/Process).
