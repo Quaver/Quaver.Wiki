@@ -43,6 +43,22 @@ The client interface includes general skin elements that are present in all game
 
 ---
 
+### Logo Background
+
+`/MainMenu/logo-background.png`
+
+![Logo Background](/docs/images/MainMenu/menu-logo-background.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  TopLeft  |   1920x64    |
+
+**Notes:**
+
+- Changes the Quaver logo's background.
+
+---
+
 ### Navigation Buttons
 
 ###### Deselected Texture Location: `/MainMenu/navigation-button.png`
@@ -151,6 +167,16 @@ The client interface includes general skin elements that are present in all game
 
 - The top and bottom borders of the screen. This will display on every screen.
 
+### Custom Footer Menu
+
+`MenuBorder/menu-border-background-footer.png`
+
+![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
+
+**Notes:**
+
+- Same size as the `menu-border-background.png`. However, it's the footer of the screen instead.
+
 ---
 
 ## Song Select Skinning
@@ -200,6 +226,10 @@ The client interface includes general skin elements that are present in all game
 ###### Stepmania/Etterna Mapset Texture Location: `/SongSelect/status-sm.png`
 
 ![Stepmania/Etterna Mapset Status](/docs/images/SongSelect/status-other-game-etterna.png?v=2)
+
+###### Various Texture Location: `/SongSelect/status-various.png`
+
+![Various Status](/docs/images/SongSelect/status-various.png?v=2)
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -264,6 +294,24 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The personal best panel of the skin.
+
+---
+
+### Select Filter Panel
+
+###### Select Filter Panel Left location : `/SongSelect/select-filter-panel-left.png`
+
+###### Select Filter Panel Right location : `/SongSelect/select-filter-panel-right.png`
+
+![Select Filter Panel](/docs/images/SongSelect/filter-panel-gradient.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  TopLeft  |    480x78    |
+
+**Notes:**
+
+- The filter of the select song panel of the skin.
 
 ---
 
@@ -381,6 +429,50 @@ The client interface includes general skin elements that are present in all game
 
 ---
 
+### Grade Elements
+
+###### Grade X Texture Location: `/Results/grade-large-x.png`
+
+![Grade Small X](/docs/images/Results/grade-large-x.png?v=2)
+
+###### Grade S+ Texture Location: `/Results/grade-large-ss.png`
+
+![Grade Small SS](/docs/images/Results/grade-large-ss.png?v=2)
+
+###### Grade S Texture Location: `/Results/grade-large-s.png`
+
+![Grade Small S](/docs/images/Results/grade-large-s.png?v=2)
+
+###### Grade A Texture Location: `/Results/grade-large-a.png`
+
+![Grade Small A](/docs/images/Results/grade-large-a.png?v=2)
+
+###### Grade B Texture Location: `/Results/grade-large-b.png`
+
+![Grade Small B](/docs/images/Results/grade-large-b.png?v=2)
+
+###### Grade C Texture Location: `/Results/grade-large-c.png`
+
+![Grade Small C](/docs/images/Results/grade-large-c.png?v=2)
+
+###### Grade D Texture Location: `/Results/grade-large-d.png`
+
+![Grade Small D](/docs/images/Results/grade-large-d.png?v=2)
+
+###### Grade F Texture Location: `/Results/grade-large-f.png`
+
+![Grade Small F](/docs/images/Results/grade-large-f.png?v=2)
+
+| Animatable | Alignment | Optimal Size |
+| :--------: | :-------: | :----------: |
+|     No     |  TopLeft  |   108x114    |
+
+**Notes:**
+
+- Custom grades that are used in results screen.
+
+---
+
 ### Background
 
 `/Results/background.png`
@@ -403,9 +495,9 @@ The client interface includes general skin elements that are present in all game
 
 ![Background Filter](/docs/images/Results/background-filter.png?v=2)
 
-| Animatable |  Alignment  |    Optimal Size    |
-| :--------: | :---------: | :----------------: |
-|     No     |  TopCenter  | 1920x1080/1920x208 |
+| Animatable | Alignment |    Optimal Size    |
+| :--------: | :-------: | :----------------: |
+|     No     | TopCenter | 1920x1080/1920x208 |
 
 **Notes:**
 
