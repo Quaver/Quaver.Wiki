@@ -431,35 +431,35 @@ The client interface includes general skin elements that are present in all game
 
 ### Grade Elements
 
-###### Grade X Texture Location: `/Results/grade-large-x.png`
+###### Grade X Texture Location: `/Grades/grade-large-x.png`
 
 ![Grade Small X](/docs/images/Results/grade-large-x.png?v=2)
 
-###### Grade S+ Texture Location: `/Results/grade-large-ss.png`
+###### Grade S+ Texture Location: `/Grades/grade-large-ss.png`
 
 ![Grade Small SS](/docs/images/Results/grade-large-ss.png?v=2)
 
-###### Grade S Texture Location: `/Results/grade-large-s.png`
+###### Grade S Texture Location: `/Grades/grade-large-s.png`
 
 ![Grade Small S](/docs/images/Results/grade-large-s.png?v=2)
 
-###### Grade A Texture Location: `/Results/grade-large-a.png`
+###### Grade A Texture Location: `/Grades/grade-large-a.png`
 
 ![Grade Small A](/docs/images/Results/grade-large-a.png?v=2)
 
-###### Grade B Texture Location: `/Results/grade-large-b.png`
+###### Grade B Texture Location: `/Grades/grade-large-b.png`
 
 ![Grade Small B](/docs/images/Results/grade-large-b.png?v=2)
 
-###### Grade C Texture Location: `/Results/grade-large-c.png`
+###### Grade C Texture Location: `/Grades/grade-large-c.png`
 
 ![Grade Small C](/docs/images/Results/grade-large-c.png?v=2)
 
-###### Grade D Texture Location: `/Results/grade-large-d.png`
+###### Grade D Texture Location: `/Grades/grade-large-d.png`
 
 ![Grade Small D](/docs/images/Results/grade-large-d.png?v=2)
 
-###### Grade F Texture Location: `/Results/grade-large-f.png`
+###### Grade F Texture Location: `/Grades/grade-large-f.png`
 
 ![Grade Small F](/docs/images/Results/grade-large-f.png?v=2)
 
