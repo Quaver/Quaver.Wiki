@@ -44,6 +44,26 @@ Starts the `SM.RootMachine`. Every sub-states of the root machine will enter and
 
 Stops the whole `SM.RootMachine`.
 
+With the event system, you can subscribe to a specific event to transition to another state, while optionally also adding a guarding condition:
+
+`state.AddTransition(targetState: State, event: EventType = nil, guard: function (transitionEdge: TransitionEdge, eventInstance: EventInstance) -> bool = nil)`
+
+For example:
+```lua
+state3.AddTransition(state4, EventType.Custom .. 2)
+Event.Enqueue(EventType.Custom .. 2)
+-- state3 will transition to state4 because the event is emitted
+```
+
+```lua
+function shouldTransition(args)
+    return args.lane % 2 == 0
+end
+state1.AddTransition(state2, EventType.NoteEntry, shouldTransition)
+-- state1 will transition to state2 when a note on lane 2, 4 or 6 enters the field.
+```
+
+
 ## Debugging
 
 It is sometime hard to debug exactly what is going on inside the state machines, or even whether the machines are set up with correct states and transitions. This is where a DOT graph comes in handy. State machines have a function `GenerateDotGraph()` which returns a string that you can print to `runtime.log` under Quaver's `Logs/` directory. For example:
@@ -53,6 +73,28 @@ print(SM.RootMachine.GenerateDotGraph())
 Prints the entire root machine as a DOT graph.
 
 You can visualize a DOT graph format online, for example using [this website](https://dreampuf.github.io/GraphvizOnline/). By pasting in the output of the function, you can get a graph like this:
+
+```lua
+-- Attach a printer function to the entry functions of states
+function printer()
+    print(SM.RootMachine.GenerateDotGraph())
+end
+machine1 = SM.NewMachine("Machine 1", nil, SM.RootMachine)
+state1 = SM.NewState("State 1", nil, printer, nil, machine1)
+state2 = SM.NewState("State 2", nil, printer, nil, machine1)
+state1.AddTransition(state2, EventType.Custom.WithSpecificType(1))
+machine2 = SM.NewMachine("Machine 2", nil, SM.RootMachine)
+state3 = SM.NewState("State 3", nil, printer, nil, machine2)
+state4 = SM.NewState("State 4", nil, printer, nil, machine2)
+state3.AddTransition(state4, EventType.Custom.WithSpecificType(2))
+state4.AddTransition(machine1, EventType.Custom.WithSpecificType(3))
+state2.AddTransition(machine2, EventType.Custom.WithSpecificType(4))
+state1.AddTransition(state3, EventType.Custom.WithSpecificType(5))
+state1.AddTransition(state4, EventType.Custom.WithSpecificType(6))
+state4.AddTransition(state2, EventType.Custom.WithSpecificType(7))
+SM.Start()
+Events.Enqueue(EventType.Custom.WithSpecificType(2))
+```
 
 ![ExampleStateMachineDOTGraph](/docs/images/Animation/StateMachines/dotgraph.png)
 

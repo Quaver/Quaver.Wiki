@@ -15,7 +15,7 @@ end
 -- The number of occupied lanes
 FreeLaneCount = 7
 -- The duration of a lane swap animation
-ANIMATION_DURATION = 200
+ANIMATION_DURATION = 500
 
 -- Event listener for Events.InputKeyPress event
 function onPress(args)
@@ -40,21 +40,22 @@ function onPress(args)
     FreeLaneCount = FreeLaneCount - 2
 
     -- Set tween segments to smoothly swap the X values of the two lanes
-    Timeline.SetTweenSegment(-1,
+    local easingWrapper = EasingWrapper.From(Easing.InQuad)
+    Timeline.Add(Segment(pressTime, pressTime + ANIMATION_DURATION,
+            Timeline.Tween(ReceptorPositions[lane][1], ReceptorPositions[anotherLane][1], Tween.X(Stage.Receptor(lane)), easingWrapper),
+            true))
+    Timeline.Add(Segment(
             pressTime, pressTime + ANIMATION_DURATION,
-            ReceptorPositions[lane][1], ReceptorPositions[anotherLane][1],
-            Tweens.X(Stage.Receptor(lane)), nil, true)
-    Timeline.SetTweenSegment(-1,
-            pressTime, pressTime + ANIMATION_DURATION,
-            ReceptorPositions[anotherLane][1], ReceptorPositions[lane][1],
-            Tweens.X(Stage.Receptor(anotherLane)), nil, true)
+            Timeline.Tween(ReceptorPositions[anotherLane][1], ReceptorPositions[lane][1], Tween.X(Stage.Receptor(anotherLane)), easingWrapper),
+            true))
 
     -- We want to mark the lanes 'unoccupied' after the animation finishes
-    Timeline.SetCustomTrigger(-1, pressTime + ANIMATION_DURATION, function()
-        LaneSwapOccupied[lane] = false
-        LaneSwapOccupied[anotherLane] = false
-        FreeLaneCount = FreeLaneCount + 2
-    end, nil, true)
+    Timeline.Add(Trigger(pressTime + ANIMATION_DURATION,
+            Timeline.CustomTrigger(function()
+                LaneSwapOccupied[lane] = false
+                LaneSwapOccupied[anotherLane] = false
+                FreeLaneCount = FreeLaneCount + 2
+            end), true))
 
     -- Swap the positions in cache
     tmp = ReceptorPositions[lane]
