@@ -86,4 +86,13 @@ The type `numeric` can be `float`, `Vector2`, `Vector3` or `Vector4`.
 
 For more information on `setter` and `easingFunction`, please see [Tweens](/docs/animation/tween).
 
-### Keyframe (Planned as an advanced version of Tween)
+### Keyframes
+
+The keyframes payload allows you to make a sequence of interpolations to a property, bounded by a single setter.
+You can construct a `Keyframes` payload using:
+
+`Timeline.Keyframes(setter: SetterFunction, keyframes: Keyframe[])`
+
+For more information on `setter`, please see [Tweens](/docs/animation/tween).
+
+For more information on Keyframes, please see [Keyframes](/docs/animation/keyframes)
