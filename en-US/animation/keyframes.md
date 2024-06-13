@@ -38,7 +38,7 @@ Specifies that we want to change the X value of the 2nd receptor as follows:
 * Move to 100 pixels leftwards at t=11500, with `InCirc` easing
 * Move back to the original X at t=12000, with `OutCirc` easing
 
-The third parameter can be omitted. In this case, it would be assumed that the transition is linear (using `EasingFunctions.Linear`). For more information on what you can put here, see [EasingFunction, Tweens](/docs/animation/tween)
+The third parameter can be omitted. In this case, it would be assumed that the transition is linear (using `EasingFunctions.Linear`). For more information on what you can put here, see [EasingFunction, Tweens](/docs/animation/tween#easingfunction)
 
 The `time` in the constructor is relative and scaled, as mentioned before. The first keyframe should always be at time `t=0`. What only matters here is the **proportion**. In this case every transition takes up a quarter of the overall time equally. The actual length of each transition is determined by this proportion and the start and end time of the segment (`10000` and `12000` in this case). 
 

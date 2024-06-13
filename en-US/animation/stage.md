@@ -32,6 +32,8 @@ The global variable `Stage` holds various elements on stage, as well as several 
 local text = Stage.CreateText(Fonts.LatoRegular, "Text :D", 50).WithParent(Stage.PlayfieldContainer).Align(Alignment.MidCenter)
 ```
 
+See [UI](/docs/animation/ui) for the things you can manipulate with the UI elements you create.
+
 `Stage.LaneSize` returns the width of the lane.
 
 `Stage.ReceptorPadding` returns the padding of receptors.
