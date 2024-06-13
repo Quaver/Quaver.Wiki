@@ -7,7 +7,7 @@ name: Timeline
 The timeline manages things that need to be triggered at a specific time, or continuously in a range of time.
 Those two things are called `Trigger` and `Segment`, respectively.
 
-A `Trigger` is something that is activated once, when going past a certain time. You can specify different actions for going backwards in time, in case you want to do something in preview.
+A `Trigger` is something that is activated once, when going past a certain time.
 
 A `Segment` is updated once per update call, as long as the current time is inside a certain specified range.
 
@@ -32,9 +32,9 @@ Below are the available payloads for triggers:
 
 ### CustomTrigger
 
-`Timeline.CustomTrigger(trigger: function(trigger: Trigger), undo: function(trigger: Trigger) = nil)`
+Executes a user-defined function. You can either directly pass in a function, or use the following to construct the payload:
+`Timeline.CustomTrigger(trigger: function(trigger: Trigger))`
 
-Executes a user-defined function
 
 ```lua
 function trigger(v)
@@ -42,7 +42,9 @@ function trigger(v)
 end
 
 -- prints "Hello :3" at 10 seconds
-Timeline.Add(Trigger(10000, Timeline.CustomTrigger(trigger)))
+-- Timeline.Add(Trigger(10000, Timeline.CustomTrigger(trigger)))
+-- Just pass in a function instead
+Timeline.Add(Trigger(10000, trigger))
 ```
 
 ### IntervalTrigger
@@ -58,16 +60,20 @@ Below are the available payloads for segments:
 
 ### CustomSegment
 
+Executes your own function as long as the segment is active (a.k.a. we are in the range of time specified).  
+You can either directly pass in a function or construct on using
 `Timeline.CustomSegment(updater: function(segment: Segment))`
 
-Executes the `updater` as long as the segment is active (a.k.a. we are in the range of time specified).
 
 ```lua
 function update(s)
     print("Update called at " .. state.SongTime)
 end
+
 -- Continually prints the message between 10s and 20s
-Timeline.Add(Segment(10000, 20000, Timeline.CustomSegment(update)))
+-- Timeline.Add(Segment(10000, 20000, Timeline.CustomSegment(update)))
+-- Just pass the function, we don't have to manually construct one
+Timeline.Add(Segment(10000, 20000, update))
 ```
 
 ### Tween

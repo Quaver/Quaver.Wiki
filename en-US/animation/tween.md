@@ -42,8 +42,7 @@ text = Stage.CreateText(Fonts.LatoBlack, "Hello!", 20)
             .Align(Alignment.MidCenter)
 Timeline.Add(Segment(
             10000, 20000,
-            Timeline.Tween(text.X, text.X + 50, Tween.X(text)),
-            true))
+            Timeline.Tween(text.X, text.X + 50, Tween.X(text))))
 ```
 
 You can, of course, write your own setter. For example, if you were to define a `Tween.X` yourself, you could write the code like this:
@@ -70,13 +69,12 @@ Similarly, there exists functions `Tween.CreateVector2`, `Tween.CreateVector3` a
 
 An `EasingFunction` is a function that takes in a float parameter, `progress` 0 and 1, and outputs a float value between 0 and 1. In other words, this function maps the progress in time to the progress in value (both normalized to between 0 and 1)
 
-There are a handful of predefined easing functions. You can use `EasingWrapper.From()` to get them:
+There are a handful of predefined easing functions. For example:
 
 ```lua
-local easingWrapper = EasingWrapper.From(Easing.InQuint)
 Timeline.Add(
     Segment(1000, 2000,
-        Timeline.Tween(0, 50, Tween.X(Stage.Receptor(lane)), easingWrapper)
+        Timeline.Tween(0, 50, Tween.X(Stage.Receptor(lane)), Easing.InQuint)
     )
 )
 ```
@@ -92,18 +90,27 @@ local easingWrapper = EasingWrapper.CubicBezier({0.06, 1.18}, {0.84, 0.06})
 
 You can combine functions using the concat operator (`..`).
 
-You can create your own `EasingFunction` using `EasingFunction.Create()`:
+You can create your own `EasingFunction`. Just pass a custom function instead:
 
 The very basic linear easing function has the form
 ```lua
-MyEase = EasingWrapper.Create(function(progress)
+function MyEase(progress)
     return progress
-end)
+end
 ```
 
 To achieve `EaseInQuad` with a custom function, it could have the form
 ```lua
-MyEaseInQuad = EasingWrapper.Create(function(progress)
+function MyEaseInQuad(progress)
     return progress * progress
-end)
+end
+```
+
+Then you can use them like this:
+```lua
+Timeline.Add(
+    Segment(1000, 2000,
+        Timeline.Tween(0, 50, Tween.X(Stage.Receptor(lane)), MyEaseInQuad)
+    )
+)
 ```
