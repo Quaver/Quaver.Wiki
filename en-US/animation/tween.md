@@ -4,66 +4,17 @@ name: Tween
 
 # Tween
 
-The global variable `Tween` helps you create functions that vary a specific property of an object, usually `Drawable`, `Sprite` and so on.
+Tweens transition a [property](/docs/animation/properties) smoothly from one value to another, in a time interval.
 
-## Setters
-
-Every functions described below returns a `SetterFunction` in the form
-```lua
-function set(startValue, endValue, progress)
-    ...
-end
-```
-
-This function, when called, can update the specified property with the Lerped value (usually `startValue + (endValue - startValue) * progress`)
-
-This is usually passed to `Timeline.Tween` to specify the setting behavoir.
-
-`Tween.X(drawable: Drawable)`
-
-`Tween.Y(drawable: Drawable)`
-
-`Tween.Width(drawable: Drawable)`
-
-`Tween.Height(drawable: Drawable)`
-
-`Tween.Position(drawable: Drawable)`
-
-`Tween.Rotation(sprite: Sprite)`
-
-`Tween.Alpha(sprite: Sprite)`
-
-`Tween.FontSize(text: Text)`
+Any `float`, `Vector`, and `Color` property can be tweened. You can find where properties are and how to create your own in [Properties](/docs/animation/properties).
 
 For example, to move a text 50 units right:
 ```lua
 text = Stage.CreateText(Fonts.LatoBlack, "Hello!", 20)
             .WithParent(Stage.ForegroundContainer)
             .Align(Alignment.MidCenter)
-Timeline.Add(Segment(
-            10000, 20000,
-            Timeline.Tween(text.X, text.X + 50, Tween.X(text))))
+Timeline.Add(10000, 20000, text.XProp.TweenAdd(50))
 ```
-
-You can, of course, write your own setter. For example, if you were to define a `Tween.X` yourself, you could write the code like this:
-
-```lua
-text = Stage.CreateText(Fonts.LatoBlack, "Hello!", 20)
-            .WithParent(Stage.ForegroundContainer)
-            .Align(Alignment.MidCenter)
-
--- The setter function
-MyTweenXSetter = Tween.CreateFloat(function(value)
-    text.X = value
-end)
-
--- Adds a tween segment
-Timeline.Add(Segment(10000, 20000, Timeline.Tween(0, 50, MyTweenXSetter)))
-```
-You may notice that this function is not in the form `set(startValue, endValue, progress)` and we are wrapping it in `Tween.CreateFloat`. This is a recommended way of doing this: should anything else be done to transform the lerped value, it should be done in the `EasingFunction` instead.
-
-Similarly, there exists functions `Tween.CreateVector2`, `Tween.CreateVector3` and `Tween.CreateVector4`.
-
 
 ## EasingFunction
 
@@ -72,11 +23,12 @@ An `EasingFunction` is a function that takes in a float parameter, `progress` 0 
 There are a handful of predefined easing functions. For example:
 
 ```lua
-Timeline.Add(
-    Segment(1000, 2000,
-        Timeline.Tween(0, 50, Tween.X(Stage.Receptor(lane)), Easing.InQuint)
-    )
-)
+Timeline.Add(1000, 2000, Stage.Receptor(lane).XProp.Tween(0, 50, Easing.InQuint))
+```
+
+You can use a string instead:
+```lua
+Timeline.Add(1000, 2000, Stage.Receptor(lane).XProp.Tween(0, 50, "InQuint"))
 ```
 
 The predefined easing types (`Easing.XXX` names) can be found [here](https://easings.net/).
@@ -108,9 +60,5 @@ end
 
 Then you can use them like this:
 ```lua
-Timeline.Add(
-    Segment(1000, 2000,
-        Timeline.Tween(0, 50, Tween.X(Stage.Receptor(lane)), MyEaseInQuad)
-    )
-)
+Timeline.Add(1000, 2000, Stage.Receptor(lane).XProp.Tween(0, 50, MyEaseInQuad))
 ```

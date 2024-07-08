@@ -18,6 +18,8 @@ A drawable is the base for all the UI elements described below. All the UI eleme
 |`Alignment`| `Alignment` | How the drawable aligns with its parent|
 |`Children`|`List<Drawable>`| The children of the drawable |
 
+**NOTE** Adding `Prop` after the field name gives you the property version of the field (see [Properties](/docs/animation/properties)) that you can use to animate them. This applies to almost all fields, including the ones described below for `Sprite`s and `Text`s.
+
 |Method|Parameters|Returns|Description|
 |---|---|---|---|
 |`MoveTo`|`(ScalableVector2)` or `(Vector2)`|`Drawable` (returns itself)|Sets the position and returns itself|

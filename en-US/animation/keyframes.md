@@ -6,29 +6,27 @@ name: Keyframes
 
 The keyframes payload allows you to make a sequence of interpolations to a property, bounded by a single setter.
 
-You can construct a `Keyframes` payload using:
+You can construct a `Keyframes` payload from any property:
 
-`Timeline.Keyframes(setter: SetterFunction, keyframes: Keyframe[])`
+`property.Keyframes(keyframes: Keyframe[])`
 
 A `Keyframe` describes a value that your specified property should have at the specified *relative* time, and how easing is performed between the current keyframe and the next. You can construct it with `{time, value, [easing]}`. For example:
 
 ```lua
 -- X value of the receptor
-r2x = Stage.GetReceptorPositions()[2][1]
-Timeline.Add(
-        Segment(10000, 12000,
-                Timeline.Keyframes(
-                        Tween.X(Stage.Receptor(2)),
-                        {
-                            { 0, r2x },
-                            { 500, r2x + 100 },
-                            { 1000, r2x },
-                            { 1500, r2x - 100, Easing.InCirc },
-                            { 2000, r2x, Easing.OutCirc }
-                        }
-                )
+r2x = Stage.GetLanePositions()[2][1]
+Timeline.Add(10000, 11500,
+        Stage.LaneContainer(2).XProp.Keyframes(
+                {
+                    { 0, r2x },
+                    { 500, r2x + 100 },
+                    { 1000, r2x },
+                    { 1500, r2x - 100, "InCirc" },
+                    { 2000, r2x, "OutCirc" }
+                }
         )
 )
+
 ```
 
 Specifies that we want to change the X value of the 2nd receptor as follows:
@@ -54,19 +52,16 @@ Precisely, if the last keyframe has relative time `tz`, the transition between t
 You are allowed to transition vectors as well. For example, position:
 ```lua
 -- Position of the first receptor (lane 1)
-pos = Stage.GetReceptorPositions()[1]
-Timeline.Add(
-        Segment(10000, 12000,
-                Timeline.Keyframes(
-                        Tween.Position(Stage.Receptor(1)),
-                        {
-                            { 0, { pos[1], pos[2] } },
-                            { 500, { pos[1] + 100, pos[2] - 100 } },
-                            { 1000, { pos[1], pos[2] - 100 } },
-                            { 1500, { pos[1] - 100, pos[2] - 50 }, Easing.InCirc },
-                            { 2000, { pos[1], pos[2] }, Easing.OutCirc }
-                        }
-                )
+pos = Stage.GetLanePositions()[1]
+Timeline.Add(10000, 11500,
+        Stage.LaneContainer(1).PositionProp.Keyframes(
+                {
+                    { 0, { pos[1], pos[2] } },
+                    { 500, { pos[1] + 100, pos[2] - 100 } },
+                    { 1000, { pos[1], pos[2] - 100 } },
+                    { 1500, { pos[1] - 100, pos[2] - 50 }, "InCirc" },
+                    { 2000, { pos[1], pos[2] }, "OutCirc" }
+                }
         )
 )
 ```

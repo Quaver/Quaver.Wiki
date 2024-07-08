@@ -15,8 +15,6 @@ You can construct `Trigger`s and `Segment`s as shown in the sections below. You 
 
 `Trigger`s and `Segment`s have IDs, which can be accessed and modified through the `Id` field (`trigger.Id` or `segment.Id`). 
 
-`Timeline.Add(segment/trigger)` Attaches the segment/trigger to the timeline system to update
-
 `Timeline.Remove(segment/trigger)` Removes the segment/trigger
 
 `Timeline.Set(id, segment/trigger)` Sets the segment/trigger of the `id` to a new one. if `id` is -1, a new id will be generated and the behaviour would be the same as `Timeline.Add()`. Otherwise, the original segment/trigger with the `id` will be removed and the new segment/trigger will be added.
@@ -25,10 +23,13 @@ All three functions above return the Id of the new segment/trigger generated, so
 
 ## Trigger
 
-You can construct a trigger using
-`Trigger(time: int, payload: TriggerPayload)`
+`Timeline.Add(time, trigger)` Attaches the trigger to the timeline system to update
 
 Below are the available payloads for triggers:
+
+### Property Triggers
+
+See [Properties#Triggers](/docs/animation/properties#triggers)
 
 ### CustomTrigger
 
@@ -44,19 +45,18 @@ end
 -- prints "Hello :3" at 10 seconds
 -- Timeline.Add(Trigger(10000, Timeline.CustomTrigger(trigger)))
 -- Just pass in a function instead
-Timeline.Add(Trigger(10000, trigger))
+Timeline.Add(10000, trigger)
 ```
-
-### IntervalTrigger
-
-This is a special trigger that will trigger itself a set number of times with an evenly spaced interval. It is still a work-in-progress so please do not use it.
 
 ## Segment
 
-You can construct a segment using
-`Segment(startTime: int, endTime: int, payload: SegmentPayload)`
+`Timeline.Add(startTime, endTime, segment)` Attaches the trigger to the timeline system to update
 
 Below are the available payloads for segments:
+
+### Property Segments
+
+Every typed property can be tweened and keyframed. See [Properties#Segments](/docs/animation/properties#segments)
 
 ### CustomSegment
 
@@ -75,24 +75,3 @@ end
 -- Just pass the function, we don't have to manually construct one
 Timeline.Add(Segment(10000, 20000, update))
 ```
-
-### Tween
-
-A tween manages a smooth interpolation between two values.
-
-`Timeline.Tween(startValue: numeric, endValue: numeric, setter: SetterFunction, easingFunction: EasingFunction = nil)`
-
-The type `numeric` can be `float`, `Vector2`, `Vector3` or `Vector4`.
-
-For more information on `setter` and `easingFunction`, please see [Tweens](/docs/animation/tween).
-
-### Keyframes
-
-The keyframes payload allows you to make a sequence of interpolations to a property, bounded by a single setter.
-You can construct a `Keyframes` payload using:
-
-`Timeline.Keyframes(setter: SetterFunction, keyframes: Keyframe[])`
-
-For more information on `setter`, please see [Tweens](/docs/animation/tween).
-
-For more information on Keyframes, please see [Keyframes](/docs/animation/keyframes)
