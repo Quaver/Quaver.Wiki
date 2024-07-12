@@ -37,6 +37,7 @@ name: Quaver API (v2)
 
 * [Playlists](/docs/api-v2/playlists)
     * GET `/playlists/search`
+    * GET `/playlists/:id`
     * GET `/playlists/:id/contains/:map_id`
 
 * [Ranking Queue](/docs/api-v2/ranking)
