@@ -6,59 +6,59 @@ name: Users
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/user/:id`](#get-%2Fleaderboard)
+    - [GET `/user/:id`](#get-user%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
 
-  - [GET `/user/:id/achievements`](#get-%2Fleaderboard)
+  - [GET `/user/:id/achievements`](#get-user%2F%3Aid%2Fachievements)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
 
-    - [GET `/user/:id/activity`](#get-%2Fleaderboard)
+    - [GET `/user/:id/activity`](#get-user%2F%3Aid%2Factivity)
         - [Parameters](#parameters-2)
         - [Example Response](#example-response-2)
 
-    - [GET `/user/:id/badges`](#get-%2Fleaderboard)
+    - [GET `/user/:id/badges`](#get-user%2F%3Aid%2Fbadges)
         - [Parameters](#parameters-3)
         - [Example Response](#example-response-3)
 
-    - [GET `/user/:id/mapsets`](#get-%2Fleaderboard)
+    - [GET `/user/:id/mapsets`](#get-user%2F%3Aid%2Fmapsets)
         - [Parameters](#parameters-4)
         - [Example Response](#example-response-4)
 
-    - [GET `/user/:id/mostplayed`](#get-%2Fleaderboard)
+    - [GET `/user/:id/mostplayed`](#get-user%2F%3Aid%2Fmostplayed)
         - [Parameters](#parameters-5)
         - [Example Response](#example-response-5)
 
-    - [GET `/user/:id/playlists`](#get-%2Fleaderboard)
+    - [GET `/user/:id/playlists`](#get-user%2F%3Aid%2Fplaylists)
         - [Parameters](#parameters-6)
         - [Example Response](#example-response-6)
 
-    - [GET `/user/:id/scores/:mode/best`](#get-%2Fleaderboard)
+    - [GET `/user/:id/scores/:mode/best`](#get-user%2F%3Aid%2Fscores%2F%3Amode%2Fbest)
         - [Parameters](#parameters-7)
         - [Example Response](#example-response-7)
 
-    - [GET `/user/:id/scores/:mode/recent`](#get-%2Fleaderboard)
+    - [GET `/user/:id/scores/:mode/recent`](#get-user%2F%3Aid%2Fscores%2F%3Amode%2Frecent)
         - [Parameters](#parameters-8)
         - [Example Response](#example-response-8)
 
-    - [GET `/user/:id/scores/:mode/firstplace`](#get-%2Fleaderboard)
+    - [GET `/user/:id/scores/:mode/firstplace`](#get-user%2F%3Aid%2Fscores%2F%3Amode%2Ffirstplace)
         - [Parameters](#parameters-9)
         - [Example Response](#example-response-9)
 
-    - [GET `/user/:id/scores/:mode/grades/:grade`](#get-%2Fleaderboard)
+    - [GET `/user/:id/scores/:mode/grades/:grade`](#get-user%2F%3Aid%2Fscores%2F%3Amode%2Fgrades%2F%3Agrade)
         - [Parameters](#parameters-10)
         - [Example Response](#example-response-10)
 
-    - [GET `/user/:id/statistics/:mode/rank`](#get-%2Fleaderboard)
+    - [GET `/user/:id/statistics/:mode/rank`](#get-user%2F%3Aid%2Fstatistics%2F%3Amode%2Frank)
         - [Parameters](#parameters-11)
         - [Example Response](#example-response-11)
 
-    - [GET `/user/search/:name`](#get-%2Fleaderboard)
+    - [GET `/user/search/:name`](#get-user%2Fsearch%2F%3Aname)
         - [Parameters](#parameters-12)
         - [Example Response](#example-response-12)
 
-    - [GET `/user/team/members`](#get-%2Fleaderboard)
+    - [GET `/user/team/members`](#get-user%2Fteam%2Fmembers)
         - [Parameters](#parameters-13)
         - [Example Response](#example-response-13)
 

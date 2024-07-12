@@ -6,13 +6,13 @@ name: Mapsets
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/mapset/:id`](#get-%2Fleaderboard)
+    - [GET `/mapset/:id`](#get-mapset%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/mapset/ranked`](#get-%2Fleaderboard)
+  - [GET `/mapset/ranked`](#get-mapset%2Franked)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
-  - [GET `/mapset/offsets`](#get-%2Fleaderboard)
+  - [GET `/mapset/offsets`](#get-mapset%2Foffsets)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)
 

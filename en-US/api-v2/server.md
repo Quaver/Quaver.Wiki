@@ -6,13 +6,13 @@ name: Server Stats
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/server/stats`](#get-%2Fleaderboard)
+    - [GET `/server/stats`](#get-server%2Fstats)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/server/stats/country`](#get-%2Fleaderboard)
+  - [GET `/server/stats/country`](#get-server%2Fstats%2Fcountry)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
-  - [GET `/server/stats/mostplayed`](#get-%2Fleaderboard)
+  - [GET `/server/stats/mostplayed`](#get-server%2Fstats%2Fmostplayed)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2) 
  

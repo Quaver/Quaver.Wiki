@@ -6,13 +6,13 @@ name: Clans
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-  - [GET `/clan/:id`](#get-%2Fleaderboard)
+  - [GET `/clan/:id`](#get-%2Fclan%2F%3Aid)
       - [Parameters](#parameters)
       - [Example Response](#example-response)
-  - [GET `/clan/:id/activity`](#get-%2Fleaderboard)
+  - [GET `/clan/:id/activity`](#get-clan%2F%3Aid%2Factivity)
     - [Parameters](#parameters-1)
     - [Example Response](#example-response-1)
-  - [GET `/clan/:id/members`](#get-%2Fleaderboard)
+  - [GET `/clan/:id/members`](#get-clan%2F%3Aid%2Fmembers)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)
  

@@ -6,13 +6,13 @@ name: Leaderboards
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/leaderboard/global`](#get-%2Fleaderboard)
+    - [GET `/leaderboard/global`](#get-leaderboard%2Fglobal)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/leaderboard/country`](#get-%2Fleaderboard)
+  - [GET `/leaderboard/country`](#get-leaderboard%2Fcountry)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
-  - [GET `/leaderboard/hits`](#get-%2Fleaderboard)
+  - [GET `/leaderboard/hits`](#get-leaderboard%2Fhits)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)  
   
