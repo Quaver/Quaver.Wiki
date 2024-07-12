@@ -4,7 +4,7 @@ name: Quaver API (v1)
 
 ### Deprecation Notice
 
-API v1 is now deprecated and is no longer recommended to use. Please consider using API v2 for future use.
+API v1 is now deprecated and is no longer recommended to use. Please consider using API v2.
 
 ### Base URL
 
