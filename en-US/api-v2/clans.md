@@ -1,5 +1,5 @@
 ---
-name: Leaderboard
+name: Clans
 ---
 
 ## Table of Contents
