@@ -70,7 +70,7 @@ Retrieves info about a given map
 
 ### GET `/map/:id/mods`
 
-Info:
+Retrieves a list of mods on a given map.
 
 #### Parameters
 
