@@ -12,12 +12,13 @@ Important note: If you are modifying the RGBA Colors and if you left the **Alpha
 
 The `[General]` section of the config file contains metadata about the skin—who it's by, what it's called, and the version—as well as non keymode-specific properties. It's mainly to let people know what your skin is all about.
 
-|    Value     |        Data Type        | Default Values |                                    Notes                                    |
-| :----------: | :---------------------: | :------------: | :-------------------------------------------------------------------------: |
-|     Name     |         String          |       -        |                            The name of the skin                             |
-|    Author    |         String          |       -        |                       The creator/author of the skin                        |
-|   Version    |         String          |       -        |                       The version number of the skin                        |
-| CenterCursor | Boolean (True or False) |     False      | Whether the cursor image should be centered (for example, if it's a circle) |
+|    Value           |        Data Type        | Default Values |                                    Notes                                    |
+| :----------------: | :---------------------: | :------------: | :-------------------------------------------------------------------------: |
+|        Name        |         String          |       -        |                            The name of the skin                             |
+|       Author       |         String          |       -        |                       The creator/author of the skin                        |
+|      Version       |         String          |       -        |                       The version number of the skin                        |
+|    CenterCursor    | Boolean (True or False) |     False      | Whether the cursor image should be centered (for example, if it's a circle) |
+| UseSkinBackgrounds | Boolean (True or False) |     False      |        Whether the game should use backgrounds from the skin or not         |
 
 ---
 

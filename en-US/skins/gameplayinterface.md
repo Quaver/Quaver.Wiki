@@ -1009,3 +1009,19 @@ Notes:
 **Notes:**
 
 - Displayed whenever you're in last place for battle royale
+
+## Background
+
+### Backgrounds
+
+`/Backgrounds/*.{png, jpg, jpeg}`
+
+| Animatable | Alignment |  Suggested Size   |
+| :--------: | :-------: | :---------------: |
+|     No     |     -     |         -         |
+
+**Notes:**
+
+- Any image in the Backgrounds folder will be loaded.
+- Backgrounds are selected based on map hash.
+- Images larger than 2560x1440 will be ignored.
