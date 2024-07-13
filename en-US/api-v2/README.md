@@ -30,6 +30,7 @@ name: Quaver API (v2)
     * GET `/mapset/:id`   
     * GET `/mapset/ranked`
     * GET `/mapset/offsets`
+    * GET `/mapset/search`
 
 * [Multiplayer](/docs/api-v2/multiplayer)
     * GET `/multiplayer/games`

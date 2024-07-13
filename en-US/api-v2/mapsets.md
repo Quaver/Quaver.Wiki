@@ -15,6 +15,9 @@ name: Mapsets
   - [GET `/mapset/offsets`](#get-mapset%2Foffsets)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)
+  - [GET `/mapset/offsets`](#get-mapset%2Fsearch)
+      - [Parameters](#parameters-3)
+      - [Example Response](#example-response-3)
 
 ## Endpoints
 
@@ -165,6 +168,96 @@ None
       "offset": 20
     },
     ...
+  ]
+}
+```
+
+### GET `/mapset/search`
+
+Searches for mapsets that meet a certain criteria.
+
+#### Parameters
+
+| Name                  | Description                                 | Required |
+|-----------------------|---------------------------------------------|----------|
+| search                | The id of the mapset                        | No       |
+| ranked_status         | Ranked Status                               | No       |
+| mode                  | Game Mode                                   | No       |
+| page                  | Pagination                                  | No       |
+| min_difficulty_rating | Minimum Difficulty Rating                   | No       |
+| max_difficulty_rating | Maximum Difficulty Rating                   | No       |
+| min_bpm               | Minimum Song BPM                            | No       |
+| max_bpm               | Maximum Song BPM                            | No       |
+| min_length            | Minimum Song Length (Seconds)               | No       |
+| max_length            | Maximum Song Length (Seconds)               | No       |
+| min_long_note_percent | Minimum Long Note Percentage                | No       |
+| max_long_note_percent | Maximum Long Note Percentage                | No       |
+| min_play_count        | Minimum Play Count                          | No       |
+| max_play_count        | Maximum Play Count                          | No       |
+| min_combo             | Minimum Max Combo                           | No       |
+| max_combo             | Maximum Max Combo                           | No       |
+| min_date_submitted    | Minimum Date Submitted (Unix Timestamp)     | No       |
+| min_date_submitted    | Minimum Date Submitted (Unix Timestamp)     | No       |
+| min_last_updated      | Minimum Date Last Updated (Unix Timestamp)  | No       |
+| max_last_updated      | Maximum Date Last Updated (Unix Timestamp)  | No       |
+| show_explicit         | Shows mapsets that contain explicit content | No       |
+
+#### Example Response
+
+```json
+// https://api.quavergame.com/v2/mapset/search?search=swan&ranked_status=1&mode=1&limit=1&min_difficulty_rating=20&max_difficulty_rating=30
+{
+  "mapsets": [
+    {
+      "id": 11750,
+      "package_md5": "",
+      "creator_id": 27392,
+      "creator_username": "JesusQuaver",
+      "artist": "Swan",
+      "title": "Left Right (Ryan Randi Mix)",
+      "source": "Quaver",
+      "tags": "electronic, edm, mocaloca, mochathemapper, moca lisa, 2nil",
+      "description": "Created at 1632776115000",
+      "date_submitted": "2021-09-27T11:59:16.977-04:00",
+      "date_last_updated": "2021-10-09T17:57:37.468-04:00",
+      "is_visible": true,
+      "is_explicit": false,
+      "maps": [
+        {
+          "id": 60314,
+          "mapset_id": 11750,
+          "md5": "8729672e4a5a0303692bb5b3dec94630",
+          "alternative_md5": "",
+          "creator_id": 27392,
+          "creator_username": "JesusQuaver",
+          "game_mode": 1,
+          "ranked_status": 1,
+          "artist": "Swan",
+          "title": "Left Right (Ryan Randi Mix)",
+          "source": "Quaver",
+          "tags": "electronic, edm, mocaloca, mochathemapper, moca lisa, 2nil",
+          "description": "Created at 1632776115000",
+          "difficulty_name": "Expert",
+          "length": 46820,
+          "bpm": 200,
+          "difficulty_rating": 29.607193,
+          "count_hitobject_normal": 745,
+          "count_hit_object_long": 2,
+          "long_note_percentage": 0.26773763,
+          "max_combo": 749,
+          "play_count": 47,
+          "fail_count": 25,
+          "play_attempts": 72,
+          "mods_pending": 0,
+          "mods_accepted": 0,
+          "mods_denied": 0,
+          "mods_ignored": 0,
+          "online_offset": 0,
+          "is_clan_ranked": false
+        }
+      ],
+      ...
+    }
   ]
 }
 ```
