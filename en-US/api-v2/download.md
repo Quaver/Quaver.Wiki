@@ -31,7 +31,7 @@ A .qua file is returned.
 
 ### GET `/download/replay/:id`
 
-Downloads a map (.qqr) file with a given id
+Downloads a map (.qr) file with a given id
 
 #### Parameters
 

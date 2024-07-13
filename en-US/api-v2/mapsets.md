@@ -180,7 +180,7 @@ Searches for mapsets that meet a certain criteria.
 
 | Name                  | Description                                 | Required |
 |-----------------------|---------------------------------------------|----------|
-| search                | The id of the mapset                        | No       |
+| search                | Search Query                                | No       |
 | ranked_status         | Ranked Status                               | No       |
 | mode                  | Game Mode                                   | No       |
 | page                  | Pagination                                  | No       |
