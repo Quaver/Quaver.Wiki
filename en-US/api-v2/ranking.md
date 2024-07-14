@@ -68,6 +68,7 @@ Retrieves the ranking queue for a given game mode.
 // https://api.quavergame.com/v2/ranking/queue/mode/2?page=0
 
 {
+  "count": 38,
   "ranking_queue": [
     {
       "id": 7147,
