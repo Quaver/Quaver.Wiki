@@ -66,7 +66,6 @@ Retrieves the ranking queue for a given game mode.
 
 ```json
 // https://api.quavergame.com/v2/ranking/queue/mode/2?page=0
-
 {
   "count": 38,
   "ranking_queue": [
@@ -74,9 +73,8 @@ Retrieves the ranking queue for a given game mode.
       "id": 7147,
       "mapset_id": 32801,
       "created_at": "2024-05-09T04:26:41.535-04:00",
-      "last_updated": "2024-06-01T11:15:36.555-04:00",
+      "last_updated": "2024-07-14T09:58:45.354-04:00",
       "status": 4,
-      "votes": 1,
       "mapset": {
         "id": 32801,
         "package_md5": "68a0319ff44746ee8c37c73f3d64e59c",
@@ -157,11 +155,85 @@ Retrieves the ranking queue for a given game mode.
             "is_clan_ranked": false
           }
         ]
-      }
-    },
-    ...
+      },
+      "votes": [
+        {
+          "id": 29122,
+          "user_id": 1,
+          "mapset_id": 32801,
+          "action_type": 4,
+          "is_active": true,
+          "timestamp": "2024-07-14T09:58:45.342-04:00",
+          "comment": "I have just added +1 vote for your mapset.",
+          "date_last_updated": "2024-07-14T09:58:45.342-04:00",
+          "user": {
+            "id": 1,
+            "steam_id": "76561198162013525",
+            "username": "Swan",
+            "time_registered": "2090-12-01T00:00:00-05:00",
+            "allowed": true,
+            "privileges": 2097151,
+            "usergroups": 507,
+            "mute_end_time": "2018-12-20T15:36:20-05:00",
+            "latest_activity": "2024-06-03T15:35:00.937-04:00",
+            "country": "UM",
+            "avatar_url": "https://avatars.steamstatic.com/3c4f2eaab9e5e41dfb1706d21d654a81e525972a_full.jpg",
+            "twitter": "Swanuh",
+            "title": "Founder",
+            "userpage": "sldjsakkdlsa",
+            "twitch_username": null,
+            "donator_end_time": "2033-08-07T14:50:16.048-04:00",
+            "discord_id": "130754548133265408",
+            "misc_information": {
+              "notif_action_mapset": true,
+              "default_mode": 1
+            },
+            "clan_id": 17,
+            "clan_leave_time": "1969-12-31T19:00:00-05:00"
+          }
+        }
+      ],
+      "denies": [
+        {
+          "id": 29125,
+          "user_id": 1,
+          "mapset_id": 32801,
+          "action_type": 1,
+          "is_active": true,
+          "timestamp": "2024-07-14T21:37:47.571-04:00",
+          "comment": "I have just placed your mapset on hold.",
+          "date_last_updated": "2024-07-14T21:37:47.571-04:00",
+          "user": {
+            "id": 1,
+            "steam_id": "76561198162013525",
+            "username": "Swan",
+            "time_registered": "2090-12-01T00:00:00-05:00",
+            "allowed": true,
+            "privileges": 2097151,
+            "usergroups": 507,
+            "mute_end_time": "2018-12-20T15:36:20-05:00",
+            "latest_activity": "2024-06-03T15:35:00.937-04:00",
+            "country": "UM",
+            "avatar_url": "https://avatars.steamstatic.com/3c4f2eaab9e5e41dfb1706d21d654a81e525972a_full.jpg",
+            "twitter": "Swanuh",
+            "title": "Founder",
+            "userpage": "sldjsakkdlsa",
+            "twitch_username": null,
+            "donator_end_time": "2033-08-07T14:50:16.048-04:00",
+            "discord_id": "130754548133265408",
+            "misc_information": {
+              "notif_action_mapset": true,
+              "default_mode": 1
+            },
+            "clan_id": 17,
+            "clan_leave_time": "1969-12-31T19:00:00-05:00"
+          }
+        }
+      ]
+    }
   ]
 }
+
 ```
 
 ### GET `/ranking/queue/:id/comments`
