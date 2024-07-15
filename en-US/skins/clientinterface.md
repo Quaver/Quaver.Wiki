@@ -127,7 +127,7 @@ The client interface includes general skin elements that are present in all game
 
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
-|     No     | BottomCenter |    500x54    |
+|     No     | BottomCenter |    510x54    |
 
 **Notes:**
 
