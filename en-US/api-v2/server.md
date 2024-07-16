@@ -12,9 +12,6 @@ name: Server Stats
   - [GET `/server/stats/country`](#get-server%2Fstats%2Fcountry)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
-  - [GET `/server/stats/mostplayed`](#get-server%2Fstats%2Fmostplayed)
-      - [Parameters](#parameters-2)
-      - [Example Response](#example-response-2) 
  
 ## Endpoints
 
@@ -69,33 +66,5 @@ None
     "au": "15026",
     ...
   }
-}
-```
-
-### GET `/server/stats/mostplayed`
-
-Retrieves the 10 most played mapsets of the week.
-
-#### Parameters
-
-None
-
-#### Example Response
-
-```json
-// https://api.quavergame.com/v2/server/stats/mostplayed
-
-{
-  "mapsets": [
-    {
-      "id": 2364,
-      "creator_id": 5665,
-      "creator_username": "PlayerZero",
-      "artist": "Remo Prototype (CV: Hanamori Yumiri)",
-      "title": "Sendan Life",
-      "count": 1
-    },
-    ...
-  ]
 }
 ```
