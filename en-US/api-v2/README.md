@@ -49,7 +49,6 @@ name: Quaver API (v2)
 * [Server Stats](/docs/api-v2/server)
     * GET `/server/stats`
     * GET `/server/stats/country`
-    * GET `/server/stats/mostplayed`
 
 * [Scores](/docs/api-v2/scores)
     * GET `/scores/:md5/global`
