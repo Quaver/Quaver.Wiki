@@ -36,6 +36,7 @@ Retrieves the global leaderboard
 // https://api.quavergame.com/v2/leaderboard/global?mode=1&page=3
 
 {
+  "total_users": 688057,
   "users": [
     {
       "id": 134824,
@@ -141,6 +142,7 @@ Retrieves the country leaderboard
 // https://api.quavergame.com/v2/leaderboard/country?country=US&mode=1&page=0
 
 {
+  "total_users": 201832,
   "users": [
     {
       "id": 608,
@@ -239,6 +241,7 @@ Retrieves the total hits leaderboard
 ```json
 // https://api.quavergame.com/v2/leaderboard/hits?page=0
 {
+  "total_users": 688057,
   "users": [
     {
       "id": 1555,
