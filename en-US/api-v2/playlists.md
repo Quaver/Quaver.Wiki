@@ -156,7 +156,7 @@ Gets information about a single playlist
               "bpm": 140,
               "difficulty_rating": 9.693266,
               "count_hitobject_normal": 942,
-              "count_hit_object_long": 58,
+              "count_hitobject_long": 58,
               "long_note_percentage": 5.7999997,
               "max_combo": 1058,
               "play_count": 14156,

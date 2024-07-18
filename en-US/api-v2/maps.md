@@ -52,7 +52,7 @@ Retrieves info about a given map
     "bpm": 175,
     "difficulty_rating": 14.340267,
     "count_hitobject_normal": 709,
-    "count_hit_object_long": 87,
+    "count_hitobject_long": 87,
     "long_note_percentage": 10.929648,
     "max_combo": 883,
     "play_count": 2642,
