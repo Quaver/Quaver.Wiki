@@ -35,6 +35,7 @@ Searches for playlist by name or creator.
 // https://api.quavergame.com/v2/playlists/search?query=aiae&page=0
 
 {
+  "total_playlist_count": 1,
   "playlists": [
     {
       "id": 57,
