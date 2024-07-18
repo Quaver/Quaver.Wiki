@@ -6,6 +6,12 @@ name: Quaver API (v2)
 
 <https://api.quavergame.com/v2>
 
+### Rate Limit
+
+API v2 currently has a rate limit of 100 requests per minute. If you exceed this rate limit, you will be given a response with a status code of 429.
+
+If you are making a large amount of requests in a short amount of time, it is highly recommended to add sleep & retry functionality.
+
 ### Routes
 
 * [Clans](/docs/api-v2/clans)
