@@ -6,10 +6,10 @@ name: Multiplayer
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/multiplayer/games`](#get-multiplayer%2Fgames)
+    - [GET `/multiplayer/games`](#get-%2Fmultiplayer%2Fgames)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/multiplayer/game/:id`](#get-multiplayer%2Fgame%2F%3Aid)
+  - [GET `/multiplayer/game/:id`](#get-%2Fmultiplayer%2Fgame%2F%3Aid)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
 

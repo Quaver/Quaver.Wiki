@@ -6,10 +6,10 @@ name: Maps
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/map/:id`](#get-map%2F%3Aid)
+    - [GET `/map/:id`](#get-%2Fmap%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/map/:id/mods`](#get-map%2F%3Aid%2Fmods)
+  - [GET `/map/:id/mods`](#get-%2Fmap%2F%3Aid%2Fmods)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
     

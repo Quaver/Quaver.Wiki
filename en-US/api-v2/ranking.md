@@ -6,13 +6,13 @@ name: Ranking
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/ranking/config`](#get-ranking%2Fconfig)
+    - [GET `/ranking/config`](#get-%2Franking%2Fconfig)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/ranking/queue/mode/:mode`](#get-ranking%2Fqueue%2Fmode%2F%3Amode)
+  - [GET `/ranking/queue/mode/:mode`](#get-%2Franking%2Fqueue%2Fmode%2F%3Amode)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
-  - [GET `/ranking/queue/:id/comments`](#get-ranking%2Fqueue%2F%3Aid%2Fcomments)
+  - [GET `/ranking/queue/:id/comments`](#get-%2Franking%2Fqueue%2F%3Aid%2Fcomments)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)
 
