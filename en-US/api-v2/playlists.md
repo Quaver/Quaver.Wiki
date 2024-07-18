@@ -6,13 +6,13 @@ name: Playlists
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/playlists/search`](#get-playlists%2Fsearch)
+    - [GET `/playlists/search`](#get-%2Fplaylists%2Fsearch)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/playlists/:id`](#get-playlists%2F%3Aid)
+  - [GET `/playlists/:id`](#get-%2Fplaylists%2F%3Aid)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
-  - [GET `/playlists/:id/contains/:map_id`](#get-playlists%2F%3Aid%2Fcontains%2F%3Amap_id)
+  - [GET `/playlists/:id/contains/:map_id`](#get-%2Fplaylists%2F%3Aid%2Fcontains%2F%3Amap_id)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)
 

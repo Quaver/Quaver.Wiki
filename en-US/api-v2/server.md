@@ -6,10 +6,10 @@ name: Server Stats
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/server/stats`](#get-server%2Fstats)
+    - [GET `/server/stats`](#get-%2Fserver%2Fstats)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/server/stats/country`](#get-server%2Fstats%2Fcountry)
+  - [GET `/server/stats/country`](#get-%2Fserver%2Fstats%2Fcountry)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
  

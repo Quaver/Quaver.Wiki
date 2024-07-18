@@ -6,10 +6,10 @@ name: Download
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/download/map/:id`](#get-download%2Fmap%2F%3Aid)
+    - [GET `/download/map/:id`](#get-%2Fdownload%2Fmap%2F%3Aid)
         - [Parameters](#parameters)
         - [Example Response](#example-response)
-  - [GET `/download/replay/:id`](#get-download%2Freplay%2F%3Aid)
+  - [GET `/download/replay/:id`](#get-%2Fdownload%2Freplay%2F%3Aid)
       - [Parameters](#parameters-1)
       - [Example Response](#example-response-1)
 
