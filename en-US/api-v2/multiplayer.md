@@ -29,6 +29,7 @@ None
 // https://api.quavergame.com/v2/multiplayer/games
 
 {
+  "total_game_count": 631421,
   "games": [
     {
       "id": 631472,
