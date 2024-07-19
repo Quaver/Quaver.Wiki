@@ -79,8 +79,7 @@ None
             "mods_ignored": 0,
             "online_offset": 0,
             "is_clan_ranked": false
-          },
-          "scores": null
+          }
         }
       ]
     },
