@@ -207,6 +207,7 @@ Searches for mapsets that meet a certain criteria.
 ```json
 // https://api.quavergame.com/v2/mapset/search?search=swan&ranked_status=1&mode=1&limit=1&min_difficulty_rating=20&max_difficulty_rating=30
 {
+  "total": 2,
   "mapsets": [
     {
       "id": 11750,
