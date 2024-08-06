@@ -219,16 +219,18 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ###### Affected Textures: [judge-marv.png](</docs/skins/gameplayinterface#judgement-(marv)>), [judge-perf.png](</docs/skins/gameplayinterface#judgement-(perf)>), [judge-great.png](</docs/skins/gameplayinterface#judgement-(great)>), [judge-good.png](</docs/skins/gameplayinterface#judgement-(good)>), [judge-okay.png](</docs/skins/gameplayinterface#judgement-(okay)>), [judge-miss.png](</docs/skins/gameplayinterface#judgement-(miss)>)
 
-|         Value          |    Data Type    | Alignment | Default Values | Notes                                                                           |
-| :--------------------: | :-------------: | :-------: | :------------: | ------------------------------------------------------------------------------- |
-|  HitErrorChevronSize   |     Integer     |     -     |       8        | The size of the chevron that displays the player's last hit above the hit error |
-|     HitErrorHeight     |     Integer     |     -     |       10       | The height of the hit error                                                     |
-|      HitErrorPosX      |     Integer     | MidCenter |       0        | The X position of the hit error                                                 |
-|      HitErrorPosY      |     Integer     | MidCenter |       45       | The Y position of the hit error                                                 |
-|     HitErrorAlpha      | Float (0.0-1.0) |     -     |      0.5       | The alpha of the hit error lines                                                |
-|  JudgementHitBurstFps  |     Integer     |     -     |       60       | The frames per second the judgement hit burst animation will run at             |
-|   JudgementBurstPosY   |     Integer     | MidCenter |       0        | The Y Offset of the judgement hit burst                                         |
-| JudgementHitBurstScale |   Byte(0-255)   |     -     |      100       | The size of the judgement hit burst. 255 = 357x357px at 1080p                   |
+|           Value           |    Data Type    | Alignment | Default Values | Notes                                                                                             |
+| :-----------------------: | :-------------: | :-------: | :------------: | ------------------------------------------------------------------------------------------------- |
+|    HitErrorChevronSize    |     Integer     |     -     |       8        | The size of the chevron that displays the player's last hit above the hit error                   |
+|      HitErrorHeight       |     Integer     |     -     |       10       | The height of the hit error                                                                       |
+|       HitErrorPosX        |     Integer     | MidCenter |       0        | The X position of the hit error                                                                   |
+|       HitErrorPosY        |     Integer     | MidCenter |       45       | The Y position of the hit error                                                                   |
+|       HitErrorAlpha       | Float (0.0-1.0) |     -     |      0.5       | The alpha of the hit error lines                                                                  |
+|   JudgementHitBurstFps    |     Integer     |     -     |       60       | The frames per second the judgement hit burst animation will run at                               |
+|    JudgementBurstPosY     |     Integer     | MidCenter |       0        | The Y Offset of the judgement hit burst                                                           |
+|  JudgementHitBurstBumpY   |     Integer     |     -     |       -5       | The Y added to the judgement hit burst when it starts bumping                                     |
+| JudgementHitBurstBumpTime |     Integer     |     -     |      183       | The time it takes to move the judgement hit burst from its bump position to its original position |
+|  JudgementHitBurstScale   |   Byte(0-255)   |     -     |      100       | The size of the judgement hit burst. 255 = 357x357px at 1080p                                     |
 
 ---
 
@@ -269,11 +271,13 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ### Combo
 
-|       Value       | Data Type | Alignment | Default Values | Notes                                                                |
-| :---------------: | :-------: | :-------: | :------------: | -------------------------------------------------------------------- |
-| ComboDisplayScale |  Integer  |     -     |      100       | The size of the combo display                                        |
-|     ComboPosX     |  Integer  | MidCenter |       0        | The X position of the combo display relative to its default position |
-|     ComboPosY     |  Integer  | MidCenter |      -40       | The Y position of the combo display relative to its default position |
+|        Value         | Data Type | Alignment | Default Values | Notes                                                                                       |
+| :------------------: | :-------: | :-------: | :------------: | ------------------------------------------------------------------------------------------- |
+|  ComboDisplayScale   |  Integer  |     -     |      100       | The size of the combo display                                                               |
+|      ComboPosX       |  Integer  | MidCenter |       0        | The X position of the combo display relative to its default position                        |
+|      ComboPosY       |  Integer  | MidCenter |      -40       | The Y position of the combo display relative to its default position                        |
+|  ComboDisplayBumpY   |  Integer  |     -     |       -5       | The Y added to the combo display when it starts bumping                                     |
+| ComboDisplayBumpTime |  Integer  |     -     |      370       | The time it takes to move the combo display from its bump position to its original position |
 
 ### Rating
 
