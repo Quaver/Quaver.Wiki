@@ -15,6 +15,8 @@ Our goal with this ranking process is to provide an easy and streamlined approac
 
 If your mapset is denied for rank, it will be placed on a **14 day cooldown period** before you can submit it again.
 
+You are required to have **10 mapsets** uploaded to your profile in order to submit mapsets to the Ranking Queue. If you submit unfinished or duplicate mapsets in order to reach this threshold, **your mapset will be Blacklisted** from the Ranking Queue and expected not to submit anything else before this requirement is met.
+
 ## Ranked Status Terminology
 
 There are multiple states that a map could possibly be in related to its process in getting it ranked. They are the following:
