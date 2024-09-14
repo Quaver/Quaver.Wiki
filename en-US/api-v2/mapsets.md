@@ -15,7 +15,7 @@ name: Mapsets
   - [GET `/mapset/offsets`](#get-%2Fmapset%2Foffsets)
       - [Parameters](#parameters-2)
       - [Example Response](#example-response-2)
-  - [GET `/mapset/offsets`](#get-%2Fmapset%2Fsearch)
+  - [GET `/mapset/search`](#get-%2Fmapset%2Fsearch)
       - [Parameters](#parameters-3)
       - [Example Response](#example-response-3)
 
