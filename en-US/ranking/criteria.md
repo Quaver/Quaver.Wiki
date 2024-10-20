@@ -103,6 +103,7 @@ The following metadata rules are put in place to create consistency within the r
 
 - Any form of `vs.`, `VS`, etc. indicating collaboration between artists should be formatted as `vs.`.
 - Any form of `feat.`, `ft.`, etc. indicating a featured artist should be formatted as `feat.`.
+- Any form of `4K` or `7K` to denote the gamemode of the difficulty should always be formatted as such, and not `4k` or `7k` for example.
 - If a fictional character is credited as the artist of a song, the artist should be formatted as `Character (CV: Voice Actor)`
 - If a song is used in a TV program, series, or similar media as an opening/ending song, `(TV Size)` marker must be used at the end of the title. If the title contains a similar marker by default, it should be replaced with `(TV Size)`.
 - If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
@@ -163,15 +164,18 @@ The following requirements are for the individual maps themselves.
 - **The maps must be at least 45 seconds long.**
 - **The maps must be timed accurately.** The waveform in the editor may be used for more accurate timing.
 - **The maps must have a song select preview point that sufficiently compliments the song.** Preview point is commonly placed at the beginning of a clear segment in the song, such as the chorus. A solid preview point attracts more players to try the map.
+- **Scroll Velocity changes should reflect the music.** Try to avoid changing SV when the music doesn’t call for it. This will generally make your map more difficult to read and harder to enjoy.
+- **Maps that include the usage of any Scroll Velocity are required to have "SV" in the tags.**
 
 ### Guidelines
 
 - **All maps in a mapset should use the same timing points.** Exceptions can be made for timing line art or other visual gimmicks.
 - **Avoid using overly long breaks (more than 30 seconds of consecutive break time).**
+- **Don’t drastically change your difficulty when the song does not warrant it.**
+- **Maps should have patterns and density choices that represent the song well.**
 - **Notes should correlate to sounds in the music.** This includes but is not limited to:
      - Representing distinct sounds with certain amounts of notes
      - Representing distinct sounds with certain patterns of notes
-- **Using layering is encouraged.** Mapping different instruments in the song will make the map reflect the music more.
 - **Paying attention to chord/pattern consistency is encouraged.** Mapping certain elements of the song with very different ideas in quick succession without justification lowers the map's quality.
 - **The intensity of the map should generally be synced with the music.** If a song is relatively mellow, the map should reflect this and vice versa.
 - Cases where **simplification of patterns may be preferred over following the music completely accurately** include, but are not limited to:
@@ -180,7 +184,14 @@ The following requirements are for the individual maps themselves.
      - Pattern would be unreasonable to execute with perfect accuracy
      - Intended difficulty of the map does not match the song intensity
 - **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the song's tempo variance.
-- **Scroll Velocity changes should reflect the music.** Try to avoid changing SV when the music doesn’t call for it. This will generally make your map more difficult to read and harder to enjoy.
+- **Patterns and styles that are frequently found within the map should have their name(s) placed in the tags.** This is to help users locate maps with given parameters they would otherwise have difficulty finding. Some examples would be:
+	 - Jack
+	 - Jumpstream
+	 - Handstream
+	 - Technical
+- **Collaborative Maps should have each users' sections identified with the Bookmark feature** This is to easily discern who did what in the map.
+- It is advisory for you to not have maps following a certain structure for the sake of consistency over actual song representation. 
+
 
 ## Difficulty Spread
 
