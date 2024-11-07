@@ -190,7 +190,7 @@ The following requirements are for the individual maps themselves.
 	 - Handstream
 	 - Technical
 - **Collaborative Maps should have each users' sections identified with the Bookmark feature** This is to easily discern who did what in the map.
-- It is advisory for you to not have maps following a certain structure for the sake of consistency over actual song representation. 
+- **Maps should not maintain a similar structure/patterning for the sake of consistency if it goes against the flow of the music.**
 
 
 ## Difficulty Spread
