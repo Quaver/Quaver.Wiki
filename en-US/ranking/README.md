@@ -8,3 +8,4 @@ In this section, you can find everything related to ranking mapsets including th
 
 * [Ranking Criteria](/docs/Ranking/Criteria)
 * [Ranking Process](/docs/Ranking/Process)
+* [Mapping Glossary](/docs/Ranking/Glossary)
