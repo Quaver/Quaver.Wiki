@@ -18,7 +18,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
-|     No     | BotLeft |       -        |
+|     No     |  BotLeft  |       -        |
 
 **Notes:**
 
@@ -221,9 +221,9 @@ The following are the list of elements to customize the gameplay interface. This
 
 ![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png?v=2)
 
-| Animatable | Alignment |     Suggested Size     |
-| :--------: | :-------: | :--------------------: |
-|     No     |  TopLeft  |     -     |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -240,9 +240,9 @@ The following are the list of elements to customize the gameplay interface. This
 
 ![Receptors (Down)](/docs/images/Receptors/Bar/4k/receptor-down-2.png?v=2)
 
-| Animatable | Alignment |     Suggested Size     |
-| :--------: | :-------: | :--------------------: |
-|     No     |  TopLeft  |     -     |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
 
 **Notes:**
 
@@ -354,9 +354,9 @@ Notes:
 
 ![Grade Small A](/docs/images/Grades/grade-small-a.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -371,9 +371,9 @@ Notes:
 
 ![Grade Small B](/docs/images/Grades/grade-small-b.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -388,9 +388,9 @@ Notes:
 
 ![Grade Small C](/docs/images/Grades/grade-small-c.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -405,9 +405,9 @@ Notes:
 
 ![Grade Small D](/docs/images/Grades/grade-small-d.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -422,9 +422,9 @@ Notes:
 
 ![Grade Small F](/docs/images/Grades/grade-small-f.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -439,9 +439,9 @@ Notes:
 
 ![Grade Small S](/docs/images/Grades/grade-small-s.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -456,9 +456,9 @@ Notes:
 
 ![Grade Small SS](/docs/images/Grades/grade-small-ss.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -473,9 +473,9 @@ Notes:
 
 ![Grade Small X](/docs/images/Grades/grade-small-x.png?v=2)
 
-| Animatable | Alignment |  Suggested Size |
-| :--------: | :-------: | :-------------: |
-|     No     |     -     |      60x60      |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |     60x60      |
 
 **Notes:**
 
@@ -517,6 +517,37 @@ Notes:
 
 - Spritesheet animation file name: `/Health/health-foreground@{rows}x{columns}.png`
 - Displayed in the foreground. This is the healthbar that crops according to the current health.
+
+---
+
+## Hit Bubbles
+
+### Hit Bubbles Background
+
+`/HitBubbles/bubbles-background.png`
+
+![Hit BubblesBackground](/docs/images/HitBubbles/bubbles-background.png?v=2)
+
+| Animatable | Alignment |              Suggested Size              |
+| :--------: | :-------: | :--------------------------------------: |
+|    Yes     |  Depends  | 271x22 if horizontal. 22x271 if vertical |
+
+**Notes:**
+
+- Spritesheet animation file name: `/HitBubbles/bubbles-background@{rows}x{columns}.png`
+- Displayed as the background hit bubbles.
+
+---
+
+### Hit Bubble
+
+`/HitBubbles/bubble.png`
+
+![Hit Bubble](/docs/images/HitBubbles/bubble.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  Depends  |     10x10      |
 
 ---
 
@@ -562,9 +593,9 @@ Notes:
 
 ![Judgement (Marv)](/docs/images/Judgements/judge-marv.png?v=2)
 
-| Animatable | Alignment |      Suggested Size        |
-| :--------: | :-------: | :------------------------: |
-|    Yes     | MidCenter |  357x357 maximum per frame |
+| Animatable | Alignment |      Suggested Size       |
+| :--------: | :-------: | :-----------------------: |
+|    Yes     | MidCenter | 357x357 maximum per frame |
 
 **Notes:**
 
@@ -580,9 +611,9 @@ Notes:
 
 ![Judgement (Perf)](/docs/images/Judgements/judge-perf.png?v=2)
 
-| Animatable | Alignment |      Suggested Size        |
-| :--------: | :-------: | :------------------------: |
-|    Yes     | MidCenter |  357x357 maximum per frame |
+| Animatable | Alignment |      Suggested Size       |
+| :--------: | :-------: | :-----------------------: |
+|    Yes     | MidCenter | 357x357 maximum per frame |
 
 **Notes:**
 
@@ -598,9 +629,9 @@ Notes:
 
 ![Judgement (Great)](/docs/images/Judgements/judge-great.png?v=2)
 
-| Animatable | Alignment |      Suggested Size        |
-| :--------: | :-------: | :------------------------: |
-|    Yes     | MidCenter |  357x357 maximum per frame |
+| Animatable | Alignment |      Suggested Size       |
+| :--------: | :-------: | :-----------------------: |
+|    Yes     | MidCenter | 357x357 maximum per frame |
 
 **Notes:**
 
@@ -616,9 +647,9 @@ Notes:
 
 ![Judgement (Good)](/docs/images/Judgements/judge-good.png?v=2)
 
-| Animatable | Alignment |      Suggested Size        |
-| :--------: | :-------: | :------------------------: |
-|    Yes     | MidCenter |  357x357 maximum per frame |
+| Animatable | Alignment |      Suggested Size       |
+| :--------: | :-------: | :-----------------------: |
+|    Yes     | MidCenter | 357x357 maximum per frame |
 
 **Notes:**
 
@@ -634,9 +665,9 @@ Notes:
 
 ![Judgement (Okay)](/docs/images/Judgements/judge-okay.png?v=2)
 
-| Animatable | Alignment |      Suggested Size        |
-| :--------: | :-------: | :------------------------: |
-|    Yes     | MidCenter |  357x357 maximum per frame |
+| Animatable | Alignment |      Suggested Size       |
+| :--------: | :-------: | :-----------------------: |
+|    Yes     | MidCenter | 357x357 maximum per frame |
 
 **Notes:**
 
@@ -652,9 +683,9 @@ Notes:
 
 ![Judgement (Miss)](/docs/images/Judgements/judge-miss.png?v=2)
 
-| Animatable | Alignment |      Suggested Size        |
-| :--------: | :-------: | :------------------------: |
-|    Yes     | MidCenter |  357x357 maximum per frame |
+| Animatable | Alignment |      Suggested Size       |
+| :--------: | :-------: | :-----------------------: |
+|    Yes     | MidCenter | 357x357 maximum per frame |
 
 **Notes:**
 
@@ -1016,9 +1047,9 @@ Notes:
 
 `/Backgrounds/*.{png, jpg, jpeg}`
 
-| Animatable | Alignment |  Suggested Size   |
-| :--------: | :-------: | :---------------: |
-|     No     |     -     |         -         |
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |       -        |
 
 **Notes:**
 
