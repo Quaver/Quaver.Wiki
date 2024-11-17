@@ -12,7 +12,7 @@ Important note: If you are modifying the RGBA Colors and if you left the **Alpha
 
 The `[General]` section of the config file contains metadata about the skin—who it's by, what it's called, and the version—as well as non keymode-specific properties. It's mainly to let people know what your skin is all about.
 
-|    Value           |        Data Type        | Default Values |                                    Notes                                    |
+|       Value        |        Data Type        | Default Values |                                    Notes                                    |
 | :----------------: | :---------------------: | :------------: | :-------------------------------------------------------------------------: |
 |        Name        |         String          |       -        |                            The name of the skin                             |
 |       Author       |         String          |       -        |                       The creator/author of the skin                        |
@@ -262,6 +262,24 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |  HealthBarPosOffsetX   |                Integer                 |  Depends  |       5        | The health bar's X position relative to its default location                                 |
 |  HealthBarPosOffsetY   |                Integer                 |  Depends  |       5        | The health bar's Y position relative to its default location                                 |
 |     HealthBarScale     |          Integer (Percentage)          |     -     |      100       | The size of the health bar display                                                           |
+
+---
+
+## Hit Bubbles
+
+###### Affected Textures: [bubbles-background.png](/docs/skins/gameplayinterface#hit-bubbles-background), [bubble.png](/docs/skins/gameplayinterface#hit-bubble)
+
+|            Value             |                                                           Data Type                                                           | Alignment | Default Values | Notes                                                                                       |
+| :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :-------: | :------------: | ------------------------------------------------------------------------------------------- |
+|     HitBubblesAlignment      |                                           `LeftStage`, `RightStage` or `BelowStage`                                           |  Depends  |  `LeftStage`   | Where the hit bubbles is positioned in relation to the stage                                |
+|        HitBubblesType        |                                        `FallDown`, `FallUp`, `FallLeft` or `FallRight`                                        |     -     |   `FallDown`   | The direction towards which the bubbles fall                                                |
+|        HitBubblesPosX        |                                                            Integer                                                            |  Depends  |      -10       | The hit bubbles X position relative to its default location                                 |
+|        HitBubblesPosY        |                                                            Integer                                                            |  Depends  |      170       | The hit bubbles Y position relative to its default location                                 |
+|       HitBubblesScale        |                                                             Float                                                             |     -     |       1        | The scale of the hit bubbles display                                                        |
+|        HitBubbleScale        |                                                             Float                                                             |     -     |       1        | The scale of an individual hit bubble                                                       |
+|    HitBubbleBorderPadding    |                                                             Float                                                             |     -     |       7        | The padding between the edges of the bubbles display (along line of falling) to the bubbles |
+|       HitBubblePadding       |                                                             Float                                                             |     -     |       3        | The padding between any two bubbles (along line of falling)                                 |
+| HitBubblesRecordedJudgements | `Marv`, `Perf`, `Great`, `Good`, `Okay`, `Miss`, `NoMarv`, `All`, `Default` or any combination of them joined by commas (`,`) |     -     |    `NoMarv`    | The judgements that will generate a bubble                                                  |
 
 ---
 
