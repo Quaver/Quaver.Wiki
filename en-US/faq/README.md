@@ -101,19 +101,37 @@ We currently have following search filters:
 | Difficulty   | d          | difficulty  | number                                                      |
 | Game         | g          | game        | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
 | Keys         | k          | keys        | number                                                      |
-| Length       | l          | length      | number in seconds                                           |
+| Length       | l          | length      | either number in seconds or duration like (2m15s, 1h)                                           |
 | LNs          | ln         | lns         | either an absolute number (452) or a whole percentage (57%) |
 | NPS          | n          | nps         | number                                                      |
 | Status       | s          | status      | ranked/r, notsubmitted/n, unranked/u, (dan/d)               |
 | Times Played | t          | timesplayed | number                                                      |
+| Tags | ta          | tags | string, or strings separated by '/' or ','                                                      |
+| Artist | a          | artists | string, or strings separated by '/' or ','                                                      |
+| Creator | c          | creators | string, or strings separated by '/' or ','                                                      |
+| Description | de          | description | string, or strings separated by '/' or ','                                                      |
+| Title | ti          | title | string, or strings separated by '/' or ','                                                      |
+| Genre | ge          | genre | string, or strings separated by '/' or ','                                                      |
+| Source | so          | sources | string, or strings separated by '/' or ','                                                      |
+| Difficulty Name | diffn/difficultyn          | diffname/difficultyname | string, or strings separated by '/' or ','                                                      |
 
 All filters can use the `=` (equals) and `!=` (not equals) operator, number comparisons can additionally use `>= > <= <`.
 
+To negate the condition, prepend a `:` before the term (e.g. `!d>10` searches for difficulty `<= 10`)
+
+For strings, you can use `=` and `:` for contains, `!=` for not contains.
+
+To include spaces for escape semantics, surround your string by a double/single quote (e.g. `"hello world"` matches the space too)
+
+For lists of strings, you could use the OR combinator (`/`) or the AND combinator (`,`) to join the strings. For example, `c:piano/emi` returns maps whose creator contains either `piano` or `emi` (or both), while `c:piano,emi` returns maps whose creator must contain both `piano` and `emi`.
+
+For the `Game` and `Status` parameter, if its values are listed without using key-value pair (i.e. the searching of `unranked` or `etterna` but not `unr`, `g=unranked`, etc.), it will be interpreted as if you are searching for `status=unranked` or `game=etterna`. To avoid this, wrap the term in quotes (e.g. `"etterna"`). This is called a singleton enum.
+
 You use a filter by typing a flag, an operator and an argument into the search bar, all without spaces. An example would be `difficulty>30`. Any string from the short to the long flags will be matched, `diff>30` would be a valid filter.
 
-If no flag or operator is given, it will be treated as a regular keyword and display all mapsets that contain that keyword in the metadata (artist, title, mapper, tags).
+If the term is without keys and is not a singleton enum, it will be treated as a regular keyword and display all mapsets that contain that keyword in the metadata (artist, title, mapper, tags).
 
-All conditions in the search have to be met for a mapset to be shown (AND). There is no option for OR gates yet.
+All top level terms in the search have to be met for a mapset to be shown (AND).
 
 ## Troubleshooting
 
