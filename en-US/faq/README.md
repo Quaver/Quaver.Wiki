@@ -95,25 +95,25 @@ For the lowest latency (below 1 frame) when running sway, set up `max_render_tim
 
 We currently have following search filters:
 
-| Filter       | Short flag | Long flag   | Argument                                                    |
-| ------------ | ---------- | ----------- | ----------------------------------------------------------- |
-| BPM          | b          | bpm         | number                                                      |
-| Difficulty   | d          | difficulty  | number                                                      |
-| Game         | g          | game        | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
-| Keys         | k          | keys        | number                                                      |
-| Length       | l          | length      | either number in seconds or duration like (2m15s, 1h)                                           |
-| LNs          | ln         | lns         | either an absolute number (452) or a whole percentage (57%) |
-| NPS          | n          | nps         | number                                                      |
-| Status       | s          | status      | ranked/r, notsubmitted/n, unranked/u, (dan/d)               |
-| Times Played | t          | timesplayed | number                                                      |
-| Tags | ta          | tags | string, or strings separated by '/' or ','                                                      |
-| Artist | a          | artists | string, or strings separated by '/' or ','                                                      |
-| Creator | c          | creators | string, or strings separated by '/' or ','                                                      |
-| Description | de          | description | string, or strings separated by '/' or ','                                                      |
-| Title | ti          | title | string, or strings separated by '/' or ','                                                      |
-| Genre | ge          | genre | string, or strings separated by '/' or ','                                                      |
-| Source | so          | sources | string, or strings separated by '/' or ','                                                      |
-| Difficulty Name | diffn/difficultyn          | diffname/difficultyname | string, or strings separated by '/' or ','                                                      |
+| Filter          | Short flag        | Long flag               | Argument                                                    |
+| --------------- | ----------------- | ----------------------- | ----------------------------------------------------------- |
+| BPM             | b                 | bpm                     | number                                                      |
+| Difficulty      | d                 | difficulty              | number                                                      |
+| Game            | g                 | game                    | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
+| Keys            | k                 | keys                    | number                                                      |
+| Length          | l                 | length                  | either number in seconds or duration like (2m15s, 1h)       |
+| LNs             | ln                | lns                     | either an absolute number (452) or a whole percentage (57%) |
+| NPS             | n                 | nps                     | number                                                      |
+| Status          | s                 | status                  | ranked/r, notsubmitted/n, unranked/u, (dan/d)               |
+| Times Played    | t                 | timesplayed             | number                                                      |
+| Tags            | ta                | tags                    | string, or strings separated by '/' or ','                  |
+| Artist          | a                 | artists                 | string, or strings separated by '/' or ','                  |
+| Creator         | c                 | creators                | string, or strings separated by '/' or ','                  |
+| Description     | de                | description             | string, or strings separated by '/' or ','                  |
+| Title           | ti                | title                   | string, or strings separated by '/' or ','                  |
+| Genre           | ge                | genre                   | string, or strings separated by '/' or ','                  |
+| Source          | so                | sources                 | string, or strings separated by '/' or ','                  |
+| Difficulty Name | diffn/difficultyn | diffname/difficultyname | string, or strings separated by '/' or ','                  |
 
 All filters can use the `=` (equals) and `!=` (not equals) operator, number comparisons can additionally use `>= > <= <`.
 
