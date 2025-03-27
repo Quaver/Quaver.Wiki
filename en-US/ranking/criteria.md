@@ -138,7 +138,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 ### Rules
 
-- **The resolution of a banner image must be at least 421x82 and at most 1263x243.** This resolution also represents the default size and aspect ratio.
+- **The resolution of a banner image must be at least 421x82 and at most 1263x246.** This resolution also represents the default size and aspect ratio.
 - **The file size of a banner image must not exceed 2 MB.**
 - **The banner must be appropriate for players of 13+ years old and should not contain explicit content.**
 
