@@ -218,7 +218,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/7k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
 
-![HoldObject-Sheets](/docs/images/Notes/Bar/4k/note-holdobject-sheet@9x1.png?v=2)
+![HoldObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
