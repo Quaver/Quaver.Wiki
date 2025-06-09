@@ -116,7 +116,7 @@ The following metadata rules are put in place to create consistency within the r
 
 ## Rules
 
-- **The total file size of the mapset must not exceed 50 MB.**
+- **The total file size of the mapset must not exceed 100 MB.**
 - **A mapset cannot contain unused files.**
 
 ## Guidelines
