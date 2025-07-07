@@ -15,6 +15,7 @@ Quaver offers over 20 commands that you can use to customize your multiplayer ma
 | **!mp host [user_name]**    | Transfers host to a specific user in the multiplayer game |
 | **!mp map [map_id]**        | Sets a map to be played for the match                     |
 | **!mp hostrotation**        | Enables/Disables auto host rotation for the match         |
+| **!mp preview**             | Allows/Forbids preview for the match                      |
 | **!mp maxplayers [number]** | Changes the max player count of the multiplayer game      |
 | **!mp autohost**            | Automatically selects ranked maps (lobby rules apply)     |
 | **!mp randmap**             | Picks random ranked map (can be used by host)             |
