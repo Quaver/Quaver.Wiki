@@ -208,7 +208,29 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The note that falls down the screen for both non-hold and hold objects.
 - This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- The expected size for a sheet is 9x1.
 
+---
+
+### Hold-Object Sheets
+
+`/4k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
+
+`/7k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
+
+![HoldObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The note that falls down the screen for hold objects.
+- This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If a sheet is not supplied, the HitObject sheet will be used in its place.
+- The expected size for a sheet is 9x1.
+  
 ---
 
 ## Receptors

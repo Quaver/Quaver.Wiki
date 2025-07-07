@@ -212,6 +212,8 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |   ReceptorPosOffsetY    |           Integer            |        0        |        The Y position of the receptors relative to its default location on the screen. Setting this value higher will make the receptors at higher position.         |
 | ReceptorsOverHitObjects |    Boolean(True or False)    |      True       |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
 |  StageReceptorPadding   |           Integer            |        0        |                                       The amount of space between between the stage background's border and first/last column                                        |
+|  CoopPlayfieldPadding   |           Integer            |       92        |                               The amount of space between between the sides of the screen and the playfield, only active in coop play.                               |
+
 
 ---
 
@@ -377,8 +379,6 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Stage Timing Bar
 
-###### Affected Textures: [stage-timingbar.png](/docs/skins/gameplayinterface#stage-timing-bar)
-
 |             Value             |          Data Type          | Default Values  | Notes                                                                                    |
 | :---------------------------: | :-------------------------: | :-------------: | ---------------------------------------------------------------------------------------- |
 |  SongTimeProgressActiveColor  | RGBA Color(255,255,255,255) | 255,231,107,255 | The color of the song time progress bar (active)                                         |
@@ -386,3 +386,13 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |     SongTimeProgressScale     |           Integer           |       45        | The size of the song’s time progress                                                     |
 | SongTimeProgressPositionAtTop |   Boolean(True or False)    |      False      | If set to `True`, The song time progress bar will be positioned at the top of the screen |
 |        TimingLineColor        | RGBA Color(255,255,255,255) | 255,255,255,255 | The color of the timing lines                                                            |
+
+## Mini song progress bar
+
+|             Value             |          Data Type          | Default Values  | Notes                                                                                      |
+| :---------------------------: | :-------------------------: | :-------------: | ------------------------------------------------------------------------------------------ |
+|        ShowMiniSongBar        |   Boolean(True or False)    |      False      | If set to `True`, The mini song progress bar will be displayed                             |
+|    MiniSongBarDisplayPosX     |           Integer           |       75        | The X position of the mini song progress bar                                               |
+|    MiniSongBarDisplayPosY     |           Integer           |        0        | The Y position of the mini song progress bar                                               |
+| MiniSongBarDisplayWidthFactor |           Integer           |       30        | The scaling factor of the mini song progress, where the bar's width is (screen size)/value |
+|    MiniSongBarDisplayHeight   |           Integer           |        4        | The Height of the mini song progress bar                                                   |
