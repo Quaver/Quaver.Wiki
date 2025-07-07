@@ -212,6 +212,8 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |   ReceptorPosOffsetY    |           Integer            |        0        |        The Y position of the receptors relative to its default location on the screen. Setting this value higher will make the receptors at higher position.         |
 | ReceptorsOverHitObjects |    Boolean(True or False)    |      True       |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
 |  StageReceptorPadding   |           Integer            |        0        |                                       The amount of space between between the stage background's border and first/last column                                        |
+|  CoopPlayfieldPadding   |           Integer            |       92        |                               The amount of space between between the sides of the screen and the playfield, only active in coop play.                               |
+
 
 ---
 
