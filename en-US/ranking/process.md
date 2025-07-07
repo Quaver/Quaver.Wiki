@@ -63,6 +63,8 @@ After submitting your set for rank, it will be placed in a queue for the Ranking
 
 In order to get your set ranked, **you will need to get 2 votes from the Ranking Supervisors** that dictates if the set is eligible for rank.
 
+If the set contains both 4K and 7K difficulties, only one 4K and one 7K Ranking Supervisor will have to vote for the set.
+
 During this vote, **a Supervisor has the ability to veto a mapset from being ranked before it reaches 2 vote and are able place it in a denied state** if there are any issues with the set.
 
 You can check the status of the vote for your set by going to its respective mapset page. Here will be displayed the amount of votes it has as well as the Supervisors who are nominating it for rank.
