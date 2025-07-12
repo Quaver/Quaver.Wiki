@@ -126,7 +126,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 - **When multiple artists are involved on a track without clear formatting, you may use any of the following allowances to combine them in the artist field:**
   - `Composer(s) feat. Singer(s)`
-  - **If there are a large amount of artists on a track without an official group name available, a descriptive artist lable may be used instead.** If no fitting name can be found `Various Artists` may be used instead.
+  - **If there are a large amount of artists on a track without an official group name available, a descriptive artist label may be used instead.** If no fitting name can be found, `Various Artists` may be used instead.
     	  
 ## Title
 
@@ -178,7 +178,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 - **If a mapset contains two game modes, each difficulty must be prefaced with either `4K` or `7K`.** For example, `7K Easy`.
 - **Guest difficulty creators must be credited in the difficulty title of their respective difficulty.** For example, `Flamingo's Hard`.
    - In case of multi-mode guest difficulties. Guest creators come before keymode markings.
-   - Collaborative difficulties may be marked by using a combination of both the mappers names, both the mappers names with an appropiate dividing word or marker, a descriptive word, or simply `Collab`.  
+   - Collaborative difficulties may be marked by using a combination of both the mappers names, both the mappers names with an appropriate dividing word or marker, a descriptive word, or simply `Collab`.  
 - **If the mapset is a spread, the difficulty names should a show clear difficulty progression.**
    - When using non standard difficulty naming the standard difficulty name may be added with a clear dividing marker, such as `| Difficulty` or `(Difficulty)` at the end of the difficulty title.
 - **Mapsets using more than 1 skillset across the difficulties must show have a clear description of the skillset in the difficulty name.** Examples of this would be `Jumpinghoop (Chordjack)` or `Rollercoaster (Jumpstream)` 
@@ -246,13 +246,13 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 - **Autoplay must be able to achieve a 100% (X-Grade) score on every difficulty.**
 - **No difficulty may have any overlapping notes.**
-- **More then 75% of the length of the song must have notes to play on every difficulty.**
+- **More than 75% of the length of the song must have notes to play on every difficulty.**
 - **Each difficulty must have at least 1 note placed on every column.**
 - **The draintime of each difficulty must be at least 45 seconds.**
 - **Each difficulty must be timed accurately.**
-  - **Each difficulty in a set must share the same timing points.** Exeptions to this rule can be made for timing line art or other visual gimmicks.
+  - **Each difficulty in a set must share the same timing points.** Exceptions to this rule can be made for timing line art or other visual gimmicks.
 - **Scroll Velocity changes should reflect the music.**
-- **The host of a mapset should have mapped an equal or more difficulties then any induvidual guest difficulty creator.**
+- **The host of a mapset should have mapped an equal or more difficulties then any individual guest difficulty creator.**
 - **All maps must have been made by a human.**
 - **The map must not contain any unused SV points.**
 
@@ -283,7 +283,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 ### Rules
 
 - **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
-- **Mapsets Under 2:30 minutes long must form a difficulty spread following the minimum required difficulties for it's length.**
+- **Mapsets under 2:30 minutes long must form a difficulty spread following the minimum required difficulties for it's length.**
     - Seperate skillsets should have their own spread or work in the spread.
       
        
@@ -311,7 +311,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
 - **Normal**
      - Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to Easy and Beginner.
      - Note snappings of consecutive 1/6 and above should not be used.
-     - Note density consist of mostly 1/1 and 1/2. occaisonal 1/4 patterning is okay..
+     - Note density consist of mostly 1/1 and 1/2. Occasional 1/4 patterning is okay.
      - Avoid using more than 5 consecutive 1/4 notes.
      - Avoid chords with more than 2 notes for 4K, avoid chords with more than 3 notes for 7K.
      - Long notes are at least 1/2 of a beat long.
@@ -321,7 +321,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
      - Note snappings of consecutive 1/8 and higher should not be used.
      - Avoid chords during long 1/4 streams. If you use chords during 1/4 streams space them well.
-     - Long notes are atleast 1/4 of a beat long.
+     - Long notes are at least 1/4 of a beat long.
      - Avoid chords with more than 3 notes for 4K, avoid chord with more than 4 notes for 7K.
      - Scroll Velocity changes are reflective of this difficulty's position in the mapset. If this is the first SV of a spread it is recommended to keep it entry level.
  
@@ -330,7 +330,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid unjust spikes in difficulty
      - Avoid using any kind long lasting complicated high snap patterning.
      - Avoid using chords in the middle of 1/8 streams
-     - Scroll Velocity changes are reflective of this difficutly's position in the mapset.
+     - Scroll Velocity changes are reflective of this difficutlty's position in the mapset.
        
 - **Expert**
      - From this point on, the only thing holding you back would be the spread. Feel free to be creative.
