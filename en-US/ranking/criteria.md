@@ -174,14 +174,13 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 ### Rules
 
 - **The difficulty name should be kept appropriate for people aged 13+.**
-- **The difficulty name should be kept related to the mapset.**
 - **If a mapset contains two game modes, each difficulty must be prefaced with either `4K` or `7K`.** For example, `7K Easy`.
 - **Guest difficulty creators must be credited in the difficulty title of their respective difficulty.** For example, `Flamingo's Hard`.
    - In case of multi-mode guest difficulties. Guest creators come before keymode markings.
    - Collaborative difficulties may be marked by using a combination of both the mappers names, both the mappers names with an appropriate dividing word or marker, a descriptive word, or simply `Collab`.  
-- **If the mapset is a spread, the difficulty names should a show clear difficulty progression.**
+- **If the mapset is a spread, the difficulty names should show a clear difficulty progression.**
    - When using non standard difficulty naming the standard difficulty name may be added with a clear dividing marker, such as `| Difficulty` or `(Difficulty)` at the end of the difficulty title.
-- **Mapsets using more than 1 skillset across the difficulties must show have a clear description of the skillset in the difficulty name.** Examples of this would be `Jumpinghoop (Chordjack)` or `Rollercoaster (Jumpstream)` 
+- **Mapsets using more than 1 skillset across the difficulties must have a clear description of the skillset in the difficulty name.** Examples of this would be `Jumpinghoop (Chordjack)` or `Rollercoaster (Jumpstream)` 
  
 ### Guidelines
 
@@ -253,8 +252,8 @@ A mapset is not required to have a banner image. These rules apply in case the m
   - **Each difficulty in a set must share the same timing points.** Exceptions to this rule can be made for timing line art or other visual gimmicks.
 - **Scroll Velocity changes should reflect the music.**
 - **The host of a mapset should have mapped an equal or more difficulties then any individual guest difficulty creator.**
-- **All maps must have been made by a human.**
-- **The map must not contain any unused SV points.**
+- **All difficulties must have been made by a human.**
+- **No difficulty should contain any unused SV points.**
 
 ### Guidelines
 
