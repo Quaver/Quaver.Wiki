@@ -197,7 +197,7 @@ If you're looking for the steps of getting a mapset ranked, see: [Quaver Ranking
 
 - **The total file size of the mapset must not exceed 100 MB.**
 - **A mapset cannot contain any unused files.**
-- **Difficulties containing repetitive cases of rapidly flashing notes must contain an epelepsy warning in the description of the mapset.**
+- **Difficulties containing repetitive cases of rapidly flashing notes must contain an epilepsy warning in the description of the mapset.**
 - **All media used should be of reasonable quality.**
 - **Any media featuring or created by a program (such as AI), should explicitly state how and where it was involved in the description of the mapset.** 
 
