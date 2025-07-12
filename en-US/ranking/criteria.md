@@ -329,7 +329,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid unjust spikes in difficulty
      - Avoid using any kind long lasting complicated high snap patterning.
      - Avoid using chords in the middle of 1/8 streams
-     - Scroll Velocity changes are reflective of this difficutlty's position in the mapset.
+     - Scroll Velocity changes are reflective of this difficulty's position in the mapset.
        
 - **Expert**
      - From this point on, the only thing holding you back would be the spread. Feel free to be creative.
