@@ -4,35 +4,46 @@ name: Ranking Criteria
 
 - [Quaver Ranking Criteria](#quaver-ranking-criteria)
 - [Metadata](#metadata)
-     - [Rules](#rules)
-     - [Artist](#artist)
-          - [Rules](#rules-1)
-     - [Title](#title)
-          - [Rules](#rules-2)
-     - [Source](#source)
-          - [Rules](#rules-3)
-     - [Tags](#tags)
-          - [Rules](#rules-4)
-          - [Guidelines](#guidelines)
-     - [Difficulty Name](#difficulty-name)
-          - [Guidelines](#guidelines-1)
-     - [Standardization](#standardization)
-- [Media](#media)
-     - [Rules](#rules-5)
-     - [Guidelines](#guidelines-2)
-     - [Background](#background)
-          - [Rules](#rules-6)
-     - [Banner](#banner)
-          - [Rules](#rules-7)
-     - [Audio](#audio)
-          - [Rules](#rules-8)
+   - [General](#general)
+        - [Rules](#rules)
+        - [Guidelines](#guidelines)
+    - [Standardization](#standardization)
+        - [Markers](#markers)
+        - [Symbols](#symbols)
+        - [Allowances](#allowances)
+    - [Artist](#artist)
+        - [Rules](#rules-1)
+        - [Allowances](#allowances-1)
+    - [Title](#title)
+        - [Rules](#rules-2)
+    - [Source](#source)
+        - [Rules](#rules-3)
+    - [Tags](#tags)
+        - [Rules](#rules-4)
+        - [Guidelines](#guidelines-1)
+    - [Difficulty Name](#difficulty-name)
+        - [Rules](#rules-5)
+        - [Guidelines](#guidelines-2)
+- [Media](#media)                                                                                 
+   - [General](#general-1)
+        - [Rules](#rules-6)
+        - [Guidelines](#guidelines-3)
+    - [Background](#background)
+        - [Rules](#rules-7)
+    - [Banner](#banner)
+        - [Rules](#rules-8)
+    - [Audio](#audio)
+        - [Rules](#rules-9)
+        - [Guidelines](#guidelines-4)
 - [Maps](#maps)
-     - [Rules](#rules-9)
-          - [Guidelines](#guidelines-3)
-     - [Difficulty Spread](#difficulty-spread)
-          - [Rules](#rules-10)
-          - [Guidelines](#guidelines-4)
-          - [Difficulty descriptions](#difficulty-descriptions)
+   - [General](#general-2)
+        - [Rules](#rules-10)
+        - [Guidelines](#guidelines-5)
+   - [Difficulty Spread](#difficulty-spread)
+        - [Rules](#rules-11)
+- [Difficulty-Specific](#difficulty-specific)                                       
+
+
 
 # Quaver Ranking Criteria
 
@@ -272,12 +283,12 @@ A mapset is not required to have a banner image. These rules apply in case the m
 ### Rules
 
 - **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
-- **Mapsets Under 3 minutes long must form a difficulty spread following the minimum required difficulties for it's length.**
+- **Mapsets Under 2:30 minutes long must form a difficulty spread following the minimum required difficulties for it's length.**
     - Seperate skillsets should have their own spread or work in the spread
       
        
 
-## Difficulty-Spesific
+## Difficulty-Specific
 
 The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. It is to serve how a map should come to feel and look. The following discriptions are crafted for a song at 180bpm. 
 
