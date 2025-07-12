@@ -296,15 +296,15 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - For players who are being exposed to rhythm games for the first time.
      - Notes are placed at most once every beat.
      - Long notes are at least 1 beat long.
-     - Jumps are mostly used to emphasize really imporant sounds in the music.
+     - Jumps are mostly used to emphasize really important sounds in the music.
      - Scroll Velocity changes must not be used.
 
 - **Easy**
      - This is for players who just started grasping the game.
-     - Long are at least 1 beat long.
-     - Note density consists of mostly 1/1 with occaisional 1/2.
+     - Long notes are at least 1 beat long.
+     - Note density consists of mostly 1/1 with occasional 1/2.
      - 1/2 patterns are no longer then 5 notes.
-     - Avoid chords with more than 2 notes
+     - Avoid chords with more than 2 notes.
      - Scroll Velocity changes are heavily discouraged.
 
 - **Normal**
@@ -326,10 +326,9 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
  
 - **Insane**
      - Players at this level will be able to handle a wide variety of patterns.
-     - Avoid unjust spikes in difficulty
      - Avoid using any kind long lasting complicated high snap patterning.
-     - Avoid using chords in the middle of 1/8 streams
+     - Avoid using chords in the middle of 1/8 streams.
      - Scroll Velocity changes are reflective of this difficulty's position in the mapset.
        
 - **Expert**
-     - From this point on, the only thing holding you back would be the spread. Feel free to be creative.
+     - From this point on, the only thing holding you back would be the spread. Feel free to be creative. 
