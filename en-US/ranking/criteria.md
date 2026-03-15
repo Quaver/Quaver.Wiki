@@ -254,6 +254,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 ### Guidelines
 
 - **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.** Minor explicit songs may still be ranked by being marked as explicit.
+- **The audio file of a song should not be artificially extended in order to meet a drain time limitation**. 
 
 # Maps
 
@@ -261,6 +262,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 ### Rules
 
+- **Mapsets should not be made with malicious intent.** This includes abusing the difficulty calculation and intentionally ranking something knowing it can inflict harm to the ranked section or player.
 - **Autoplay must be able to achieve a 100% (X-Grade) score on every difficulty.**
 - **No difficulty may have any overlapping notes.**
 - **75% or more of the length of the song must have notes to play on every difficulty.**
@@ -271,7 +273,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Scroll Velocity changes should reflect the music.**
 - **The host of a mapset should have mapped an equal amount or more difficulties than any individual guest difficulty creator.**
 - **All difficulties must have been made by a human.**
-- **No difficulty should contain any unused SV points.**
+- **No difficulty should contain any unused SV points.** 
 
 ### Guidelines
 
