@@ -105,6 +105,8 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - If a song has been edited to have lower tempo, `(Slowed Down Ver.)` marker must be used at the end of the title. If the title contains a similar marker by default, it should be replaced with `(Slowed Down Ver.)`.
 - Charts of full albums must include `(Full Album)` at the end of the title.
 
+**If the `Song Title` field contains two or more non-conflicting markers**. These should be combined into a single marker formatted as `(... & ... Ver.)`.
+
 ### Symbols
 
 - **Special symbols in the `Song Title`, `Artist Name` and `Source` fields must be changed to their nearest ASCII printable equivalent or removed.**
