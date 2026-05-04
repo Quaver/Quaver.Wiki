@@ -71,9 +71,9 @@ Retrieves information about a given user
 
 #### Parameters
 
-| Name | Description               | Required |
-|------|---------------------------|----------|
-| id   | The id or username        | Yes      |
+| Name | Description                  | Required |
+|------|------------------------------|----------|
+| id   | The id, username or steam id | Yes      |
 
 #### Example Response
 
