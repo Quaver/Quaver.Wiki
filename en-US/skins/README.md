@@ -34,6 +34,7 @@ If you want to start creating a skin from scratch, you will need an image editin
    - [paint.net](https://www.getpaint.net/index.html) (Free)
    - [Figma](https://www.figma.com/login) (Free)
    - [Photopea](https://www.photopea.com) (Free)
+   - [Affinity](https://www.affinity.studio/get-affinity) (Free)
 
 - For text editor:
 
@@ -46,11 +47,10 @@ If you want to start creating a skin from scratch, you will need an image editin
     - [Audacity](https://www.audacityteam.org) (Free)
     - [FL Studio](https://www.image-line.com) (Free/Paid)
 
-There are also various tools that can be used for making a skin:
+There are also various tools that can assist with making a skin:
 
-  - [Advanced Renamer](https://www.advancedrenamer.com) - a program for renaming multiple files and folders at once.
-  - [Pinga/Pingo](https://css-ig.net/pingo) - a program used for optimizing images.
-
+  - [Advanced Renamer](https://www.advancedrenamer.com) (Free) - a program for renaming multiple files and folders at once.
+  - [Pinga/Pingo](https://css-ig.net/pingo) (Free) - a program used for optimizing images to reduce filesize.
 
 ## Where can I download skins made by other players?
 
@@ -58,22 +58,26 @@ There are two ways of downloading skins made by other players:
 
 * [Quaver's Steam Workshop](https://steamcommunity.com/app/980610/workshop/)
   
-  You can download skins from the Steam Workshop by subscribing to them. After subscribing, Steam will download the skin files from the workshop. When the download is complete, the skin should be available in the Skin section of the options. Skins that you are currently subscribed to are in a blue font color.
+  You can download skins from the Steam Workshop by subscribing to them. After subscribing, Steam will download the skin files from the workshop. When the download is complete, the skin should be available in the Skin section of the options. Skins that you are currently subscribed to are in a blue font color in the dropdown.
 
-* Alternatively, you could reach out to the player, and ask if they would be willing to share the skin they are using.
+* Alternatively, you can drag and drop a *.qs file onto the Quaver game window to import a skin. Skins can be exported to a *.qs file in settings.
 
+* Lastly you can place a skin manually into `/Steam/steamapps/common/Quaver/Skins`.
 
 ## Can I make my own edits of another player's skin?
 Yes, you can make your own edits or use skin elements from other skins, and you are allowed to upload them in the Steam Workshop if the original creator(s) allow it.
 
-
 ## How do I reload my skin in Quaver?
-You can reload your skin by pressing `CTRL + S` in the menu screens.
+You can reload your skin by pressing `CTRL + S` in the Main Menu, Song Select screens or during gameplay with the Auto mod enabled. 
+If "Reload Skin On Change" is enabled in Advanced settings, then saving skin.ini will reload the skin automatically on compatible screens, but not from adding, deleting or editing textures or folders. It doesn't queue the action if you save skin.ini on for example the Results screen.
+
+## Why is my Skin not showing up in settings even though I have subscribed to it on the Steam Workshop?
+This is usually because something on Steam's end has gone wrong, and it didn't end up downloading the skin. You can force Steam retry downloading by: Going to your Library, right clicking Quaver, Properties, Installed Files, Verify integrity of game files.
 
 ## Why is my Skin folder empty even though I have subscribed to the skins in the Steam Workshop?
 Because the subscribed skins from the workshop are located in the workshop folder. They can be found in `/Steam/steamapps/workshop/content/980610`
 
-> Note: The skins in the workshop folder are named after their App ID. It's not advised to edit a skin inside the workshop folder due to Steam updating the workshop items when it's updated by the creator. Instead, you can create a copy of the skin and paste it in your Quaver Skin folder. The skin folder can be located in `/Steam/steamapps/common/Quaver/Skins`
+> Note: The skins in the workshop folder are named after their App ID. It's not advised to edit a skin inside the workshop folder due to Steam updating the workshop items when it's updated by the creator. Instead, you can create a copy of the skin and paste it in your Quaver Skin folder. The skin folder can be located in `/Steam/steamapps/common/Quaver/Skins`. The quickest way to do this is export the skin in settings and drag the *.qs file onto the game window.
 
 # Uploading a Skin to the Workshop
 
