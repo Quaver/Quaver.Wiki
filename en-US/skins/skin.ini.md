@@ -171,14 +171,14 @@ The `[Results]` section contains the possible modifications of results screen ba
 
 # Gameplay
 
-This section is to manipulate the elements for the Keys game mode including 4K and 7K.
+This section is to manipulate the elements for the Keys game modes
 
-- To start manipulating elements for 4K, create a section in the file titled `[4K]` and have all of your config properties under it.
-- To start manipulating elements for 7K, create a section in the file titled `[7K]` and have all of your config properties under it.
+- To start manipulating elements for a specific keymode or SharedK, create a section in the file titled with the format `[{keymode}]` and have all of your config properties under it.
+- Relevant titles: `[SharedK]`, `[1K]`,`[2K]`,`[3K]`,`[4K]`,`[5K]`,`[6K]`,`[7K]`,`[8K]`,`[9K]`,`[10K]`
 
 ## Notes
 
-###### Affected Textures: [note-hitobject-{1-7}.png](/docs/skins/gameplayinterface#hitobjects), [note-holdhitobject-{1-7}.png](/docs/skins/gameplayinterface#holdhitobjects), [note-holdbody-{1-7}.png](/docs/skins/gameplayinterface#holdbodies), [note-holdend-{1-7}.png](/docs/skins/gameplayinterface#holdends), [note-hitobject-sheet@{rows}x{columns}.png](/docs/skins/gameplayinterface#hit-object-sheets)
+###### Affected Textures: [note-hitobject-{1-10}.png](/docs/skins/gameplayinterface#hitobjects), [note-holdhitobject-{1-10}.png](/docs/skins/gameplayinterface#holdhitobjects), [note-holdbody-{1-10}.png](/docs/skins/gameplayinterface#holdbodies), [note-holdend-{1-10}.png](/docs/skins/gameplayinterface#holdends), [note-hitobject-sheet@{rows}x{columns}.png](/docs/skins/gameplayinterface#hit-object-sheets)
 
 |            Value            |          Data Type          | Default Values  |                                                                                          Notes                                                                                           |
 | :-------------------------: | :-------------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -197,7 +197,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ## Playfield
 
-###### Affected Textures: [column-lighting.png](/docs/skins/gameplayinterface#column-lighting), [receptor-up-{1-7}.png](</docs/skins/gameplayinterface#receptors-(up)>), [receptor-down-{1-7}.png](</docs/skins/gameplayinterface#receptors-(down)>), [stage-bgmask.png](/docs/skins/gameplayinterface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplayinterface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplayinterface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplayinterface#stage-left-border), [stage-right-border.png](/docs/skins/gameplayinterface#stage-right-border)
+###### Affected Textures: [column-lighting.png](/docs/skins/gameplayinterface#column-lighting), [receptor-up-{1-10}.png](</docs/skins/gameplayinterface#receptors-(up)>), [receptor-down-{1-10}.png](</docs/skins/gameplayinterface#receptors-(down)>), [stage-bgmask.png](/docs/skins/gameplayinterface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplayinterface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplayinterface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplayinterface#stage-left-border), [stage-right-border.png](/docs/skins/gameplayinterface#stage-right-border)
 
 |          Value          |          Data Type           | Default Values  |                                                                                Notes                                                                                 |
 | :---------------------: | :--------------------------: | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -205,7 +205,7 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |      BgMaskPadding      |           Integer            |        0        |                                               The amount of space between the Stage BG Mask and the edges of the stage                                               |
 |     ColumnAlignment     |     Integer (Percentage)     |        0        |                                             A percentage value of the width of the screen where the stage will be placed                                             |
 |       ColumnSize        |           Integer            |       90        | The size of each column. Equal size for each column. Increasing the column size may also increase the receptor's size by scaling and adjust the visual hit position. |
-|    ColumnColor{1-7}     | RGBA Color (255,255,255,255) | 255,255,255,255 |                       The color in which the [Column Lighting](/docs/skins/gameplayinterface#column-lighting) is tinted in the specified lane                        |
+|    ColumnColor{1-10}    | RGBA Color (255,255,255,255) | 255,255,255,255 |                       The color in which the [Column Lighting](/docs/skins/gameplayinterface#column-lighting) is tinted in the specified lane                        |
 |  ColumnLightingOffsetY  |           Integer            |        0        |                                                    The Y Offset of the Column Lighting relative to the receptors                                                     |
 |   ColumnLightingScale   |       Float (0.0-1.0)        |       1.0       |                                                The height scale of the column lighting to make it bigger or smaller.                                                 |
 |      HitPosOffsetY      |           Integer            |        0        |      The offset of the hit position relative to its default location at the edge of the receptors. Setting this value higher will make the hit position lower.       |
