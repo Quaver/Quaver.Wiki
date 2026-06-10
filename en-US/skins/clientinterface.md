@@ -255,6 +255,10 @@ The client interface includes general skin elements that are present in all game
 
 ![4k+7k Mode](/docs/images/SongSelect/both-modes-panel.png?v=2)
 
+###### Other keys Texture Location: `/SongSelect/game-mode-other.png`
+
+![Other Mode](/docs/images/SongSelect/keysother.png?v=2)
+
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
 |     No     | MidRight  |    71x28     |
@@ -262,6 +266,8 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The key mode of the mapset.
+- Other keys are for 1-3k, 5-6k and 8-10k.
+- Other keys has the keymode text rendered on top by the game. It combines up to 5 modes before saying "MIXED".
 
 ---
 
