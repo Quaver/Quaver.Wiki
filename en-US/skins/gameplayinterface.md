@@ -960,4 +960,4 @@ Notes:
 
 **Notes:**
 
-- Displayed at the start of the map if it's tagged "sv".
+- Displayed at the beginning if map is tagged with "sv"
