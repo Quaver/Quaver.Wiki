@@ -4,15 +4,13 @@ name: Gameplay Interface
 
 # Skinning the Gameplay Interface
 
-The following are the list of elements to customize the gameplay interface. This includes 4K, 7K, judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
+The following are the list of elements to customize the gameplay interface. This includes: SharedK, 1K, 2K, 3K, 4K, 5K, 6K, 7K, 8K, 9K, 10K referenced as "{keymode}", along with judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
 
 ## Column
 
 ### Column Lighting
 
-`/4k/Lighting/column-lighting.png`
-
-`/7k/Lighting/column-lighting.png`
+`/{keymode}/Lighting/column-lighting.png`
 
 ![Column Lighting](/docs/images/Column/4K/bar-4k-column-lighting.png?v=2)
 
@@ -31,9 +29,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Top Lane Cover
 
-`/4k/LaneCover/cover-top.png`
-
-`/7k/LaneCover/cover-top.png`
+`/{keymode}/LaneCover/cover-top.png`
 
 ![Top Lane Cover](/docs/images/LaneCover/4K/cover-top.png?v=2)
 
@@ -49,9 +45,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Bottom Lane Cover
 
-`/4k/LaneCover/cover-bottom.png`
-
-`/7k/LaneCover/cover-bottom.png`
+`/{keymode}/LaneCover/cover-bottom.png`
 
 ![Bottom Lane Cover](/docs/images/LaneCover/4K/cover-bottom.png?v=2)
 
@@ -69,9 +63,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Hit Lighting
 
-`/4k/Lighting/hitlighting.png`
-
-`/7k/Lighting/hitlighting.png`
+`/{keymode}/Lighting/hitlighting.png`
 
 ![Hit Lighting](/docs/images/Lighting/Bar/hitlighting@1x12.png?v=2)
 
@@ -81,8 +73,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation name for 4K: `/4k/Lighting/hitlighting@{rows}x{columns}.png`
-- Spritesheet animation name for 7K: `/7k/Lighting/hitlighting@{rows}x{columns}.png`
+- Spritesheet animation name: `/{keymode}/Lighting/hitlighting@{rows}x{columns}.png`
 - When hitting an object, an animation will play to give feedback to the user.
 - If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
@@ -91,9 +82,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Hold Lighting
 
-`/4k/Lighting/holdlighting.png`
-
-`/7k/Lighting/holdlighting.png`
+`/{keymode}/Lighting/holdlighting.png`
 
 ![Hold Lighting](/docs/images/Lighting/Bar/holdlighting@1x12.png?v=2)
 
@@ -103,8 +92,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation name for 4K: `/4k/Lighting/holdlighting@{rows}x{columns}.png`
-- Spritesheet animation name for 7K: `/7k/Lighting/holdlighting@{rows}x{columns}.png`
+- Spritesheet animation name: `/{keymode}/Lighting/holdlighting@{rows}x{columns}.png`
 - When holding a long note, a looping animation will play to give feedback to the user.
 - If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
@@ -115,9 +103,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### HitObjects
 
-`/4k/HitObjects/note-hitobject-{1-4}.png`
-
-`/7k/HitObjects/note-hitobject-{1-8}.png`
+`/{keymode}/HitObjects/note-hitobject-{1-10}.png`
 
 ![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png?v=2)
 
@@ -134,9 +120,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### HoldHitObjects
 
-`/4k/HitObjects/note-holdhitobject-{1-4}.png`
-
-`/7k/HitObjects/note-holdhitobject-{1-8}.png`
+`/{keymode}/HitObjects/note-holdhitobject-{1-10}.png`
 
 ![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png?v=2)
 
@@ -153,9 +137,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### HoldBodies
 
-`/4k/HitObjects/note-holdbody-{1-4}.png`
-
-`/7k/HitObjects/note-holdbody-{1-8}.png`
+`/{keymode}/HitObjects/note-holdbody-{1-10}.png`
 
 ![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png?v=2)
 
@@ -165,8 +147,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation file name for 4K: `/4k/HoldBodies/note-holdbody-{1-4}@{rows}x{columns}.png`
-- Spritesheet animation file name for 7K: `/7k/HoldEnds/note-holdbody-{1-7}@{rows}x{columns}.png`
+- Spritesheet animation file name: `/{keymode}/HoldBodies/note-holdbody-{1-10}@{rows}x{columns}.png`
 - The body of a hold (long) note.
 - If animation spritesheet is specified, frames animate at a speed of 30 FPS.
 -  `note-holdbody-8.png` for `7k` folder is used for scratch lane.
@@ -175,9 +156,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### HoldEnds
 
-`/4k/HitObjects/note-holdend-{1-4}.png`
-
-`/7k/HitObjects/note-holdend-{1-8}.png`
+`/{keymode}/HitObjects/note-holdend-{1-10}.png`
 
 ![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png?v=2)
 
@@ -194,9 +173,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Hit-Object Sheets
 
-`/4k/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
-
-`/7k/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
+`/{keymode}/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
 
 ![HitObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
 
@@ -214,9 +191,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Hold-Object Sheets
 
-`/4k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
-
-`/7k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
+`/{keymode}/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
 
 ![HoldObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
 
@@ -237,9 +212,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Receptors (Up)
 
-`/4k/Receptors/receptor-up-{1-4}.png`
-
-`/7k/Receptors/receptor-up-{1-8}.png`
+`/{keymode}/Receptors/receptor-up-{1-10}.png`
 
 ![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png?v=2)
 
@@ -256,9 +229,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Receptors (Down)
 
-`/4k/Receptors/receptor-down-{1-4}.png`
-
-`/7k/Receptors/receptor-down-{1-7}.png`
+`/{keymode}/Receptors/receptor-down-{1-10}.png`
 
 ![Receptors (Down)](/docs/images/Receptors/Bar/4k/receptor-down-2.png?v=2)
 
@@ -277,9 +248,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Stage BG Mask
 
-`/4k/Stage/stage-bgmask.png`
-
-`/7k/Stage/stage-bgmask.png`
+`/{keymode}/Stage/stage-bgmask.png`
 
 ![Stage BG Mask](/docs/images/Stage/stage-bgmask.png?v=2)
 
@@ -295,9 +264,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Stage Distant Overlay
 
-`/4k/Stage/stage-distant-overlay.png`
-
-`/7k/Stage/stage-distant-overlay.png`
+`/{keymode}/Stage/stage-distant-overlay.png`
 
 ![Stage Distant Overlay](/docs/images/Stage/stage-distant-overlay.png?v=2)
 
@@ -313,9 +280,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Stage Hit Position Overlay
 
-`/4k/Stage/stage-hitposition-overlay.png`
-
-`/7k/Stage/stage-hitposition-overlay.png`
+`/{keymode}/Stage/stage-hitposition-overlay.png`
 
 ![Stage Hit Position Overlay](/docs/images/Stage/stage-hitposition-overlay.png?v=2)
 
@@ -331,9 +296,7 @@ Notes:
 
 ### Stage Left Border
 
-`/4k/Stage/stage-left-border.png`
-
-`/7k/Stage/stage-left-border.png`
+`/{keymode}/Stage/stage-left-border.png`
 
 ![Stage Left Border](/docs/images/Stage/stage-left-border.png?v=2)
 
@@ -349,9 +312,7 @@ Notes:
 
 ### Stage Right Border
 
-`/4k/Stage/stage-right-border.png`
-
-`/7k/Stage/stage-right-border.png`
+`/{keymode}/Stage/stage-right-border.png`
 
 ![Stage Right Border](/docs/images/Stage/stage-right-border.png?v=2)
 
