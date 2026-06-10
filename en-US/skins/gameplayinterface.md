@@ -943,3 +943,21 @@ Notes:
 - Any image in the Backgrounds folder will be loaded.
 - Backgrounds are selected based on map hash.
 - Images larger than 2560x1440 will be ignored.
+
+---
+
+## Warnings
+
+### Epilepsy Warning
+
+`/Warnings/epilepsy-warning.png`
+
+![Epilepsy Warning Background](/docs/images/Warnings/epilepsy-warning.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |    1920x180    |
+
+**Notes:**
+
+- Displayed at the start of the map if it's tagged "sv".
