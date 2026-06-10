@@ -72,7 +72,8 @@ You can reload your skin by pressing `CTRL + S` in the Main Menu, Song Select sc
 If "Reload Skin On Change" is enabled in Advanced settings, then saving skin.ini will reload the skin automatically on compatible screens, but not from adding, deleting or editing textures or folders. It doesn't queue the action if you save skin.ini on for example the Results screen.
 
 ## Why is my Skin not showing up in settings even though I have subscribed to it on the Steam Workshop?
-This is usually because something on Steam's end has gone wrong, and it didn't end up downloading the skin. You can force Steam retry downloading by: Going to your Library, right clicking Quaver, Properties, Installed Files, Verify integrity of game files.
+This is usually because something on Steam's end has gone wrong, and it didn't end up downloading the skin. You can force Steam to retry downloading by: Going to your Library, right clicking Quaver, Properties, Installed Files, Verify integrity of game files.
+If this doesn't work then the assumption is generally that the Steam servers are fully or partially down, or there's a configuration failure with your network or system.
 
 ## Why is my Skin folder empty even though I have subscribed to the skins in the Steam Workshop?
 Because the subscribed skins from the workshop are located in the workshop folder. They can be found in `/Steam/steamapps/workshop/content/980610`
