@@ -10,9 +10,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Note Hit-Objects
 
-`/4k/Editor/note-hitobject-{1-4}.png`
-
-`/7k/Editor/note-hitobject-{1-7}.png`
+`/{keymode}/Editor/note-hitobject-{1-10}.png`
 
 ![Layer HitObjects](/docs/images/Editor/Arrow/4k/note-hitobject-1.png?v=2)
 
@@ -29,9 +27,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Note Holdbodies
 
-`/4k/Editor/note-holdbody-{1-4}.png`
-
-`/7k/Editor/note-holdbody-{1-7}.png`
+`/{keymode}/Editor/note-holdbody-{1-10}.png`
 
 ![Layer Note Holdbodies](/docs/images/Editor/Arrow/4k/note-holdbody-1.png?v=2)
 
@@ -48,9 +44,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Note Holdends
 
-`/4k/Editor/note-holdend-{1-4}.png`
-
-`/7k/Editor/note-holdend-{1-7}.png`
+`/{keymode}/Editor/note-holdend-{1-10}.png`
 
 ![Layer Note Holdends](/docs/images/Editor/Arrow/4k/note-holdend-1.png?v=2)
 
