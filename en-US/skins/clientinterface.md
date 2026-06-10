@@ -412,14 +412,6 @@ The client interface includes general skin elements that are present in all game
 
 ![Label Total Score](/docs/images/Results/label-total-score.png?v=2)
 
-###### Label Blue Team Texture Location: `/Results/label-blue-team.png`
-
-![Label Blue Team](/docs/images/Results/label-blue-team.png?v=2)
-
-###### Label Red Team Texture Location: `/Results/label-red-team.png`
-
-![Label Red Team](/docs/images/Results/label-red-team.png?v=2)
-
 ###### Label Score Texture Location: `/Results/label-score.png`
 
 ![Label Score](/docs/images/Results/results-label-score.png?v=2)
@@ -539,14 +531,6 @@ The client interface includes general skin elements that are present in all game
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
 |     No     | BottomCenter |   1682x609   |
-
-###### Multiplayer Team Panel Texture Location:`/Results/multiplayer-team-panel.png`
-
-![Multiplayer Team Panel](/docs/images/Results/multiplayer-team-panel.png?v=2)
-
-| Animatable |  Alignment   | Optimal Size |
-| :--------: | :----------: | :----------: |
-|     No     | BottomCenter |   1682x485   |
 
 **Notes:**
 
