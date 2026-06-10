@@ -992,38 +992,6 @@ Notes:
 
 ---
 
-## Battle Royale
-
-### Eliminated
-
-`/Multiplayer/eliminated.png`
-
-![Eliminated](/docs/images/Multiplayer/eliminated.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     | MidCenter |      None      |
-
-**Notes:**
-
-- Displayed whenever you're eliminated from battle royale
-
----
-
-### Warning
-
-`/Multiplayer/warning.png`
-
-![Warning](/docs/images/Multiplayer/warning.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     | MidCenter |      None      |
-
-**Notes:**
-
-- Displayed whenever you're in last place for battle royale
-
 ## Background
 
 ### Backgrounds
