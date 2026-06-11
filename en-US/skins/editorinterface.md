@@ -56,3 +56,54 @@ The following are the list of elements that are skinnable for editor purposes.
 
 - The hold ends for the notes displayed when having the "View Layers" option turned on in the editor.
 - Tinted by layer color, so grayscale colorspace is recommended.
+
+---
+
+## Layer Mines
+
+`/{keymode}/Editor/note-mine-{1-10}.png`
+
+![Layer Mines](/docs/images/Editor/Arrow/4k/note-mine-2.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mines displayed for mines and start of mine holds when having the "View Layers" option turned on in the editor.
+- Tinted by layer color, so grayscale colorspace is recommended.
+
+---
+
+## Layer Mine Bodies
+
+`/{keymode}/Editor/note-minebody-{1-10}.png`
+
+![Layer Mine Bodies](/docs/images/Editor/Arrow/4k/note-minebody-2.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine bodies for the mine holds displayed when having the "View Layers" option turned on in the editor.
+- Tinted by layer color, so grayscale colorspace is recommended.
+
+---
+
+## Layer Mine Ends
+
+`/{keymode}/Editor/note-mineend-{1-10}.png`
+
+![Layer Mine Ends](/docs/images/Editor/Arrow/4k/note-mineend-2.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine ends for the mines holds displayed when having the "View Layers" option turned on in the editor.
+- Tinted by layer color, so grayscale colorspace is recommended.
