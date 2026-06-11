@@ -208,6 +208,7 @@ This section is to manipulate the elements for the Keys game modes
 |      HoldBodyFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
 |       HoldEndFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
 |        MineFallbacks        |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
+|      MineBodyFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
 |       MineEndFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
 
 ---
