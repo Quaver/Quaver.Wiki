@@ -97,7 +97,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 `/{keymode}/Editor/note-mineend-{1-10}.png`
 
-![Layer Mine Ends](/docs/images/Editor/Arrow/4k/note-mineend-2.png?v=2)
+![Layer Mine Ends](/docs/images/Editor/Arrow/4k/note-mineend-1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
