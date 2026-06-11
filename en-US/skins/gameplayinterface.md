@@ -147,7 +147,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation file name: `/{keymode}/HoldBodies/note-holdbody-{1-10}@{rows}x{columns}.png`
+- Spritesheet animation file name: `/{keymode}/HitObjects/note-holdbody-{1-10}@{rows}x{columns}.png`
 - The body of a hold (long) note.
 - If animation spritesheet is specified, frames animate at a speed of 30 FPS.
 -  `note-holdbody-8.png` for `7k` folder is used for scratch lane.
@@ -252,12 +252,13 @@ The following are the list of elements to customize the gameplay interface. This
 
 ![MineBodies](/docs/images/Notes/Bar/4k/note-minebody-1.png?v=2)
 
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |  TopLeft  |       -        |
+|  Animatable | Alignment | Suggested Size |
+| :---------: | :-------: | :------------: |
+|     Yes     |  TopLeft  |       -        |
 
 **Notes:**
 
+- Spritesheet animation file name: `/{keymode}/HitObjects/note-minebody-{1-10}@{rows}x{columns}.png`
 - The body of a hold (long) mine.
 -  `note-minebody-8.png` for `7k` folder is used for scratch lane.
 
