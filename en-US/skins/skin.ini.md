@@ -181,7 +181,7 @@ This section is to manipulate the elements for the Keys game modes
 ## SHAREDK
 |       Value       |       Data Type        | Default Values  |                                                                                          Notes                                                                                           |
 | :---------------: | :--------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    UseFallBack    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback.                                                                         |
+|    UseFallBack    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback. `[4K]` & `[7K]` Require `*Fallbacks = Integer List` entries to work.    |
 
 
 
