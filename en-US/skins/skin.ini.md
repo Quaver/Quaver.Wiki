@@ -240,8 +240,8 @@ This section is to manipulate the elements for the Keys game modes
 |       HitErrorPosY        |            Integer           | MidCenter |        45       | The Y position of the hit error                                                                   |
 |       HitErrorAlpha       |        Float (0.0-1.0)       |     -     |       0.5       | The alpha of the hit error lines                                                                  |
 |     HitErrorWidthScale    |        Float (0.0-1.0)       |     -     |        1        | The scale factor for hit error width                                                              |
-|     HitErrorEarlyColor    | RGBA Color (255,255,255,255) |     -     |   9,164,198,255 | The hiterror chevron color for early hit                                                          |
-|     HitErrorLateColor     | RGBA Color (255,255,255,255) |     -     | 253,151,163,255 | The hiterror chevron color for late hit                                                           |
+|     HitErrorEarlyColor    | RGBA Color (255,255,255,255) |     -     |   9,165,200,255 | The hiterror chevron color for early hit                                                          |
+|     HitErrorLateColor     | RGBA Color (255,255,255,255) |     -     | 255,152,164,255 | The hiterror chevron color for late hit                                                           |
 |   HitErrorNeutralColor    | RGBA Color (255,255,255,255) |     -     | 255,255,255,255 | The hiterror chevron color for neutral hit                                                        |
 |   JudgementHitBurstFps    |           Integer            |     -     |        60       | The frames per second the judgement hit burst animation will run at                               |
 |    JudgementBurstPosY     |           Integer            | MidCenter |        0        | The Y Offset of the judgement hit burst                                                           |
