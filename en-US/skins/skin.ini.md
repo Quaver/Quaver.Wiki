@@ -181,7 +181,8 @@ This section is to manipulate the elements for the Keys game modes
 ## SHAREDK
 |       Value       |       Data Type        | Default Values  |                                                                                          Notes                                                                                           |
 | :---------------: | :--------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    UseFallBack    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback.                                                                                 |
+|    UseFallBack    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback.                                                                         |
+
 
 
 ## Notes
@@ -195,6 +196,7 @@ This section is to manipulate the elements for the Keys game modes
 |      UseHitObjectSheet      |   Boolean(True or False)    |      False      | If true, the game will look for a spritesheet named `note-hitobject-sheet@{rows}x{columns}.png` to use as objects. Useful for easily creating skins that use different beat snap colors. |
 |   UsePerLaneSpriteSheets    |   Boolean(True or False)    |      False      | If true, the game will look for spritesheets named `note-hitobject-sheet-{lane}@{rows}x{columns}.png` to use as objects for each lane. Only used when `UseHitObjectSheets = True`.       |
 |  RotateHitObjectsByColumn   |   Boolean(True or False)    |      False      |                    If true, the game will rotate the notes according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                    |
+|     HitObjectRotations      |         Integer List        |      False      |                                               Per lane HitObject rotation, each lane separated by a comma. An integer of `1` is 1 degree of rotation.                                    |
 | RotateEditorObjectsByColumn |   Boolean(True or False)    |      False      |                    If true, the game will rotate the objects according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                  |
 |  FlipNoteImagesOnUpscroll   |   Boolean(True or False)    |      False      |                                                          If true, the notes will be flipped upside down if upscroll is enabled                                                           |
 | FlipNoteEndImagesOnUpscroll |   Boolean(True or False)    |      False      |                                                      If true, the note-holdends will be flipped upside down if upscroll is enabled                                                       |
@@ -202,6 +204,11 @@ This section is to manipulate the elements for the Keys game modes
 |       DrawLongNoteEnd       |   Boolean (True or False)   |      True       |                                       True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs                                       |
 |         NotePadding         |           Integer           |        0        |                                                                         The amount of space between each column                                                                          |
 |   WidthForNoteHeightScale   |           Integer           |        0        |                    The column size the notes will use for scaling the objects' heights. If 0 or below, it will automatically use `ColumnSize` for scaling the height.                    |
+|      HitObjectFallbacks     |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
+|      HoldBodyFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
+|       HoldEndFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
+|        MineFallbacks        |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
+|       MineEndFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
 
 ---
 
@@ -221,7 +228,9 @@ This section is to manipulate the elements for the Keys game modes
 |      HitPosOffsetY      |           Integer            |        0        |      The offset of the hit position relative to its default location at the edge of the receptors. Setting this value higher will make the hit position lower.       |
 |   ReceptorPosOffsetY    |           Integer            |        0        |        The Y position of the receptors relative to its default location on the screen. Setting this value higher will make the receptors at higher position.         |
 | ReceptorsOverHitObjects |    Boolean(True or False)    |      True       |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
-| RotateReceptorsByColumn |    Boolean(True or False)    |      False      |                                        If true, the game will rotate the receptors according to the lane it's in. Recommended to set to `True`                                       |
+| RotateReceptorsByColumn |    Boolean(True or False)    |      False      |                                        If true, the game will rotate the receptors according to the lane it's in. Recommended to set to `True`                       |
+|    ReceptorRotations    |         Integer List         |        -        |                                             Per lane receptor rotation, each lane separated by a comma. An integer of `1` is 1 degree of rotation.                   |
+|    ReceptorFallbacks    |         Integer List         |        -        |                                           Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                               |
 |  StageReceptorPadding   |           Integer            |        0        |                                       The amount of space between between the stage background's border and first/last column                                        |
 |  CoopPlayfieldPadding   |           Integer            |       92        |                               The amount of space between between the sides of the screen and the playfield, only active in coop play.                               |
 
