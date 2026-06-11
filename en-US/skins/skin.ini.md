@@ -181,7 +181,7 @@ This section is to manipulate the elements for the Keys game modes
 ## SHAREDK
 |       Value       |       Data Type        | Default Values  |                                                                                          Notes                                                                                           |
 | :---------------: | :--------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    UseFallBack    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback. `[4K]` & `[7K]` Require `*Fallbacks = Integer List` entries to work.    |
+|    UseFallback    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback. `[4K]` & `[7K]` Require `*Fallbacks = Integer List` entries to work.    |
 
 
 
@@ -194,7 +194,7 @@ This section is to manipulate the elements for the Keys game modes
 |         DefaultSkin         | `Arrow`, `Bar` or `Circle`  |       Bar       |                          Sets the skin's default skin. If set to `Arrow` without setting `RotateHitObjectsByColumn` to `False`, the hitobjects will be rotated                           |
 | ColorObjectsBySnapDistance  |   Boolean(True or False)    |      False      |            If true, it will look for file names relative to snap distance. See the [Hit-Object Sheet](/docs/skins/gameplayinterface#hit-object-sheets) for more information.             |
 |      UseHitObjectSheet      |   Boolean(True or False)    |      False      | If true, the game will look for a spritesheet named `note-hitobject-sheet@{rows}x{columns}.png` to use as objects. Useful for easily creating skins that use different beat snap colors. |
-|   UsePerLaneSpriteSheets    |   Boolean(True or False)    |      False      | If true, the game will look for spritesheets named `note-hitobject-sheet-{lane}@{rows}x{columns}.png` to use as objects for each lane. Only used when `UseHitObjectSheets = True`.       |
+|   UsePerLaneSpriteSheets    |   Boolean(True or False)    |      False      | If true, the game will look for spritesheets named `note-hitobject-sheet-{lane}@{rows}x{columns}.png` to use as objects for each lane. Only used when `UseHitObjectSheet = True`.       |
 |  RotateHitObjectsByColumn   |   Boolean(True or False)    |      False      |                    If true, the game will rotate the notes according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                    |
 |     HitObjectRotations      |         Integer List        |      False      |                                               Per lane HitObject rotation, each lane separated by a comma. An integer of `1` is 1 degree of rotation.                                    |
 | RotateEditorObjectsByColumn |   Boolean(True or False)    |      False      |                    If true, the game will rotate the objects according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                  |
@@ -414,4 +414,4 @@ This section is to manipulate the elements for the Keys game modes
 |      Value      |    Data Type    | Default Values  | Notes                                                           |
 | :-------------: | :-------------: | :-------------: | --------------------------------------------------------------- |
 | SkipDisplayPosX |     Integer     |        0        | The X position skip                                             |
-| SkipDisplayPosXY|     Integer     |       30        | The Y position skip                                             |
+| SkipDisplayPosY |     Integer     |       30        | The Y position skip                                             |
