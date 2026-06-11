@@ -335,20 +335,6 @@ This section is to manipulate the elements for the Keys game modes
 
 ---
 
-## Multiplayer
-
-###### Affected Textures: [eliminated.png](/docs/skins/gameplayinterface#eliminated), [warning.png](/docs/skins/gameplayinterface#warning)
-
-|           Value            | Data Type | Alignment | Default Values | Notes                                                                                      |
-| :------------------------: | :-------: | :-------: | :------------: | ------------------------------------------------------------------------------------------ |
-|   BattleRoyaleAlertPosX    |  Integer  | MidCenter |       0        | The X position on the screen where the alerts for battle royale will be placed             |
-|   BattleRoyaleAlertPosY    |  Integer  | MidCenter |      -150      | The Y position on the screen where the alerts for battle royale will be placed             |
-|   BattleRoyaleAlertScale   |  Integer  |     -     |       5        | The size of the battle royale alert image                                                  |
-| BattleRoyaleEliminatedPosX |  Integer  | MidCenter |       0        | The X position of the text that shows when a player has been eliminated from battle royale |
-| BattleRoyaleEliminatedPosY |  Integer  | MidCenter |      -115      | The Y position of the text that shows when a player has been eliminated from battle royale |
-
----
-
 ## Judgement Counter
 
 ###### Affected Textures: [judgement-overlay.png](/docs/skins/gameplayinterface#judgement-overlay), [judgement-overlay-background-{marv, perf, great, good, okay, miss}.png](/docs/skins/gameplayinterface#judgement-overlay-background)
