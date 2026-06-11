@@ -205,7 +205,113 @@ The following are the list of elements to customize the gameplay interface. This
 - This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
 - If a sheet is not supplied, the HitObject sheet will be used in its place.
 - The expected size for a sheet is 9x1.
-  
+
+---
+
+## Mines
+
+### Mines
+
+`/{keymode}/HitObjects/note-mine-{1-10}.png`
+
+![Mines](/docs/images/Notes/Bar/4k/note-mine-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for non-hold objects.
+- `note-mine-8.png` for `7k` folder is used for scratch lane.
+
+---
+
+### Mine Starts
+
+`/{keymode}/HitObjects/note-minestart-{1-10}.png`
+
+![MineStarts](/docs/images/Notes/Bar/4k/note-minestart-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for hold (long) objects.
+- `note-minestart-8.png` for `7k` folder is used for scratch lane.
+
+---
+
+### Mine Bodies
+
+`/{keymode}/HitObjects/note-minebody-{1-10}.png`
+
+![MineBodies](/docs/images/Notes/Bar/4k/note-minebody-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The body of a hold (long) mine.
+-  `note-minebody-8.png` for `7k` folder is used for scratch lane.
+
+---
+
+### Mine Ends
+
+`/{keymode}/HitObjects/note-mineend-{1-10}.png`
+
+![MineEnds](/docs/images/Notes/Bar/4k/note-mineend-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The image displayed at the end of a hold (long) mine.
+-  `note-mineend-8.png` for `7k` folder is used for scratch lane.
+
+---
+
+### Mine Sheets
+
+`/{keymode}/HitObjects/note-mine-sheet@{rows}x{columns}.png`
+
+![Mine-Sheets](/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for mines.
+- This can be used by toggling the skin.ini value: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- The expected size for a sheet is 9x1.
+
+---
+
+### Minestart Sheets
+
+`/{keymode}/HitObjects/note-minestart-sheet@{rows}x{columns}.png`
+
+![MineStart-Sheets](/docs/images/Notes/Arrow/4k/note-minestart-sheet@9x1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for mine-start.
+- This can be used by toggling the skin.ini value: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- The expected size for a sheet is 9x1.
+
 ---
 
 ## Receptors
