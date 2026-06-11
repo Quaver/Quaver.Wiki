@@ -185,6 +185,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The note that falls down the screen for both non-hold and hold objects.
 - This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-hitobject-sheet-{lane}@{rows}x{columns}.png`.
 - The expected size for a sheet is 9x1.
 
 ---
@@ -203,6 +204,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The note that falls down the screen for hold objects.
 - This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-holdobject-sheet-{lane}@{rows}x{columns}.png`.
 - If a sheet is not supplied, the HitObject sheet will be used in its place.
 - The expected size for a sheet is 9x1.
 
@@ -292,6 +294,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The mine that falls down the screen for mines.
 - This can be used by toggling the skin.ini value: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-mine-sheet-{lane}@{rows}x{columns}.png`.
 - The expected size for a sheet is 9x1.
 
 ---
@@ -310,6 +313,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The mine that falls down the screen for mine-start.
 - This can be used by toggling the skin.ini value: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-minestart-sheet-{lane}@{rows}x{columns}.png`.
 - The expected size for a sheet is 9x1.
 
 ---
