@@ -931,6 +931,22 @@ Notes:
 | :--------: | :-------: | :------------: |
 |     No     |  MidLeft  |       -        |
 
+### Scoreboard Avatar Mask
+
+`/Scoreboard/scoreboard-avatar-mask.png`
+
+![Scoreboard Avatar Mask](/docs/images/Scoreboard/scoreboard-avatar-mask.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |      50x50     |
+
+**Notes:**
+
+- The alpha mask for user avatars on the scoreboard.
+
+---
+
 **Notes:**
 
 - Background image is displayed for the all other players in the scoreboard (not including the player themself)
