@@ -304,7 +304,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-minestart-sheet@{rows}x{columns}.png`
 
-![MineStart-Sheets](/docs/images/Notes/Arrow/4k/note-minestart-sheet@9x1.png?v=2)
+![MineStart-Sheets](/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2)
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
