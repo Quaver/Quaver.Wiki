@@ -10,7 +10,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Note Hit-Objects
 
-`/{keymode}/Editor/note-hitobject-{1-10}.png`
+`/{keymode}/Editor/note-hitobject-{1-11}.png`
 
 ![Layer HitObjects](/docs/images/Editor/Arrow/4k/note-hitobject-1.png?v=2)
 
@@ -27,7 +27,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Note Holdbodies
 
-`/{keymode}/Editor/note-holdbody-{1-10}.png`
+`/{keymode}/Editor/note-holdbody-{1-11}.png`
 
 ![Layer Note Holdbodies](/docs/images/Editor/Arrow/4k/note-holdbody-1.png?v=2)
 
@@ -44,7 +44,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Note Holdends
 
-`/{keymode}/Editor/note-holdend-{1-10}.png`
+`/{keymode}/Editor/note-holdend-{1-11}.png`
 
 ![Layer Note Holdends](/docs/images/Editor/Arrow/4k/note-holdend-1.png?v=2)
 
@@ -61,7 +61,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Mines
 
-`/{keymode}/Editor/note-mine-{1-10}.png`
+`/{keymode}/Editor/note-mine-{1-11}.png`
 
 ![Layer Mines](/docs/images/Editor/Arrow/4k/note-mine-2.png?v=2)
 
@@ -78,7 +78,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Mine Bodies
 
-`/{keymode}/Editor/note-minebody-{1-10}.png`
+`/{keymode}/Editor/note-minebody-{1-11}.png`
 
 ![Layer Mine Bodies](/docs/images/Editor/Arrow/4k/note-minebody-2.png?v=2)
 
@@ -95,7 +95,7 @@ The following are the list of elements that are skinnable for editor purposes.
 
 ## Layer Mine Ends
 
-`/{keymode}/Editor/note-mineend-{1-10}.png`
+`/{keymode}/Editor/note-mineend-{1-11}.png`
 
 ![Layer Mine Ends](/docs/images/Editor/Arrow/4k/note-mineend-1.png?v=2)
 
