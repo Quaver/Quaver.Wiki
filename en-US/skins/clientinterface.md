@@ -271,6 +271,22 @@ The client interface includes general skin elements that are present in all game
 
 ---
 
+### Mapset Panel Banner Mask
+
+`/SongSelect/mapset-banner-mask.png`
+
+![Mapset Banner Mask](/docs/images/SongSelect/mapset-banner-mask.png?v=2)
+
+| Animatable | Alignment |   Optimal Size  |
+| :--------: | :-------: | :-------------: |
+|     No     |     -     |      420x86     |
+
+**Notes:**
+
+- The alpha mask for the mapset panel banner.
+
+---
+
 ### Leaderboard Panel
 
 ###### Leaderboard Panel location: `/SongSelect/leaderboard-panel.png`
