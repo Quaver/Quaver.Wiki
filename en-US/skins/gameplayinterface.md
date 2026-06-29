@@ -103,7 +103,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### HitObjects
 
-`/{keymode}/HitObjects/note-hitobject-{1-10}.png`
+`/{keymode}/HitObjects/note-hitobject-{1-11}.png`
 
 ![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png?v=2)
 
@@ -114,13 +114,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The note that falls down the screen for non-hold objects.
-- `note-hitobject-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-hitobject-8.png` for `7k`.
 
 ---
 
 ### HoldHitObjects
 
-`/{keymode}/HitObjects/note-holdhitobject-{1-10}.png`
+`/{keymode}/HitObjects/note-holdhitobject-{1-11}.png`
 
 ![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png?v=2)
 
@@ -131,13 +131,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The note that falls down the screen for hold objects.
-- `note-holdhitobject-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-holdhitobject-8.png` for `7k`.
 
 ---
 
 ### HoldBodies
 
-`/{keymode}/HitObjects/note-holdbody-{1-10}.png`
+`/{keymode}/HitObjects/note-holdbody-{1-11}.png`
 
 ![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png?v=2)
 
@@ -147,16 +147,16 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation file name: `/{keymode}/HitObjects/note-holdbody-{1-10}@{rows}x{columns}.png`
+- Spritesheet animation file name: `/{keymode}/HitObjects/note-holdbody-{1-11}@{rows}x{columns}.png`
 - The body of a hold (long) note.
 - If animation spritesheet is specified, frames animate at a speed of 30 FPS.
--  `note-holdbody-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-holdbody-8.png` for `7k`.
 
 ---
 
 ### HoldEnds
 
-`/{keymode}/HitObjects/note-holdend-{1-10}.png`
+`/{keymode}/HitObjects/note-holdend-{1-11}.png`
 
 ![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png?v=2)
 
@@ -167,7 +167,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed at the end of a hold (long) note.
--  `note-holdend-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-holdend-8.png` for `7k`.
 
 ---
 
@@ -214,7 +214,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Mines
 
-`/{keymode}/HitObjects/note-mine-{1-10}.png`
+`/{keymode}/HitObjects/note-mine-{1-11}.png`
 
 ![Mines](/docs/images/Notes/Bar/4k/note-mine-1.png?v=2)
 
@@ -225,13 +225,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The mine that falls down the screen for non-hold objects.
-- `note-mine-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-mine-8.png` for `7k`.
 
 ---
 
 ### Mine Starts
 
-`/{keymode}/HitObjects/note-minestart-{1-10}.png`
+`/{keymode}/HitObjects/note-minestart-{1-11}.png`
 
 ![MineStarts](/docs/images/Notes/Bar/4k/note-minestart-1.png?v=2)
 
@@ -242,13 +242,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The mine that falls down the screen for hold (long) objects.
-- `note-minestart-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-minestart-8.png` for `7k`.
 
 ---
 
 ### Mine Bodies
 
-`/{keymode}/HitObjects/note-minebody-{1-10}.png`
+`/{keymode}/HitObjects/note-minebody-{1-11}.png`
 
 ![MineBodies](/docs/images/Notes/Bar/4k/note-minebody-1.png?v=2)
 
@@ -258,15 +258,15 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation file name: `/{keymode}/HitObjects/note-minebody-{1-10}@{rows}x{columns}.png`
+- Spritesheet animation file name: `/{keymode}/HitObjects/note-minebody-{1-11}@{rows}x{columns}.png`
 - The body of a hold (long) mine.
--  `note-minebody-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-minebody-8.png` for `7k`.
 
 ---
 
 ### Mine Ends
 
-`/{keymode}/HitObjects/note-mineend-{1-10}.png`
+`/{keymode}/HitObjects/note-mineend-{1-11}.png`
 
 ![MineEnds](/docs/images/Notes/Bar/4k/note-mineend-1.png?v=2)
 
@@ -277,7 +277,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed at the end of a hold (long) mine.
--  `note-mineend-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-mineend-8.png` for `7k`.
 
 ---
 
@@ -323,7 +323,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Receptors (Up)
 
-`/{keymode}/Receptors/receptor-up-{1-10}.png`
+`/{keymode}/Receptors/receptor-up-{1-11}.png`
 
 ![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png?v=2)
 
@@ -334,13 +334,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed when the input key is not pressed.
-- `receptor-up-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `receptor-up-8.png` for `7k`.
 
 ---
 
 ### Receptors (Down)
 
-`/{keymode}/Receptors/receptor-down-{1-10}.png`
+`/{keymode}/Receptors/receptor-down-{1-11}.png`
 
 ![Receptors (Down)](/docs/images/Receptors/Bar/4k/receptor-down-2.png?v=2)
 
@@ -351,7 +351,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed when the input key is pressed.
-- `receptor-down-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `receptor-down-8.png` for `7k`.
 
 ---
 
