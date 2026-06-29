@@ -4,15 +4,13 @@ name: Gameplay Interface
 
 # Skinning the Gameplay Interface
 
-The following are the list of elements to customize the gameplay interface. This includes 4K, 7K, judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
+The following are the list of elements to customize the gameplay interface. This includes: SharedK, 1k-10k folder names referenced as "{keymode}", along with judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
 
 ## Column
 
 ### Column Lighting
 
-`/4k/Lighting/column-lighting.png`
-
-`/7k/Lighting/column-lighting.png`
+`/{keymode}/Lighting/column-lighting.png`
 
 ![Column Lighting](/docs/images/Column/4K/bar-4k-column-lighting.png?v=2)
 
@@ -31,9 +29,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Top Lane Cover
 
-`/4k/LaneCover/cover-top.png`
-
-`/7k/LaneCover/cover-top.png`
+`/{keymode}/LaneCover/cover-top.png`
 
 ![Top Lane Cover](/docs/images/LaneCover/4K/cover-top.png?v=2)
 
@@ -49,9 +45,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Bottom Lane Cover
 
-`/4k/LaneCover/cover-bottom.png`
-
-`/7k/LaneCover/cover-bottom.png`
+`/{keymode}/LaneCover/cover-bottom.png`
 
 ![Bottom Lane Cover](/docs/images/LaneCover/4K/cover-bottom.png?v=2)
 
@@ -69,9 +63,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Hit Lighting
 
-`/4k/Lighting/hitlighting.png`
-
-`/7k/Lighting/hitlighting.png`
+`/{keymode}/Lighting/hitlighting.png`
 
 ![Hit Lighting](/docs/images/Lighting/Bar/hitlighting@1x12.png?v=2)
 
@@ -81,8 +73,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation name for 4K: `/4k/Lighting/hitlighting@{rows}x{columns}.png`
-- Spritesheet animation name for 7K: `/7k/Lighting/hitlighting@{rows}x{columns}.png`
+- Spritesheet animation name: `/{keymode}/Lighting/hitlighting@{rows}x{columns}.png`
 - When hitting an object, an animation will play to give feedback to the user.
 - If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
@@ -91,9 +82,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Hold Lighting
 
-`/4k/Lighting/holdlighting.png`
-
-`/7k/Lighting/holdlighting.png`
+`/{keymode}/Lighting/holdlighting.png`
 
 ![Hold Lighting](/docs/images/Lighting/Bar/holdlighting@1x12.png?v=2)
 
@@ -103,8 +92,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation name for 4K: `/4k/Lighting/holdlighting@{rows}x{columns}.png`
-- Spritesheet animation name for 7K: `/7k/Lighting/holdlighting@{rows}x{columns}.png`
+- Spritesheet animation name: `/{keymode}/Lighting/holdlighting@{rows}x{columns}.png`
 - When holding a long note, a looping animation will play to give feedback to the user.
 - If animation frames are given, it is played at 180 FPS.
 - If no animation frames are given, a default animation is played.
@@ -115,9 +103,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### HitObjects
 
-`/4k/HitObjects/note-hitobject-{1-4}.png`
-
-`/7k/HitObjects/note-hitobject-{1-8}.png`
+`/{keymode}/HitObjects/note-hitobject-{1-11}.png`
 
 ![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png?v=2)
 
@@ -128,15 +114,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The note that falls down the screen for non-hold objects.
-- `note-hitobject-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-hitobject-8.png` for `7k`.
 
 ---
 
 ### HoldHitObjects
 
-`/4k/HitObjects/note-holdhitobject-{1-4}.png`
-
-`/7k/HitObjects/note-holdhitobject-{1-8}.png`
+`/{keymode}/HitObjects/note-holdhitobject-{1-11}.png`
 
 ![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png?v=2)
 
@@ -147,15 +131,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The note that falls down the screen for hold objects.
-- `note-holdhitobject-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-holdhitobject-8.png` for `7k`.
 
 ---
 
 ### HoldBodies
 
-`/4k/HitObjects/note-holdbody-{1-4}.png`
-
-`/7k/HitObjects/note-holdbody-{1-8}.png`
+`/{keymode}/HitObjects/note-holdbody-{1-11}.png`
 
 ![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png?v=2)
 
@@ -165,19 +147,16 @@ The following are the list of elements to customize the gameplay interface. This
 
 **Notes:**
 
-- Spritesheet animation file name for 4K: `/4k/HoldBodies/note-holdbody-{1-4}@{rows}x{columns}.png`
-- Spritesheet animation file name for 7K: `/7k/HoldEnds/note-holdbody-{1-7}@{rows}x{columns}.png`
+- Spritesheet animation file name: `/{keymode}/HitObjects/note-holdbody-{1-11}@{rows}x{columns}.png`
 - The body of a hold (long) note.
 - If animation spritesheet is specified, frames animate at a speed of 30 FPS.
--  `note-holdbody-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-holdbody-8.png` for `7k`.
 
 ---
 
 ### HoldEnds
 
-`/4k/HitObjects/note-holdend-{1-4}.png`
-
-`/7k/HitObjects/note-holdend-{1-8}.png`
+`/{keymode}/HitObjects/note-holdend-{1-11}.png`
 
 ![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png?v=2)
 
@@ -188,15 +167,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed at the end of a hold (long) note.
--  `note-holdend-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `note-holdend-8.png` for `7k`.
 
 ---
 
 ### Hit-Object Sheets
 
-`/4k/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
-
-`/7k/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
+`/{keymode}/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
 
 ![HitObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
 
@@ -208,15 +185,14 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The note that falls down the screen for both non-hold and hold objects.
 - This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-hitobject-sheet-{lane}@{rows}x{columns}.png`.
 - The expected size for a sheet is 9x1.
 
 ---
 
 ### Hold-Object Sheets
 
-`/4k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
-
-`/7k/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
+`/{keymode}/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
 
 ![HoldObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
 
@@ -228,18 +204,126 @@ The following are the list of elements to customize the gameplay interface. This
 
 - The note that falls down the screen for hold objects.
 - This can be used by toggling the skin.ini values: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-holdobject-sheet-{lane}@{rows}x{columns}.png`.
 - If a sheet is not supplied, the HitObject sheet will be used in its place.
 - The expected size for a sheet is 9x1.
-  
+
+---
+
+## Mines
+
+### Mines
+
+`/{keymode}/HitObjects/note-mine-{1-11}.png`
+
+![Mines](/docs/images/Notes/Bar/4k/note-mine-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for non-hold objects.
+- There's an extra texture for the scratch lane, for example: `note-mine-8.png` for `7k`.
+
+---
+
+### Mine Starts
+
+`/{keymode}/HitObjects/note-minestart-{1-11}.png`
+
+![MineStarts](/docs/images/Notes/Bar/4k/note-minestart-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for hold (long) objects.
+- There's an extra texture for the scratch lane, for example: `note-minestart-8.png` for `7k`.
+
+---
+
+### Mine Bodies
+
+`/{keymode}/HitObjects/note-minebody-{1-11}.png`
+
+![MineBodies](/docs/images/Notes/Bar/4k/note-minebody-1.png?v=2)
+
+|  Animatable | Alignment | Suggested Size |
+| :---------: | :-------: | :------------: |
+|     Yes     |  TopLeft  |       -        |
+
+**Notes:**
+
+- Spritesheet animation file name: `/{keymode}/HitObjects/note-minebody-{1-11}@{rows}x{columns}.png`
+- The body of a hold (long) mine.
+- There's an extra texture for the scratch lane, for example: `note-minebody-8.png` for `7k`.
+
+---
+
+### Mine Ends
+
+`/{keymode}/HitObjects/note-mineend-{1-11}.png`
+
+![MineEnds](/docs/images/Notes/Bar/4k/note-mineend-1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The image displayed at the end of a hold (long) mine.
+- There's an extra texture for the scratch lane, for example: `note-mineend-8.png` for `7k`.
+
+---
+
+### Mine Sheets
+
+`/{keymode}/HitObjects/note-mine-sheet@{rows}x{columns}.png`
+
+![Mine-Sheets](/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for mines.
+- This can be used by toggling the skin.ini value: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-mine-sheet-{lane}@{rows}x{columns}.png`.
+- The expected size for a sheet is 9x1.
+
+---
+
+### Minestart Sheets
+
+`/{keymode}/HitObjects/note-minestart-sheet@{rows}x{columns}.png`
+
+![MineStart-Sheets](/docs/images/Notes/Arrow/4k/note-minestart-sheet@9x1.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |  TopLeft  |       -        |
+
+**Notes:**
+
+- The mine that falls down the screen for mine-start.
+- This can be used by toggling the skin.ini value: `UseHitObjectSheet` and `ColorObjectsBySnapDistance` to True.
+- If `UseHitObjectSheet`and `UsePerLaneSpriteSheets` are set to True, then you define lane by `note-minestart-sheet-{lane}@{rows}x{columns}.png`.
+- The expected size for a sheet is 9x1.
+
 ---
 
 ## Receptors
 
 ### Receptors (Up)
 
-`/4k/Receptors/receptor-up-{1-4}.png`
-
-`/7k/Receptors/receptor-up-{1-8}.png`
+`/{keymode}/Receptors/receptor-up-{1-11}.png`
 
 ![Receptors (Up)](/docs/images/Receptors/Bar/4k/receptor-up-1.png?v=2)
 
@@ -250,15 +334,13 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed when the input key is not pressed.
-- `receptor-up-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `receptor-up-8.png` for `7k`.
 
 ---
 
 ### Receptors (Down)
 
-`/4k/Receptors/receptor-down-{1-4}.png`
-
-`/7k/Receptors/receptor-down-{1-7}.png`
+`/{keymode}/Receptors/receptor-down-{1-11}.png`
 
 ![Receptors (Down)](/docs/images/Receptors/Bar/4k/receptor-down-2.png?v=2)
 
@@ -269,7 +351,7 @@ The following are the list of elements to customize the gameplay interface. This
 **Notes:**
 
 - The image displayed when the input key is pressed.
-- `receptor-down-8.png` for `7k` folder is used for scratch lane.
+- There's an extra texture for the scratch lane, for example: `receptor-down-8.png` for `7k`.
 
 ---
 
@@ -277,9 +359,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Stage BG Mask
 
-`/4k/Stage/stage-bgmask.png`
-
-`/7k/Stage/stage-bgmask.png`
+`/{keymode}/Stage/stage-bgmask.png`
 
 ![Stage BG Mask](/docs/images/Stage/stage-bgmask.png?v=2)
 
@@ -295,9 +375,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Stage Distant Overlay
 
-`/4k/Stage/stage-distant-overlay.png`
-
-`/7k/Stage/stage-distant-overlay.png`
+`/{keymode}/Stage/stage-distant-overlay.png`
 
 ![Stage Distant Overlay](/docs/images/Stage/stage-distant-overlay.png?v=2)
 
@@ -313,9 +391,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 ### Stage Hit Position Overlay
 
-`/4k/Stage/stage-hitposition-overlay.png`
-
-`/7k/Stage/stage-hitposition-overlay.png`
+`/{keymode}/Stage/stage-hitposition-overlay.png`
 
 ![Stage Hit Position Overlay](/docs/images/Stage/stage-hitposition-overlay.png?v=2)
 
@@ -331,9 +407,7 @@ Notes:
 
 ### Stage Left Border
 
-`/4k/Stage/stage-left-border.png`
-
-`/7k/Stage/stage-left-border.png`
+`/{keymode}/Stage/stage-left-border.png`
 
 ![Stage Left Border](/docs/images/Stage/stage-left-border.png?v=2)
 
@@ -349,9 +423,7 @@ Notes:
 
 ### Stage Right Border
 
-`/4k/Stage/stage-right-border.png`
-
-`/7k/Stage/stage-right-border.png`
+`/{keymode}/Stage/stage-right-border.png`
 
 ![Stage Right Border](/docs/images/Stage/stage-right-border.png?v=2)
 
@@ -859,73 +931,25 @@ Notes:
 | :--------: | :-------: | :------------: |
 |     No     |  MidLeft  |       -        |
 
+### Scoreboard Avatar Mask
+
+`/Scoreboard/scoreboard-avatar-mask.png`
+
+![Scoreboard Avatar Mask](/docs/images/Scoreboard/scoreboard-avatar-mask.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |      50x50     |
+
+**Notes:**
+
+- The alpha mask for user avatars on the scoreboard.
+
+---
+
 **Notes:**
 
 - Background image is displayed for the all other players in the scoreboard (not including the player themself)
-
----
-
-### Scoreboard Red Team
-
-`/Scoreboard/scoreboard-red-team.png`
-
-![Scoreboard Red Team](/docs/images/Scoreboard/scoreboard-red-team.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |  MidLeft  |       -        |
-
-**Notes:**
-
-- Background image that shows for the red team's scoreboard (not including the player themself)
-
----
-
-### Scoreboard Red Team Other
-
-`/Scoreboard/scoreboard-red-team-other.png`
-
-![Scoreboard Red Team Other](/docs/images/Scoreboard/scoreboard-red-team-other.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |  MidLeft  |       -        |
-
-**Notes:**
-
-- Background image that shows for all ofther players on the red team (not including the player themself)
-
----
-
-### Scoreboard Blue Team
-
-`/Scoreboard/scoreboard-blue-team.png`
-
-![Scoreboard Blue Team](/docs/images/Scoreboard/scoreboard-blue-team.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |  MidLeft  |       -        |
-
-**Notes:**
-
-- Background image that shows for the blue team's scoreboard (not including the player themself)
-
----
-
-### Scoreboard Blue Team Other
-
-`/Scoreboard/scoreboard-blue-team-other.png`
-
-![Scoreboard Blue Team Other](/docs/images/Scoreboard/scoreboard-blue-team-other.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     |  MidLeft  |       -        |
-
-**Notes:**
-
-- Background image that shows for all ofther players on the blue team (not including the player themself)
 
 ---
 
@@ -1031,38 +1055,6 @@ Notes:
 
 ---
 
-## Battle Royale
-
-### Eliminated
-
-`/Multiplayer/eliminated.png`
-
-![Eliminated](/docs/images/Multiplayer/eliminated.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     | MidCenter |      None      |
-
-**Notes:**
-
-- Displayed whenever you're eliminated from battle royale
-
----
-
-### Warning
-
-`/Multiplayer/warning.png`
-
-![Warning](/docs/images/Multiplayer/warning.png?v=2)
-
-| Animatable | Alignment | Suggested Size |
-| :--------: | :-------: | :------------: |
-|     No     | MidCenter |      None      |
-
-**Notes:**
-
-- Displayed whenever you're in last place for battle royale
-
 ## Background
 
 ### Backgrounds
@@ -1078,3 +1070,21 @@ Notes:
 - Any image in the Backgrounds folder will be loaded.
 - Backgrounds are selected based on map hash.
 - Images larger than 2560x1440 will be ignored.
+
+---
+
+## Warnings
+
+### Epilepsy Warning
+
+`/Warnings/epilepsy-warning.png`
+
+![Epilepsy Warning Background](/docs/images/Warnings/epilepsy-warning.png?v=2)
+
+| Animatable | Alignment | Suggested Size |
+| :--------: | :-------: | :------------: |
+|     No     |     -     |    1920x180    |
+
+**Notes:**
+
+- Displayed at the beginning if map is tagged with "sv"

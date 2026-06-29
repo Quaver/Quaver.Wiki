@@ -139,7 +139,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 
 ### Mapset Panel
 
-###### Affected Textures: [mapset-deselected.png](/docs/skins/clientinterface#deselected-texture-location%3A-%2Fsongselect%2Fmapset-deselected.png), [mapset-selected.png](/docs/skins/clientinterface#selected-texture-location%3A-%2Fsongselect%2Fmapset-selected.png), [mapset-hovered.png](/docs/skins/clientinterface#hovered-texture-location%3A-%2Fsongselect%2Fmapset-hovered.png), [status-ranked.png](/docs/skins/clientinterface#ranked-texture-location%3A-%2Fsongselect%2Fstatus-ranked.png), [status-unranked.png](/docs/skins/clientinterface#unranked-texture-location%3A-%2Fsongselect%2Fstatus-unranked.png), [status-notsubmitted.png](/docs/skins/clientinterface#unsubmitted-texture-location%3A-%2Fsongselect%2Fstatus-notsubmitted.png), [status-status-osu.png](/docs/skins/clientinterface#osu-mapset-texture-location%3A-%2Fsongselect%2Fstatus-osu.png), [status-status-sm.png](/docs/skins/clientinterface#stepmania%2Fetterna-mapset-texture-location%3A-%2Fsongselect%2Fstatus-sm.png), [game-mode-4k.png](/docs/skins/clientinterface#4k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k.png), [game-mode-7k.png](/docs/skins/clientinterface#7k-texture-location%3A-%2Fsongselect%2Fgame-mode-7k.png), [game-mode-4k7k.png](/docs/skins/clientinterface#4k%2F7k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k7k.png)
+###### Affected Textures: [mapset-deselected.png](/docs/skins/clientinterface#deselected-texture-location%3A-%2Fsongselect%2Fmapset-deselected.png), [mapset-selected.png](/docs/skins/clientinterface#selected-texture-location%3A-%2Fsongselect%2Fmapset-selected.png), [mapset-hovered.png](/docs/skins/clientinterface#hovered-texture-location%3A-%2Fsongselect%2Fmapset-hovered.png), [mapset-banner-mask.png](/docs/skins/clientinterface#mapset-banner-mask-location%3A-%2Fsongselect%2Fmapset-banner-mask.png), [status-ranked.png](/docs/skins/clientinterface#ranked-texture-location%3A-%2Fsongselect%2Fstatus-ranked.png), [status-unranked.png](/docs/skins/clientinterface#unranked-texture-location%3A-%2Fsongselect%2Fstatus-unranked.png), [status-notsubmitted.png](/docs/skins/clientinterface#unsubmitted-texture-location%3A-%2Fsongselect%2Fstatus-notsubmitted.png), [status-status-osu.png](/docs/skins/clientinterface#osu-mapset-texture-location%3A-%2Fsongselect%2Fstatus-osu.png), [status-status-sm.png](/docs/skins/clientinterface#stepmania%2Fetterna-mapset-texture-location%3A-%2Fsongselect%2Fstatus-sm.png), [game-mode-4k.png](/docs/skins/clientinterface#4k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k.png), [game-mode-7k.png](/docs/skins/clientinterface#7k-texture-location%3A-%2Fsongselect%2Fgame-mode-7k.png), [game-mode-4k7k.png](/docs/skins/clientinterface#4k%2F7k-texture-location%3A-%2Fsongselect%2Fgame-mode-4k7k.png), [game-mode-other.png](/docs/skins/clientinterface#other-keys-texture-location%3A-%2Fsongselect%2Fgame-mode-other.png)
 
 |           Value            |          Data Type          | Default Values  |                                                Notes                                                |
 | :------------------------: | :-------------------------: | :-------------: | :-------------------------------------------------------------------------------------------------: |
@@ -149,6 +149,8 @@ The `[SongSelect]` section contains the possible modifications of song selection
 |     MapsetPanelByColor     | RGBA Color(255,255,255,255) | 117,117,117,255 |                                     The color of the text `By:`                                     |
 |   MapsetPanelBannerSize    |   Integer(Width, Length)    |     421,82      |                                 The size of the mapset panel banner                                 |
 |  MapsetPanelHoveringAlpha  |      Float(0.00~1.00)       |      0.35       |                           The opacity of the hovered mapset panel element                           |
+|    GameModePosOffsetX      |           Integer           |      -18        |                         The X offset of the game mode badge on mapset panel                         |
+|  RankedStatusPosOffsetX    |           Integer           |      -18        |                       The X offset of the ranked status badge on mapset panel                       |
 |  MapBackgroundBrightness   |         Byte(0-255)         |       15        |                                The brightness of the map background                                 |
 |    DisplayMapBackground    |   Boolean(True or False)    |      False      | If true, it displays the mapset's background. Otherwise, it uses the default song select background |
 
@@ -171,33 +173,59 @@ The `[Results]` section contains the possible modifications of results screen ba
 
 # Gameplay
 
-This section is to manipulate the elements for the Keys game mode including 4K and 7K.
+This section is to manipulate the elements for the Keys game modes
 
-- To start manipulating elements for 4K, create a section in the file titled `[4K]` and have all of your config properties under it.
-- To start manipulating elements for 7K, create a section in the file titled `[7K]` and have all of your config properties under it.
+- To start manipulating elements for a specific keymode or sharedk, create a section in the file titled with the format `[{keymode}]` and have all of your config properties under it.
+- Relevant titles: `[SHAREDK]`, `[1K]`,`[2K]`,`[3K]`,`[4K]`,`[5K]`,`[6K]`,`[7K]`,`[8K]`,`[9K]`,`[10K]`
+
+## Fallbacks
+
+Fallbacks are a great way to make a skin efficently with as few textures as possible, especially across multiple keymodes, as you can re-use the same texture multiple times instead of duplicating with a different filename. 
+
+To get started: Use the `sharedk` folder for all your gameplay textures and `[SHAREDK]` in skin.ini for all your keymode configuration. Have `UseFallback` to `True` and all `*Fallbacks = Integer List` under each keymode title except for `[SHAREDK]`.
+
+You can overwrite what you've written in `[SHAREDK]` under each keymode title. For example `ColumnSize = 50` in `[SHAREDK]` with `ColumnSize = 100` in `[3K]` will result in a ColumnSize of 100 in the 3K gamemode.
+
+The integer lists work by starting at lane 1 with subsequent lanes separated by a comma, the number referencing the suffix to the texture in the `sharedk` folder. For example `HoldBodyFallbacks = 1,3` in `[1K]` will use `note-holdbody-1.png` for the first lane and `note-holdbody-3.png` for the scratch lane in the 1K gamemode. 
+
+|       Value       |       Data Type        | Default Values  |                                                                                          Notes                                                                                           |
+| :---------------: | :--------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    UseFallback    | Boolean(True or False) |      False      |                                             If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback.                               |
+| HitObjectFallbacks|      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+| HoldBodyFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+|  HoldEndFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+|   MineFallbacks   |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+| MineBodyFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+|  MineEndFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+| ReceptorFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+
 
 ## Notes
 
-###### Affected Textures: [note-hitobject-{1-7}.png](/docs/skins/gameplayinterface#hitobjects), [note-holdhitobject-{1-7}.png](/docs/skins/gameplayinterface#holdhitobjects), [note-holdbody-{1-7}.png](/docs/skins/gameplayinterface#holdbodies), [note-holdend-{1-7}.png](/docs/skins/gameplayinterface#holdends), [note-hitobject-sheet@{rows}x{columns}.png](/docs/skins/gameplayinterface#hit-object-sheets)
+###### Affected Textures: [note-hitobject-{1-11}.png](/docs/skins/gameplayinterface#hitobjects), [note-holdhitobject-{1-11}.png](/docs/skins/gameplayinterface#holdhitobjects), [note-holdbody-{1-11}.png](/docs/skins/gameplayinterface#holdbodies), [note-holdend-{1-11}.png](/docs/skins/gameplayinterface#holdends), [note-hitobject-sheet@{rows}x{columns}.png](/docs/skins/gameplayinterface#hit-object-sheets), [note-mine-{1-11}.png](/docs/skins/gameplayinterface#mines), [note-minestart-{1-11}.png](/docs/skins/gameplayinterface#mine-starts), [note-minebody-{1-11}.png](/docs/skins/gameplayinterface#mine-bodies), [note-mineend-{1-11}.png](/docs/skins/gameplayinterface#mine-ends), [note-mine-sheet@{rows}x{columns}.png](/docs/skins/gameplayinterface#mine-sheets), [note-minestart-sheet@{rows}x{columns}.png](/docs/skins/gameplayinterface#minestart-sheets)
 
 |            Value            |          Data Type          | Default Values  |                                                                                          Notes                                                                                           |
 | :-------------------------: | :-------------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |         DefaultSkin         | `Arrow`, `Bar` or `Circle`  |       Bar       |                          Sets the skin's default skin. If set to `Arrow` without setting `RotateHitObjectsByColumn` to `False`, the hitobjects will be rotated                           |
 | ColorObjectsBySnapDistance  |   Boolean(True or False)    |      False      |            If true, it will look for file names relative to snap distance. See the [Hit-Object Sheet](/docs/skins/gameplayinterface#hit-object-sheets) for more information.             |
 |      UseHitObjectSheet      |   Boolean(True or False)    |      False      | If true, the game will look for a spritesheet named `note-hitobject-sheet@{rows}x{columns}.png` to use as objects. Useful for easily creating skins that use different beat snap colors. |
+|   UsePerLaneSpriteSheets    |   Boolean(True or False)    |      False      | If true, the game will look for spritesheets named `note-hitobject-sheet-{lane}@{rows}x{columns}.png` to use as objects for each lane. Only used when `UseHitObjectSheet = True`.       |
 |  RotateHitObjectsByColumn   |   Boolean(True or False)    |      False      |                    If true, the game will rotate the notes according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                    |
+|     HitObjectRotations      |         Integer List        |      False      |                                               Per lane HitObject rotation, each lane separated by a comma. An integer of `1` is 1 degree of rotation.                                    |
+| RotateEditorObjectsByColumn |   Boolean(True or False)    |      False      |                    If true, the game will rotate the objects according to the lane it's in. Recommended to set to `True` if a skin uses an Arrow note Hit-Object Sheet.                  |
 |  FlipNoteImagesOnUpscroll   |   Boolean(True or False)    |      False      |                                                          If true, the notes will be flipped upside down if upscroll is enabled                                                           |
 | FlipNoteEndImagesOnUpscroll |   Boolean(True or False)    |      False      |                                                      If true, the note-holdends will be flipped upside down if upscroll is enabled                                                       |
 |        DeadNoteColor        | RGBA Color(255,255,255,255) | 200,200,200,255 |                                                         The tint of the dead notes (for example, long notes released too early)                                                          |
 |       DrawLongNoteEnd       |   Boolean (True or False)   |      True       |                                       True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs                                       |
 |         NotePadding         |           Integer           |        0        |                                                                         The amount of space between each column                                                                          |
 |   WidthForNoteHeightScale   |           Integer           |        0        |                    The column size the notes will use for scaling the objects' heights. If 0 or below, it will automatically use `ColumnSize` for scaling the height.                    |
+                                                |
 
 ---
 
 ## Playfield
 
-###### Affected Textures: [column-lighting.png](/docs/skins/gameplayinterface#column-lighting), [receptor-up-{1-7}.png](</docs/skins/gameplayinterface#receptors-(up)>), [receptor-down-{1-7}.png](</docs/skins/gameplayinterface#receptors-(down)>), [stage-bgmask.png](/docs/skins/gameplayinterface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplayinterface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplayinterface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplayinterface#stage-left-border), [stage-right-border.png](/docs/skins/gameplayinterface#stage-right-border)
+###### Affected Textures: [column-lighting.png](/docs/skins/gameplayinterface#column-lighting), [receptor-up-{1-11}.png](</docs/skins/gameplayinterface#receptors-(up)>), [receptor-down-{1-11}.png](</docs/skins/gameplayinterface#receptors-(down)>), [stage-bgmask.png](/docs/skins/gameplayinterface#stage-bg-mask), [stage-distant-overlay.png](/docs/skins/gameplayinterface#stage-distant-overlay), [stage-hitposition-overlay.png](/docs/skins/gameplayinterface#stage-hit-position-overlay), [stage-left-border.png](/docs/skins/gameplayinterface#stage-left-border), [stage-right-border.png](/docs/skins/gameplayinterface#stage-right-border)
 
 |          Value          |          Data Type           | Default Values  |                                                                                Notes                                                                                 |
 | :---------------------: | :--------------------------: | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -205,12 +233,14 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |      BgMaskPadding      |           Integer            |        0        |                                               The amount of space between the Stage BG Mask and the edges of the stage                                               |
 |     ColumnAlignment     |     Integer (Percentage)     |        0        |                                             A percentage value of the width of the screen where the stage will be placed                                             |
 |       ColumnSize        |           Integer            |       90        | The size of each column. Equal size for each column. Increasing the column size may also increase the receptor's size by scaling and adjust the visual hit position. |
-|    ColumnColor{1-7}     | RGBA Color (255,255,255,255) | 255,255,255,255 |                       The color in which the [Column Lighting](/docs/skins/gameplayinterface#column-lighting) is tinted in the specified lane                        |
+|    ColumnColor{1-11}    | RGBA Color (255,255,255,255) | 255,255,255,255 |                       The color in which the [Column Lighting](/docs/skins/gameplayinterface#column-lighting) is tinted in the specified lane                        |
 |  ColumnLightingOffsetY  |           Integer            |        0        |                                                    The Y Offset of the Column Lighting relative to the receptors                                                     |
 |   ColumnLightingScale   |       Float (0.0-1.0)        |       1.0       |                                                The height scale of the column lighting to make it bigger or smaller.                                                 |
 |      HitPosOffsetY      |           Integer            |        0        |      The offset of the hit position relative to its default location at the edge of the receptors. Setting this value higher will make the hit position lower.       |
 |   ReceptorPosOffsetY    |           Integer            |        0        |        The Y position of the receptors relative to its default location on the screen. Setting this value higher will make the receptors at higher position.         |
 | ReceptorsOverHitObjects |    Boolean(True or False)    |      True       |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
+| RotateReceptorsByColumn |    Boolean(True or False)    |      False      |                                        If true, the game will rotate the receptors according to the lane it's in. Recommended to set to `True`                       |
+|    ReceptorRotations    |         Integer List         |        -        |                                             Per lane receptor rotation, each lane separated by a comma. An integer of `1` is 1 degree of rotation.                   |
 |  StageReceptorPadding   |           Integer            |        0        |                                       The amount of space between between the stage background's border and first/last column                                        |
 |  CoopPlayfieldPadding   |           Integer            |       92        |                               The amount of space between between the sides of the screen and the playfield, only active in coop play.                               |
 
@@ -221,18 +251,22 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ###### Affected Textures: [judge-marv.png](</docs/skins/gameplayinterface#judgement-(marv)>), [judge-perf.png](</docs/skins/gameplayinterface#judgement-(perf)>), [judge-great.png](</docs/skins/gameplayinterface#judgement-(great)>), [judge-good.png](</docs/skins/gameplayinterface#judgement-(good)>), [judge-okay.png](</docs/skins/gameplayinterface#judgement-(okay)>), [judge-miss.png](</docs/skins/gameplayinterface#judgement-(miss)>)
 
-|           Value           |    Data Type    | Alignment | Default Values | Notes                                                                                             |
-| :-----------------------: | :-------------: | :-------: | :------------: | ------------------------------------------------------------------------------------------------- |
-|    HitErrorChevronSize    |     Integer     |     -     |       8        | The size of the chevron that displays the player's last hit above the hit error                   |
-|      HitErrorHeight       |     Integer     |     -     |       10       | The height of the hit error                                                                       |
-|       HitErrorPosX        |     Integer     | MidCenter |       0        | The X position of the hit error                                                                   |
-|       HitErrorPosY        |     Integer     | MidCenter |       45       | The Y position of the hit error                                                                   |
-|       HitErrorAlpha       | Float (0.0-1.0) |     -     |      0.5       | The alpha of the hit error lines                                                                  |
-|   JudgementHitBurstFps    |     Integer     |     -     |       60       | The frames per second the judgement hit burst animation will run at                               |
-|    JudgementBurstPosY     |     Integer     | MidCenter |       0        | The Y Offset of the judgement hit burst                                                           |
-|  JudgementHitBurstBumpY   |     Integer     |     -     |       -5       | The Y added to the judgement hit burst when it starts bumping                                     |
-| JudgementHitBurstBumpTime |     Integer     |     -     |      183       | The time it takes to move the judgement hit burst from its bump position to its original position |
-|  JudgementHitBurstScale   |   Byte(0-255)   |     -     |      100       | The size of the judgement hit burst. 255 = 357x357px at 1080p                                     |
+|           Value           |           Data Type          | Alignment |  Default Values | Notes                                                                                             |
+| :-----------------------: | :--------------------------: | :-------: | :-------------: | ------------------------------------------------------------------------------------------------- |
+|    HitErrorChevronSize    |            Integer           |     -     |        8        | The size of the chevron that displays the player's last hit above the hit error                   |
+|      HitErrorHeight       |            Integer           |     -     |        10       | The height of the hit error                                                                       |
+|       HitErrorPosX        |            Integer           | MidCenter |        0        | The X position of the hit error                                                                   |
+|       HitErrorPosY        |            Integer           | MidCenter |        45       | The Y position of the hit error                                                                   |
+|       HitErrorAlpha       |        Float (0.0-1.0)       |     -     |       0.5       | The alpha of the hit error lines                                                                  |
+|     HitErrorWidthScale    |        Float (0.0-1.0)       |     -     |        1        | The scale factor for hit error width                                                              |
+|     HitErrorEarlyColor    | RGBA Color (255,255,255,255) |     -     |   9,165,200,255 | The hiterror chevron color for early hit                                                          |
+|     HitErrorLateColor     | RGBA Color (255,255,255,255) |     -     | 255,152,164,255 | The hiterror chevron color for late hit                                                           |
+|   HitErrorNeutralColor    | RGBA Color (255,255,255,255) |     -     | 255,255,255,255 | The hiterror chevron color for neutral hit                                                        |
+|   JudgementHitBurstFps    |           Integer            |     -     |        60       | The frames per second the judgement hit burst animation will run at                               |
+|    JudgementBurstPosY     |           Integer            | MidCenter |        0        | The Y Offset of the judgement hit burst                                                           |
+|  JudgementHitBurstBumpY   |           Integer            |     -     |        -5       | The Y added to the judgement hit burst when it starts bumping                                     |
+| JudgementHitBurstBumpTime |           Integer            |     -     |       183       | The time it takes to move the judgement hit burst from its bump position to its original position |
+|  JudgementHitBurstScale   |         Byte(0-255)          |     -     |       100       | The size of the judgement hit burst. 255 = 357x357px at 1080p                                     |
 
 ---
 
@@ -335,20 +369,6 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 
 ---
 
-## Multiplayer
-
-###### Affected Textures: [eliminated.png](/docs/skins/gameplayinterface#eliminated), [warning.png](/docs/skins/gameplayinterface#warning)
-
-|           Value            | Data Type | Alignment | Default Values | Notes                                                                                      |
-| :------------------------: | :-------: | :-------: | :------------: | ------------------------------------------------------------------------------------------ |
-|   BattleRoyaleAlertPosX    |  Integer  | MidCenter |       0        | The X position on the screen where the alerts for battle royale will be placed             |
-|   BattleRoyaleAlertPosY    |  Integer  | MidCenter |      -150      | The Y position on the screen where the alerts for battle royale will be placed             |
-|   BattleRoyaleAlertScale   |  Integer  |     -     |       5        | The size of the battle royale alert image                                                  |
-| BattleRoyaleEliminatedPosX |  Integer  | MidCenter |       0        | The X position of the text that shows when a player has been eliminated from battle royale |
-| BattleRoyaleEliminatedPosY |  Integer  | MidCenter |      -115      | The Y position of the text that shows when a player has been eliminated from battle royale |
-
----
-
 ## Judgement Counter
 
 ###### Affected Textures: [judgement-overlay.png](/docs/skins/gameplayinterface#judgement-overlay), [judgement-overlay-background-{marv, perf, great, good, okay, miss}.png](/docs/skins/gameplayinterface#judgement-overlay-background)
@@ -396,3 +416,12 @@ This section is to manipulate the elements for the Keys game mode including 4K a
 |    MiniSongBarDisplayPosY     |           Integer           |        0        | The Y position of the mini song progress bar                                               |
 | MiniSongBarDisplayWidthFactor |           Integer           |       30        | The scaling factor of the mini song progress, where the bar's width is (screen size)/value |
 |    MiniSongBarDisplayHeight   |           Integer           |        4        | The Height of the mini song progress bar                                                   |
+
+## Skip
+
+###### Affected Textures: [skip.png](/docs/skins/gameplayinterface#skip-display), [skip@{rows}x{columns}.png](/docs/skins/gameplayinterface#skip-display)
+
+|      Value      |    Data Type    | Default Values  | Notes                                                           |
+| :-------------: | :-------------: | :-------------: | --------------------------------------------------------------- |
+| SkipDisplayPosX |     Integer     |        0        | The X position skip                                             |
+| SkipDisplayPosY |     Integer     |       30        | The Y position skip                                             |

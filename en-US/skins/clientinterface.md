@@ -255,6 +255,10 @@ The client interface includes general skin elements that are present in all game
 
 ![4k+7k Mode](/docs/images/SongSelect/both-modes-panel.png?v=2)
 
+###### Other keys Texture Location: `/SongSelect/game-mode-other.png`
+
+![Other Mode](/docs/images/SongSelect/keysother.png?v=2)
+
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
 |     No     | MidRight  |    71x28     |
@@ -262,6 +266,24 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The key mode of the mapset.
+- Other keys are for 1-3k, 5-6k and 8-10k.
+- Other keys has the keymode text rendered on top by the game. It combines up to 5 modes before saying "MIXED".
+
+---
+
+### Mapset Panel Banner Mask
+
+###### Mapset Banner Mask Location: `/SongSelect/mapset-banner-mask.png`
+
+![Mapset Banner Mask](/docs/images/SongSelect/mapset-banner-mask.png?v=2)
+
+| Animatable | Alignment |   Optimal Size  |
+| :--------: | :-------: | :-------------: |
+|     No     |     -     |      420x86     |
+
+**Notes:**
+
+- The alpha mask for the mapset panel banner.
 
 ---
 
@@ -406,14 +428,6 @@ The client interface includes general skin elements that are present in all game
 
 ![Label Total Score](/docs/images/Results/label-total-score.png?v=2)
 
-###### Label Blue Team Texture Location: `/Results/label-blue-team.png`
-
-![Label Blue Team](/docs/images/Results/label-blue-team.png?v=2)
-
-###### Label Red Team Texture Location: `/Results/label-red-team.png`
-
-![Label Red Team](/docs/images/Results/label-red-team.png?v=2)
-
 ###### Label Score Texture Location: `/Results/label-score.png`
 
 ![Label Score](/docs/images/Results/results-label-score.png?v=2)
@@ -533,14 +547,6 @@ The client interface includes general skin elements that are present in all game
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
 |     No     | BottomCenter |   1682x609   |
-
-###### Multiplayer Team Panel Texture Location:`/Results/multiplayer-team-panel.png`
-
-![Multiplayer Team Panel](/docs/images/Results/multiplayer-team-panel.png?v=2)
-
-| Animatable |  Alignment   | Optimal Size |
-| :--------: | :----------: | :----------: |
-|     No     | BottomCenter |   1682x485   |
 
 **Notes:**
 
