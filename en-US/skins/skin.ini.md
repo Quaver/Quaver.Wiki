@@ -175,14 +175,29 @@ The `[Results]` section contains the possible modifications of results screen ba
 
 This section is to manipulate the elements for the Keys game modes
 
-- To start manipulating elements for a specific keymode or SharedK, create a section in the file titled with the format `[{keymode}]` and have all of your config properties under it.
+- To start manipulating elements for a specific keymode or sharedk, create a section in the file titled with the format `[{keymode}]` and have all of your config properties under it.
 - Relevant titles: `[SHAREDK]`, `[1K]`,`[2K]`,`[3K]`,`[4K]`,`[5K]`,`[6K]`,`[7K]`,`[8K]`,`[9K]`,`[10K]`
 
-## SHAREDK
+## Fallbacks
+
+Fallbacks are a great way to make a skin efficently with as few textures as possible, especially across multiple keymodes, as you can re-use the same texture multiple times instead of duplicating with a different filename. 
+
+To get started: Use the `sharedk` folder for all your gameplay textures and `[SHAREDK]` in skin.ini for all your keymode configuration. Have `UseFallback` to `True` and all `*Fallbacks = Integer List` under each keymode title except for `[SHAREDK]`.
+
+You can overwrite what you've written in `[SHAREDK]` under each keymode title. For example `ColumnSize = 50` in `[SHAREDK]` with `ColumnSize = 100` in `[3K]` will result in a ColumnSize of 100 in the 3K gamemode.
+
+The integer lists work by starting at lane 1 with subsequent lanes separated by a comma, the number referencing the suffix to the texture in the `sharedk` folder. For example `HoldBodyFallbacks = 1,3` in `[1K]` will use `note-holdbody-1.png` for the first lane and `note-holdbody-3.png` for the scratch lane in the 1K gamemode. 
+
 |       Value       |       Data Type        | Default Values  |                                                                                          Notes                                                                                           |
 | :---------------: | :--------------------: | :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    UseFallback    | Boolean(True or False) |      False      | If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback. `[4K]` & `[7K]` Require `*Fallbacks = Integer List` entries to work.    |
-
+|    UseFallback    | Boolean(True or False) |      False      |                                             If set to `True` under a keymode title, then the keymode will use the `/Sharedk/...` folder as texture fallback.                               |
+| HitObjectFallbacks|      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+| HoldBodyFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+|  HoldEndFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+|   MineFallbacks   |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+| MineBodyFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+|  MineEndFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
+| ReceptorFallbacks |      Integer List      |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1,1`                                                       |
 
 
 ## Notes
@@ -204,12 +219,7 @@ This section is to manipulate the elements for the Keys game modes
 |       DrawLongNoteEnd       |   Boolean (True or False)   |      True       |                                       True by default. If set to False, LN ends are not rendered and LN starts don't "slide" along as you hold LNs                                       |
 |         NotePadding         |           Integer           |        0        |                                                                         The amount of space between each column                                                                          |
 |   WidthForNoteHeightScale   |           Integer           |        0        |                    The column size the notes will use for scaling the objects' heights. If 0 or below, it will automatically use `ColumnSize` for scaling the height.                    |
-|      HitObjectFallbacks     |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
-|      HoldBodyFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
-|       HoldEndFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
-|        MineFallbacks        |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
-|      MineBodyFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
-|       MineEndFallbacks      |         Integer List        |        -        |                                                       Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                                       |
+                                                |
 
 ---
 
@@ -231,7 +241,6 @@ This section is to manipulate the elements for the Keys game modes
 | ReceptorsOverHitObjects |    Boolean(True or False)    |      True       |                                        If true, the receptors will be over the hitobjects when they fall down and vice versa.                                        |
 | RotateReceptorsByColumn |    Boolean(True or False)    |      False      |                                        If true, the game will rotate the receptors according to the lane it's in. Recommended to set to `True`                       |
 |    ReceptorRotations    |         Integer List         |        -        |                                             Per lane receptor rotation, each lane separated by a comma. An integer of `1` is 1 degree of rotation.                   |
-|    ReceptorFallbacks    |         Integer List         |        -        |                                           Uses specific fallback texture(s) for each lane. If `[4K]` example `1,1,1,1`                                               |
 |  StageReceptorPadding   |           Integer            |        0        |                                       The amount of space between between the stage background's border and first/last column                                        |
 |  CoopPlayfieldPadding   |           Integer            |       92        |                               The amount of space between between the sides of the screen and the playfield, only active in coop play.                               |
 
