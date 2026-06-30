@@ -56,6 +56,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - Changes the Quaver logo's background.
+- The Quaver logo is center aligned vertically to this texture.
 
 ---
 
