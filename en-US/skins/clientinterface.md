@@ -402,7 +402,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - Background image for labels and stat numbers (rating, combo, etc.) on results screen.
-- Draworder below label elemnts.
+- Draworder below label elements.
 
 ---
 
