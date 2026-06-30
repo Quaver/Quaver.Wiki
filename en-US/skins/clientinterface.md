@@ -56,6 +56,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - Changes the Quaver logo's background.
+- The Quaver logo is center aligned vertically to this texture.
 
 ---
 
@@ -139,7 +140,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/note-visualizer.png`
 
-<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Jukebox Overlay" width="817" height="1276">
+<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Note Visualizer" width="600">
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -155,7 +156,11 @@ The client interface includes general skin elements that are present in all game
 
 ### Menu Border
 
-`/MenuBorder/menu-border-background.png`
+###### Menu Border Texture Location: `/MenuBorder/menu-border-background.png`
+
+![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
+
+###### Menu Border Footer Texture Location: `MenuBorder/menu-border-background-footer.png`
 
 ![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
 
@@ -166,16 +171,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The top and bottom borders of the screen. This will display on every screen.
-
-### Custom Footer Menu
-
-`MenuBorder/menu-border-background-footer.png`
-
-![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
-
-**Notes:**
-
-- Same size as the `menu-border-background.png`. However, it's the footer of the screen instead.
+- If the footer texture isn't used, then `menu-border-background.png` is used for both the top and bottom.
 
 ---
 
@@ -402,7 +398,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - Background image for labels and stat numbers (rating, combo, etc.) on results screen.
-- Draworder below label elemnts.
+- Draworder below label elements.
 
 ---
 

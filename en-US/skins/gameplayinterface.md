@@ -4,7 +4,7 @@ name: Gameplay Interface
 
 # Skinning the Gameplay Interface
 
-The following are the list of elements to customize the gameplay interface. This includes: SharedK, 1k-10k folder names referenced as "{keymode}", along with judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
+The following are the list of elements to customize the gameplay interface. This includes: sharedk, 1k-10k folder names referenced as "{keymode}", along with judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
 
 ## Column
 
@@ -105,7 +105,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-hitobject-{1-11}.png`
 
-![HitObjects](/docs/images/Notes/Bar/4k/note-hitobject-2.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-hitobject-2.png?v=2" alt="HitObjects" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -122,7 +122,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-holdhitobject-{1-11}.png`
 
-![HoldHitObjects](/docs/images/Notes/Bar/4k/note-holdhitobject-2.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-holdhitobject-2.png?v=2" alt="HoldHitObjects" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -139,7 +139,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-holdbody-{1-11}.png`
 
-![HoldBodies](/docs/images/Notes/Bar/4k/note-holdbody-2.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-holdbody-2.png?v=2" alt="HoldBodies" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -158,7 +158,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-holdend-{1-11}.png`
 
-![HoldEnds](/docs/images/Notes/Bar/4k/note-holdend-2.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-holdend-2.png?v=2" alt="HoldEnds" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -175,7 +175,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-hitobject-sheet@{rows}x{columns}.png`
 
-![HitObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2" alt="HitObject-Sheets" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -194,7 +194,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-holdobject-sheet@{rows}x{columns}.png`
 
-![HoldObject-Sheets](/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-hitobject-sheet@9x1.png?v=2" alt="HoldObject-Sheets" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -216,7 +216,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-mine-{1-11}.png`
 
-![Mines](/docs/images/Notes/Bar/4k/note-mine-1.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-mine-1.png?v=2" alt="Mines" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -233,7 +233,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-minestart-{1-11}.png`
 
-![MineStarts](/docs/images/Notes/Bar/4k/note-minestart-1.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-minestart-1.png?v=2" alt="MineStarts" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -250,7 +250,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-minebody-{1-11}.png`
 
-![MineBodies](/docs/images/Notes/Bar/4k/note-minebody-1.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-minebody-1.png?v=2" alt="MineBodies" width="128">
 
 |  Animatable | Alignment | Suggested Size |
 | :---------: | :-------: | :------------: |
@@ -268,7 +268,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-mineend-{1-11}.png`
 
-![MineEnds](/docs/images/Notes/Bar/4k/note-mineend-1.png?v=2)
+<img src="/docs/images/Notes/Bar/4k/note-mineend-1.png?v=2" alt="MineEnds" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -285,7 +285,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-mine-sheet@{rows}x{columns}.png`
 
-![Mine-Sheets](/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2)
+<img src="/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2" alt="Mine-Sheets" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -304,7 +304,7 @@ The following are the list of elements to customize the gameplay interface. This
 
 `/{keymode}/HitObjects/note-minestart-sheet@{rows}x{columns}.png`
 
-![MineStart-Sheets](/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2)
+<img src="/docs/images/Notes/Arrow/4k/note-mine-sheet@9x1.png?v=2" alt="MineStart-Sheets" width="128">
 
 | Animatable | Alignment | Suggested Size |
 | :--------: | :-------: | :------------: |
@@ -931,6 +931,12 @@ Notes:
 | :--------: | :-------: | :------------: |
 |     No     |  MidLeft  |       -        |
 
+**Notes:**
+
+- Background image is displayed for the all other players in the scoreboard (not including the player themself)
+
+---
+
 ### Scoreboard Avatar Mask
 
 `/Scoreboard/scoreboard-avatar-mask.png`
@@ -947,11 +953,6 @@ Notes:
 
 ---
 
-**Notes:**
-
-- Background image is displayed for the all other players in the scoreboard (not including the player themself)
-
----
 
 ## Skip Display
 
@@ -1087,4 +1088,4 @@ Notes:
 
 **Notes:**
 
-- Displayed at the beginning if map is tagged with "sv"
+- Displayed at the beginning of a map if is tagged with "sv".
