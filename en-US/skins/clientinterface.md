@@ -140,7 +140,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/note-visualizer.png`
 
-<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Jukebox Overlay" width="817" height="1276">
+<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Note Visualizer" width="600">
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
