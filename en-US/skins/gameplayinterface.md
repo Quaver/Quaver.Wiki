@@ -931,6 +931,12 @@ Notes:
 | :--------: | :-------: | :------------: |
 |     No     |  MidLeft  |       -        |
 
+**Notes:**
+
+- Background image is displayed for the all other players in the scoreboard (not including the player themself)
+
+---
+
 ### Scoreboard Avatar Mask
 
 `/Scoreboard/scoreboard-avatar-mask.png`
@@ -947,11 +953,6 @@ Notes:
 
 ---
 
-**Notes:**
-
-- Background image is displayed for the all other players in the scoreboard (not including the player themself)
-
----
 
 ## Skip Display
 
