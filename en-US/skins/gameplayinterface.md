@@ -4,7 +4,7 @@ name: Gameplay Interface
 
 # Skinning the Gameplay Interface
 
-The following are the list of elements to customize the gameplay interface. This includes: SharedK, 1k-10k folder names referenced as "{keymode}", along with judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
+The following are the list of elements to customize the gameplay interface. This includes: sharedk, 1k-10k folder names referenced as "{keymode}", along with judgements, grades, numbers, healthbar, scoreboards, combo alerts, and multiplayer.
 
 ## Column
 
