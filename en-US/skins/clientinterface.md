@@ -155,7 +155,11 @@ The client interface includes general skin elements that are present in all game
 
 ### Menu Border
 
-`/MenuBorder/menu-border-background.png`
+###### Menu Border Texture Location: `/MenuBorder/menu-border-background.png`
+
+![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
+
+###### Menu Border Footer Texture Location: `MenuBorder/menu-border-background-footer.png`
 
 ![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
 
@@ -166,16 +170,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The top and bottom borders of the screen. This will display on every screen.
-
-### Custom Footer Menu
-
-`MenuBorder/menu-border-background-footer.png`
-
-![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
-
-**Notes:**
-
-- Same size as the `menu-border-background.png`. However, it's the footer of the screen instead.
+- If the footer texture isn't used, then `menu-border-background.png` is used for both the top and bottom.
 
 ---
 
