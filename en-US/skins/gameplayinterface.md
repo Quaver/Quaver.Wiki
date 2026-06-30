@@ -1088,4 +1088,4 @@ Notes:
 
 **Notes:**
 
-- Displayed at the beginning of a map if the mapset is tagged with "sv".
+- Displayed at the beginning of a map if is tagged with "sv".
