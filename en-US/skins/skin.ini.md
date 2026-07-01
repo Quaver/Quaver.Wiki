@@ -57,7 +57,7 @@ The `[General]` section of the config file contains metadata about the skin—wh
 <tbody>
 <tr>
 <td align="center">CenterCursor</td>
-<td align="center">Boolean (True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -68,7 +68,7 @@ The `[General]` section of the config file contains metadata about the skin—wh
 <tbody>
 <tr>
 <td align="center">UseSkinBackgrounds</td>
-<td align="center">Boolean (True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -693,7 +693,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">DisplayMapBackground</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -779,7 +779,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">UseFallback</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -895,7 +895,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">ColorObjectsBySnapDistance</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -906,7 +906,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">UseHitObjectSheet</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -917,7 +917,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">UsePerLaneSpriteSheets</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -928,7 +928,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">RotateHitObjectsByColumn</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -950,7 +950,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">RotateEditorObjectsByColumn</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -961,7 +961,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">FlipNoteImagesOnUpscroll</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -972,7 +972,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">FlipNoteEndImagesOnUpscroll</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -994,7 +994,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">DrawLongNoteEnd</td>
-<td align="center">Boolean (True or False)</td>
+<td align="center">True or False</td>
 <td align="center">True</td>
 </tr>
 
@@ -1144,7 +1144,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">ReceptorsOverHitObjects</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">True</td>
 </tr>
 
@@ -1155,7 +1155,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">RotateReceptorsByColumn</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -1454,7 +1454,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">HitLightingColumnRotation</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">-</td>
 <td align="center">False</td>
 </tr>
@@ -1490,7 +1490,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">HoldLightingColumnRotation</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">-</td>
 <td align="center">False</td>
 </tr>
@@ -2158,7 +2158,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgementCounterHorizontal</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">-</td>
 <td align="center">False</td>
 </tr>
@@ -2170,7 +2170,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgementCounterFadeToAlpha</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">-</td>
 <td align="center">False</td>
 </tr>
@@ -2182,7 +2182,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">UseJudgementColorForNumbers</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">-</td>
 <td align="center">False</td>
 </tr>
@@ -2247,7 +2247,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">SongTimeProgressPositionAtTop</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
@@ -2283,7 +2283,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">ShowMiniSongBar</td>
-<td align="center">Boolean(True or False)</td>
+<td align="center">True or False</td>
 <td align="center">False</td>
 </tr>
 
