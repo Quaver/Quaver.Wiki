@@ -17,7 +17,7 @@ The `[General]` section of the config file contains metadata about the skin—wh
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -94,7 +94,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -145,7 +145,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -185,7 +185,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -236,7 +236,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -265,7 +265,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -320,7 +320,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -386,7 +386,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -525,7 +525,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -587,7 +587,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -719,7 +719,7 @@ The `[Results]` section contains the possible modifications of results screen ba
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -772,7 +772,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -877,7 +877,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1038,7 +1038,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1212,7 +1212,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1399,7 +1399,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1514,7 +1514,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1593,7 +1593,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1722,7 +1722,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1797,7 +1797,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1850,7 +1850,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1901,7 +1901,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -1952,7 +1952,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -2007,7 +2007,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <th align="center">Value</th>
 <th align="center">Data Type</th>
 <th align="center">Alignment</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -2207,7 +2207,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -2276,7 +2276,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
@@ -2347,7 +2347,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tr>
 <th align="center">Value</th>
 <th align="center">Data Type</th>
-<th align="center">Default Values</th>
+<th align="center">Default</th>
 </tr>
 </thead>
 
