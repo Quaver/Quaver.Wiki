@@ -682,7 +682,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">MapBackgroundBrightness</td>
-<td align="center">Byte(0-255)</td>
+<td align="center">Byte (0-255)</td>
 <td align="center">15</td>
 </tr>
 
@@ -1375,7 +1375,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgementHitBurstScale</td>
-<td align="center">Byte(0-255)</td>
+<td align="center">Byte (0-255)</td>
 <td align="center">-</td>
 <td align="center">100</td>
 </tr>
