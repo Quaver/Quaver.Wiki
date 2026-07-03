@@ -123,7 +123,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">NavigationButtonHoveredAlpha</td>
-<td align="center">Float(0.00~1.00)</td>
+<td align="center">Float (0.00~1.00)</td>
 <td align="center">0.35</td>
 </tr>
 
@@ -649,7 +649,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">MapsetPanelHoveringAlpha</td>
-<td align="center">Float(0.00~1.00)</td>
+<td align="center">Float (0.00~1.00)</td>
 <td align="center">0.35</td>
 </tr>
 
@@ -737,7 +737,7 @@ The `[Results]` section contains the possible modifications of results screen ba
 <tbody>
 <tr>
 <td align="center">ResultsBackgroundFilterAlpha</td>
-<td align="center">Float(0.00~1.00)</td>
+<td align="center">Float (0.00~1.00)</td>
 <td align="center">1</td>
 </tr>
 
