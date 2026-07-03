@@ -784,7 +784,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 </tr>
 
 <tr>
-<td class="note" colspan="3">If set to <code>True</code> under a keymode title, then the keymode will use the <code>/Sharedk/...</code> folder as texture fallback.</td>
+<td class="note" colspan="3">If set to <code>True</code> under a keymode title, then the keymode will use the <code>/sharedk/...</code> folder as texture fallback.</td>
 </tr>
 
 <tbody>
