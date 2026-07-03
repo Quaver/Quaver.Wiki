@@ -101,7 +101,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">NavigationButtonTextColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -112,7 +112,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">NavigationQuitButtonTextColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">249,100,93,255</td>
 </tr>
 
@@ -152,7 +152,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">TipTitleColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">69,214,245,255</td>
 </tr>
 
@@ -163,7 +163,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">TipTextColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -192,7 +192,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">NewsTitleColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">69,214,245,255</td>
 </tr>
 
@@ -203,7 +203,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">NewsDateColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">128,128,128,255</td>
 </tr>
 
@@ -214,7 +214,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">NewsTextColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -243,7 +243,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">JukeboxProgressBarColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,222,124,255</td>
 </tr>
 
@@ -272,7 +272,7 @@ The `[MainMenu]` section contains the modifications of the main menu's colors an
 <tbody>
 <tr>
 <td align="center">AudioVisualizerColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">9,165,200,255</td>
 </tr>
 
@@ -327,7 +327,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 <tbody>
 <tr>
 <td align="center">BackgroundLineColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">9,165,200,255</td>
 </tr>
 
@@ -338,7 +338,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 <tbody>
 <tr>
 <td align="center">ForegroundLineColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -349,7 +349,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 <tbody>
 <tr>
 <td align="center">ButtonTextColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">9,165,200,255</td>
 </tr>
 
@@ -360,7 +360,7 @@ The `[MenuBorder]` section contains modifications for the menu border background
 <tbody>
 <tr>
 <td align="center">ButtonTextHoveredColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">81,197,249,255</td>
 </tr>
 
@@ -393,7 +393,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreColorEven</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">54,54,54,255</td>
 </tr>
 
@@ -404,7 +404,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreColorOdd</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">36,36,36,255</td>
 </tr>
 
@@ -415,7 +415,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreRankColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -426,7 +426,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreRatingColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">233,183,54,255</td>
 </tr>
 
@@ -437,7 +437,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreAccuracyColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -448,7 +448,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreUsernameSelfColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">81,197,249,255</td>
 </tr>
 
@@ -459,7 +459,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardScoreUsernameOtherColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">251,255,182,255</td>
 </tr>
 
@@ -470,7 +470,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardTitleColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -481,7 +481,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardRankingTitleColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -492,7 +492,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardDropdownColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">16,200,246,255</td>
 </tr>
 
@@ -503,7 +503,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">LeaderboardStatusTextColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -532,7 +532,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">PersonalBestTitleColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -543,7 +543,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">PersonalBestTrophyColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">233,183,54,255</td>
 </tr>
 
@@ -554,7 +554,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">PersonalBestRankColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -565,7 +565,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">NoPersonalBestColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -594,7 +594,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">MapsetPanelSongTitleColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
@@ -605,7 +605,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">MapsetPanelSongArtistColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">5,151,229,255</td>
 </tr>
 
@@ -616,7 +616,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">MapsetPanelCreatorColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">5,135,229,255</td>
 </tr>
 
@@ -627,7 +627,7 @@ The `[SongSelect]` section contains the possible modifications of song selection
 <tbody>
 <tr>
 <td align="center">MapsetPanelByColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">117,117,117,255</td>
 </tr>
 
@@ -983,7 +983,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">DeadNoteColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">200,200,200,255</td>
 </tr>
 
@@ -2026,7 +2026,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgementCounterFontColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">255,255,255,255</td>
 </tr>
@@ -2050,7 +2050,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgeColorMarv</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">255,255,255,255</td>
 </tr>
@@ -2062,7 +2062,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgeColorPerf</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">255,231,107,255</td>
 </tr>
@@ -2074,7 +2074,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgeColorGreat</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">86,254,110,255</td>
 </tr>
@@ -2086,7 +2086,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgeColorGood</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">0,209,255,255</td>
 </tr>
@@ -2098,7 +2098,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgeColorOkay</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">217,107,206,255</td>
 </tr>
@@ -2110,7 +2110,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">JudgeColorMiss</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">-</td>
 <td align="center">249,100,93,255</td>
 </tr>
@@ -2214,7 +2214,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">SongTimeProgressActiveColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,231,107,255</td>
 </tr>
 
@@ -2225,7 +2225,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">SongTimeProgressInactiveColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">136,136,136,255</td>
 </tr>
 
@@ -2258,7 +2258,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <tbody>
 <tr>
 <td align="center">TimingLineColor</td>
-<td align="center">RGBA Color(255,255,255,255)</td>
+<td align="center">RGBA Color (255,255,255,255)</td>
 <td align="center">255,255,255,255</td>
 </tr>
 
