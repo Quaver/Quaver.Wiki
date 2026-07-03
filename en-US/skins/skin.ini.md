@@ -2196,7 +2196,7 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 
 **Additional Notes:**
 
-- `JudgeColor{Marv, Perf, Great, Good, Okay, Miss}` values also affect hitlighting tint if enabled in settings and hiterror.
+- `JudgeColor{Marv, Perf, Great, Good, Okay, Miss}` values also affects: Hitlighting tint if enabled in settings, hiterror and hitbubbles.
 
 ---
 
