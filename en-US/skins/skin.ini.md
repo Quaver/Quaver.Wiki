@@ -1384,6 +1384,18 @@ The integer lists work by starting at lane 1 with subsequent lanes separated by 
 <td class="note" colspan="4">The size of the judgement hit burst. 255 = 357x357px at 1080p</td>
 </tr>
 
+<tbody>
+<tr>
+<td align="center">DisplayJudgementsInEachColumn</td>
+<td align="center">True or False</td>
+<td align="center">-</td>
+<td align="center">False</td>
+</tr>
+
+<tr>
+<td class="note" colspan="4">Displays the judgments in each column.</td>
+</tr>
+
 </tbody>
 </table>
 
