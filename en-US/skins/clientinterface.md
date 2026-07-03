@@ -4,7 +4,7 @@ name: Client Interface
 
 # Skinning the Client Interface
 
-The client interface includes general skin elements that are present in all game modes. It includes elements such as cursor, main menu skinning, and song select skinning.
+The client interface includes general skin elements that are present in all game modes. It includes elements such as cursor, main menu, song select and results screen skinning.
 
 ## Cursor
 
