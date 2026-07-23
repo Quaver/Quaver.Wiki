@@ -36,6 +36,7 @@ name: Ranking Criteria
     - [Audio](#audio)
         - [Rules](#rules-9)
         - [Guidelines](#guidelines-4)
+        - [Allowances](#Allowances-2)
 - [Maps](#maps)
    - [General](#general-2)
         - [Rules](#rules-10)
