@@ -267,12 +267,12 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 ### Rules
 
-- **The audio file of a beatmap must...**
+- **The audio file of a mapset must...**
   - **...be encoded in MP3(`.mp3`) or Ogg Vorbis(`.ogg`).**
   - **...have an average bit rate no greater than 192 kbps for MP3 files, or 208 kbps for Ogg Vorbis files.**
   - **...have an average bit rate no lower than 128 kbps,** if such source exists. If not use the highest quality available.
-- **A beatmap may only contain one song file used by all difficulties.**
-- **A beatmapset should not have any unused audio files**
+- **A mapset may only contain one song file used by all difficulties.**
+- **A mapset should not have any unused audio files**
 
 ### Guidelines
 
@@ -281,8 +281,8 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 ### Allowances
 
-- **Beatmaps may use hitsounds**
-  - **If a beatmap uses hitsounds the hitsounds must be...**
+- **Mapsets may use hitsounds**
+  - **If a mapset uses hitsounds the hitsounds must be...**
     - **...encoded in either WAV(`.wav`) or Ogg Vorbis(`.ogg`).** Mp3 is inherintly delayed and is not suited for hitsound use.
     - **...clearly audible.** As hitsounds provide feedback they need to be reasonably audible.
  
@@ -308,7 +308,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **No difficulty should contain any unused SV points.** 
 - **Mines may not overlap with a hittable object or themselves.**
      - Mines may however be shifted by 1ms from other mines.
-- **Mines must be spaced at least 18ms away from the nearest hittable object.**
+- **Mines must be spaced at least 18ms away from the nearest hittable object on its respective lane.**
 
 ### Guidelines
 
@@ -326,7 +326,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Collaborative Maps should have each users' sections identified with the Bookmark feature** This is to easily discern who did what in the map.
 - **Avoid using excessive amounts of mines. this can create a poor player experience and create lag.**
 - **Mines should be used consistently and with clear intent.**
-- **Mines should not be used as a way to bait the player into missing.**
+- **Mines should not be used as a way to bait the player into missing.** Exceptions may be made for maps featurimg this as a gimmick.
 
 ## Difficulty Spread
 
