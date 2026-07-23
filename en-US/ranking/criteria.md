@@ -192,7 +192,7 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - **The tags must contain the genre of the song.** For example `Electronic`, `Classical` etc.
 - **The tags must contain the language of the song.** For example, `English`, `Instrumental` etc.
   - If the genre and language of the song are not obvious, include as many as applicable. 
-- **Major collaborators must be added to the tags.** This includes guest difficulty makers, Sv makers, Hitsound contributions, etc. Modders are not included in this list.
+- **Major collaborators must be added to the tags.** This includes guest difficulty makers, SV makers, Hitsound contributions, etc. Modders are not included in this list.
 - **Maps that include the usage of Scroll Velocity outside of normalizing are required to have "SV" in the tags.** 
 - **The tags must be comma-separated with a trailing space.** This is to ensure that tags consisting of multiple words can be easily distinguished.
 
