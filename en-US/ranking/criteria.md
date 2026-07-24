@@ -49,7 +49,7 @@ name: Ranking Criteria
 
 # Quaver Ranking Criteria
 
-In order to get a mapset ranked, it must follow the ranking criteria listed below. In the event of it breaking the criteria you may be asked to modify your mapset.
+In order to get a mapset ranked, it must follow the ranking criteria listed below. If your mapset breaks the criteria, you may be asked to modify it.
 
 The ranking criteria is divided into rules and guidelines.
 
