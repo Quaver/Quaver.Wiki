@@ -380,7 +380,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid chords during long 1/4 streams. If you use chords during 1/4 streams space them well.
      - Long notes are at least 1/4 of a beat long.
      - Avoid chords with more than 3 notes for 4K, avoid chords with more than 4 notes for 7K.
-     - Scroll Velocity changes are reflective of this difficulty's position in the mapset. If this is the first SV of a spread it is recommended to keep it entry level.
+     - Scroll Velocity changes are reflective of this difficulty's position in the mapset. If this is the first SV difficulty in a spread, it is recommended to keep it entry-level.
      - Mines should be placed at least 1/4 from the last note on its hand.
        - Avoid using mines during difficulty spikes.
  
