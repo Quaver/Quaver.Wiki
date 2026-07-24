@@ -36,7 +36,7 @@ name: Ranking Criteria
     - [Audio](#audio)
         - [Rules](#rules-9)
         - [Guidelines](#guidelines-4)
-        - [Allowances](#Allowances-2)
+        - [Allowances](#allowances-2)
 - [Maps](#maps)
    - [General](#general-2)
         - [Rules](#rules-10)
@@ -49,7 +49,7 @@ name: Ranking Criteria
 
 # Quaver Ranking Criteria
 
-In order to get a mapset ranked, it must follow the ranking criteria listed below. If your mapset breaks the criteria, you may be asked to modify it.
+In order to get a mapset ranked, it must follow the ranking criteria listed below. If a mapset breaks the criteria, you may be asked to modify it.
 
 The ranking criteria is divided into rules and guidelines.
 
