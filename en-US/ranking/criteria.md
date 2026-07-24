@@ -87,7 +87,7 @@ This section aims to clarify any commonly used terms within the ranking criteria
 
 - **Metadata should be able to be traced back to a primary metadata source.** A primary metadata source is any platform the artist has direct influence on.
 - **When multiple metadata options are available:**
-  - Review other ranked maps that have similar metadata to yours. This is for consistency, though accuracy may be favored more in some cases.
+  - Review other recent ranked mapsets that have similar metadata to yours. Then double check the accuracy with the current criteria.
   - Official romanizations/translations are preferred.
 
 ## Symbols
@@ -192,7 +192,7 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - **The tags must contain the genre of the song.** For example `Electronic`, `Classical` etc.
 - **The tags must contain the language of the song.** For example, `English`, `Instrumental` etc.
   - If the genre and language of the song are not obvious, include as many as applicable. 
-- **Major collaborators must be added to the tags.** This includes guest difficulty makers, SV makers, Hitsound contributions, etc. Modders are not included in this list.
+- **Major collaborators must be added to the tags.** This includes guest difficulty makers, SV makers, hitsound contributions, etc. Modders are not included in this list.
 - **Maps that include the usage of Scroll Velocity outside of normalizing are required to have "SV" in the tags.** 
 - **The tags must be comma-separated with a trailing space.** This is to ensure that tags consisting of multiple words can be easily distinguished.
 
@@ -270,9 +270,8 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **The audio file of a mapset must...**
   - **...be encoded in MP3(`.mp3`) or Ogg Vorbis(`.ogg`).**
   - **...have an average bit rate no greater than 192 kbps for MP3 files, or 208 kbps for Ogg Vorbis files.**
-  - **...have an average bit rate no lower than 128 kbps,** if such source exists. If not use the highest quality available.
+  - **...have an average bit rate no lower than 128 kbps,** if such source exists. Otherwise, use the highest quality available.
 - **A mapset may only contain one song file used by all difficulties.**
-- **A mapset should not have any unused audio files**
 
 ### Guidelines
 
@@ -282,9 +281,9 @@ A mapset is not required to have a banner image. These rules apply in case the m
 ### Allowances
 
 - **Mapsets may use hitsounds**
-  - **If a mapset uses hitsounds the hitsounds must be...**
-    - **...encoded in either WAV(`.wav`) or Ogg Vorbis(`.ogg`).** Mp3 is inherintly delayed and is not suited for hitsound use.
-    - **...clearly audible.** As hitsounds provide feedback they need to be reasonably audible.
+  - **If a mapset uses hitsounds, they must be...**
+    - **...encoded in either WAV(`.wav`) or Ogg Vorbis(`.ogg`).** MP3 is inherintly delayed and is not suited for hitsound use.
+    - **...clearly audible.** Since hitsounds provide feedback, they should be reasonably audible.
  
 # Maps
 
@@ -306,8 +305,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **The host of a mapset should have mapped an equal amount or more difficulties than any individual guest difficulty creator.**
 - **All difficulties must have been made by a human.**
 - **No difficulty should contain any unused SV points.** 
-- **Mines may not overlap with a hittable object or themselves.**
-     - Mines may however be shifted by 1ms from other mines.
+- **Mines may not overlap with a hittable object or themselves.** Mines may however be shifted by 1ms from other mines.
 - **Mines must be spaced at least 18ms away from the nearest hittable object on its respective lane.**
 
 ### Guidelines
@@ -324,9 +322,9 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Maps should not maintain a similar structure/patterning for the sake of consistency if it goes against the flow of the music.**       
 - **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the song's tempo variance.
 - **Collaborative Maps should have each users' sections identified with the Bookmark feature** This is to easily discern who did what in the map.
-- **Avoid using excessive amounts of mines. this can create a poor player experience and create lag.**
+- **Avoid using excessive amounts of mines. This can create a poor player experience and lag.**
 - **Mines should be used consistently and with clear intent.**
-- **Mines should not be used as a way to bait the player into missing.** Exceptions may be made for maps featurimg this as a gimmick.
+- **Mines should not be used as a way to bait the player into missing.** Exceptions may be made for maps featuring this as a gimmick.
 
 ## Difficulty Spread
 
@@ -351,9 +349,9 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - For players who are being exposed to rhythm games for the first time.
      - Notes are placed at most once every beat.
      - Long notes are at least 1 beat long.
-     - Jumps are mostly used to emphasize really important sounds in the music.
+     - Jumps are to be used sparingly.
      - Scroll Velocity changes must not be used.
-     - Mines should be spaced at least 1 beat from the nearest timestamp with a note.
+     - Mines should be placed at least 1 beat away from the nearest note.
 
 - **Easy**
      - This is for players who just started grasping the game.
@@ -362,7 +360,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid using more than 5 consecutive 1/2 notes.
      - Avoid chords with more than 2 notes.
      - Scroll Velocity changes are heavily discouraged.
-     - Mines should be spaced at least 1 beat from the last note on its hand.
+     - Mines should be placed at least 1 beat from the last note on its hand.
        - Avoid using mines during difficulty spikes.
 
 - **Normal**
@@ -373,7 +371,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid chords with more than 2 notes for 4K, avoid chords with more than 3 notes for 7K.
      - Long notes are at least 1/2 of a beat long.
      - Scroll Velocity changes are discouraged. Exception to this would be in the case of an SV spread.
-     - Mines should be spaced at least 1/2 of a beat from the last note on its hand
+     - Mines should be placed at least 1/2 of a beat from the last note on its hand
        - Avoid using mines during difficulty spikes.
 
 - **Hard**
@@ -383,7 +381,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Long notes are at least 1/4 of a beat long.
      - Avoid chords with more than 3 notes for 4K, avoid chords with more than 4 notes for 7K.
      - Scroll Velocity changes are reflective of this difficulty's position in the mapset. If this is the first SV of a spread it is recommended to keep it entry level.
-     - Mines should be spaced at least 1/4 from the last note on its hand.
+     - Mines should be placed at least 1/4 from the last note on its hand.
        - Avoid using mines during difficulty spikes.
  
 - **Insane**
@@ -391,7 +389,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid using any kind of long lasting complicated high snap patterning.
      - Avoid using chords in the middle of 1/8 streams.
      - Scroll Velocity changes are reflective of this difficulty's position in the mapset.
-     - Avoid using mines during complex reading patterns.
+     - Avoid using mines during complex patterns.
        
 - **Expert**
      - From this point on, the only thing holding you back would be the spread. Get creative!
