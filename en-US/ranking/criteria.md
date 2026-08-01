@@ -94,20 +94,20 @@ This section aims to clarify any commonly used terms within the ranking criteria
 
 - **Special symbols in the `Song Title`, `Artist Name` and `Source` fields must be changed to their nearest ASCII printable equivalent or removed.**
 
-   | Symbol | Recommended Romanization |
-  | :-- | :-- |
-  | `★ ☆ ⚝ ✪ ✻`, and similar shapes | `*` |
-  | `♥ ♡` and similar hearts | `<3` |
-  | `「 」『 』` | `""` |
-  | `…` | `...` |
-  | `。` | `.` |
-  | `→` and similar arrows | `->` or `-->` |
-  | `←` and similar arrows | `<-` or `<--` |
-  | `《》` | `< >`, `<< >>`, or `""` |
-  | `【】` | `""`, `()` or `[]` |
-  | `≠` | `=/=` or `!=` |
-  | `・` | `.`, `,` or ` ` |
-  | `×` | `x` |
+| Symbol                          | Recommended Romanization |
+|---------------------------------|--------------------------|
+| `★ ☆ ⚝ ✪ ✻`, and similar shapes | `*`                      |
+| `♥ ♡` and similar hearts        | `<3`                     |
+| `「 」『 』`                    | `""`                     |
+| `…`                             | `...`                    |
+| `。`                            | `.`                      |
+| `→` and similar arrows          | `->` or `-->`            |
+| `←` and similar arrows          | `<-` or `<--`            |
+| `《》`                          | `< >`, `<< >>`, or `""`  |
+| `【】`                          | `""`, `()` or `[]`       |
+| `≠`                             | `=/=` or `!=`            |
+| `・`                            | `.`, `,` or ` `          |
+| `×`                             | `x`                      |
     	 
 ## Artist
 
