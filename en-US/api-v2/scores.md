@@ -6,30 +6,110 @@ name: Scores
 
 - [Table of Contents](#table-of-contents)
 - [Endpoints](#endpoints)
-    - [GET `/scores/:md5/global`](#get-%2Fscores%2F%3Amd5%2Fglobal)
-        - [Parameters](#parameters)
-        - [Example Response](#example-response)
+  - [GET `/score/:id`](#get-%2Fscore%2F%3Aid)
+      - [Parameters](#parameters)
+      - [Example Response](#example-response)
+  - [GET `/scores/:md5/global`](#get-%2Fscores%2F%3Amd5%2Fglobal)
+      - [Parameters](#parameters)
+      - [Example Response](#example-response-1)
   - [GET `/scores/:md5/mods/:mods`](#get-%2Fscores%2F%3Amd5%2Fmods%2F%3Amods)
       - [Parameters](#parameters-1)
-      - [Example Response](#example-response-1)
+      - [Example Response](#example-response-2)
   - [GET `/scores/:md5/rate/:mods`](#get-%2Fscores%2F%3Amd5%2Frate%2F%3Amods)
       - [Parameters](#parameters-2)
-      - [Example Response](#example-response-2)
+      - [Example Response](#example-response-3)
   - [GET `/scores/:md5/:user_id/global`](#get-%2Fscores%2F%3Amd5%2F%3Auser_id%2Fglobal)
       - [Parameters](#parameters-3)
-      - [Example Response](#example-response-3)
+      - [Example Response](#example-response-4)
   - [GET `/scores/:md5/:user_id/all`](#get-%2Fscores%2F%3Amd5%2F%3Auser_id%2Fall)
       - [Parameters](#parameters-4)
-      - [Example Response](#example-response-4)
+      - [Example Response](#example-response-5)
   - [GET `/scores/:md5/:user_id/mods/:mods`](#get-%2Fscores%2F%3Amd5%2F%3Auser_id%2Fmods%2F%3Amods)
       - [Parameters](#parameters-5)
-      - [Example Response](#example-response-5)
+      - [Example Response](#example-response-6)
   - [GET `/scores/:md5/:user_id/rate/:mods`](#get-%2Fscores%2F%3Amd5%2F%3Auser_id%2Frate%2F%3Amods)
       - [Parameters](#parameters-6)
-      - [Example Response](#example-response-6)
+      - [Example Response](#example-response-7)
 
 ## Endpoints
 
+### GET `/score/:id`
+
+Returns a score by it's id
+
+#### Parameters
+
+| Name | Description             | Required |
+|------|-------------------------|----------|
+| id   | The id of the score     | Yes      |
+
+#### Example Response
+
+```json
+// https://api.quavergame.com/v2/score/106
+
+{
+  "score": {
+    "id": 106,
+    "user_id": 6,
+    "map_md5": "fe0c9a85b7dfe90f223773ee542a952f",
+    "replay_md5": "2522b3332b72c51e1fc8927d2066deb9",
+    "mode": 1,
+    "timestamp": "2018-12-20T22:17:04.574Z",
+    "is_personal_best": true,
+    "performance_rating": 25.046694933675536,
+    "modifiers": 32768,
+    "failed": false,
+    "total_score": 920087,
+    "accuracy": 97.31616,
+    "max_combo": 1039,
+    "count_marvelous": 694,
+    "count_perfect": 314,
+    "count_great": 44,
+    "count_good": 2,
+    "count_okay": 0,
+    "count_miss": 4,
+    "grade": "S",
+    "scroll_speed": 32,
+    "is_donator_score": false,
+    "tournament_game_id": null,
+    "clan_id": null,
+    "map": {
+      "id": 6,
+      "mapset_id": 6,
+      "md5": "fe0c9a85b7dfe90f223773ee542a952f",
+      "alternative_md5": "",
+      "creator_id": 11,
+      "creator_username": "Quaver",
+      "game_mode": 1,
+      "ranked_status": 2,
+      "artist": "Plum",
+      "title": "LOG_IN",
+      "source": "",
+      "tags": "",
+      "description": "",
+      "difficulty_name": "Staravia's 4K Normal",
+      "length": 154272,
+      "bpm": 140,
+      "difficulty_rating": 9.693266,
+      "count_hitobject_normal": 942,
+      "count_hitobject_long": 58,
+      "long_note_percentage": 0,
+      "max_combo": 0,
+      "play_count": 18260,
+      "fail_count": 4756,
+      "play_attempts": 0,
+      "mods_pending": 0,
+      "mods_accepted": 0,
+      "mods_denied": 0,
+      "mods_ignored": 0,
+      "online_offset": 20,
+      "is_clan_ranked": false,
+      "date_clan_ranked": null
+    }
+  }
+}
+```
 
 ### GET `/scores/:md5/global`
 

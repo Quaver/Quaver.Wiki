@@ -81,6 +81,12 @@ The following are a list of sound effects that are customizable in Quaver.
 
 ---
 
+`/SFX/sound-mineexplode.wav`
+
+* Plays when hitting a mine.
+
+---
+
 `/SFX/sound-failure.wav`
 
 * Plays abruptly when failing a map.

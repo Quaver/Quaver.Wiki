@@ -4,7 +4,7 @@ name: Client Interface
 
 # Skinning the Client Interface
 
-The client interface includes general skin elements that are present in all game modes. It includes elements such as cursor, main menu skinning, and song select skinning.
+The client interface includes general skin elements that are present in all game modes. It includes elements such as cursor, main menu, song select and results screen skinning.
 
 ## Cursor
 
@@ -56,6 +56,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - Changes the Quaver logo's background.
+- The Quaver logo is center aligned vertically to this texture.
 
 ---
 
@@ -139,7 +140,7 @@ The client interface includes general skin elements that are present in all game
 
 `/MainMenu/note-visualizer.png`
 
-<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Jukebox Overlay" width="817" height="1276">
+<img src="/docs/images/MainMenu/note-visualizer.png?v=2" alt="Note Visualizer" width="600">
 
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
@@ -155,7 +156,11 @@ The client interface includes general skin elements that are present in all game
 
 ### Menu Border
 
-`/MenuBorder/menu-border-background.png`
+###### Menu Border Texture Location: `/MenuBorder/menu-border-background.png`
+
+![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
+
+###### Menu Border Footer Texture Location: `MenuBorder/menu-border-background-footer.png`
 
 ![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
 
@@ -166,16 +171,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The top and bottom borders of the screen. This will display on every screen.
-
-### Custom Footer Menu
-
-`MenuBorder/menu-border-background-footer.png`
-
-![Menu Borders](/docs/images/MenuBorder/menu-border-background.png?v=2)
-
-**Notes:**
-
-- Same size as the `menu-border-background.png`. However, it's the footer of the screen instead.
+- If the footer texture isn't used, then `menu-border-background.png` is used for both the top and bottom.
 
 ---
 
@@ -255,6 +251,10 @@ The client interface includes general skin elements that are present in all game
 
 ![4k+7k Mode](/docs/images/SongSelect/both-modes-panel.png?v=2)
 
+###### Other keys Texture Location: `/SongSelect/game-mode-other.png`
+
+![Other Mode](/docs/images/SongSelect/keysother.png?v=2)
+
 | Animatable | Alignment | Optimal Size |
 | :--------: | :-------: | :----------: |
 |     No     | MidRight  |    71x28     |
@@ -262,6 +262,24 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - The key mode of the mapset.
+- Other keys are for 1-3k, 5-6k and 8-10k.
+- Other keys has the keymode text rendered on top by the game. It combines up to 5 modes before saying "MIXED".
+
+---
+
+### Mapset Panel Banner Mask
+
+###### Mapset Banner Mask Location: `/SongSelect/mapset-banner-mask.png`
+
+![Mapset Banner Mask](/docs/images/SongSelect/mapset-banner-mask.png?v=2)
+
+| Animatable | Alignment |   Optimal Size  |
+| :--------: | :-------: | :-------------: |
+|     No     |     -     |      420x86     |
+
+**Notes:**
+
+- The alpha mask for the mapset panel banner.
 
 ---
 
@@ -380,7 +398,7 @@ The client interface includes general skin elements that are present in all game
 **Notes:**
 
 - Background image for labels and stat numbers (rating, combo, etc.) on results screen.
-- Draworder below label elemnts.
+- Draworder below label elements.
 
 ---
 
@@ -405,14 +423,6 @@ The client interface includes general skin elements that are present in all game
 ###### Label Total Score Texture Location: `/Results/label-total-score.png`
 
 ![Label Total Score](/docs/images/Results/label-total-score.png?v=2)
-
-###### Label Blue Team Texture Location: `/Results/label-blue-team.png`
-
-![Label Blue Team](/docs/images/Results/label-blue-team.png?v=2)
-
-###### Label Red Team Texture Location: `/Results/label-red-team.png`
-
-![Label Red Team](/docs/images/Results/label-red-team.png?v=2)
 
 ###### Label Score Texture Location: `/Results/label-score.png`
 
@@ -533,14 +543,6 @@ The client interface includes general skin elements that are present in all game
 | Animatable |  Alignment   | Optimal Size |
 | :--------: | :----------: | :----------: |
 |     No     | BottomCenter |   1682x609   |
-
-###### Multiplayer Team Panel Texture Location:`/Results/multiplayer-team-panel.png`
-
-![Multiplayer Team Panel](/docs/images/Results/multiplayer-team-panel.png?v=2)
-
-| Animatable |  Alignment   | Optimal Size |
-| :--------: | :----------: | :----------: |
-|     No     | BottomCenter |   1682x485   |
 
 **Notes:**
 
