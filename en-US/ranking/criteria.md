@@ -268,7 +268,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 ### Rules
 
 - **The audio file of a mapset must...**
-  - **...be encoded in MP3(`.mp3`) or Ogg Vorbis(`.ogg`).**
+  - **...be encoded in MP3(`.mp3`) or Ogg Vorbis(`.ogg`).** Ogg Vorbis files can only be submitted through the canary branch. 
   - **...have an average bit rate no greater than 192 kbps for MP3 files, or 208 kbps for Ogg Vorbis files.**
   - **...have an average bit rate no lower than 128 kbps,** if such source exists. Otherwise, use the highest quality available.
 - **A mapset may only contain one song file used by all difficulties.**
