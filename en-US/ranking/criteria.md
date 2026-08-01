@@ -156,7 +156,7 @@ This section aims to clarify any commonly used terms within the ranking criteria
     - This marker can be ignored if your cut is a full loop from a looping track.
   - `(Slowed Down Ver.)`
      - Use when a song has been edited to a lower tempo.
-  -  `(Sped Up Ver.)`, `(Nightcore Mix)`
+  - `(Sped Up Ver.)`, `(Nightcore Mix)`
     - Use when a song has been edited to a higher tempo.
     - Only use `(Nightcore Mix)` if the pitch has also been increased.
   - **Combined Markers**
