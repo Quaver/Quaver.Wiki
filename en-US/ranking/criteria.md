@@ -94,7 +94,7 @@ This section aims to clarify any commonly used terms within the ranking criteria
 
 - **Special symbols in the `Song Title`, `Artist Name` and `Source` fields must be changed to their nearest ASCII printable equivalent or removed.**
 
-  | Symbol | Recommended Romanization |
+   | Symbol | Recommended Romanization |
   | :-- | :-- |
   | `★ ☆ ⚝ ✪ ✻`, and similar shapes | `*` |
   | `♥ ♡` and similar hearts | `<3` |
@@ -146,31 +146,33 @@ This section aims to clarify any commonly used terms within the ranking criteria
 ### Rules Markers
 
 **Markers you must add when appropriate**
-- **Songs without a version marker that fit one of the marker categories below must add the corresponding one at the end.**
-- **Songs with version markers must have them fully replaced with the standard marker from the list below.**
-- `(TV Size)`
+
+  - **Songs without a version marker that fit one of the marker categories below must add the corresponding one at the end.**
+  - **Songs with version markers must have them fully replaced with the standard marker from the list below.**
+  - `(TV Size)`
   - Add this marker at the end of the title when the specific version of the song was in a TV program, web series, or direct-to-video series.
-- `(Cut Ver.)`
-  - Use when the song is a cut version that is not considered official.
-  - This marker can be ignored if your cut is a full loop from a looping track.
-- `(Slowed Down Ver.)`
-   - Use when a song has been edited to a lower tempo.
-- `(Sped Up Ver.)`, `(Nightcore Mix)`
-  - Use when a song has been edited to a higher tempo.
-  - Only use `(Nightcore Mix)` if the pitch has also been increased.
-- **Combined Markers**
-  - If the edit is sped up and cut, use (Sped Up & Cut Ver.) or (Nightcore & Cut Ver.).
-  - Other combined markers can be used after a discussion is held to discuss their necessity.  
+  - `(Cut Ver.)`
+    - Use when the song is a cut version that is not considered official.
+    - This marker can be ignored if your cut is a full loop from a looping track.
+  - `(Slowed Down Ver.)`
+     - Use when a song has been edited to a lower tempo.
+  -  `(Sped Up Ver.)`, `(Nightcore Mix)`
+    - Use when a song has been edited to a higher tempo.
+    - Only use `(Nightcore Mix)` if the pitch has also been increased.
+  - **Combined Markers**
+    - If the edit is sped up and cut, use (Sped Up & Cut Ver.) or (Nightcore & Cut Ver.).
+    - Other combined markers can be used after a discussion is held to discuss their necessity.  
 
 **Markers that you must standardise, but not always add**
-- **If a song title has similar markers replace them with the relevant marker from the list below.**
-- **Do not add these markers if a track is the only known version of a song.**
-- `(Short Ver.)`
-  - Used to mark the shorter version when both long and short versions of a song exist. Examples to replace include: `-Short Ver-`, `Short`, `~Short Version~`.
-- `(Game Ver.)` 
-  - Used to mark game versions of songs. Examples to replace include: `~Game Size~`, `(Game Size)`, `game OP edit`, `OP Version` for tracks used in games.
-- `(Full Album)`
-  - Used when the the charted album shares names with a track on the album.
+
+  -  **If a song title has similar markers replace them with the relevant marker from the list below.**
+  -  **Do not add these markers if a track is the only known version of a song.**
+  -  `(Short Ver.)`
+     -  Used to mark the shorter version when both long and short versions of a song exist. Examples to replace include: `-Short Ver-`, `Short`, `~Short Version~`.
+  -  `(Game Ver.)` 
+    -  Used to mark game versions of songs. Examples to replace include: `~Game Size~`, `(Game Size)`, `game OP edit`, `OP Version` for tracks used in games.
+  -  `(Full Album)`
+    -  Used when the the charted album shares names with a track on the album.
 
 ### Allowances
 - **Alternative casing for markers may be used if it is stylised to the original formatting.**
