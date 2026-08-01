@@ -8,15 +8,15 @@ name: Ranking Criteria
    - [General](#general)
         - [Rules](#rules)
         - [Guidelines](#guidelines)
-    - [Standardization](#standardization)
-        - [Markers](#markers)
-        - [Symbols](#symbols)
-        - [Allowances](#allowances)
+   - [Symbols](#symbols)
     - [Artist](#artist)
         - [Rules](#rules-1)
-        - [Allowances](#allowances-1)
+        - [Markers](#rules-markers)
+        - [Allowances](#allowances)
     - [Title](#title)
         - [Rules](#rules-2)
+        - [Markers](#rules-markers-1)
+        - [Allowances](#allowances-1)
     - [Source](#source)
         - [Rules](#rules-3)
     - [Tags](#tags)
@@ -36,6 +36,7 @@ name: Ranking Criteria
     - [Audio](#audio)
         - [Rules](#rules-9)
         - [Guidelines](#guidelines-4)
+        - [Allowances](#allowances-2)
 - [Maps](#maps)
    - [General](#general-2)
         - [Rules](#rules-10)
@@ -48,7 +49,7 @@ name: Ranking Criteria
 
 # Quaver Ranking Criteria
 
-In order to get a mapset ranked, it must follow the ranking criteria listed below. In the event of it breaking the criteria you may be asked to modify your mapset.
+In order to get a mapset ranked, it must follow the ranking criteria listed below. If a mapset breaks the criteria, you may be asked to modify it.
 
 The ranking criteria is divided into rules and guidelines.
 
@@ -79,39 +80,21 @@ This section aims to clarify any commonly used terms within the ranking criteria
 ### Rules
 
 - **The `Song Title`, `Artist Name`, `Tags`, `Source` and `Creator Username` fields must be identical across all difficulties.**
-- **The `Song Title`, `Artist Name` and `Source` fields must be romanized.** Non-romanized metadata can be added to tags. Loan words from other languages should use the original words instead of attempted romanization, so long as they are part of the Latin alphabet.
+- **The `Song Title`, `Artist Name` and `Source` fields must be romanized.** Non-romanized metadata can be added to tags. Loanwords from other languages should retain their original spelling instead of an unofficial romanization, provided they use the Latin alphabet.
 - **The `Song Title`, `Artist Name`, `Source` and `Creator Username` must not repeat in tags.** Only exception being in cases where these appear in relevant tags, such as the song genre. 
 
 ### Guidelines
 
+- **Metadata should be able to be traced back to a primary metadata source.** A primary metadata source is any platform the artist has direct influence on.
 - **When multiple metadata options are available:**
-  - Review other ranked maps that have similar metadata to yours. This is for consistency, though accuracy may be favored more in some cases.
+  - Review other recent ranked mapsets that have similar metadata to yours. Then double check the accuracy with the current criteria.
   - Official romanizations/translations are preferred.
 
-## Standardization
-
-**The following metadata rules are put in place to create consistency within the ranked section.**
-
-### Markers
-
-- Any form of `vs.`, `VS`, etc. indicating collaboration between artists should be formatted as `vs.`.
-- Any form of `feat.`, `ft.`, etc. indicating a featured artist should be formatted as `feat.`.
-- Any form of `4K` or `7K` to denote the gamemode of the difficulty should always be formatted as such, and not `4k` or `7k` for example.
-- If a voice actor is performing a song in character the artist should be listed as `Character (CV: Voice Actor)`.
-- If the specific version of a song is used in a TV program, series, or similar media as an opening/ending song, the `(TV Size)` marker must be used at the end of the title. If the title contains a similar marker by default, it should be replaced with `(TV Size)`.
-- If a song title contains short version or game version markers by default, they must be replaced with `(Short Ver.)` and `(Game Ver.)` respectively.
-- Unofficial cut versions of songs must use `(Cut Ver.)` at the end of the title. If the title contains a length marker by default, it should be replaced with `(Cut Ver.)`. This rule does not apply to songs that are shortened in ways that nearly match their original versions or songs that consist of a full loop from a looping track.
-- If a song has been edited to have higher tempo, `(Sped Up Ver.)` marker must be used at the end of the title. If the title contains a similar marker by default, it should be replaced with `(Sped Up Ver.)`.
-- If a song has been edited to have lower tempo, `(Slowed Down Ver.)` marker must be used at the end of the title. If the title contains a similar marker by default, it should be replaced with `(Slowed Down Ver.)`.
-- Charts of full albums must include `(Full Album)` at the end of the title.
-
-**If the `Song Title` field contains two or more non-conflicting markers**. These should be combined into a single marker formatted as `(... & ... Ver.)`.
-
-### Symbols
+## Symbols
 
 - **Special symbols in the `Song Title`, `Artist Name` and `Source` fields must be changed to their nearest ASCII printable equivalent or removed.**
 
-    | Symbol | Recommended Romanization |
+  | Symbol | Recommended Romanization |
   | :-- | :-- |
   | `★ ☆ ⚝ ✪ ✻`, and similar shapes | `*` |
   | `♥ ♡` and similar hearts | `<3` |
@@ -125,41 +108,80 @@ This section aims to clarify any commonly used terms within the ranking criteria
   | `≠` | `=/=` or `!=` |
   | `・` | `.`, `,` or ` ` |
   | `×` | `x` |
-
-### Allowances
-
-- **Alternative casing for markers may be used if it is stylised to the original formatting.**
-- **Live performances may use a special marker, such as `(Live Ver.)`.**
     	 
 ## Artist
 
 ### Rules
 
-- **The artist must be absolutely correct.**
 - **Do not use fictional character names or programs as the sole artist on a track.** An exception is if the name is the artist's own alias.
    - **If there is no known human artist, `Unknown Artist` must be used.**
 - **Use a trailing space for markers like `vs.` and `feat.`.** If a word comes before the marker, a leading space must also be used.
+
+### Rules Markers
+
+- **Any form of `vs.`, `VS`, `versus` etc. indicating collaboration between artists should be formatted as `vs.`.**
+- **Any form of `feat.`, `ft.`, `featuring` etc. indicating a featured artist should be formatted as `feat.`.**
+- `Character (CV: Voice Actor)` or `Character (VO: Voice Actor)`
+  - Use when an animated character is singing the song
+  - Replace any form of `c.v.`, `CV.`, `~cv~`, etc. with this format.
+  - For live action credit only the voice actor.
 
 ### Allowances
 
 - **When multiple artists are involved on a track without clear formatting, you may use any of the following allowances to combine them in the artist field:**
   - `Composer(s) feat. Singer(s)`
+  - **Artists may be simply listed with `,`, `&`, `x`, `/`, etc. in between each artist.**
   - **If there are a large amount of artists on a track without an official group name available, a descriptive artist label may be used instead.** If no fitting name can be found, `Various Artists` may be used instead.
+- **When a voice actor is credited for a song sung in character `Character (CV: Voice Actor)` may be used instead.**
     	  
 ## Title
 
 ### Rules
 
-- **The title must be absolutely correct.**
 - **When a track is made of two or more songs you must do either one of the following:**
    - List the titles clearly with a dividing symbol in-between, such as `,`, `&`, `x`, `/`, etc.
-   - Create a custom title descriptive of the track contents, such as `Flamingo's Original Songs Compilation` for a song compilation of tracks by Flamingo.  
+     - Mashups may also use `vs.` in addition to these symbols.
+   - Create a custom title descriptive of the track contents, such as `Flamingo's Original Songs Compilation` for a song compilation of tracks by Flamingo. 
+
+### Rules Markers
+
+**Markers you must add when appropriate**
+- **Songs without a version marker that fit one of the marker categories below must add the corresponding one at the end.**
+- **Songs with version markers must have them fully replaced with the standard marker from the list below.**
+- `(TV Size)`
+  - Add this marker at the end of the title when the specific version of the song was in a TV program, web series, or direct-to-video series.
+- `(Cut Ver.)`
+  - Use when the song is a cut version that is not considered official.
+  - This marker can be ignored if your cut is a full loop from a looping track.
+- `(Slowed Down Ver.)`
+   - Use when a song has been edited to a lower tempo.
+- `(Sped Up Ver.)`, `(Nightcore Mix)`
+  - Use when a song has been edited to a higher tempo.
+  - Only use `(Nightcore Mix)` if the pitch has also been increased.
+- **Combined Markers**
+  - If the edit is sped up and cut, use (Sped Up & Cut Ver.) or (Nightcore & Cut Ver.).
+  - Other combined markers can be used after a discussion is held to discuss their necessity.  
+
+**Markers that you must standardise, but not always add**
+- **If a song title has similar markers replace them with the relevant marker from the list below.**
+- **Do not add these markers if a track is the only known version of a song.**
+- `(Short Ver.)`
+  - Used to mark the shorter version when both long and short versions of a song exist. Examples to replace include: `-Short Ver-`, `Short`, `~Short Version~`.
+- `(Game Ver.)` 
+  - Used to mark game versions of songs. Examples to replace include: `~Game Size~`, `(Game Size)`, `game OP edit`, `OP Version` for tracks used in games.
+- `(Full Album)`
+  - Used when the the charted album shares names with a track on the album.
+
+### Allowances
+- **Alternative casing for markers may be used if it is stylised to the original formatting.**
+- **Live performances may use a special marker, such as `(Live Ver.)`.**
+- **Marker additions may be ignored or a custom marker may be used on a case-by-case basis if the standard markers are misleading.** 
 
 ## Source
 
 ### Rules
 
-- **The source field must be used if the song is directly from a media or event**. This includes but is not limited to `Video game`, `Album`, `Series`, `Contest`, etc. A Streaming hosting site like YouTube is not a valid source and should not be used.
+- **The source field must be used if the song is directly from a media or event**. This includes but is not limited to `Video game`, `Album`, `Series`, `Contest`, etc. A hosting site like YouTube is not a valid source and should not be used.
 - **Remixes, arrangements, covers etc. that are based on another song should use their respective source when applicable. The original song's source must be included in the tags.**
 - **Song compilations, medleys and other pieces of media with multiple songs without a common source should have the sources put in the tags.** This rule does not apply if the piece of media is linked to a source itself, such as an album.
 - **Only one source may be used in the source field.**
@@ -172,18 +194,18 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - **The tags must contain the genre of the song.** For example `Electronic`, `Classical` etc.
 - **The tags must contain the language of the song.** For example, `English`, `Instrumental` etc.
   - If the genre and language of the song are not obvious, include as many as applicable. 
-- **Major collaborators must be added to the tags.** This includes guest difficulty makers and SV makers.
-- **Maps that include the usage of any Scroll Velocity are required to have "SV" in the tags.**
+- **Major collaborators must be added to the tags.** This includes guest difficulty makers, SV makers, hitsound contributions, etc. Modders are not included in this list.
+- **Maps that include the usage of Scroll Velocity outside of normalizing are required to have "SV" in the tags.** 
 - **The tags must be comma-separated with a trailing space.** This is to ensure that tags consisting of multiple words can be easily distinguished.
 
 ### Guidelines
 
 - **Remixes, arrangements and mashups should tag both the original and current song genres.**
-- **Further tags to include are:**
+- **Tags to include when applicable:**
   - **Unused artist, title, or source metadata not used in the fields due to multiple options existing.**
   - **Other artist or contributors related to the track not already listed.** For example, lyricist, guitarist, composer, etc.
-  - **Commonly found patterns and styles in the chart.**
-  - **Alternative spellings of difficult-to-write phrases in the metadata.**
+  - **Commonly found patterns and styles in the chart.** Such as `jumpstream`, `inverse`, `mines`, etc. 
+  - **Alternative spellings of phrases in the metadata.**
      - `don't`, `you're` and similar would be added to the tags as `dont`, `youre`.
      - `l1f3` , `m0n3y` and similar would be added to the tags as `life`, `money`. 
 
@@ -193,6 +215,7 @@ This section aims to clarify any commonly used terms within the ranking criteria
 
 - **All difficulty names should be kept appropriate for people aged 13+.**
 - **If a mapset contains two game modes, each difficulty must be prefaced with either `4K` or `7K`.** For example, `7K Easy`.
+  - Any form of `4K` or `7K` to denote the gamemode of the difficulty should always be formatted as such, and not `4k` or `7k`.
 - **Guest difficulty creators must be credited in the difficulty title of their respective difficulty.** For example, `Flamingo's Hard`.
    - In case of multi-mode guest difficulties. Guest creators come before keymode markings.
    - Collaborative difficulties may be marked by using a combination of both the mappers names, both the mappers names with an appropriate dividing word or marker, a descriptive word, or simply `Collab`.  
@@ -246,16 +269,24 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 ### Rules
 
-- **The mapset must contain only one main audio file.** Keysounds are excluded from this rule.
-- **MP3 is the only allowed audio file format.**
-- **The maximum bitrate allowed for MP3 files is 192kbps.** This is to keep file size in check.
-- **The audio file should be the best possible available quality.**
+- **The audio file of a mapset must...**
+  - **...be encoded in MP3(`.mp3`) or Ogg Vorbis(`.ogg`).** Ogg Vorbis files can only be submitted through the canary branch. 
+  - **...have an average bit rate no greater than 192 kbps for MP3 files, or 208 kbps for Ogg Vorbis files.**
+  - **...have an average bit rate no lower than 128 kbps,** if such source exists. Otherwise, use the highest quality available.
+- **A mapset may only contain one song file used by all difficulties.**
 
 ### Guidelines
 
 - **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.** Minor explicit songs may still be ranked by being marked as explicit.
 - **The audio file of a song should not be artificially extended in order to meet a drain time limitation**. 
 
+### Allowances
+
+- **Mapsets may use hitsounds**
+  - **If a mapset uses hitsounds, they must be...**
+    - **...encoded in either WAV(`.wav`) or Ogg Vorbis(`.ogg`).** MP3 is inherintly delayed and is not suited for hitsound use.
+    - **...clearly audible.** Since hitsounds provide feedback, they should be reasonably audible.
+ 
 # Maps
 
 ## General
@@ -269,12 +300,15 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **75% or more of the length of the song must have notes to play on every difficulty.**
 - **Each difficulty must have at least 1 note placed on every column.**
 - **The drain time of each difficulty must be at least 45 seconds.**
+- **Preview points must be set and consistent between every difficulty.**
 - **Each difficulty must be timed accurately.**
   - **Each difficulty in a set must share the same timing points.** Exceptions to this rule can be made for timing line art or other visual gimmicks.
 - **Scroll Velocity changes should reflect the music.**
 - **The host of a mapset should have mapped an equal amount or more difficulties than any individual guest difficulty creator.**
 - **All difficulties must have been made by a human.**
 - **No difficulty should contain any unused SV points.** 
+- **Mines may not overlap with a hittable object or themselves.** Mines may however be shifted by 1ms from other mines.
+- **Mines must be spaced at least 18ms away from the nearest hittable object on its respective lane.**
 
 ### Guidelines
 
@@ -290,8 +324,9 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Maps should not maintain a similar structure/patterning for the sake of consistency if it goes against the flow of the music.**       
 - **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the song's tempo variance.
 - **Collaborative Maps should have each users' sections identified with the Bookmark feature** This is to easily discern who did what in the map.
-
-
+- **Avoid using excessive amounts of mines. This can create a poor player experience and lag.**
+- **Mines should be used consistently and with clear intent.**
+- **Mines should not be used as a way to bait the player into missing.** Exceptions may be made for maps featuring this as a gimmick.
 
 ## Difficulty Spread
 
@@ -307,7 +342,6 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Mapsets under 2:30 minutes long must form a difficulty spread following the minimum required difficulties for it's length.**
 - **Mapsets under 2:30 minutes long must form a spread enforcing both spread continuity and spread progression.** For instance if you are making a 1 minute set with a Hard difficulty, your map must contain either an `Easy and Normal`, `Normal and Insane` or `Insane and Expert`.
    
-       
 ## Difficulty-Specific
 
 The following descriptions are what each difficulty should typically look like. Keep in mind that this isn't concrete, and there is room for subjectivity in individual cases. These criteria serve to show how a map should generally come to feel and look. The following descriptions are crafted for a song at 180 BPM. 
@@ -317,16 +351,19 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - For players who are being exposed to rhythm games for the first time.
      - Notes are placed at most once every beat.
      - Long notes are at least 1 beat long.
-     - Jumps are mostly used to emphasize really important sounds in the music.
+     - Jumps are to be used sparingly.
      - Scroll Velocity changes must not be used.
+     - Mines should be placed at least 1 beat away from the nearest note.
 
 - **Easy**
      - This is for players who just started grasping the game.
      - Long notes are at least 1 beat long.
      - Note density consists of mostly 1/1 with occasional 1/2.
-     - 1/2 patterns are no longer than 5 notes.
+     - Avoid using more than 5 consecutive 1/2 notes.
      - Avoid chords with more than 2 notes.
      - Scroll Velocity changes are heavily discouraged.
+     - Mines should be placed at least 1 beat from the last note on its hand.
+       - Avoid using mines during difficulty spikes.
 
 - **Normal**
      - Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to Easy and Beginner.
@@ -336,6 +373,8 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid chords with more than 2 notes for 4K, avoid chords with more than 3 notes for 7K.
      - Long notes are at least 1/2 of a beat long.
      - Scroll Velocity changes are discouraged. Exception to this would be in the case of an SV spread.
+     - Mines should be placed at least 1/2 of a beat from the last note on its hand
+       - Avoid using mines during difficulty spikes.
 
 - **Hard**
      - At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
@@ -343,13 +382,16 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
      - Avoid chords during long 1/4 streams. If you use chords during 1/4 streams space them well.
      - Long notes are at least 1/4 of a beat long.
      - Avoid chords with more than 3 notes for 4K, avoid chords with more than 4 notes for 7K.
-     - Scroll Velocity changes are reflective of this difficulty's position in the mapset. If this is the first SV of a spread it is recommended to keep it entry level.
+     - Scroll Velocity changes are reflective of this difficulty's position in the mapset. If this is the first SV difficulty in a spread, it is recommended to keep it entry-level.
+     - Mines should be placed at least 1/4 from the last note on its hand.
+       - Avoid using mines during difficulty spikes.
  
 - **Insane**
      - Players at this level will be able to handle a wide variety of patterns.
      - Avoid using any kind of long lasting complicated high snap patterning.
      - Avoid using chords in the middle of 1/8 streams.
      - Scroll Velocity changes are reflective of this difficulty's position in the mapset.
+     - Avoid using mines during complex patterns.
        
 - **Expert**
      - From this point on, the only thing holding you back would be the spread. Get creative!
