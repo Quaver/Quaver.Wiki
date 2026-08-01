@@ -153,8 +153,10 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - `(Cut Ver.)`
   - Use when the song is a cut version that is not considered official.
   - This marker can be ignored if your cut is a full loop from a looping track.
+- `(Slowed Down Ver.)`
+   - Use when a song has been edited to a lower tempo.
 - `(Sped Up Ver.)`, `(Nightcore Mix)`
-  - Use when song has been edited to a higher tempo.
+  - Use when a song has been edited to a higher tempo.
   - Only use `(Nightcore Mix)` if the pitch has also been increased.
 - **Combined Markers**
   - If the edit is sped up and cut, use (Sped Up & Cut Ver.) or (Nightcore & Cut Ver.).
