@@ -99,7 +99,7 @@ We currently have following search filters:
 | --------------- | ----------------- | ----------------------- | ----------------------------------------------------------- |
 | BPM             | b                 | bpm                     | number                                                      |
 | Difficulty      | d                 | difficulty              | number                                                      |
-| Game            | g                 | game                    | quaver/q, osu/o, stepmania/sm/s/etterna/e                   |
+| Game            | g                 | game                    | quaver/q, osu/o, stepmania/sm/s, etterna/e                  |
 | Keys            | k                 | keys                    | number                                                      |
 | Length          | l                 | length                  | either number in seconds or duration like (2m15s, 1h)       |
 | LNs             | ln                | lns                     | either an absolute number (452) or a whole percentage (57%) |
@@ -114,6 +114,11 @@ We currently have following search filters:
 | Genre           | ge                | genre                   | string, or strings separated by '/' or ','                  |
 | Source          | so                | sources                 | string, or strings separated by '/' or ','                  |
 | Difficulty Name | diffn/difficultyn | diffname/difficultyname | string, or strings separated by '/' or ','                  |
+| Date Added      | da                | dateadded               | number                                                      |
+| Recently Played | r                 | recentlyplayed          | number                                                      |
+| Online Grade    | o                 | onlinegrade             | number                                                      |
+| Last Updated    | la                | lastupdated             | number                                                      |
+| Date Ranked     | dater             | dateranked              | number                                                      |
 
 All filters can use the `=` (equals) and `!=` (not equals) operator, number comparisons can additionally use `>= > <= <`.
 
