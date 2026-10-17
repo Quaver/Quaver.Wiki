@@ -40,7 +40,10 @@ It is possible to import all of your maps from other games at once. In Quaver, n
 
 ### Can I import my skin from another game?
 
-The game doesn't support skin conversions out of the box, however you can use [qoconv](https://github.com/dromzeh/qoconv), a community tool that converts osu!mania skins to Quaver (and back) for 4K and 7K.
+The game doesn't support skin conversions out of the box, but there are community-made tools that can convert osu!mania skins for Quaver:
+
+- [qoconv](https://github.com/dromzeh/qoconv) (Free)
+- [RGConverter](https://rgconverter.netlify.app/skin?mode=mania&type=qs) (Free)
 
 ### I found a bug, where can I report it?
 
