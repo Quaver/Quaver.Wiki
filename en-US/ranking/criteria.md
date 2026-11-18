@@ -80,8 +80,8 @@ The purpose of these rules is for Quaver to uphold the process of promoting huma
 
 - **A mapsets objects, hitsounds and timing points must be created exclusively by human input without major generative tooling.** Using mapping tools to help place SV, snapcolor changes, difficult to calculate snaps, etc. is allowed. 
 - **Any image present in the mapset folder or description must not be AI generated.** 
-    - Unacceptable examples include but are not limited to, direct output from generative AI programs and generative AI outputs with human editing.
-    - Acceptable uses include but are not limited to, upscaling of human made media or usage of smart tools in programs such as photoshop. 
+    - Unacceptable examples include but are not limited to, direct output from generative AI programs, generative AI outputs with human editing or any form of substantial changes by AI to human made media. 
+    - Acceptable uses include but are not limited to, upscaling of human made media or the use of smart tools like erasers.
 - **Songs which are substantially AI-generated must not be used.** 
   - Acceptable uses include but are not limited to:
     - Synthesised sings such as Synth V or VOCALOID 5/6.
