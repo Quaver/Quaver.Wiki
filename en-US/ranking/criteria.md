@@ -84,7 +84,7 @@ The purpose of these rules is for Quaver to uphold the process of promoting huma
     - Acceptable uses include but are not limited to, upscaling of human made media or the use of smart tools like erasers.
 - **Songs which are substantially AI-generated must not be used.** 
   - Acceptable uses include but are not limited to:
-    - Synthesised sings such as Synth V or VOCALOID 5/6.
+    - Synthesised singers such as Synth V or VOCALOID 5/6.
     - Mixing tools which help remove noise, popping or other live recording errors.
     - Advanced or individual VSTs that serve solely as a musician-controlled instrument. 
     
