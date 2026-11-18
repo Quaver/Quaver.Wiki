@@ -4,6 +4,7 @@ name: Ranking Criteria
 
 - [Quaver Ranking Criteria](#quaver-ranking-criteria)
 - [Commonly used terminology](#commonly-used-terminology)
+- [AI policy](#ai-policy)
 - [Metadata](#metadata)
    - [General](#general)
         - [Rules](#rules)
@@ -73,6 +74,20 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - **Spread Continuity**: A mapset that does not skip any difficulties in the spread.
 - **Spread Progression** Each difficulty in a spread can be linked back to the previous difficulty in terms of mapping style.
 
+# AI Policy
+
+The purpose of these rules is for Quaver to uphold the process of promoting human creativity and artistry.
+
+- **A mapsets objects, hitsounds and timing points must be created exclusively by human input without major generative tooling.** Using mapping tools to help place SV, snapcolor changes, difficult to calculate snaps, etc. is allowed. 
+- **Any image present in the mapset folder or description must not be AI generated.** 
+    - Unacceptable examples include but are not limited to, direct output from generative AI programs, generative AI outputs with human editing or any form of substantial changes by AI to human made media. 
+    - Acceptable uses include but are not limited to, upscaling of human made media or the use of smart tools like erasers.
+- **Songs which are substantially AI-generated must not be used.** 
+  - Acceptable uses include but are not limited to:
+    - Synthesised sings such as Synth V or VOCALOID 5/6.
+    - Mixing tools which help remove noise, popping or other live recording errors.
+    - Advanced or individual VSTs that serve solely as a musician-controlled instrument. 
+    
 # Metadata
 
 ## General
@@ -215,11 +230,10 @@ This section aims to clarify any commonly used terms within the ranking criteria
 
 ### Rules
 
-- **All difficulty names should be kept appropriate for people aged 13+.**
 - **If a mapset contains two game modes, each difficulty must be prefaced with either `4K` or `7K`.** For example, `7K Easy`.
-  - Any form of `4K` or `7K` to denote the gamemode of the difficulty should always be formatted as such, and not `4k` or `7k`.
+  - Any form of `4K` or `7K` to denote the game mode of the difficulty should always be formatted as such, and not `4k` or `7k`.
 - **Guest difficulty creators must be credited in the difficulty title of their respective difficulty.** For example, `Flamingo's Hard`.
-   - In case of multi-mode guest difficulties. Guest creators come before keymode markings.
+   - In case of multi-mode guest difficulties. Guest creators come before game mode markings.
    - Collaborative difficulties may be marked by using a combination of both the mappers names, both the mappers names with an appropriate dividing word or marker, a descriptive word, or simply `Collab`.  
 - **If the mapset is a spread, the difficulty names should show a clear difficulty progression.**
    - When using non standard difficulty naming the standard difficulty name may be added with a clear dividing marker, such as `| Difficulty` or `(Difficulty)` at the end of the difficulty title.
@@ -241,21 +255,19 @@ This section aims to clarify any commonly used terms within the ranking criteria
 - **A mapset cannot contain any unused files.**
 - **Difficulties containing repetitive cases of rapidly flashing notes must contain an epilepsy warning in the description of the mapset.**
 - **All media used should be of reasonable quality.**
-- **Any media featuring or created by a program (such as AI), should explicitly state how and where it was involved in the description of the mapset.** 
+- **Any media used for a mapset must be appropriate for players of 13+ years old and should not contain explicit content.** This includes `background`, `banner` and `difficulty naming`. Audio has its own rules.
 
 ### Guidelines
 
-- **Borderline-explicit content (including but not limited to graphic or sexually appealing content) should not be used for any visual media.**
 - **Visual media used in a mapset is advised to have some form of relevancy to the songs feel, theme or origin.**
 
 ## Background
 
 ### Rules
 
-- **Every map in the mapset must have a background image.** Using different background images for different maps is acceptable.
+- **Each difficulty in a mapset must have a background image.** Using different background images for different maps is acceptable.
 - **The resolution of a background image must be at least 1280x720 and at most 2560x1440.**
 - **The file size of a background image must not exceed 4 MB.**
-- **The background must be appropriate for players of 13+ years old and should not contain explicit content.**
   
 ## Banner
 
@@ -265,7 +277,6 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 - **The resolution of a banner image must be at least 421x82 and at most 1263x246.** This resolution also represents the default size and aspect ratio.
 - **The file size of a banner image must not exceed 2 MB.**
-- **The banner must be appropriate for players of 13+ years old and should not contain explicit content.**
 
 ## Audio
 
@@ -279,7 +290,7 @@ A mapset is not required to have a banner image. These rules apply in case the m
 
 ### Guidelines
 
-- **The audio must be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.** Minor explicit songs may still be ranked by being marked as explicit.
+- **The audio should be appropriate for players of all ages and should not include content that is offensive just for the sake of being offensive.** Minor explicit songs may still be ranked by being marked as explicit.
 - **The audio file of a song should not be artificially extended in order to meet a drain time limitation**. 
 
 ### Allowances
@@ -300,12 +311,11 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Autoplay must be able to achieve a 100% (X-Grade) score on every difficulty.**
 - **No difficulty may have any overlapping notes.**
 - **75% or more of the length of the song must have notes to play on every difficulty.**
-- **Each difficulty must have at least 1 note placed on every column.**
+- **Every difficulty must have at least 1 note placed on every column.**
 - **The drain time of each difficulty must be at least 45 seconds.**
 - **Preview points must be set and consistent between every difficulty.**
 - **Each difficulty must be timed accurately.**
-  - **Each difficulty in a set must share the same timing points.** Exceptions to this rule can be made for timing line art or other visual gimmicks.
-- **Scroll Velocity changes should reflect the music.**
+  - **Each difficulty in a set must share the same timing points.** Exceptions can be made for timing line art or other visual gimmicks.
 - **The host of a mapset should have mapped an equal amount or more difficulties than any individual guest difficulty creator.**
 - **All difficulties must have been made by a human.**
 - **No difficulty should contain any unused SV points.** 
@@ -317,17 +327,17 @@ A mapset is not required to have a banner image. These rules apply in case the m
 - **Avoid using overly long breaks (more than 30 seconds of consecutive break time).**
 - **Maps should reflect the song consistently and accurately.**
   - **Notes should correlate to sounds in the music.**
+  - **Scroll Velocity changes should reflect the music.**
+  - **Mines should be used with clear intent.**
   - **The intensity of the map should generally be synced with the music.**
   - **Simplification patterns may be used under certain circumstances including but not limited to:**
        - When an inappropriate difficulty spike would be made.
        - When a pattern is unreasonable to execute with perfect accuracy.
        - When the respective difficulty does not allow for it.
-       - When the song can be effectively represented with a more predictable snap.
-- **Maps should not maintain a similar structure/patterning for the sake of consistency if it goes against the flow of the music.**       
-- **Maps with multiple BPM points should have a constant scrollspeed across them.** This can be achieved by either turning off the option "BPM Affects SV" from the editor or manually countering the scrollspeed effects created by varying BPM using SV points. This does not apply in the rare cases where the intention is to create scrollspeed effects using the song's tempo variance.
-- **Collaborative Maps should have each users' sections identified with the Bookmark feature** This is to easily discern who did what in the map.
-- **Avoid using excessive amounts of mines. This can create a poor player experience and lag.**
-- **Mines should be used consistently and with clear intent.**
+       - When the song can be effectively represented with a more predictable snap.    
+- **Mapsets with multiple BPM points must have a constant scrollspeed throughout.** This can be done by turning off the option "BPM Affects SV" or manually adjusting with SV points from the editor. Exceptions can be made when BPM points are used to create scrollspeed effects.
+- **Collaborative Maps should have each users' sections identified with the Bookmark feature.** This is to easily discern who did what in the map.
+- **Avoid using excessive amounts of mines.** This can create a poor player experience and lag.
 - **Mines should not be used as a way to bait the player into missing.** Exceptions may be made for maps featuring this as a gimmick.
 
 ## Difficulty Spread
@@ -341,8 +351,8 @@ A mapset is not required to have a banner image. These rules apply in case the m
 ### Rules
 
 - **Each game mode is treated separately.** If you are creating a mapset for both 4 Keys and 7 Keys, you must have a difficulty spread for both game modes.
-- **Mapsets under 2:30 minutes long must form a difficulty spread following the minimum required difficulties for it's length.**
-- **Mapsets under 2:30 minutes long must form a spread enforcing both spread continuity and spread progression.** For instance if you are making a 1 minute set with a Hard difficulty, your map must contain either an `Easy and Normal`, `Normal and Insane` or `Insane and Expert`.
+- **Mapsets under 2:30 minutes long must form a difficulty spread following the minimum required difficulties for its length.**
+- **Mapsets under 2:30 minutes long must form a spread enforcing continuity and progression.** For instance, if you are making a 1 minute set with a Hard difficulty, your map must contain either an `Easy and Normal`, `Normal and Insane` or `Insane and Expert`.
    
 ## Difficulty-Specific
 
@@ -368,7 +378,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
        - Avoid using mines during difficulty spikes.
 
 - **Normal**
-     - Maps at this level should typically start branching into patterns that don't undermap the song as heavily compared to Easy and Beginner.
+     - Maps can typically be made less simplified compared to Easy and Beginner.
      - Note snappings of consecutive 1/6 and above should not be used.
      - Note density consist of mostly 1/1 and 1/2. Occasional 1/4 patterning is okay.
      - Avoid using more than 5 consecutive 1/4 notes.
@@ -379,7 +389,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
        - Avoid using mines during difficulty spikes.
 
 - **Hard**
-     - At this level, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
+     - From hard onwards, your creativity as a mapper is able to shine as there are far less restrictions than the previous difficulties.
      - Note snappings of consecutive 1/8 and higher should not be used.
      - Avoid chords during long 1/4 streams. If you use chords during 1/4 streams space them well.
      - Long notes are at least 1/4 of a beat long.
@@ -389,7 +399,7 @@ QR is a suggestion to what difficulty your map is, however the patterning used i
        - Avoid using mines during difficulty spikes.
  
 - **Insane**
-     - Players at this level will be able to handle a wide variety of patterns.
+     - Players from here on will be able to handle a wide variety of patterns.
      - Avoid using any kind of long lasting complicated high snap patterning.
      - Avoid using chords in the middle of 1/8 streams.
      - Scroll Velocity changes are reflective of this difficulty's position in the mapset.
